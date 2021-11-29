@@ -6,9 +6,10 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from flask import jsonify, make_response
 import json
+from flask_cors import CORS
 # text
 app = Flask(__name__)
-
+CORS(app)
 '''bot = ChatBot(
     'Terminal',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
