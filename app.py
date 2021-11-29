@@ -50,11 +50,8 @@ def index():
 def sendmessage():
     message = request.json['message']
     response_message = bot.get_response(message)
-    print("response_message", response_message)
-    # return make_response(jsonify({'success': True,
-    #                               'response_message': response_message}), 200)
-    # return json.dumps({'success': True,
-    #                    'response_message': response_message})
+    return jsonify({"success": True,
+                    "response_message": str(response_message)})
 
 
 if __name__ == '__main__':
