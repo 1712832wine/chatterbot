@@ -32,14 +32,6 @@ for file in os.listdir(path):
     file_path = './content/english/' + file
     trainer.train(file_path)
 
-# The following loop will execute each time the user enters input
-# incoming_msg = request.values.get('message').lower()
-#     print("incoming_msg", incoming_msg)
-#
-#     resp_msg = resp.text
-#     json_resp = {"success": true, "response_message": resp_msg}
-#     return jsonify({'task': task}), 201
-
 
 @app.route('/')
 def index():
