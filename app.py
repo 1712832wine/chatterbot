@@ -46,7 +46,7 @@ def index():
     return "Hello, World!"
 
 
-@app.route('/api/message/send', methods=['POST'])
+@app.route('/api/messages/send', methods=['POST'])
 def sendmessage():
     message = request.json['message']
     response_message = bot.get_response(message)
