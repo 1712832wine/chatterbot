@@ -1,31 +1,21 @@
-import os
-import chatterbot
+from flask_cors import CORS
 from flask import Flask, request, jsonify
 
+import os
+import chatterbot
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from flask import jsonify, make_response
-import json
-from flask_cors import CORS
+
 # text
 app = Flask(__name__)
 CORS(app)
-'''bot = ChatBot(
-    'Terminal',
-    storage_adapter='chatterbot.storage.SQLStorageAdapter',
-    logic_adapters=[
-        'chatterbot.logic.BestMatch'
-    ],
-    database_uri='sqlite:///database.sqlite3'
-)'''
+
 bot = ChatBot(
     "English Bot",
-    storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
         "chatterbot.logic.MathematicalEvaluation",
         "chatterbot.logic.BestMatch",
     ],
-    database_uri='sqlite:///database.sqlite3'
 )
 trainer = ChatterBotCorpusTrainer(bot)
 path = './content/english'
