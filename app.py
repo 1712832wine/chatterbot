@@ -3,28 +3,22 @@
 from flask_cors import CORS
 from flask import Flask, request, jsonify
 
+import os
+import chatterbot
 from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
+from chatterbot.trainers import ChatterBotCorpusTrainer
 
 app = Flask(__name__)
 CORS(app)
 
-conversation = [
-    "Xin chào",
-    "Chào bạn",
-    "Bạn đang làm gì đó?",
-    "Tôi đang học",
-    "Nghe tuyệt đó",
-    "Cảm ơn",
-    "Không có chi"
-]
 # Create chatbot
-chatbot = ChatBot("Ron Obvious",
-    storage_adapter='chatterbot.storage.SQLStorageAdapter',
-    database_uri='sqlite:///database.sqlite3')
+chatbot = ChatBot("chatbot",
+                  storage_adapter='chatterbot.storage.SQLStorageAdapter',
+                  database_uri='sqlite:///database.sqlite3')
 # train
-trainer = ListTrainer(chatbot)
-trainer.train(conversation)
+trainer = ChatterBotCorpusTrainer(chatbot)
+
+trainer.train('./data/vnvc.txt')
 
 
 @app.route('/')
@@ -36,7 +30,7 @@ def index():
 def sendmessage():
     message = request.json['message']
     response_message = chatbot.get_response(message)
-    print("response_message",response_message)
+    print("response_message", response_message)
     return jsonify({"success": True, "response_message": str(response_message)})
 
 
