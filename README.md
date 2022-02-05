@@ -1,14 +1,12 @@
-# Step 1: Copy file search.py into chatterbot
-C:\Users\ASUS\AppData\Local\Programs\Python\Python39\Lib\site-packages\chatterbot
+# trainer.py
+you can train chatterbot here, see data trained in `database.sqlite3`
+run `python trainer.py` to train
 
-# Train (JUST RUN ONE TIME.)
-## This can make database become too large if run many times.
-run `python chatbot.py` to train chatterbot
-you can see data in database.sqlite3
+# app.py
+run `python app.py` to run web server, connect API.
 
-
-# Run
-run `python app.py`
+# test.py
+run `python test.py` to test
 
 # ERROR
 you may don't have vietnamese stopword file.

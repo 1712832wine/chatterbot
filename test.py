@@ -1,5 +1,5 @@
 import pandas as pd
-from chatbot import chatbot
+from trainer import chatbot
 import re
 
 

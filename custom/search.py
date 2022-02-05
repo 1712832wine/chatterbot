@@ -73,6 +73,7 @@ class IndexedTextSearch:
         # Find the closest matching known statement
         for statement in statement_list:
             confidence = self.compare_statements(input_statement, statement)
+
             if confidence > closest_match.confidence:
                 statement.confidence = confidence
                 closest_match = statement
@@ -80,4 +81,5 @@ class IndexedTextSearch:
         self.chatbot.logger.info('Similar text found: {} {}'.format(
             closest_match.text, confidence
         ))
+
         yield closest_match

@@ -1,9 +1,8 @@
-from chatterbot import ChatBot
-from comparisons import MyBert
-from chatterbot import languages
+from custom.comparisons import MyBert
+from chatterbot import languages, ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.response_selection import get_random_response
-
+from custom.search import IndexedTextSearch
 
 chatbot = ChatBot("chatbot",
                   read_only=True,
@@ -12,12 +11,13 @@ chatbot = ChatBot("chatbot",
                   ],
                   logic_adapters=[
                       {
-                          "import_path": "chatterbot.logic.BestMatch",
+                          'import_path': 'chatterbot.logic.BestMatch',
                       }
                   ],
                   statement_comparison_function=MyBert,
                   response_selection_method=get_random_response,
-                  storage_adapter="chatterbot.storage.SQLStorageAdapter",
+                  search_algorithm_name=IndexedTextSearch.name,
+                  storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   tagger_language=languages.VIE,
                   database_uri='sqlite:///database.sqlite3'
                   )
