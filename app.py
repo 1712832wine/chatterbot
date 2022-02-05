@@ -18,7 +18,7 @@ chatbot = ChatBot("chatbot",
 # train
 trainer = ChatterBotCorpusTrainer(chatbot)
 
-trainer.train('./data/vnvc.txt')
+trainer.train('./data/train_data.txt')
 
 
 @app.route('/')
