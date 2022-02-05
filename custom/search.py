@@ -70,8 +70,14 @@ class IndexedTextSearch:
 
         self.chatbot.logger.info('Processing search results')
 
+        tag_list = ['covid']
         # Find the closest matching known statement
         for statement in statement_list:
+            # you dont need to put statement is answers of question into compare_statements
+            if (statement.get_tags()[0] in tag_list) and (statement.in_response_to is None):
+                continue
+
+            # start compare_statements
             confidence = self.compare_statements(input_statement, statement)
 
             if confidence > closest_match.confidence:

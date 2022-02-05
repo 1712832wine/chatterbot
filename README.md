@@ -20,10 +20,9 @@ note that put it into the directory of warning.
 
 # Result
 
-BERT 39/40 ===> OK, but it's take too long to get answers
-
+BERT 39/40
 ![image](https://user-images.githubusercontent.com/35862674/152638656-533e8db8-18f5-4313-b3ed-ab72c8dc2d72.png)
 
-levenshtein_distance 38/40 ===> OK, time: fast
+levenshtein_distance 38/40
 
 ![image](https://user-images.githubusercontent.com/35862674/152638863-68ac8bcc-dc53-4590-a956-507b3251281c.png)
