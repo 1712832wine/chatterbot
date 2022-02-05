@@ -1,7 +1,7 @@
 from chatterbot import languages, ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.response_selection import get_random_response
-from chatterbot.comparisons import levenshtein_distance, my_bert
+from chatterbot.comparisons import levenshtein_distance, my_bert, synset_distance, sentiment_comparison, jaccard_similarity
 
 chatbot = ChatBot("chatbot",
                   read_only=True,
@@ -13,7 +13,7 @@ chatbot = ChatBot("chatbot",
                           'import_path': 'chatterbot.logic.BestMatch',
                       }
                   ],
-                  statement_comparison_function=levenshtein_distance,
+                  statement_comparison_function=synset_distance,
                   response_selection_method=get_random_response,
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   tagger_language=languages.VIE,
