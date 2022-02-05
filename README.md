@@ -22,3 +22,4 @@ note that put it into the directory of warning.
 
 BERT 39/40 ===> OK, but it's take too long to get answers
 
+![image](https://user-images.githubusercontent.com/35862674/152638656-533e8db8-18f5-4313-b3ed-ab72c8dc2d72.png)
