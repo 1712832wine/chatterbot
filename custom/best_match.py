@@ -1,5 +1,6 @@
 from chatterbot.logic import LogicAdapter
 from chatterbot import filters
+from custom.search import IndexedTextSearch
 
 
 class BestMatch(LogicAdapter):
@@ -21,6 +22,7 @@ class BestMatch(LogicAdapter):
         super().__init__(chatbot, **kwargs)
 
         self.excluded_words = kwargs.get('excluded_words')
+        self.search_algorithm = IndexedTextSearch(chatbot, **kwargs)
 
     def process(self, input_statement, additional_response_selection_parameters=None):
         search_results = self.search_algorithm.search(input_statement)
@@ -65,17 +67,22 @@ class BestMatch(LogicAdapter):
         }
 
         if additional_response_selection_parameters:
-            response_selection_parameters.update(additional_response_selection_parameters)
-            alternate_response_selection_parameters.update(additional_response_selection_parameters)
+            response_selection_parameters.update(
+                additional_response_selection_parameters)
+            alternate_response_selection_parameters.update(
+                additional_response_selection_parameters)
 
         # Get all statements that are in response to the closest match
-        response_list = list(self.chatbot.storage.filter(**response_selection_parameters))
+        response_list = list(self.chatbot.storage.filter(
+            **response_selection_parameters))
 
         alternate_response_list = []
 
         if not response_list:
-            self.chatbot.logger.info('No responses found. Generating alternate response list.')
-            alternate_response_list = list(self.chatbot.storage.filter(**alternate_response_selection_parameters))
+            self.chatbot.logger.info(
+                'No responses found. Generating alternate response list.')
+            alternate_response_list = list(self.chatbot.storage.filter(
+                **alternate_response_selection_parameters))
 
         if response_list:
             self.chatbot.logger.info(
@@ -91,7 +98,8 @@ class BestMatch(LogicAdapter):
             )
 
             response.confidence = closest_match.confidence
-            self.chatbot.logger.info('Response selected. Using "{}"'.format(response.text))
+            self.chatbot.logger.info(
+                'Response selected. Using "{}"'.format(response.text))
         elif alternate_response_list:
             '''
             The case where there was no responses returned for the selected match
@@ -109,7 +117,8 @@ class BestMatch(LogicAdapter):
             )
 
             response.confidence = closest_match.confidence
-            self.chatbot.logger.info('Alternate response selected. Using "{}"'.format(response.text))
+            self.chatbot.logger.info(
+                'Alternate response selected. Using "{}"'.format(response.text))
         else:
             response = self.get_default_response(input_statement)
 

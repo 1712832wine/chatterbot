@@ -1,7 +1,7 @@
-from chatterbot.comparisons import MyBert, my_bert
 from chatterbot import languages, ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.response_selection import get_random_response
+from custom.comparisons import my_bert
 from chatterbot.comparisons import levenshtein_distance
 
 chatbot = ChatBot("chatbot",
