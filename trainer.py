@@ -13,7 +13,7 @@ chatbot = ChatBot("chatbot",
                           'import_path': 'chatterbot.logic.BestMatch',
                       }
                   ],
-                  statement_comparison_function=synset_distance,
+                  statement_comparison_function=my_bert,
                   response_selection_method=get_random_response,
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   tagger_language=languages.VIE,
