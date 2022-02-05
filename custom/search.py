@@ -74,7 +74,7 @@ class IndexedTextSearch:
         # Find the closest matching known statement
         for statement in statement_list:
             # you dont need to put statement is answers of question into compare_statements
-            if (statement.get_tags()[0] in tag_list) and (statement.in_response_to is None):
+            if (statement.get_tags()[0] in tag_list) and (statement.in_response_to is not None):
                 continue
 
             # start compare_statements
