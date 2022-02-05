@@ -3,22 +3,10 @@
 from flask_cors import CORS
 from flask import Flask, request, jsonify
 
-import os
-import chatterbot
-from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
+from trainer import chatbot
 
 app = Flask(__name__)
 CORS(app)
-
-# Create chatbot
-chatbot = ChatBot("chatbot",
-                  storage_adapter='chatterbot.storage.SQLStorageAdapter',
-                  database_uri='sqlite:///database.sqlite3')
-# train
-trainer = ChatterBotCorpusTrainer(chatbot)
-
-trainer.train('./data/train_data.txt')
 
 
 @app.route('/')

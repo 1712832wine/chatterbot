@@ -1,3 +1,6 @@
+
+# copy file search.py and comparisons.py into chatterbot
+C:\Users\ASUS\AppData\Local\Programs\Python\Python39\Lib\site-packages\chatterbot
 # trainer.py
 you can train chatterbot here, see data trained in `database.sqlite3`
 run `python trainer.py` to train

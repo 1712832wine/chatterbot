@@ -1,8 +1,8 @@
-from custom.comparisons import MyBert
+from chatterbot.comparisons import MyBert, my_bert
 from chatterbot import languages, ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.response_selection import get_random_response
-from custom.search import IndexedTextSearch
+from chatterbot.comparisons import levenshtein_distance
 
 chatbot = ChatBot("chatbot",
                   read_only=True,
@@ -14,9 +14,8 @@ chatbot = ChatBot("chatbot",
                           'import_path': 'chatterbot.logic.BestMatch',
                       }
                   ],
-                  statement_comparison_function=MyBert,
+                  statement_comparison_function=my_bert,
                   response_selection_method=get_random_response,
-                  search_algorithm_name=IndexedTextSearch.name,
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   tagger_language=languages.VIE,
                   database_uri='sqlite:///database.sqlite3'
