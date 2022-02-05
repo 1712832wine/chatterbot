@@ -16,3 +16,9 @@ you may don't have vietnamese stopword file.
 you can download file `vietnamese-stopwords.txt` here: https://github.com/stopwords/vietnamese-stopwords
 change name `vietnamese-stopwords.txt` into `vietnamese` (without `.txt`)
 note that put it into the directory of warning.
+
+
+# Result
+
+BERT 39/40 ===> OK, but it's take too long to get answers
+
