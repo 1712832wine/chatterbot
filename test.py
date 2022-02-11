@@ -24,7 +24,7 @@ def get_answers(text):
 
 
 # read data test
-with open('./data/test_data.yml', encoding="utf-8") as f:
+with open('./data/test/covid.yml', encoding="utf-8") as f:
     test = f.read()
 
 test_questions = get_questions(test)

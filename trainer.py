@@ -13,7 +13,7 @@ chatbot = ChatBot("chatbot",
                           'import_path': 'chatterbot.logic.BestMatch',
                       }
                   ],
-                  statement_comparison_function=my_bert,
+                  statement_comparison_function=levenshtein_distance,
                   response_selection_method=get_random_response,
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   tagger_language=languages.VIE,
@@ -23,4 +23,4 @@ chatbot = ChatBot("chatbot",
 if __name__ == "__main__":
 
     trainer = ChatterBotCorpusTrainer(chatbot)
-    trainer.train('./data/train_data.yml')
+    trainer.train('./data/train/')
