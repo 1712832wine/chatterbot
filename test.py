@@ -33,6 +33,16 @@ test_answers = get_answers(test)
 
 # predict one sentence
 # --------------------
+# while True:
+#     message = input("input: ")
+#     if not message:
+#         break
+#     predict = chatbot.get_response(message)
+#     print(predict)
+
+
+# predict one sentence
+# --------------------
 # predict = chatbot.get_response(test_questions[38])
 # print("predict", predict)
 

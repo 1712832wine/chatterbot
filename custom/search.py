@@ -85,7 +85,7 @@ class IndexedTextSearch:
                 closest_match = statement
 
         self.chatbot.logger.info('Similar text found: {} {}'.format(
-            closest_match.text, confidence
+            closest_match.text, closest_match.confidence
         ))
 
         yield closest_match
