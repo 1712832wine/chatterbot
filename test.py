@@ -33,12 +33,12 @@ test_answers = get_answers(test)
 
 # predict one sentence
 # --------------------
-# while True:
-#     message = input("input: ")
-#     if not message:
-#         break
-#     predict = chatbot.get_response(message)
-#     print(predict)
+while True:
+    message = input("input: ")
+    if not message:
+        break
+    predict = chatbot.get_response(message)
+    print(predict)
 
 
 # predict one sentence
@@ -49,19 +49,19 @@ test_answers = get_answers(test)
 
 # predict all sentences in test file
 # --------------------
-score = 0
-a = []
-p = []
+# score = 0
+# a = []
+# p = []
 
-for index in range(0, len(test_questions)):
-    predict = chatbot.get_response(test_questions[index])
-    if (predict.text[:50] == test_answers[index][:50]):
-        score += 1
-    else:
-        a.append(test_answers[index])
-        p.append(predict)
+# for index in range(0, len(test_questions)):
+#     predict = chatbot.get_response(test_questions[index])
+#     if (predict.text[:50] == test_answers[index][:50]):
+#         score += 1
+#     else:
+#         a.append(test_answers[index])
+#         p.append(predict)
 
-d = {'answer': a, 'predict': p}
-df = pd.DataFrame(data=d)
-print(df)
-print("score:", score, "total:", len(test_questions))
+# d = {'answer': a, 'predict': p}
+# df = pd.DataFrame(data=d)
+# print(df)
+# print("score:", score, "total:", len(test_questions))
