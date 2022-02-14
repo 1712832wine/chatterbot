@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from trainer import chatbot
 import re
@@ -23,45 +24,51 @@ def get_answers(text):
     return answers
 
 
-# read data test
-with open('./data/test/covid.yml', encoding="utf-8") as f:
-    test = f.read()
+list_test = os.listdir('./data/test')
+for file in list_test:
+    # read data test
+    with open('./data/test/'+file, encoding="utf-8") as f:
+        test = f.read()
 
-test_questions = get_questions(test)
-test_answers = get_answers(test)
+    test_questions = get_questions(test)
+    test_answers = get_answers(test)
+
+    # predict one sentence
+    # --------------------
+    # predict = chatbot.get_response(test_questions[38])
+    # print("predict", predict)
+
+    # predict all sentences in test file
+    # --------------------
+    print(file)
+    print(len(test_answers) == len(test_questions))
+    score = 0
+    a = []
+    p = []
+    s = []
+    for index in range(0, len(test_answers)):
+        print(test_answers[index])
+    for index in range(0, len(test_questions)):
+        predict = chatbot.get_response(test_questions[index])
+        if (predict.text == test_answers[index]):
+            score += 1
+        else:
+            a.append(test_answers[index])
+            p.append(predict)
+            s.append(predict.confidence)
+
+    d = {'answer': a, 'predict': p, 'score': s}
+    df = pd.DataFrame(data=d)
+    print(df)
+    print("score:", score, "total:", len(test_questions))
 
 
 # predict one sentence
 # --------------------
-while True:
-    message = input("input: ")
-    if not message:
-        break
-    predict = chatbot.get_response(message)
-    print(predict)
 
-
-# predict one sentence
-# --------------------
-# predict = chatbot.get_response(test_questions[38])
-# print("predict", predict)
-
-
-# predict all sentences in test file
-# --------------------
-# score = 0
-# a = []
-# p = []
-
-# for index in range(0, len(test_questions)):
-#     predict = chatbot.get_response(test_questions[index])
-#     if (predict.text[:50] == test_answers[index][:50]):
-#         score += 1
-#     else:
-#         a.append(test_answers[index])
-#         p.append(predict)
-
-# d = {'answer': a, 'predict': p}
-# df = pd.DataFrame(data=d)
-# print(df)
-# print("score:", score, "total:", len(test_questions))
+# while True:
+#     message = input("input: ")
+#     if not message:
+#         break
+#     predict = chatbot.get_response(message)
+#     print(predict)
