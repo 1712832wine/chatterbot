@@ -6,7 +6,7 @@ import re
 
 def get_questions(text):
     questions = []
-    pattern = re.compile(r'- -.*\?')
+    pattern = re.compile(r'- -.*\n')
     matches = pattern.finditer(text)
     for match in matches:
         s = match.group(0)[4:]
@@ -41,23 +41,20 @@ for file in list_test:
     # predict all sentences in test file
     # --------------------
     print(file)
-    print(len(test_answers) == len(test_questions))
     score = 0
     a = []
     p = []
     s = []
-    for index in range(0, len(test_answers)):
-        print(test_answers[index])
+    print(len(test_questions), len(test_answers))
     for index in range(0, len(test_questions)):
         predict = chatbot.get_response(test_questions[index])
-        if (predict.text == test_answers[index]):
+        if (predict.text[:50] == test_answers[index][:50]):
             score += 1
         else:
             a.append(test_answers[index])
             p.append(predict)
             s.append(predict.confidence)
-
-    d = {'answer': a, 'predict': p, 'score': s}
+    d = {'answer': a, 'predict': p}
     df = pd.DataFrame(data=d)
     print(df)
     print("score:", score, "total:", len(test_questions))
