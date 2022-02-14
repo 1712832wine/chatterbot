@@ -3,6 +3,9 @@
 C:\Users\ASUS\AppData\Local\Programs\Python\Python39\Lib\site-packages\chatterbot
 # trainer.py
 you can train chatterbot here, see data trained in `database.sqlite3`
+you can download extension SQLite to see data in `database.sqlite3` in visual studio code
+select all data in file --SQLite.sql ===> Ctrl+SHIFT+Q to delete data in database
+
 run `python trainer.py` to train
 
 # app.py
