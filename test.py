@@ -33,7 +33,8 @@ def remove_punctuation(text):
 
 
 def preprocess(text):
-    text = remove_punctuation(text.strip().lower().rstrip('\n'))
+    text = remove_punctuation(
+        text.strip().lower().rstrip('\n').replace(" ", ""))
     return text
 
 
