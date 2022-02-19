@@ -19,6 +19,7 @@ you may don't have vietnamese stopword file.
 you can download file `vietnamese-stopwords.txt` here: https://github.com/stopwords/vietnamese-stopwords
 change name `vietnamese-stopwords.txt` into `vietnamese` (without `.txt`)
 note that put it into the directory of warning.
+C:\Users\ASUS\AppData\Roaming\nltk_data\corpora\stopwords
 
 
 # Result

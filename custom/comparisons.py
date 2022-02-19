@@ -6,6 +6,9 @@ from chatterbot import utils
 from chatterbot import languages
 from nltk.corpus import wordnet, stopwords
 from sentence_transformers import SentenceTransformer, util
+import string
+from underthesea import word_tokenize, sent_tokenize
+from nltk.corpus import stopwords
 # Use python-Levenshtein if available
 try:
     from Levenshtein.StringMatcher import StringMatcher as SequenceMatcher
@@ -24,18 +27,46 @@ class Comparator:
 
 class MyBert(Comparator):
     def __init__(self):
-        super().__init__()
-
         self.bert = SentenceTransformer(
             'sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
     #self.tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base", use_fast=True)
 
+    def remove_punctuation(self, sentence):
+        translator = str.maketrans('', '', string.punctuation)
+        return sentence.translate(translator)
+
+    def remove_stopwords(self, sentence):
+        word_tokens = word_tokenize(sentence)
+        stopwords_list = set(stopwords.words('vietnamese'))
+        filtered_text = [
+            word for word in word_tokens if word not in stopwords_list]
+        # if filtered_text is empty
+        if filtered_text:
+            return ' '.join(filtered_text)
+        else:
+            return ' '.join(word_tokens)
+
+    def get_string_removed_stopswords(self, text):
+        all_tokens = []
+        tokens_stopwords_removed = []
+
+        # Sentence Segmentation using underthesea
+        sentences = []
+        for sentence in sent_tokenize(text.strip().lower()):
+            sentence = self.remove_punctuation(sentence)
+            sentence = self.remove_stopwords(sentence)
+            sentences.append(sentence)
+
+        return ' '.join(sentences)
+
     def compare(self, statement_a, statement_b):
         # encode sentence 1
-        encoded_1 = self.bert.encode(statement_a.text)
+        sentence_1 = self.get_string_removed_stopswords(statement_a.text)
+        encoded_1 = self.bert.encode(sentence_1)
 
         # encode sentence 2
-        encoded_2 = self.bert.encode(statement_b.text)
+        sentence_2 = self.get_string_removed_stopswords(statement_b.text)
+        encoded_2 = self.bert.encode(sentence_2)
 
         # get similarity score
         score = util.dot_score(encoded_1, encoded_2)
@@ -59,7 +90,6 @@ class LevenshteinDistance(Comparator):
         :return: The percent of similarity between the text of the statements.
         :rtype: float
         """
-
         # Return 0 if either statement has a falsy text value
         if not statement.text or not other_statement.text:
             return 0
@@ -336,6 +366,7 @@ class JaccardSimilarity(Comparator):
         Return the calculated similarity of two
         statements based on the Jaccard index.
         """
+        print("JaccardSimilarity")
         from nltk import pos_tag, tokenize
 
         # Get the stopwords for the current language

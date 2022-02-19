@@ -1,0 +1,6 @@
+pandas
+chatterbot
+underthesea
+sentence-transformers
+flask
+flask_cors

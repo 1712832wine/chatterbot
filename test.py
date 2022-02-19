@@ -2,6 +2,9 @@ import os
 import pandas as pd
 from trainer import chatbot
 import re
+import string
+from underthesea import word_tokenize, sent_tokenize
+from nltk.corpus import stopwords
 
 
 def get_questions(text):
@@ -24,8 +27,25 @@ def get_answers(text):
     return answers
 
 
+def remove_punctuation(text):
+    translator = str.maketrans('', '', string.punctuation)
+    return text.translate(translator)
+
+
+def preprocess(text):
+    text = remove_punctuation(text.strip().lower().rstrip('\n'))
+    return text
+
+
+def compare(sent_1, sent_2):
+    sent_1 = preprocess(sent_1)
+    sent_2 = preprocess(sent_2)
+    return sent_1 == sent_2
+
+
 list_test = os.listdir('./data/test')
 for file in list_test:
+    # if file == 'test_viem_duong_ho_hap.yml':
     # read data test
     with open('./data/test/'+file, encoding="utf-8") as f:
         test = f.read()
@@ -48,7 +68,7 @@ for file in list_test:
     print(len(test_questions), len(test_answers))
     for index in range(0, len(test_questions)):
         predict = chatbot.get_response(test_questions[index])
-        if (predict.text[:50] == test_answers[index][:50]):
+        if compare(predict.text, test_answers[index]):
             score += 1
         else:
             a.append(test_answers[index])
