@@ -1,4 +1,3 @@
-pandas
 chatterbot
 underthesea
 sentence-transformers

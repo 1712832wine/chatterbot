@@ -1,10 +1,8 @@
 import os
-import pandas as pd
 from trainer import chatbot
 import re
 import string
-from underthesea import word_tokenize, sent_tokenize
-from nltk.corpus import stopwords
+import time
 
 
 def get_questions(text):
@@ -44,49 +42,66 @@ def compare(sent_1, sent_2):
     return sent_1 == sent_2
 
 
-list_test = os.listdir('./data/test')
-for file in list_test:
-    # if file == 'test_viem_duong_ho_hap.yml':
-    # read data test
-    with open('./data/test/'+file, encoding="utf-8") as f:
-        test = f.read()
+if __name__ == "__main__":
+    # open test-result to write
+    with open('test-result.txt', "w", encoding='utf-8') as fw:
+        time_start = time.time()
+        # start testing
+        total_score = 0
+        total_len = 0
+        list_test = os.listdir('./data/test')
+        for file in list_test:
+            with open('./data/test/'+file, encoding="utf-8") as f:
+                test = f.read()
 
-    test_questions = get_questions(test)
-    test_answers = get_answers(test)
+            # read questions and answers from test file
+            test_questions = get_questions(test)
+            test_answers = get_answers(test)
 
-    # predict one sentence
-    # --------------------
-    # predict = chatbot.get_response(test_questions[38])
-    # print("predict", predict)
+            # write len of test_questions and len of test answers
+            print("start testing", file)
+            fw.write('==================================\n')
+            fw.write('file_name: {}\n'.format(file))
+            fw.write('size: {}/{}\n'.format(len(test_questions), len(test_answers)))
 
-    # predict all sentences in test file
-    # --------------------
-    print(file)
-    score = 0
-    a = []
-    p = []
-    s = []
-    print(len(test_questions), len(test_answers))
-    for index in range(0, len(test_questions)):
-        predict = chatbot.get_response(test_questions[index])
-        if compare(predict.text, test_answers[index]):
-            score += 1
-        else:
-            a.append(test_answers[index])
-            p.append(predict)
-            s.append(predict.confidence)
-    d = {'answer': a, 'predict': p}
-    df = pd.DataFrame(data=d)
-    print(df)
-    print("score:", score, "total:", len(test_questions))
+            # check len of test_questions and len of test answers is equal
+            if (len(test_questions) != len(test_answers)):
+                fw.write(
+                    'FILE {} HAS NUMBER OF QUESTIONS DIFFERENT TO NUMBER OF ANSWERS\n'.format(file))
+                continue
+            total_len += len(test_questions)
+            score = 0
 
+            for index in range(0, len(test_questions)):
+                print(index + 1, '/', len(test_questions), 'of', file)
+                predict = chatbot.get_response(test_questions[index])
+                if compare(predict.text, test_answers[index]):
+                    score += 1
+                else:
+                    # WRONG CASES
+                    fw.write('--------------------------------\n')
 
-# predict one sentence
-# --------------------
+                    fw.write('TEST QUESTION: {}\n'.format(
+                        test_questions[index]))
+                    fw.write('GOLD ANSWER: {}\n'.format(
+                        test_answers[index]))
+                    fw.write('PREDICT ANSWER: {}\n'.format(
+                        predict.text))
+                    fw.write('CONFIDENCE: {}\n'.format(
+                        predict.confidence))
 
-# while True:
-#     message = input("input: ")
-#     if not message:
-#         break
-#     predict = chatbot.get_response(message)
-#     print(predict)
+                    fw.write('--------------------------------\n')
+
+            total_score += score
+            # end of test file
+            fw.write('score: {} || total: {}\n'.format(
+                score, len(test_questions)))
+            fw.write('==================================\n')
+            print('finished', file)
+        # finish all
+        fw.write('total_score: {} || len: {} || score: {}\n'.format(
+            total_score, total_len, total_score/total_len))
+
+        time_end = time.time()
+        total_time = time_end - time_start
+        fw.write('time: {}\n'.format(total_time))

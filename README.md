@@ -25,3 +25,16 @@ BERT 39/40
 levenshtein_distance 38/40
 
 ![image](https://user-images.githubusercontent.com/35862674/152638863-68ac8bcc-dc53-4590-a956-507b3251281c.png)
+
+laven cũ
+total_score: 172 || len: 200 || score: 0.86
+time: 70.72047543525696
+bert cũ
+total_score: 172 || len: 200 || score: 0.86
+time: 1445.5244662761688
+
+laven mới
+total_score: 173 || len: 200 || score: 0.865
+time: 30.971308946609497
+bert mới
+
