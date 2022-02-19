@@ -37,14 +37,14 @@ class MyBert(Comparator):
 
     def remove_stopwords(self, sentence):
         word_tokens = word_tokenize(sentence)
-        stopwords_list = set(stopwords.words('vietnamese'))
-        filtered_text = [
-            word for word in word_tokens if word not in stopwords_list]
-        # if filtered_text is empty
-        if filtered_text:
-            return ' '.join(filtered_text)
-        else:
-            return ' '.join(word_tokens)
+        # stopwords_list = set(stopwords.words('vietnamese'))
+        # filtered_text = [
+        #     word for word in word_tokens if word not in stopwords_list]
+        # # if filtered_text is empty
+        # if filtered_text:
+        #     return ' '.join(filtered_text)
+        # else:
+        return ' '.join(word_tokens)
 
     def get_string_removed_stopswords(self, text):
         all_tokens = []
