@@ -19,10 +19,10 @@ run `python test.py` to test
 
 # Result
 
-levenshtein_distance cơ bản (stopword min)
+levenshtein_distance (stopword min)
 total_score: 175 || len: 200 || score: 0.875
 time: 23.84418511390686
 
-bert cơ bản (stopword min)
+bert (stopword min)
 total_score: 181 || len: 200 || score: 0.905
 time: 359.512713432312
