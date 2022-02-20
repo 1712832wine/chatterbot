@@ -83,9 +83,9 @@ if __name__ == "__main__":
 
                     fw.write('TEST QUESTION: {}\n'.format(
                         test_questions[index]))
-                    fw.write('GOLD ANSWER: {}\n'.format(
+                    fw.write('GOLD QUESTION: {}\n'.format(
                         test_answers[index]))
-                    fw.write('PREDICT ANSWER: {}\n'.format(
+                    fw.write('PREDICT QUESTION: {}\n'.format(
                         predict.text))
                     fw.write('CONFIDENCE: {}\n'.format(
                         predict.confidence))

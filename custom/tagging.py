@@ -5,6 +5,61 @@ from nltk import pos_tag
 from nltk.data import load as load_data
 from nltk.corpus import wordnet, stopwords
 from nltk.corpus.reader.wordnet import WordNetError
+from underthesea import sent_tokenize, word_tokenize
+import underthesea
+
+
+class PosVietNameseTagger(object):
+    """
+    For each non-stopword in a string, return a string where each word is a
+    hypernym preceded by the part of speech of the word before it.
+    """
+
+    def __init__(self, language=None):
+        self.language = language or languages.VIE
+
+        self.sentence_tokenizer = None
+
+        self.stopwords = None
+
+    def initialize_nltk_stopwords(self):
+        """
+        Download required NLTK stopwords corpus if it has not already been downloaded.
+        """
+        utils.nltk_download_corpus('stopwords')
+
+    def get_stopwords(self):
+        """
+        Get the list of stopwords from the NLTK corpus.
+        """
+        if self.stopwords is None:
+            self.stopwords = stopwords.words(
+                self.language.ENGLISH_NAME.lower())
+
+        return self.stopwords
+
+    def remove_punctuation(self, sentence):
+        translator = str.maketrans('', '', string.punctuation)
+        return sentence.translate(translator)
+
+    def get_bigram_pair_string(self, text):
+        tokens_stopwords_removed = []
+        a = []
+        for sentence in sent_tokenize(text.strip().lower()):
+
+            sentence = self.remove_punctuation(sentence)
+            # tokens = word_tokenize(sentence, format="text").split(' ')
+            tokens = underthesea.pos_tag(sentence)
+            for token in tokens:
+                a.append(token[0])
+                if token[0] not in self.get_stopwords() and token[0]:
+                    tokens_stopwords_removed.append(
+                        token[0].replace(' ', '_')+':'+token[1])
+
+        if tokens_stopwords_removed:
+            return ' '.join(tokens_stopwords_removed)
+        else:
+            return ' '.join(a)
 
 
 class PosHypernymTagger(object):
@@ -50,7 +105,8 @@ class PosHypernymTagger(object):
         Get the list of stopwords from the NLTK corpus.
         """
         if self.stopwords is None:
-            self.stopwords = stopwords.words(self.language.ENGLISH_NAME.lower())
+            self.stopwords = stopwords.words(
+                self.language.ENGLISH_NAME.lower())
 
         return self.stopwords
 
@@ -98,7 +154,8 @@ class PosHypernymTagger(object):
 
         for word, pos in pos_tags:
             try:
-                synsets = wordnet.synsets(word, utils.treebank_to_wordnet(pos), lang=self.language.ISO_639)
+                synsets = wordnet.synsets(word, utils.treebank_to_wordnet(
+                    pos), lang=self.language.ISO_639)
             except WordNetError:
                 synsets = None
             except LookupError:
@@ -129,7 +186,6 @@ class PosHypernymTagger(object):
         """
         WORD_INDEX = 0
         POS_INDEX = 1
-
         pos_tags = []
 
         for sentence in self.tokenize_sentence(text.strip()):

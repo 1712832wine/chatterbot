@@ -4,25 +4,25 @@ size: 25/25
 --------------------------------
 TEST QUESTION: BMI là gì?
 
-GOLD ANSWER: Chỉ số cơ thể (BMI) là một chỉ số đơn giản về cân nặng chiều cao, thường được sử dụng để phân loại thừa cân và béo phì ở người trưởng thành. Nó được định nghĩa là trọng lượng của một người tính bằng kg chia cho bình phương chiều cao của mình tính theo mét (kg/m2).
+GOLD QUESTION: Chỉ số cơ thể (BMI) là một chỉ số đơn giản về cân nặng chiều cao, thường được sử dụng để phân loại thừa cân và béo phì ở người trưởng thành. Nó được định nghĩa là trọng lượng của một người tính bằng kg chia cho bình phương chiều cao của mình tính theo mét (kg/m2).
 
-PREDICT ANSWER: Mycoplasma không phải là virus hay vi khuẩn mà là những sinh vật nhỏ có đặc điểm của cả virus và vi khuẩn.
+PREDICT QUESTION: Mycoplasma không phải là virus hay vi khuẩn mà là những sinh vật nhỏ có đặc điểm của cả virus và vi khuẩn.
 CONFIDENCE: 0.4428
 --------------------------------
 --------------------------------
 TEST QUESTION: Béo phì có gây tiểu đường không?
 
-GOLD ANSWER: Béo phì là một trong những nguyên nhân chính gây ra tiểu đường type 2. Béo phì khiến hormon insulin do tuyến tụy tiết ra hoạt động không hiệu quả, không thể giúp tế bào của cơ thể hấp thu đường. Lúc này, tuyến tụy sẽ cố gắng sản sinh nhiều insulin hơn. Nếu tình trạng này kéo dài, việc sản sinh insulin của tuyến tụy sẽ giảm và khi đó bệnh nhân dễ mắc bệnh tiểu đường type 2.
+GOLD QUESTION: Béo phì là một trong những nguyên nhân chính gây ra tiểu đường type 2. Béo phì khiến hormon insulin do tuyến tụy tiết ra hoạt động không hiệu quả, không thể giúp tế bào của cơ thể hấp thu đường. Lúc này, tuyến tụy sẽ cố gắng sản sinh nhiều insulin hơn. Nếu tình trạng này kéo dài, việc sản sinh insulin của tuyến tụy sẽ giảm và khi đó bệnh nhân dễ mắc bệnh tiểu đường type 2.
 
-PREDICT ANSWER: Trẻ thừa cân béo phì thường có chỉ số thông minh thấp hơn trẻ có cân nặng bình thường. Người lớn bị béo phì có nguy cơ bị Alzheimer cao hơn so với người bình thường.
+PREDICT QUESTION: Trẻ thừa cân béo phì thường có chỉ số thông minh thấp hơn trẻ có cân nặng bình thường. Người lớn bị béo phì có nguy cơ bị Alzheimer cao hơn so với người bình thường.
 CONFIDENCE: 0.8585
 --------------------------------
 --------------------------------
 TEST QUESTION: Béo phì có gây ra gan nhiễm mỡ?
 
-GOLD ANSWER: Thừa cân, béo phì là nguyên nhân hàng đầu gây gan nhiễm mỡ không do rượu. Ước tính, hơn 70% số người béo phì có gan bị nhiễm mỡ. Khi sự vận chuyển chất béo ở gan bị mất cân bằng, chất béo này sẽ tích tụ lại trong tế bào gan và dẫn đến gan bị nhiễm mỡ. Tỷ lệ mắc gan nhiễm mỡ tăng theo chỉ số khối của cơ thể (BMI). Ở những người không béo phì, tỷ lệ gan bị nhiễm mỡ và viêm gan nhiễm mỡ lần lượt là 15% và 3%. Những người béo phì độ I và độ II (tương ứng BMI từ 30 - 39.9 kg/m2) thì tỷ lệ này tương ứng là 5% và 20%. Đặc biệt với những người có BMI ≥40kg/m2 tỷ lệ gan bị nhiễm mỡ tương ứng là 85% và viêm gan nhiễm mỡ là 40%.
+GOLD QUESTION: Thừa cân, béo phì là nguyên nhân hàng đầu gây gan nhiễm mỡ không do rượu. Ước tính, hơn 70% số người béo phì có gan bị nhiễm mỡ. Khi sự vận chuyển chất béo ở gan bị mất cân bằng, chất béo này sẽ tích tụ lại trong tế bào gan và dẫn đến gan bị nhiễm mỡ. Tỷ lệ mắc gan nhiễm mỡ tăng theo chỉ số khối của cơ thể (BMI). Ở những người không béo phì, tỷ lệ gan bị nhiễm mỡ và viêm gan nhiễm mỡ lần lượt là 15% và 3%. Những người béo phì độ I và độ II (tương ứng BMI từ 30 - 39.9 kg/m2) thì tỷ lệ này tương ứng là 5% và 20%. Đặc biệt với những người có BMI ≥40kg/m2 tỷ lệ gan bị nhiễm mỡ tương ứng là 85% và viêm gan nhiễm mỡ là 40%.
 
-PREDICT ANSWER: Khi bạn tăng cân quá mức, các cơ chế hoạt động trong cơ thể như hệ hô hấp, tuần hoàn, miễn dịch cũng bị ảnh hưởng theo và giảm hiệu quả hoạt động. Do đó, làm tăng nguy cơ tích tụ các độc tố trong cơ thể và về lâu dài đây cũng là nguyên nhân gây ung thư.
+PREDICT QUESTION: Khi bạn tăng cân quá mức, các cơ chế hoạt động trong cơ thể như hệ hô hấp, tuần hoàn, miễn dịch cũng bị ảnh hưởng theo và giảm hiệu quả hoạt động. Do đó, làm tăng nguy cơ tích tụ các độc tố trong cơ thể và về lâu dài đây cũng là nguyên nhân gây ung thư.
 CONFIDENCE: 0.8283
 --------------------------------
 score: 22 || total: 25
@@ -43,41 +43,41 @@ size: 31/31
 --------------------------------
 TEST QUESTION: Viêm xoang là bệnh gì?
 
-GOLD ANSWER: Xoang là những khoang rỗng chứa khí, nằm trong khối xương sọ, có chức năng làm nhẹ khối xương này và góp phần vào việc phát âm. Niêm mạc xoang có một lớp lông rất mịn, thường xuyên chuyển động để đưa lớp chất nhầy (do niêm mạc tiết ra) về phía lỗ thông ở cửa mũi sau rồi chuyển xuống dạ dày. Hiện tượng này gọi là sự dẫn lưu dịch tiết. Khi sự dẫn lưu bị tắc nghẽn, tình trạng viêm xoang sẽ xảy ra.
+GOLD QUESTION: Xoang là những khoang rỗng chứa khí, nằm trong khối xương sọ, có chức năng làm nhẹ khối xương này và góp phần vào việc phát âm. Niêm mạc xoang có một lớp lông rất mịn, thường xuyên chuyển động để đưa lớp chất nhầy (do niêm mạc tiết ra) về phía lỗ thông ở cửa mũi sau rồi chuyển xuống dạ dày. Hiện tượng này gọi là sự dẫn lưu dịch tiết. Khi sự dẫn lưu bị tắc nghẽn, tình trạng viêm xoang sẽ xảy ra.
 
-PREDICT ANSWER: Viêm xoang (viêm các xoang) là những hốc rỗng, chứa đầy không khí, nằm phía sau xương gò má và trán.Viêm xoang là tình trạng nhiễm trùng của màng niêm mạc lót trong lòng các xoang gây ra bởi vi trùng, siêu vi trùng hay dị ứng dẫn tới phù nề, thu hẹp đường kính các lỗ xoang làm cho mủ và dịch viêm ứ đọng trong xoang do không thoát được ra ngoài gây tình trạng tích tụ chất lỏng hoặc chất nhầy bên trong.
+PREDICT QUESTION: Viêm xoang (viêm các xoang) là những hốc rỗng, chứa đầy không khí, nằm phía sau xương gò má và trán.Viêm xoang là tình trạng nhiễm trùng của màng niêm mạc lót trong lòng các xoang gây ra bởi vi trùng, siêu vi trùng hay dị ứng dẫn tới phù nề, thu hẹp đường kính các lỗ xoang làm cho mủ và dịch viêm ứ đọng trong xoang do không thoát được ra ngoài gây tình trạng tích tụ chất lỏng hoặc chất nhầy bên trong.
 CONFIDENCE: 0.8738
 --------------------------------
 --------------------------------
 TEST QUESTION: Nguyên nhân dẫn đến bệnh viêm xoang?
 
-GOLD ANSWER: Những cấu trúc bên trong mũi chèn ép lỗ thông. Nhiễm virus đường hô hấp trên, gây phù nề niêm mạc, nhất là niêm mạc quanh các lỗ thông. Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.
+GOLD QUESTION: Những cấu trúc bên trong mũi chèn ép lỗ thông. Nhiễm virus đường hô hấp trên, gây phù nề niêm mạc, nhất là niêm mạc quanh các lỗ thông. Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.
 
-PREDICT ANSWER: Do vi khuẩn, vi rút, nấm
+PREDICT QUESTION: Do vi khuẩn, vi rút, nấm
 CONFIDENCE: 0.8417
 --------------------------------
 --------------------------------
 TEST QUESTION: Dấu hiệu nhận biết bệnh thủy đậu là gì?
 
-GOLD ANSWER: Các triệu chứng phổ biến nhất của bệnh thủy đậu là phát ban, sốt, ho, chóng mặt, nhức đầu, và chán ăn. Ban thường xuất hiện trên da đầu và cơ thể, và sau đó lan lên mặt, cánh tay và chân. Ban thường tạo 200-500 mụn nước gây ngứa thành các cụm liên tiếp. Bệnh kéo dài khoảng 5-10 ngày.
+GOLD QUESTION: Các triệu chứng phổ biến nhất của bệnh thủy đậu là phát ban, sốt, ho, chóng mặt, nhức đầu, và chán ăn. Ban thường xuất hiện trên da đầu và cơ thể, và sau đó lan lên mặt, cánh tay và chân. Ban thường tạo 200-500 mụn nước gây ngứa thành các cụm liên tiếp. Bệnh kéo dài khoảng 5-10 ngày.
 
-PREDICT ANSWER: Thủy đậu là bệnh truyền nhiễm gây ra bởi virus thuộc họ Herpesviridae có tên khoa học là Varicella Zoster (VZV).Bất cứ ai cũng có khả năng nhiễm virus gây bệnh thủy đậu, đặc biệt là trẻ em. Đối với người lớn, tỷ lệ mắc thủy đậu thấp hơn nhưng vẫn có nhiều ca biến chứng nặng, thậm chí gây tử vong do không có kiến thức phòng ngừa và điều trị bệnh.
+PREDICT QUESTION: Thủy đậu là bệnh truyền nhiễm gây ra bởi virus thuộc họ Herpesviridae có tên khoa học là Varicella Zoster (VZV).Bất cứ ai cũng có khả năng nhiễm virus gây bệnh thủy đậu, đặc biệt là trẻ em. Đối với người lớn, tỷ lệ mắc thủy đậu thấp hơn nhưng vẫn có nhiều ca biến chứng nặng, thậm chí gây tử vong do không có kiến thức phòng ngừa và điều trị bệnh.
 CONFIDENCE: 0.8679
 --------------------------------
 --------------------------------
 TEST QUESTION: Ngứa lỗ tai có bệnh gì không?
 
-GOLD ANSWER: Nếu tình trạng này chỉ xuất hiện một vài ngày thì sẽ không có gì đáng phải lo ngại. Tuy nhiên, nếu bạn cảm thấy bị ngứa tai trong nhiều tháng, thậm chí nhiều năm thì đó lại là triệu chứng không thể xem thường. Có thể liên quan đến bệnh nhiễm trùng tai.
+GOLD QUESTION: Nếu tình trạng này chỉ xuất hiện một vài ngày thì sẽ không có gì đáng phải lo ngại. Tuy nhiên, nếu bạn cảm thấy bị ngứa tai trong nhiều tháng, thậm chí nhiều năm thì đó lại là triệu chứng không thể xem thường. Có thể liên quan đến bệnh nhiễm trùng tai.
 
-PREDICT ANSWER: Khi bị ngứa tai, bạn cần tìm ra nguyên nhân và điều trị hiệu quả những bệnh lý liên quan. Không ngoáy tai quá sâu, không sử dụng các dụng cụ lấy ráy tai khi chưa được vô trùng. Tránh tiếp xúc với khói bụi, tránh sử dụng tai nghe quá nhiều.
+PREDICT QUESTION: Khi bị ngứa tai, bạn cần tìm ra nguyên nhân và điều trị hiệu quả những bệnh lý liên quan. Không ngoáy tai quá sâu, không sử dụng các dụng cụ lấy ráy tai khi chưa được vô trùng. Tránh tiếp xúc với khói bụi, tránh sử dụng tai nghe quá nhiều.
 CONFIDENCE: 0.8036
 --------------------------------
 --------------------------------
 TEST QUESTION: Triệu chứng viêm amydale?
 
-GOLD ANSWER: Đột ngột biểu hiện sốt, đau mình mẩy. Đau rát họng, có thể có ho khan hoặc có đờm.
+GOLD QUESTION: Đột ngột biểu hiện sốt, đau mình mẩy. Đau rát họng, có thể có ho khan hoặc có đờm.
 
-PREDICT ANSWER: Triệu chứng thường thấy nhất là sốt vừa 38 – 39 độ hoặc sốt cao, ớn lạnh, nhức đầu, đau mình mẩy, mệt mỏi, kém ăn. Phản ứng hạch góc hàm di động, ấn đau. Đau họng nhất là khi nuốt, kể cả khi nuốt chất lỏng.
+PREDICT QUESTION: Triệu chứng thường thấy nhất là sốt vừa 38 – 39 độ hoặc sốt cao, ớn lạnh, nhức đầu, đau mình mẩy, mệt mỏi, kém ăn. Phản ứng hạch góc hàm di động, ấn đau. Đau họng nhất là khi nuốt, kể cả khi nuốt chất lỏng.
 CONFIDENCE: 0.809
 --------------------------------
 score: 26 || total: 31
@@ -88,25 +88,25 @@ size: 25/25
 --------------------------------
 TEST QUESTION: Cách để phát hiện sớm bệnh tay chân miệng?
 
-GOLD ANSWER: Thời gian ủ bệnh thông thường từ khi nhiễm bệnh tới khi khởi phát triệu chứng là 3 - 7 ngày. Sốt là triệu chứng đầu tiên của bệnh Tay chân miệng, sốt thường kéo dài 24 - 48 giờ.
+GOLD QUESTION: Thời gian ủ bệnh thông thường từ khi nhiễm bệnh tới khi khởi phát triệu chứng là 3 - 7 ngày. Sốt là triệu chứng đầu tiên của bệnh Tay chân miệng, sốt thường kéo dài 24 - 48 giờ.
 
-PREDICT ANSWER: Kỹ thuật miễn dịch huỳnh quang gián tiếp sử dụng kháng thể đơn dòng kháng EV71 cho kết quả nhanh nhất nhưng giá thành cao.
+PREDICT QUESTION: Kỹ thuật miễn dịch huỳnh quang gián tiếp sử dụng kháng thể đơn dòng kháng EV71 cho kết quả nhanh nhất nhưng giá thành cao.
 CONFIDENCE: 0.8219
 --------------------------------
 --------------------------------
 TEST QUESTION: Có thể bị tay chân miệng nhiều lần không
 
-GOLD ANSWER: Có, người có thể mắc bệnh Tay chân miệng nhiều lần do có nhiều tuýp vi rút khác nhau. Người bệnh chỉ miễn dịch đối với một loại vi rút cụ thể, những lần mắc bệnh khác có thể xảy ra do lây nhiễm một loại vi rút týp khác.
+GOLD QUESTION: Có, người có thể mắc bệnh Tay chân miệng nhiều lần do có nhiều tuýp vi rút khác nhau. Người bệnh chỉ miễn dịch đối với một loại vi rút cụ thể, những lần mắc bệnh khác có thể xảy ra do lây nhiễm một loại vi rút týp khác.
 
-PREDICT ANSWER: Đa số các trường hợp bệnh sẽ tự khỏi, nhưng nếu bệnh do tác nhân enterovirus 71, một số trẻ có biến chứng rất nguy hiểm là viêm não, viêm cơ tim, viêm màng não. Khi trẻ có biến chứng nếu không điều trị đúng và kịp thời trẻ có thể tử vong trong vài giờ.
+PREDICT QUESTION: Đa số các trường hợp bệnh sẽ tự khỏi, nhưng nếu bệnh do tác nhân enterovirus 71, một số trẻ có biến chứng rất nguy hiểm là viêm não, viêm cơ tim, viêm màng não. Khi trẻ có biến chứng nếu không điều trị đúng và kịp thời trẻ có thể tử vong trong vài giờ.
 CONFIDENCE: 0.8103
 --------------------------------
 --------------------------------
 TEST QUESTION: Cần bao nhiêu ngày để trẻ hồi phục sau bệnh tay chân miệng
 
-GOLD ANSWER: Thường từ 3 đến 5 ngày sau, trẻ hồi phục hoàn toàn nếu không có biến chứng.
+GOLD QUESTION: Thường từ 3 đến 5 ngày sau, trẻ hồi phục hoàn toàn nếu không có biến chứng.
 
-PREDICT ANSWER: Đã có 7 đợt dịch.
+PREDICT QUESTION: Đã có 7 đợt dịch.
 CONFIDENCE: 0.8016
 --------------------------------
 score: 22 || total: 25
@@ -117,25 +117,25 @@ size: 30/30
 --------------------------------
 TEST QUESTION: Biểu hiện của bệnh vảy nến là gì
 
-GOLD ANSWER: Triệu chứng bệnh vảy nến nói chung là xuất hiện những mảng dày, đỏ được bao phủ bởi các vảy trắng hoặc bạc.
+GOLD QUESTION: Triệu chứng bệnh vảy nến nói chung là xuất hiện những mảng dày, đỏ được bao phủ bởi các vảy trắng hoặc bạc.
 
-PREDICT ANSWER: Ở trạng thái bình thường, các tế bào da cũ sau khi chết đi sẽ bong ra và được thay thế bởi các tế bào da mới. Nhưng đối với bệnh nhân mắc vảy nến, quá trình trên diễn ra nhanh gấp 10 lần do hiện tượng tăng sinh tế bào, khiến các tế bào da cũ và mới không kịp thay đổi, tích tụ lại một chỗ tạo thành những mảng dày, có vảy trắng hoặc bạc.
+PREDICT QUESTION: Ở trạng thái bình thường, các tế bào da cũ sau khi chết đi sẽ bong ra và được thay thế bởi các tế bào da mới. Nhưng đối với bệnh nhân mắc vảy nến, quá trình trên diễn ra nhanh gấp 10 lần do hiện tượng tăng sinh tế bào, khiến các tế bào da cũ và mới không kịp thay đổi, tích tụ lại một chỗ tạo thành những mảng dày, có vảy trắng hoặc bạc.
 CONFIDENCE: 0.8381
 --------------------------------
 --------------------------------
 TEST QUESTION: Suy thận
 
-GOLD ANSWER: Suy thận là sự suy giảm các chức năng của thận. Lúc này, thận yếu đi, thậm chí ngừng hoạt động khiến máu không được lọc và chất thải độc hại bị tích trữ trong cơ thể
+GOLD QUESTION: Suy thận là sự suy giảm các chức năng của thận. Lúc này, thận yếu đi, thậm chí ngừng hoạt động khiến máu không được lọc và chất thải độc hại bị tích trữ trong cơ thể
 
-PREDICT ANSWER: Giảm lượng nước tiểu, Phù mắt cá chân, bàn chân, Khó thở không rõ nguyên nhân, Đau hoặc cảm thấy nặng ngực, Buồn ngủ quá mức, mệt mỏi, uể oải, Kém ăn, buồn nôn dai dẳng, nôn, Sụt cân, Ngứa ngáy, Co rút cơ (đặc biệt là ở chân), Co giật, Hôn mê, Thiếu máu (ít xuất hiện)
+PREDICT QUESTION: Giảm lượng nước tiểu, Phù mắt cá chân, bàn chân, Khó thở không rõ nguyên nhân, Đau hoặc cảm thấy nặng ngực, Buồn ngủ quá mức, mệt mỏi, uể oải, Kém ăn, buồn nôn dai dẳng, nôn, Sụt cân, Ngứa ngáy, Co rút cơ (đặc biệt là ở chân), Co giật, Hôn mê, Thiếu máu (ít xuất hiện)
 CONFIDENCE: 0.7758
 --------------------------------
 --------------------------------
 TEST QUESTION: Mày đay điều trị như thế nào?
 
-GOLD ANSWER: Nếu như bạn chỉ có các triệu chứng nhẹ thì không cần thiết phải điều trị. Mề đay và phù mạch thường sẽ tự hết. Tuy nhiên, điều trị có thể cần thiết khi bạn cảm thấy khó chịu và ngứa nhiều. Nếu các triệu chứng nặng hay kéo dài, điều trị thuốc có thể giúp bạn thoải mái hơn.
+GOLD QUESTION: Nếu như bạn chỉ có các triệu chứng nhẹ thì không cần thiết phải điều trị. Mề đay và phù mạch thường sẽ tự hết. Tuy nhiên, điều trị có thể cần thiết khi bạn cảm thấy khó chịu và ngứa nhiều. Nếu các triệu chứng nặng hay kéo dài, điều trị thuốc có thể giúp bạn thoải mái hơn.
 
-PREDICT ANSWER: Hiện nay, bệnh thủy đậu chưa có thuốc đặc trị mà chỉ có các loại thuốc và phương pháp hỗ trợ điều trị. Trong trường hợp bệnh lành tính, người bệnh có thể điều trị thủy đậu tại nhà theo chỉ định của bác sĩ.
+PREDICT QUESTION: Hiện nay, bệnh thủy đậu chưa có thuốc đặc trị mà chỉ có các loại thuốc và phương pháp hỗ trợ điều trị. Trong trường hợp bệnh lành tính, người bệnh có thể điều trị thủy đậu tại nhà theo chỉ định của bác sĩ.
 CONFIDENCE: 0.8716
 --------------------------------
 score: 27 || total: 30
@@ -146,44 +146,44 @@ size: 24/24
 --------------------------------
 TEST QUESTION: viêm đường hô hấp là gì?
 
-GOLD ANSWER: Bệnh hô hấp là bệnh thường gặp ở trẻ em do sức đề kháng yếu hơn người trưởng thành, đặc biệt là khi thời tiết, nhiệt độ thay đổi.
+GOLD QUESTION: Bệnh hô hấp là bệnh thường gặp ở trẻ em do sức đề kháng yếu hơn người trưởng thành, đặc biệt là khi thời tiết, nhiệt độ thay đổi.
 
-PREDICT ANSWER: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
+PREDICT QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
 CONFIDENCE: 0.9714
 --------------------------------
 --------------------------------
 TEST QUESTION: Nguyên nhân gây ra viêm đường hô hấp?
 
-GOLD ANSWER: Có 2 nguyên do chính khiến trẻ dễ mắc bệnh đường hô hấp khi thời tiết giao mùa. Trẻ có thể bị nhiễm mầm bệnh do thời tiết trở lạnh, nhiệt độ hạ thấp tạo điều kiện thuận lợi để virut, vi khuẩn phát triển, sinh sôi nhanh chóng. Bên cạnh đó, trẻ cũng có thể dễ dàng mắc bệnh do nhiễm lạnh hay dị ứng thời tiết. 
+GOLD QUESTION: Có 2 nguyên do chính khiến trẻ dễ mắc bệnh đường hô hấp khi thời tiết giao mùa. Trẻ có thể bị nhiễm mầm bệnh do thời tiết trở lạnh, nhiệt độ hạ thấp tạo điều kiện thuận lợi để virut, vi khuẩn phát triển, sinh sôi nhanh chóng. Bên cạnh đó, trẻ cũng có thể dễ dàng mắc bệnh do nhiễm lạnh hay dị ứng thời tiết. 
 
-PREDICT ANSWER: Do dị ứng với thời tiết và các loại dị nguyên khác nhau. Do các nhóm vi sinh vật gây bệnh bằng cách cư trú ở chất nhầy niêm mạc mũi họng
+PREDICT QUESTION: Do dị ứng với thời tiết và các loại dị nguyên khác nhau. Do các nhóm vi sinh vật gây bệnh bằng cách cư trú ở chất nhầy niêm mạc mũi họng
 CONFIDENCE: 0.9713
 --------------------------------
 --------------------------------
 TEST QUESTION: Vì sao trẻ thường bị viêm đường hô hấp khi trời trở lạnh?
 
-GOLD ANSWER: Khi thời điểm giao mùa, thời tiết và độ ẩm không khí thay đổi thất thường khiến cơ thể không thích ứng kịp.Đây chính là môi trường thuận lợi cho virus, vi khuẩn gây bệnh đường hô hấp hoạt động mạnh, do đó đây là thời điểm bùng phát rất nhiều bệnh đường hô hấp, đặc biệt là các đối tượng có hệ miễn dịch kém như trẻ nhỏ .
+GOLD QUESTION: Khi thời điểm giao mùa, thời tiết và độ ẩm không khí thay đổi thất thường khiến cơ thể không thích ứng kịp.Đây chính là môi trường thuận lợi cho virus, vi khuẩn gây bệnh đường hô hấp hoạt động mạnh, do đó đây là thời điểm bùng phát rất nhiều bệnh đường hô hấp, đặc biệt là các đối tượng có hệ miễn dịch kém như trẻ nhỏ .
 
-PREDICT ANSWER: Vào mùa lạnh, ngày ngắn đêm dài, số giờ có ánh sáng mặt trời trong ngày cũng giảm đi. Đặc biệt là ở các tỉnh phía Bắc có nhiều ngày không nhìn thấy mặt trời. Ánh mặt trời có tia cực tím là một tác nhân rất quan trọng để tiêu diệt các tác nhân vi sinh vật. Vào mùa đông ánh sáng mặt trời ít đi cũng là một lý do nữa làm cho vi sinh vật dễ sinh sôi nảy nở hơn nữa.
+PREDICT QUESTION: Vào mùa lạnh, ngày ngắn đêm dài, số giờ có ánh sáng mặt trời trong ngày cũng giảm đi. Đặc biệt là ở các tỉnh phía Bắc có nhiều ngày không nhìn thấy mặt trời. Ánh mặt trời có tia cực tím là một tác nhân rất quan trọng để tiêu diệt các tác nhân vi sinh vật. Vào mùa đông ánh sáng mặt trời ít đi cũng là một lý do nữa làm cho vi sinh vật dễ sinh sôi nảy nở hơn nữa.
 CONFIDENCE: 0.8486
 --------------------------------
 --------------------------------
 TEST QUESTION: Cha mẹ có nên tự ý mua thuốc cho trẻ không
 
-GOLD ANSWER: Tự ý mua thuốc nên không đúng thuốc , đúng bệnh dẫn đến tình trạng bệnh kéo dài , diễn tiến nặng. Hay việc lạm dụng kháng sinh với một đứa trẻ sẽ làm suy giảm hệ miễn dịch của trẻ, gây rối loạn tiêu hóa, nghiêm trọng hơn gây nên tình trạng kháng thuốc kháng sinh và tác dụng phụ kháng sinh. Gây tổn thương gan thận do sử dụng quá liều. Gây dị ứng, shock phản vệ. Tăng nguy cơ tiêu chảy, táo bón
+GOLD QUESTION: Tự ý mua thuốc nên không đúng thuốc , đúng bệnh dẫn đến tình trạng bệnh kéo dài , diễn tiến nặng. Hay việc lạm dụng kháng sinh với một đứa trẻ sẽ làm suy giảm hệ miễn dịch của trẻ, gây rối loạn tiêu hóa, nghiêm trọng hơn gây nên tình trạng kháng thuốc kháng sinh và tác dụng phụ kháng sinh. Gây tổn thương gan thận do sử dụng quá liều. Gây dị ứng, shock phản vệ. Tăng nguy cơ tiêu chảy, táo bón
 
-PREDICT ANSWER: CDC khuyến cáo, tất cả mọi trẻ em từ 2 tuổi trở lên nên đeo khẩu trang khi ở những nơi công cộng hay tiếp xúc với những người lạ, người đang bị cảm cúm, ho,... Những trẻ khỏe mạnh có thể mang khẩu trang vải, không nhất thiết dùng khẩu trang y tế. Người lớn mua khẩu trang vải cho trẻ phải đảm bảo đúng kích thước, phải che đủ cả mũi, miệng, cằm trẻ. Khẩu trang là “rào chắn” đơn giản giúp ngăn cản các giọt bắn từ đường hô hấp người khác đến trẻ. Những trẻ mắc các bệnh như bệnh xơ nang, ung thư hoặc suy giảm miễn dịch nên tham vấn với nhân viên y tế và nên mang khẩu trang y tế. Bởi việc mang khẩu trang còn được khuyến cáo là vô cùng hữu hiệu để bảo vệ cho những người có yếu tố nguy cơ cao nhiễm Covid-19.
+PREDICT QUESTION: CDC khuyến cáo, tất cả mọi trẻ em từ 2 tuổi trở lên nên đeo khẩu trang khi ở những nơi công cộng hay tiếp xúc với những người lạ, người đang bị cảm cúm, ho,... Những trẻ khỏe mạnh có thể mang khẩu trang vải, không nhất thiết dùng khẩu trang y tế. Người lớn mua khẩu trang vải cho trẻ phải đảm bảo đúng kích thước, phải che đủ cả mũi, miệng, cằm trẻ. Khẩu trang là “rào chắn” đơn giản giúp ngăn cản các giọt bắn từ đường hô hấp người khác đến trẻ. Những trẻ mắc các bệnh như bệnh xơ nang, ung thư hoặc suy giảm miễn dịch nên tham vấn với nhân viên y tế và nên mang khẩu trang y tế. Bởi việc mang khẩu trang còn được khuyến cáo là vô cùng hữu hiệu để bảo vệ cho những người có yếu tố nguy cơ cao nhiễm Covid-19.
 CONFIDENCE: 0.8262
 --------------------------------
 --------------------------------
 TEST QUESTION: Người bệnh nhiễm trùng nặng có biến chứng gì
 
-GOLD ANSWER: Ho liên miên có đờm trong cuống họng. Sốt cao và trong tình trạng mê mang. Nhịp tim đập nhanh hơn bình thường. Khó thở hoặc thở khò khè. Cảm thấy nặng ở đầu và đau tại lòng ngực.
+GOLD QUESTION: Ho liên miên có đờm trong cuống họng. Sốt cao và trong tình trạng mê mang. Nhịp tim đập nhanh hơn bình thường. Khó thở hoặc thở khò khè. Cảm thấy nặng ở đầu và đau tại lòng ngực.
 
-PREDICT ANSWER: Nhiễm trùng da đây là biến chứng nhẹ, không gây nguy hiểm, nhưng nếu bị nhiễm trùng, các bọng nước sẽ to, có mủ, lâu khỏi và có thể để lại sẹo. Nhiễm khuẩn huyết vi khuẩn xâm nhập từ mụn nước vào máu gây nhiễm trùng máu. Viêm phổi, viêm não, viêm tiểu não… đây chính là các biến chứng gây nguy hiểm đến tính mạng hoặc có thể để lại di chứng lâu dài cho người bệnh.
+PREDICT QUESTION: Nhiễm trùng da đây là biến chứng nhẹ, không gây nguy hiểm, nhưng nếu bị nhiễm trùng, các bọng nước sẽ to, có mủ, lâu khỏi và có thể để lại sẹo. Nhiễm khuẩn huyết vi khuẩn xâm nhập từ mụn nước vào máu gây nhiễm trùng máu. Viêm phổi, viêm não, viêm tiểu não… đây chính là các biến chứng gây nguy hiểm đến tính mạng hoặc có thể để lại di chứng lâu dài cho người bệnh.
 CONFIDENCE: 0.819
 --------------------------------
 score: 19 || total: 24
 ==================================
 total_score: 181 || len: 200 || score: 0.905
-time: 378.85095834732056
+time: 765.3960227966309

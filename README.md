@@ -19,10 +19,13 @@ run `python test.py` to test
 
 # Result
 
-levenshtein_distance (stopword min)
+levenshtein_distance (stopword min):(training using pos_tag)
 total_score: 175 || len: 200 || score: 0.875
 time: 23.84418511390686
 
-bert (stopword min)
+bert (stopword min):(training using pos_tag)
 total_score: 181 || len: 200 || score: 0.905
 time: 359.512713432312
+
+total_score: 179 || len: 200 || score: 0.895
+time: 770.0527882575989
