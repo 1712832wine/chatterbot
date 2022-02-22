@@ -76,8 +76,8 @@ class IndexedTextSearch:
             if (statement.in_response_to is not None):
                 continue
 
-            # start compare_statements
             confidence = self.compare_statements(input_statement, statement)
+            # start compare_statements
 
             if confidence > closest_match.confidence:
                 statement.confidence = confidence

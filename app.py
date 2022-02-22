@@ -2,7 +2,7 @@
 
 from flask_cors import CORS
 from flask import Flask, request, jsonify
-
+from google_search import googleSearch
 from trainer import chatbot
 
 app = Flask(__name__)
@@ -16,11 +16,20 @@ def index():
 
 @app.route('/api/messages/send', methods=['POST'])
 def sendmessage():
+    global last_message
     message = request.json['message']
-    response_message = chatbot.get_response(message)
-    print("response_message", response_message)
-    return jsonify({"success": True, "response_message": str(response_message)})
+
+    response = chatbot.get_response(message)
+    response_messages = [{"success": True, "text": response.text}]
+
+    if (response.text == 'Ồ, không phải hả. Sorry nha, Sa ngu ngốc quá.' and last_message):
+        answer = googleSearch(last_message)
+        response_messages.append({"success": True, "text": answer})
+
+    last_message = message
+    return jsonify(response_messages)
 
 
 if __name__ == '__main__':
+    last_message = ''
     app.run(debug=True)

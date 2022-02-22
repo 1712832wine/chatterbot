@@ -3,3 +3,6 @@ underthesea
 sentence-transformers
 flask
 flask_cors
+requests
+bs4
+re

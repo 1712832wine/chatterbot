@@ -2,14 +2,6 @@
 file_name: test_beo_phi.yml
 size: 25/25
 --------------------------------
-TEST QUESTION: BMI là gì?
-
-GOLD QUESTION: Chỉ số cơ thể (BMI) là một chỉ số đơn giản về cân nặng chiều cao, thường được sử dụng để phân loại thừa cân và béo phì ở người trưởng thành. Nó được định nghĩa là trọng lượng của một người tính bằng kg chia cho bình phương chiều cao của mình tính theo mét (kg/m2).
-
-PREDICT QUESTION: Mycoplasma không phải là virus hay vi khuẩn mà là những sinh vật nhỏ có đặc điểm của cả virus và vi khuẩn.
-CONFIDENCE: 0.4428
---------------------------------
---------------------------------
 TEST QUESTION: Béo phì có gây tiểu đường không?
 
 GOLD QUESTION: Béo phì là một trong những nguyên nhân chính gây ra tiểu đường type 2. Béo phì khiến hormon insulin do tuyến tụy tiết ra hoạt động không hiệu quả, không thể giúp tế bào của cơ thể hấp thu đường. Lúc này, tuyến tụy sẽ cố gắng sản sinh nhiều insulin hơn. Nếu tình trạng này kéo dài, việc sản sinh insulin của tuyến tụy sẽ giảm và khi đó bệnh nhân dễ mắc bệnh tiểu đường type 2.
@@ -25,7 +17,7 @@ GOLD QUESTION: Thừa cân, béo phì là nguyên nhân hàng đầu gây gan nh
 PREDICT QUESTION: Khi bạn tăng cân quá mức, các cơ chế hoạt động trong cơ thể như hệ hô hấp, tuần hoàn, miễn dịch cũng bị ảnh hưởng theo và giảm hiệu quả hoạt động. Do đó, làm tăng nguy cơ tích tụ các độc tố trong cơ thể và về lâu dài đây cũng là nguyên nhân gây ung thư.
 CONFIDENCE: 0.8283
 --------------------------------
-score: 22 || total: 25
+score: 23 || total: 25
 ==================================
 ==================================
 file_name: test_covid.yml
@@ -40,14 +32,6 @@ score: 25 || total: 25
 ==================================
 file_name: test_quaibi_taimuihong_thuydau_viemxoang.yml
 size: 31/31
---------------------------------
-TEST QUESTION: Viêm xoang là bệnh gì?
-
-GOLD QUESTION: Xoang là những khoang rỗng chứa khí, nằm trong khối xương sọ, có chức năng làm nhẹ khối xương này và góp phần vào việc phát âm. Niêm mạc xoang có một lớp lông rất mịn, thường xuyên chuyển động để đưa lớp chất nhầy (do niêm mạc tiết ra) về phía lỗ thông ở cửa mũi sau rồi chuyển xuống dạ dày. Hiện tượng này gọi là sự dẫn lưu dịch tiết. Khi sự dẫn lưu bị tắc nghẽn, tình trạng viêm xoang sẽ xảy ra.
-
-PREDICT QUESTION: Viêm xoang (viêm các xoang) là những hốc rỗng, chứa đầy không khí, nằm phía sau xương gò má và trán.Viêm xoang là tình trạng nhiễm trùng của màng niêm mạc lót trong lòng các xoang gây ra bởi vi trùng, siêu vi trùng hay dị ứng dẫn tới phù nề, thu hẹp đường kính các lỗ xoang làm cho mủ và dịch viêm ứ đọng trong xoang do không thoát được ra ngoài gây tình trạng tích tụ chất lỏng hoặc chất nhầy bên trong.
-CONFIDENCE: 0.8738
---------------------------------
 --------------------------------
 TEST QUESTION: Nguyên nhân dẫn đến bệnh viêm xoang?
 
@@ -80,7 +64,7 @@ GOLD QUESTION: Đột ngột biểu hiện sốt, đau mình mẩy. Đau rát h�
 PREDICT QUESTION: Triệu chứng thường thấy nhất là sốt vừa 38 – 39 độ hoặc sốt cao, ớn lạnh, nhức đầu, đau mình mẩy, mệt mỏi, kém ăn. Phản ứng hạch góc hàm di động, ấn đau. Đau họng nhất là khi nuốt, kể cả khi nuốt chất lỏng.
 CONFIDENCE: 0.809
 --------------------------------
-score: 26 || total: 31
+score: 27 || total: 31
 ==================================
 ==================================
 file_name: test_tay_chan_mieng.yml
@@ -185,5 +169,5 @@ CONFIDENCE: 0.819
 --------------------------------
 score: 19 || total: 24
 ==================================
-total_score: 181 || len: 200 || score: 0.905
-time: 765.3960227966309
+total_score: 183 || len: 200 || score: 0.915
+time: 657.705183506012

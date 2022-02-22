@@ -405,7 +405,6 @@ class JaccardSimilarity(Comparator):
 
 
 # ---------------------------------------- #
-
 my_bert = MyBert()
 levenshtein_distance = LevenshteinDistance()
 synset_distance = SynsetDistance()
