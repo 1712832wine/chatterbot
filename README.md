@@ -1,3 +1,5 @@
+# install packages
+pip install -r requirements.txt
 # Setup
 - copy all file and folder in the directory ./custom into chatterbot at directory
 `C:\Users\ASUS\AppData\Local\Programs\Python\Python39\Lib\site-packages\chatterbot`
@@ -19,10 +21,10 @@ run `python test.py` to test
 
 # Result
 
-levenshtein_distance (stopword min):(training using pos_tag)
+levenshtein_distance
 total_score: 175 || len: 200 || score: 0.875
 time: 23.84418511390686
 
-bert (stopword min):(training using pos_tag)
-total_score: 181 || len: 200 || score: 0.905
-time: 359.512713432312
+bert
+total_score: 183 || len: 200 || score: 0.915
+time: 657.705183506012
