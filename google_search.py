@@ -29,6 +29,3 @@ def googleSearch(question):
         return answer
     except:
         return "Xin lỗi không hiểu yêu cầu"
-
-
-print(googleSearch("tôi bị mệt mỏi"))

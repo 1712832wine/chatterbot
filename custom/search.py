@@ -75,7 +75,6 @@ class IndexedTextSearch:
             # you dont need to put statement is answers of question into compare_statements
             if (statement.in_response_to is not None):
                 continue
-
             confidence = self.compare_statements(input_statement, statement)
             # start compare_statements
 
