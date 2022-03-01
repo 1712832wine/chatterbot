@@ -20,7 +20,7 @@ run `python app.py` to run web server, connect API.
 run `python test.py` to test
 
 # Result
-<!-- DEFAULT -->
+### DEFAULT
 levenshtein_distance
 total_score: 173 || len: 200 || score: 0.865
 time: 21.69052529335022
@@ -29,7 +29,7 @@ bert
 total_score: 180 || len: 200 || score: 0.9
 time: 329.67266035079956
 
-<!-- VIETNAMESE CUSTOM 1 (POSTAG DEFAULT + VIETNAMESE TOKEN) -->
+### VIETNAMESE CUSTOM 1 (POSTAG DEFAULT + VIETNAMESE TOKEN)
 
 levenshtein_distance
 total_score: 176 || len: 200 || score: 0.88
