@@ -54,13 +54,13 @@ Quá trình xử lí của Chatterbot
 - remove_stopwords 
 - pos_tag
 - hypernyms
-VD: `'What a beautiful swamp' => 'DT:beautiful JJ:wetland'`
+- VD: `'What a beautiful swamp' => 'DT:beautiful JJ:wetland'`
 => Tìm kiếm tất cả những statement có: `DT:beautiful` hoặc `JJ:wetland`
 #### chatterbot sử dụng các kĩ thuật cho tiếng Việt:
 - tokenizer (whitespace)
 - remove_stopwords
 - stem_words (trả về kí tự đầu của từ đứng liền trước)
-VD: `'thừa cân béo phì là gì' => 't:cân c:béo b:phì'`
+- VD: `'thừa cân béo phì là gì' => 't:cân c:béo b:phì'`
 => Tìm kiếm tất cả những statement có: `t:cân` hoặc `c:béo` hoặc `b:phì`
 ### Nhận xét
 - do đặc điểm ngôn ngữ, quy trình sơ tuyển dành cho tiếng anh là hợp lí. (nltk có hỗ trợ)
