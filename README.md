@@ -49,12 +49,12 @@ Quá trình xử lí của Chatterbot
 
 ## NOTE: 
 ### Ở bước 1 (sơ tuyển):
-chatterbot sử dụng các kĩ thuật cho tiếng anh: 
+#### chatterbot sử dụng các kĩ thuật cho tiếng anh: 
 - tokenizer (whitespace)
 - remove_stopwords 
 - pos_tag
 - hypernyms
-chatterbot sử dụng các kĩ thuật cho tiếng Việt:
+#### chatterbot sử dụng các kĩ thuật cho tiếng Việt:
 - tokenizer (whitespace)
 - remove_stopwords
 - stem_words (trả về kí tự đầu của từ đứng liền trước)
