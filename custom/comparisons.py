@@ -7,7 +7,7 @@ from chatterbot import languages
 from nltk.corpus import wordnet, stopwords
 from sentence_transformers import SentenceTransformer, util
 import string
-from underthesea import word_tokenize, sent_tokenize
+import re
 from nltk.corpus import stopwords
 # Use python-Levenshtein if available
 try:
@@ -29,43 +29,32 @@ class MyBert(Comparator):
     def __init__(self):
         self.bert = SentenceTransformer(
             'sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
-    #self.tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base", use_fast=True)
 
-    def remove_punctuation(self, sentence):
+    def remove_numbers(self, text):
+        result = re.sub(r'\d+', '', text)
+        return result
+
+    def remove_punctuation(self, text):
         translator = str.maketrans('', '', string.punctuation)
-        return sentence.translate(translator)
+        return text.translate(translator)
 
-    def remove_stopwords(self, sentence):
-        word_tokens = word_tokenize(sentence)
-        # stopwords_list = set(stopwords.words('vietnamese'))
-        # filtered_text = [
-        #     word for word in word_tokens if word not in stopwords_list]
-        # # if filtered_text is empty
-        # if filtered_text:
-        #     return ' '.join(filtered_text)
-        # else:
-        return ' '.join(word_tokens)
+    def remove_whitespace(self, text):
+        return " ".join(text.split())
 
-    def get_string_removed_stopswords(self, text):
-        all_tokens = []
-        tokens_stopwords_removed = []
-
-        # Sentence Segmentation using underthesea
-        sentences = []
-        for sentence in sent_tokenize(text.strip().lower()):
-            sentence = self.remove_punctuation(sentence)
-            sentence = self.remove_stopwords(sentence)
-            sentences.append(sentence)
-
-        return ' '.join(sentences)
+    def preprocess(self, text):
+        text = text.strip().lower()
+        text = self.remove_numbers(text)
+        text = self.remove_punctuation(text)
+        text = self.remove_whitespace(text)
+        return text
 
     def compare(self, statement_a, statement_b):
         # encode sentence 1
-        sentence_1 = self.get_string_removed_stopswords(statement_a.text)
+        sentence_1 = self.preprocess(statement_a.text)
         encoded_1 = self.bert.encode(sentence_1)
 
         # encode sentence 2
-        sentence_2 = self.get_string_removed_stopswords(statement_b.text)
+        sentence_2 = self.preprocess(statement_b.text)
         encoded_2 = self.bert.encode(sentence_2)
 
         # get similarity score

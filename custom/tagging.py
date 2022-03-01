@@ -5,6 +5,8 @@ from nltk import pos_tag
 from nltk.data import load as load_data
 from nltk.corpus import wordnet, stopwords
 from nltk.corpus.reader.wordnet import WordNetError
+import re
+from underthesea import sent_tokenize, word_tokenize
 
 
 class PosHypernymTagger(object):
@@ -55,23 +57,6 @@ class PosHypernymTagger(object):
 
         return self.stopwords
 
-    def tokenize_sentence(self, sentence):
-        """
-        Tokenize the provided sentence.
-        """
-        if self.sentence_tokenizer is None:
-            try:
-                self.sentence_tokenizer = load_data('tokenizers/punkt/{language}.pickle'.format(
-                    language=self.language.ENGLISH_NAME.lower()
-                ))
-            except LookupError:
-                # Fall back to English sentence splitting rules if a language is not supported
-                self.sentence_tokenizer = load_data('tokenizers/punkt/{language}.pickle'.format(
-                    language=languages.ENG.ENGLISH_NAME.lower()
-                ))
-
-        return self.sentence_tokenizer.tokenize(sentence)
-
     def stem_words(self, words):
         """
         Return the first character of the word in place of a part-of-speech tag.
@@ -120,30 +105,34 @@ class PosHypernymTagger(object):
 
         return results
 
+    def remove_numbers(self, text):
+        result = re.sub(r'\d+', '', text)
+        return result
+
+    def remove_punctuation(self, text):
+        translator = str.maketrans('', '', string.punctuation)
+        return text.translate(translator)
+
+    def remove_whitespace(self, text):
+        return " ".join(text.split())
+
+    def preprocess(self, text):
+        text = text.strip().lower()
+        text = self.remove_numbers(text)
+        text = self.remove_punctuation(text)
+        text = self.remove_whitespace(text)
+        return text
+
     def get_bigram_pair_string(self, text):
-        """
-        For example:
-        What a beautiful swamp
-
-        becomes:
-
-        DT:beautiful JJ:wetland
-        """
         WORD_INDEX = 0
         POS_INDEX = 1
 
         pos_tags = []
 
-        for sentence in self.tokenize_sentence(text.strip()):
+        text = self.preprocess(text)
+        for sentence in sent_tokenize(text):
 
-            # Remove punctuation
-            if sentence and sentence[-1] in string.punctuation:
-                sentence_with_punctuation_removed = sentence[:-1]
-
-                if sentence_with_punctuation_removed:
-                    sentence = sentence_with_punctuation_removed
-
-            words = sentence.split()
+            words = word_tokenize(sentence, format='text').split(' ')
 
             pos_tags.extend(self.get_pos_tags(words))
 
@@ -154,25 +143,23 @@ class PosHypernymTagger(object):
 
         word_count = len(pos_tags)
 
-        if word_count == 1:
-            all_bigrams.append(
-                pos_tags[0][WORD_INDEX].lower()
-            )
-
-        for index in range(1, word_count):
-            word = pos_tags[index][WORD_INDEX].lower()
-            previous_word_pos = pos_tags[index - 1][POS_INDEX]
-            if word not in self.get_stopwords() and len(word) > 1:
-                bigram = previous_word_pos + ':' + hypernyms[index].lower()
-                high_quality_bigrams.append(bigram)
-                all_bigrams.append(bigram)
+        for index in range(0, word_count):
+            if index == 0:
+                all_bigrams.append(pos_tags[index][WORD_INDEX])
+                high_quality_bigrams.append(pos_tags[index][WORD_INDEX])
             else:
-                bigram = previous_word_pos + ':' + word
-                all_bigrams.append(bigram)
+                word = pos_tags[index][WORD_INDEX]
+                previous_word_pos = pos_tags[index - 1][POS_INDEX]
 
-        # if high_quality_bigrams:
-            # print(all_bigrams)
-        #     all_bigrams = high_quality_bigrams
-            # print(all_bigrams)
+                if word not in self.get_stopwords() and word:
+                    bigram = previous_word_pos + ':' + hypernyms[index]
+                    high_quality_bigrams.append(bigram)
+                    all_bigrams.append(bigram)
+                else:
+                    bigram = previous_word_pos + ':' + word
+                    all_bigrams.append(bigram)
+
+        if high_quality_bigrams:
+            all_bigrams = high_quality_bigrams
 
         return ' '.join(all_bigrams)

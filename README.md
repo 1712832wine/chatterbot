@@ -54,14 +54,17 @@ Quá trình xử lí của Chatterbot
 - remove_stopwords 
 - pos_tag
 - hypernyms
+VD: `'What a beautiful swamp' => 'DT:beautiful JJ:wetland'`
+=> Tìm kiếm tất cả những statement có: `DT:beautiful` hoặc `JJ:wetland`
 #### chatterbot sử dụng các kĩ thuật cho tiếng Việt:
 - tokenizer (whitespace)
 - remove_stopwords
 - stem_words (trả về kí tự đầu của từ đứng liền trước)
-VD: 'thừa cân béo phì là gì' => 't:cân c:béo b:phì'   
+VD: `'thừa cân béo phì là gì' => 't:cân c:béo b:phì'`
+=> Tìm kiếm tất cả những statement có: `t:cân` hoặc `c:béo` hoặc `b:phì`
 ### Nhận xét
 - do đặc điểm ngôn ngữ, quy trình sơ tuyển dành cho tiếng anh là hợp lí. (nltk có hỗ trợ)
 - quy trình sơ tuyển cho tiếng Việt chưa sử dụng nhiều các thao tác xử lí ngôn ngữ tự nhiên dành cho tiếng Việt. Trong quá trình này, nhóm đã thử sử dụng các thao tác xử lí tiếng Việt của underthesea vào, nhưng chưa cho kết quả khả quan. Điều này hợp lí, là do:
-    + do đặc trưng tiếng Việt: có tồn tại từ ghép, việc tokenizer phụ thuộc nhiều vào ngữ cảnh. Các thư viện tokenizer hiện tại chưa tokenizer đúng 100% => nếu tokenizer sai, sẽ dẫn tới nhiều hệ lụy khác (pos_tag sai, remove stopword sai).
+    + do đặc trưng tiếng Việt: có tồn tại từ ghép, nghĩa của từ phụ thuộc nhiều vào ngữ cảnh. Các thao tác như (tokenizer, pos_tag) đã được hỗ trợ, nhưng chưa chính xác 100%
     + nltk chưa hỗ trợ hypernyms cho tiếng Việt
 - Quy trình sơ tuyển hiện tại của chatterbot phụ phụ thuộc nhiều vào trật tự các từ xuất hiện trong câu
