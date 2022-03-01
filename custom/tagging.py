@@ -172,7 +172,7 @@ class PosHypernymTagger(object):
 
         # if high_quality_bigrams:
             # print(all_bigrams)
-            # all_bigrams = high_quality_bigrams
+        #     all_bigrams = high_quality_bigrams
             # print(all_bigrams)
 
         return ' '.join(all_bigrams)

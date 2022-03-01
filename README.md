@@ -20,11 +20,23 @@ run `python app.py` to run web server, connect API.
 run `python test.py` to test
 
 # Result
-
+<!-- DEFAULT -->
 levenshtein_distance
-total_score: 175 || len: 200 || score: 0.875
-time: 23.84418511390686
+total_score: 176 || len: 200 || score: 0.88
+time: 36.98527812957764
 
 bert
-total_score: 183 || len: 200 || score: 0.915
-time: 657.705183506012
+total_score: 179 || len: 200 || score: 0.895
+time: 388.76241278648376
+
+<!-- WITHOUT HYPERNYMS -->
+
+levenshtein_distance
+total_score: 176 || len: 200 || score: 0.88
+time: 29.82931661605835
+
+bert
+total_score: 182 || len: 200 || score: 0.91
+time: 713.4014749526978
+
+<!--  -->
