@@ -21,9 +21,15 @@ run `python test.py` to test
 
 # Result
 DEFAULT: WHITESPACE_TOKENIZER, STEM_WORD
-
 total_score: 181 || len: 200 || score: 0.905
 time: 460.1871769428253
+VIETNAMESE_TOKENIZER, STEM_WORD (CHỌN)
+total_score: 181 || len: 200 || score: 0.905
+time: 470.5328996181488
+VIETNAMESE_TOKENIZER, POSTAG
+total_score: 176 || len: 200 || score: 0.88
+time: 409.40888261795044
+
 
 # Comment
 Quá trình xử lí của Chatterbot

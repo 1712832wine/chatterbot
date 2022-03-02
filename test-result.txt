@@ -33,14 +33,6 @@ score: 25 || total: 25
 file_name: test_quaibi_taimuihong_thuydau_viemxoang.yml
 size: 31/31
 --------------------------------
-TEST QUESTION: Viêm xoang là bệnh gì?
-
-GOLD QUESTION: Xoang là những khoang rỗng chứa khí, nằm trong khối xương sọ, có chức năng làm nhẹ khối xương này và góp phần vào việc phát âm. Niêm mạc xoang có một lớp lông rất mịn, thường xuyên chuyển động để đưa lớp chất nhầy (do niêm mạc tiết ra) về phía lỗ thông ở cửa mũi sau rồi chuyển xuống dạ dày. Hiện tượng này gọi là sự dẫn lưu dịch tiết. Khi sự dẫn lưu bị tắc nghẽn, tình trạng viêm xoang sẽ xảy ra.
-
-PREDICT QUESTION: Viêm xoang (viêm các xoang) là những hốc rỗng, chứa đầy không khí, nằm phía sau xương gò má và trán.Viêm xoang là tình trạng nhiễm trùng của màng niêm mạc lót trong lòng các xoang gây ra bởi vi trùng, siêu vi trùng hay dị ứng dẫn tới phù nề, thu hẹp đường kính các lỗ xoang làm cho mủ và dịch viêm ứ đọng trong xoang do không thoát được ra ngoài gây tình trạng tích tụ chất lỏng hoặc chất nhầy bên trong.
-CONFIDENCE: 0.8738
---------------------------------
---------------------------------
 TEST QUESTION: Nguyên nhân dẫn đến bệnh viêm xoang?
 
 GOLD QUESTION: Những cấu trúc bên trong mũi chèn ép lỗ thông. Nhiễm virus đường hô hấp trên, gây phù nề niêm mạc, nhất là niêm mạc quanh các lỗ thông. Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.
@@ -72,7 +64,7 @@ GOLD QUESTION: Đột ngột biểu hiện sốt, đau mình mẩy. Đau rát h�
 PREDICT QUESTION: Triệu chứng thường thấy nhất là sốt vừa 38 – 39 độ hoặc sốt cao, ớn lạnh, nhức đầu, đau mình mẩy, mệt mỏi, kém ăn. Phản ứng hạch góc hàm di động, ấn đau. Đau họng nhất là khi nuốt, kể cả khi nuốt chất lỏng.
 CONFIDENCE: 0.809
 --------------------------------
-score: 26 || total: 31
+score: 27 || total: 31
 ==================================
 ==================================
 file_name: test_tay_chan_mieng.yml
@@ -140,7 +132,7 @@ TEST QUESTION: viêm đường hô hấp là gì?
 
 GOLD QUESTION: Bệnh hô hấp là bệnh thường gặp ở trẻ em do sức đề kháng yếu hơn người trưởng thành, đặc biệt là khi thời tiết, nhiệt độ thay đổi.
 
-PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
+PREDICT QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
 CONFIDENCE: 0.9714
 --------------------------------
 --------------------------------
@@ -176,6 +168,22 @@ PREDICT QUESTION: Nhiễm trùng da đây là biến chứng nhẹ, không gây 
 CONFIDENCE: 0.819
 --------------------------------
 --------------------------------
+TEST QUESTION: Viêm đường hô hấp trên là gì?
+
+GOLD QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
+
+PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
+CONFIDENCE: 1.0
+--------------------------------
+--------------------------------
+TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp trên thường gặp?
+
+GOLD QUESTION: Cúm, viêm xoang, viêm thanh quản…
+
+PREDICT QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
+CONFIDENCE: 0.9153
+--------------------------------
+--------------------------------
 TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp dưới thường gặp?
 
 GOLD QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
@@ -183,7 +191,7 @@ GOLD QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
 PREDICT QUESTION: Cúm, viêm xoang, viêm thanh quản…
 CONFIDENCE: 0.9237
 --------------------------------
-score: 18 || total: 24
+score: 16 || total: 24
 ==================================
-total_score: 181 || len: 200 || score: 0.905
-time: 460.1871769428253
+total_score: 180 || len: 200 || score: 0.9
+time: 425.67525029182434
