@@ -20,25 +20,10 @@ run `python app.py` to run web server, connect API.
 run `python test.py` to test
 
 # Result
-### DEFAULT
-levenshtein_distance
-total_score: 173 || len: 200 || score: 0.865
-time: 21.69052529335022
+DEFAULT: WHITESPACE_TOKENIZER, STEM_WORD
 
-bert
-total_score: 180 || len: 200 || score: 0.9
-time: 329.67266035079956
-
-### VIETNAMESE CUSTOM 1 (POSTAG DEFAULT + VIETNAMESE TOKEN)
-
-levenshtein_distance
-total_score: 176 || len: 200 || score: 0.88
-time: 20.617034435272217
-
-bert
 total_score: 181 || len: 200 || score: 0.905
-time: 402.98384308815
-
+time: 460.1871769428253
 
 # Comment
 Quá trình xử lí của Chatterbot

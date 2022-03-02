@@ -132,7 +132,7 @@ class PosHypernymTagger(object):
         text = self.preprocess(text)
         for sentence in sent_tokenize(text):
 
-            words = word_tokenize(sentence, format='text').split(' ')
+            words = sentence.split(' ')
 
             pos_tags.extend(self.get_pos_tags(words))
 

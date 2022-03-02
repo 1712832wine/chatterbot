@@ -2,80 +2,32 @@
 file_name: test_beo_phi.yml
 size: 25/25
 --------------------------------
-TEST QUESTION: BMI béo phì là bao nhiêu?
-
-GOLD QUESTION: Một chỉ số BMI lớn hơn hơn hoặc bằng 25 là thừa cân. Một chỉ số BMI lớn hơn hơn hoặc bằng 30 là béo phì.
-
-PREDICT QUESTION: Thừa cân và béo phì được định nghĩa là tích tụ mỡ bất thường hoặc quá mức gây ra suy giảm sức khỏe.
-CONFIDENCE: 0.54
---------------------------------
---------------------------------
-TEST QUESTION: Nguyên nhân gây ra béo phì?
-
-GOLD QUESTION: Nguyên nhân cơ bản của bệnh béo phì và thừa cân là một sự mất cân bằng giữa lượng calo đưa vào và lượng calo tiêu thụ. Trên toàn thế giới, đã gia tăng nhiều loại thực phẩm giàu năng lượng và chất béo; sự gia tăng hoạt động thể chất do tính chất ngày càng ít vận động của nhiều phương thức làm việc, thay đổi phương thức di chuyển và đô thị hóa ngày càng tăng. Những thay đổi trong mô hình hoạt động thể chất và chế độ ăn uống thường là kết quả của những thay đổi môi trường và xã hội liên quan đến phát triển và thiếu các chính sách hỗ trợ trong các lĩnh vực như y tế, nông nghiệp, giao thông, quy hoạch đô thị, môi trường, chế biến thực phẩm, phân phối, tiếp thị và giáo dục.
-
-PREDICT QUESTION: Thủy đậu do virus varicella-zoster gây ra.
-CONFIDENCE: 0.77
---------------------------------
---------------------------------
-TEST QUESTION: cà tím có tác dụng giảm béo không?
-
-GOLD QUESTION: Tại Áo, nhóm chuyên gia Trường đại học Graz đã chứng minh tác dụng khử chất béo của loại cà tím, được thể hiện rõ khi sử dụng cà tím với các thức ăn động vật. Cà tím còn tác dụng chống ứ đọng cholesterol và urê huyết nên rất có lợi trong điều trị các bệnh tim mạch, chứng huyết áp cao, béo phì vì cho năng lượng thấp (ví dụ như cà pháo trong 1kg chỉ cho 24,4 kcalo hay cà bát là 441 kcalo, cà dái dê 454 kcalo), đái tháo đường, thống phong (gout).
-
-PREDICT QUESTION: Theo các nhà khoa học, thành phần có tên gọi curcumin có trong nghệ chính là thành phần giúp ngăn chặn sự phát triển của các mô mỡ bằng cách ngăn chặn sự phát triển của các mạch máu mới, từ đó hạn chế sự hình thành các mô mỡ.
-CONFIDENCE: 0.65
---------------------------------
---------------------------------
 TEST QUESTION: Béo phì có gây tiểu đường không?
 
 GOLD QUESTION: Béo phì là một trong những nguyên nhân chính gây ra tiểu đường type 2. Béo phì khiến hormon insulin do tuyến tụy tiết ra hoạt động không hiệu quả, không thể giúp tế bào của cơ thể hấp thu đường. Lúc này, tuyến tụy sẽ cố gắng sản sinh nhiều insulin hơn. Nếu tình trạng này kéo dài, việc sản sinh insulin của tuyến tụy sẽ giảm và khi đó bệnh nhân dễ mắc bệnh tiểu đường type 2.
 
 PREDICT QUESTION: Trẻ thừa cân béo phì thường có chỉ số thông minh thấp hơn trẻ có cân nặng bình thường. Người lớn bị béo phì có nguy cơ bị Alzheimer cao hơn so với người bình thường.
-CONFIDENCE: 0.71
+CONFIDENCE: 0.8585
 --------------------------------
 --------------------------------
 TEST QUESTION: Béo phì có gây ra gan nhiễm mỡ?
 
 GOLD QUESTION: Thừa cân, béo phì là nguyên nhân hàng đầu gây gan nhiễm mỡ không do rượu. Ước tính, hơn 70% số người béo phì có gan bị nhiễm mỡ. Khi sự vận chuyển chất béo ở gan bị mất cân bằng, chất béo này sẽ tích tụ lại trong tế bào gan và dẫn đến gan bị nhiễm mỡ. Tỷ lệ mắc gan nhiễm mỡ tăng theo chỉ số khối của cơ thể (BMI). Ở những người không béo phì, tỷ lệ gan bị nhiễm mỡ và viêm gan nhiễm mỡ lần lượt là 15% và 3%. Những người béo phì độ I và độ II (tương ứng BMI từ 30 - 39.9 kg/m2) thì tỷ lệ này tương ứng là 5% và 20%. Đặc biệt với những người có BMI ≥40kg/m2 tỷ lệ gan bị nhiễm mỡ tương ứng là 85% và viêm gan nhiễm mỡ là 40%.
 
-PREDICT QUESTION: Bệnh viêm túi mật và sỏi mật thường xảy ra phổ biến ở những người thừa cân. Tuy nhiên, khi giảm cân, đặc biệt là giảm cân cấp tốc hoặc giảm một lượng đáng kể cân nặng có thể khiến bạn dễ bị sỏi mật hơn. Vì vậy, các chuyên gia dinh dưỡng khuyên rằng bạn nên giảm cân với tốc độ khoảng 450g mỗi tuần để giảm thiểu nguy cơ mắc sỏi mật.
-CONFIDENCE: 0.77
+PREDICT QUESTION: Khi bạn tăng cân quá mức, các cơ chế hoạt động trong cơ thể như hệ hô hấp, tuần hoàn, miễn dịch cũng bị ảnh hưởng theo và giảm hiệu quả hoạt động. Do đó, làm tăng nguy cơ tích tụ các độc tố trong cơ thể và về lâu dài đây cũng là nguyên nhân gây ung thư.
+CONFIDENCE: 0.8283
 --------------------------------
-score: 20 || total: 25
+score: 23 || total: 25
 ==================================
 ==================================
 file_name: test_covid.yml
 size: 40/40
---------------------------------
-TEST QUESTION: Tôi có thể tiêm vắc-xin covid nếu mắc bệnh nền không?
-
-GOLD QUESTION: Những người có các bệnh nền có thể tiêm phòng COVID-19 miễn là họ không có Phản ứng dị ứng nghiêm trong hoặc ngay lập tức với vắc-xin ngừa COVID-19 hoặc với bất kỳ thành phần nào của vắc-xin. Tìm hiểu thêm những điều cần lưu ý dành cho người có bệnh nền về việc tiêm chủng Chủng ngừa là một khuyến cáo quan trọng dành cho người trưởng thành ở độ tuổi bất kỳ có các bệnh nền nhất định vì họ có nguy cơ cao mắc bệnh nghiêm trọng do COVID-19. Trang liên quan   Các bệnh nền Những Người Có Nguy Cơ Cao Những Người Bị Dị Ứng 
-
-PREDICT QUESTION: Hiện thời, vắc-xin ngừa COVID-19 của Pfizer-BioNTech là vắc-xin ngừa COVID-19 duy nhất dành cho trẻ em từ 5 đến 17 tuổi. Đối với người lớn từ 18 tuổi trở lên, vắc-xin mRNA COVID-19 (Pfizer-BioNTech hoặc Moderna) được ưu tiên hơn so với vắc-xin ngừa COVID-19 của Johnson & Johnson's Janssen (J&J/Janssen). Mọi vắc-xin ngừa COVID-19 hiện được cho phép và khuyên dùng tại Hoa Kỳ đều an toàn và có hiệu quả. Tuy nhiên, vắc-xin ngừa mRNA COVID-19 được ưu tiên hơn dựa vào phân tích rủi ro-lợi ích đã cập nhật. Mọi người nên biết rằng nguy cơ về các tình trạng hiếm xảy ra gọi là huyết khối kèm hội chứng giảm tiểu cầu (TTS) đã được báo cáo sau khi chủng ngừa bằng vắc-xin COVID-19 của J&J/Janssen. TTS là một tình trạng hiếm gặp nhưng nghiêm trọng liên quan đến việc hình thành máu đông trong các mạch máu lớn và mức tiểu cầu thấp (tế bào máu giúp đông máu). Trong một số tình huống, TTS diễn ra sau khi tiêm chủng đã dẫn tới tử vong. Các ca mắc TTS đã được báo cáo ở cả nam và nữ và ở nhiều độ tuổi từ 18 tuổi trở lên. Mặc dù mọi lứa tuổi và giới tính đều có nguy cơ mắc TTS, nhưng phụ nữ ở độ tuổi 30-49 có nguy cơ cao nhất với khoảng 1 trường hợp xảy ra trên mỗi 100.000 liều đã tiêm. Nguy cơ này không quan sát thấy ở những người đã tiêm vắc-xin COVID-19 của Pfizer-BioNTech hoặc Moderna . Việc tiêm bất kỳ loại vắc-xin ngừa COVID-19 nào sẽ tốt hơn là không tiêm chủng. Tiêm chủng là một công cụ vô cùng quan trọng để giúp ngăn chặn đại dịch. Tìm hiểu thêm về việc tiêm chủng ngừa COVID-19 của bạn, bao gồm cách tìm địa điểm tiêm chủng, điều gì sẽ xảy ra tại cuộc hẹn của quý vị và các vấn đề khác nữa. Trang liên quan Chủng ngừa của quý vị Độ an toàn của vắc-xin COVID-19 Đảm bảo vắc-xin COVID-19 có hiệu qủa
-CONFIDENCE: 0.65
---------------------------------
---------------------------------
-TEST QUESTION: vaccine covid có an toàn không?
-
-GOLD QUESTION: Dù vắc-xin COVID-19 được phát triển nhanh chóng, tất cả các bước đã được thực hiện nhằm đảm bảo chúng an toàn và có hiệu quả;  Phương thức phát triển - Các nhà khoa học đã nỗ lực làm việc nhiều năm để phát triển vắc-xin chống lại các loại vi-rút như loại gây ra bệnh COVID-19. Kiến thức này đã giúp đẩy nhanh tốc độ phát triển ban đầu của vắc-xin ngừa COVID-19 hiện tại. Thử nghiệm lâm sàng - Toàn bộ vắc-xin tại Hoa Kỳ phải trải qua ba giai đoạn thử nghiệm lâm sàng nhằm đảm bảo các vắc-xin đó an toàn và hiệu quả. Trong khi phát triển vắc-xin ngừa COVID-19, các giai đoạn gối lên nhau để đẩy nhanh tiến trình nhưng tất cả các giai đoạn đều đã hoàn thành. Cấp phép hoặc Phê duyệt - Trước khi vắc-xin phổ biến cho mọi người, Cơ quan quản lý thực phẩm và dược phẩm Mỹ (FDA) đánh giá các kết quả phát hiện được từ các thử nghiệm lâm sàng. FDA đã xác định rằng ba loại vắc-xin ngừa COVID-19 đáp ứng các tiêu chuẩn về an toàn và hiệu quả của FDA và đã cấp Giấy phép sử dụng trong trường hợp khẩn cấp (EUA)external icon cho các loại vắc-xin này. Điều này cho phép nhanh chóng phân bổ vắc-xin nhằm kiểm soát đại dịch. Vắc-xin ngừa COVID-19 của Pfizer-BioNTech (COMIRNATY) hiện đã được FDA phê duyệtexternal icon cho những người từ 16 tuổi trở lên. Đọc thêm về vắc-xin ngừa COVID-19 đầu tiên được FDA phê duyệtexternal icon. Sản xuất và phân phối - Chính phủ Hoa Kỳ đã đầu tư nguồn lực lớn để sản xuất và phân phối vắc-xin ngừa COVID-19. Điều này cho phép việc phân phối vắc-xin bắt đầu ngay khi FDA cho phép với mỗi loại vắc-xin. Hệ thống giám sát theo dõi về an toàn khi sử dụng vắc-xin - hoạt động giám sát an toàn của vắc-xin ngừa COVID-19 đã diễn ra nghiêm ngặt nhất và toàn diện nhất trong lịch sử Hoa Kỳ. Hàng trăm triệu người tại Hoa Kỳ đã được tiêm vắc-xin ngừa COVID-19. Thông qua một số hệ thống giám sát, CDC và FDA tiếp tục cung cấp thông tin cập nhật về độ an toàn của các loại vắc-xin này.  Tìm hiểu thêm về việc phát triển vắc-xin COVID-19.
-
-PREDICT QUESTION: Mười triệu liều vắc xin thủy đậu đã được tiêm tại Mỹ và các nghiên cứu tiếp tục chứng minh rằng vắc xin này an toàn. Các phản ứng phụ nghiêm trọng rất hiếm gặp.
-CONFIDENCE: 0.67
---------------------------------
-score: 38 || total: 40
+score: 40 || total: 40
 ==================================
 ==================================
 file_name: test_ha_canxi_mau.yml
 size: 25/25
---------------------------------
-TEST QUESTION: Sự chuyển hóa canxi trong cơ thể diễn ra như thế nào?
-
-GOLD QUESTION: Lượng dự trữ canxi và sự chuyển hóa canxi trong cơ thể được duy trì ổn định phụ thuộc vào 3 yếu tố chính gồm do thức ăn, nước uống đưa vào; hấp thu canxi từ ruột; đào thải qua thận. Do vậy, nhu cầu hàng ngày với một chế độ ăn đầy đủ phải bảo đảm cung cấp khoảng 1.000mg canxi qua đường ăn uống thì có khoảng 200mg canxi sẽ bị đào thải qua đường mật hoặc các dịch tiêu hóa khác. Gần 99% canxi trong cơ thể tập trung ở trong xương, chủ yếu dưới dạng tinh thể Hydroxyapatite. Chỉ còn lại 1% canxi trong xương là tự do trao đổi với dịch ngoài tế bào, do đó luôn sẵn sàng để điều chỉnh nồng độ canxi trong máu ổn định. Nồng độ canxi toàn phần bình thường trong máu thường được duy trì dao động từ 8,8 đến 10,4 mg/dl (2,20 - 2,60mmol/l).
-
-PREDICT QUESTION: Xương dự trữ khoảng 99% lượng canxi trong cơ thể, 1% canxi tự do còn lại đóng vai trò như hệ đệm, có thể điều chỉnh nồng độ canxi trong máu lúc cần thiết bằng cách trao đổi với dịch ngoại bào.
-CONFIDENCE: 0.74
---------------------------------
-score: 24 || total: 25
+score: 25 || total: 25
 ==================================
 ==================================
 file_name: test_quaibi_taimuihong_thuydau_viemxoang.yml
@@ -85,16 +37,32 @@ TEST QUESTION: Viêm xoang là bệnh gì?
 
 GOLD QUESTION: Xoang là những khoang rỗng chứa khí, nằm trong khối xương sọ, có chức năng làm nhẹ khối xương này và góp phần vào việc phát âm. Niêm mạc xoang có một lớp lông rất mịn, thường xuyên chuyển động để đưa lớp chất nhầy (do niêm mạc tiết ra) về phía lỗ thông ở cửa mũi sau rồi chuyển xuống dạ dày. Hiện tượng này gọi là sự dẫn lưu dịch tiết. Khi sự dẫn lưu bị tắc nghẽn, tình trạng viêm xoang sẽ xảy ra.
 
-PREDICT QUESTION: Viêm họng là tình trạng viêm tại tổ chức niêm mạc và dưới niêm mạc ở họng. Bệnh gặp phải ở cả người lớn và trẻ em, trong đó chủ yếu là trẻ em do sức đề kháng kém hơn, bệnh thường xuất hiện vào mùa thu – đông khi thời tiết thay đổi.
-CONFIDENCE: 0.88
+PREDICT QUESTION: Viêm xoang (viêm các xoang) là những hốc rỗng, chứa đầy không khí, nằm phía sau xương gò má và trán.Viêm xoang là tình trạng nhiễm trùng của màng niêm mạc lót trong lòng các xoang gây ra bởi vi trùng, siêu vi trùng hay dị ứng dẫn tới phù nề, thu hẹp đường kính các lỗ xoang làm cho mủ và dịch viêm ứ đọng trong xoang do không thoát được ra ngoài gây tình trạng tích tụ chất lỏng hoặc chất nhầy bên trong.
+CONFIDENCE: 0.8738
 --------------------------------
 --------------------------------
 TEST QUESTION: Nguyên nhân dẫn đến bệnh viêm xoang?
 
 GOLD QUESTION: Những cấu trúc bên trong mũi chèn ép lỗ thông. Nhiễm virus đường hô hấp trên, gây phù nề niêm mạc, nhất là niêm mạc quanh các lỗ thông. Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.
 
-PREDICT QUESTION: Trong gia đình từng có người bị gout thì sẽ di truyền cho bạn. Do uống quá nhiều bia rượu. Do thừa cân, béo phì. Sử dụng quá nhiều thực phẩm chế biến sẵn và thực phẩm giàu chất đạm, purin. Do ảnh hưởng của các loại thuốc kháng sinh gây rối loạn chuyển hóa Axit Uric. Do bị sỏi thận, suy thận
-CONFIDENCE: 0.82
+PREDICT QUESTION: Do vi khuẩn, vi rút, nấm
+CONFIDENCE: 0.8417
+--------------------------------
+--------------------------------
+TEST QUESTION: Dấu hiệu nhận biết bệnh thủy đậu là gì?
+
+GOLD QUESTION: Các triệu chứng phổ biến nhất của bệnh thủy đậu là phát ban, sốt, ho, chóng mặt, nhức đầu, và chán ăn. Ban thường xuất hiện trên da đầu và cơ thể, và sau đó lan lên mặt, cánh tay và chân. Ban thường tạo 200-500 mụn nước gây ngứa thành các cụm liên tiếp. Bệnh kéo dài khoảng 5-10 ngày.
+
+PREDICT QUESTION: Thủy đậu là bệnh truyền nhiễm gây ra bởi virus thuộc họ Herpesviridae có tên khoa học là Varicella Zoster (VZV).Bất cứ ai cũng có khả năng nhiễm virus gây bệnh thủy đậu, đặc biệt là trẻ em. Đối với người lớn, tỷ lệ mắc thủy đậu thấp hơn nhưng vẫn có nhiều ca biến chứng nặng, thậm chí gây tử vong do không có kiến thức phòng ngừa và điều trị bệnh.
+CONFIDENCE: 0.8679
+--------------------------------
+--------------------------------
+TEST QUESTION: Ngứa lỗ tai có bệnh gì không?
+
+GOLD QUESTION: Nếu tình trạng này chỉ xuất hiện một vài ngày thì sẽ không có gì đáng phải lo ngại. Tuy nhiên, nếu bạn cảm thấy bị ngứa tai trong nhiều tháng, thậm chí nhiều năm thì đó lại là triệu chứng không thể xem thường. Có thể liên quan đến bệnh nhiễm trùng tai.
+
+PREDICT QUESTION: Khi bị ngứa tai, bạn cần tìm ra nguyên nhân và điều trị hiệu quả những bệnh lý liên quan. Không ngoáy tai quá sâu, không sử dụng các dụng cụ lấy ráy tai khi chưa được vô trùng. Tránh tiếp xúc với khói bụi, tránh sử dụng tai nghe quá nhiều.
+CONFIDENCE: 0.8036
 --------------------------------
 --------------------------------
 TEST QUESTION: Triệu chứng viêm amydale?
@@ -102,102 +70,94 @@ TEST QUESTION: Triệu chứng viêm amydale?
 GOLD QUESTION: Đột ngột biểu hiện sốt, đau mình mẩy. Đau rát họng, có thể có ho khan hoặc có đờm.
 
 PREDICT QUESTION: Triệu chứng thường thấy nhất là sốt vừa 38 – 39 độ hoặc sốt cao, ớn lạnh, nhức đầu, đau mình mẩy, mệt mỏi, kém ăn. Phản ứng hạch góc hàm di động, ấn đau. Đau họng nhất là khi nuốt, kể cả khi nuốt chất lỏng.
-CONFIDENCE: 0.78
+CONFIDENCE: 0.809
 --------------------------------
-score: 28 || total: 31
+score: 26 || total: 31
 ==================================
 ==================================
 file_name: test_tay_chan_mieng.yml
 size: 25/25
 --------------------------------
-TEST QUESTION: Tại sao trẻ em dễ bị lây nhiễm tay chân miệng?
-
-GOLD QUESTION: Trẻ em có nhiều khả năng bị lây nhiễm và bị bệnh bởi chúng có ít kháng thể hơn người lớn và ít khả năng miễn dịch khi tiếp xúc. Hầu hết người lớn được miễn dịch, nhưng vẫn có trường hợp mắc bệnh ở thanh thiếu niên và người lớn.
-
-PREDICT QUESTION: Là bệnh do siêu vi trùng đường ruột gây ra. Gọi là tay chân miệng vì bệnh có biểu hiện chính là các mụn nước nổi ở vùng tay, chân, miệng.
-CONFIDENCE: 0.7
---------------------------------
---------------------------------
 TEST QUESTION: Cách để phát hiện sớm bệnh tay chân miệng?
 
 GOLD QUESTION: Thời gian ủ bệnh thông thường từ khi nhiễm bệnh tới khi khởi phát triệu chứng là 3 - 7 ngày. Sốt là triệu chứng đầu tiên của bệnh Tay chân miệng, sốt thường kéo dài 24 - 48 giờ.
 
-PREDICT QUESTION: Nguy cơ lây nhiễm bệnh có thể được giảm thiểu bằng việc thực hiện tốt vệ sinh cá nhân và chăm sóc y tế kịp thời cho những trẻ em bị bệnh. Các biện pháp phòng ngừa bao gồm rửa tay thường xuyên với xà phòng, làm sạch môi trường bị ô nhiễm và các vật dụng bẩn, tránh tiếp xúc gần (ôm, hôn, dùng chung đồ dùng…) với trẻ em bị bệnh Tay chân miệng, Không cho trẻ sơ sinh và trẻ em bị bệnh đi mẫu giáo, nhà trẻ, trường học hoặc nơi đông người cho tới khi khỏe hẳn, Theo dõi chặt chẽ tình trạng bệnh và chăm sóc y tế kịp thời nếu trẻ sốt cao, li bì, mất tỉnh táo, Che miệng và mũi khi hắt hơi và ho,...
-CONFIDENCE: 0.79
---------------------------------
---------------------------------
-TEST QUESTION: Triệu chứng bệnh tay chân miệng?
-
-GOLD QUESTION: Sốt, chán ăn, mệt mỏi và thường xuyên bị đau họng. Một hoặc 2 ngày sau khi khởi phát sốt, xuất hiện đau trong miệng, có đốm đỏ như phỏng rộp và sau đó trở thành vết loét. Vết loét thường nằm trên lưỡi, nướu răng (lợi) và niêm mạc má. Phát ban trên da, không ngứa trong 1-2 ngày với những đốm màu đỏ khổng nổi hoặc nổi lên, có khi có rộp da. Ban thường nằm trong lòng bàn tay và lòng bàn chân; cũng có thể xuất hiện trên mông và /hoặc ở cơ quan sinh dục. Người bị bệnh Tay chân miệng có thể không biểu hiện triệu chứng, hoặc có thể chỉ có phát ban hoặc chỉ loét miệng. Trong một số ít trường hợp, bệnh có thể diễn biến nhanh với các triệu chứng về thần kinh, hô hấp và nhanh chóng dẫn đến tử vong.
-
-PREDICT QUESTION: Nguy cơ lây nhiễm bệnh có thể được giảm thiểu bằng việc thực hiện tốt vệ sinh cá nhân và chăm sóc y tế kịp thời cho những trẻ em bị bệnh. Các biện pháp phòng ngừa bao gồm rửa tay thường xuyên với xà phòng, làm sạch môi trường bị ô nhiễm và các vật dụng bẩn, tránh tiếp xúc gần (ôm, hôn, dùng chung đồ dùng…) với trẻ em bị bệnh Tay chân miệng, Không cho trẻ sơ sinh và trẻ em bị bệnh đi mẫu giáo, nhà trẻ, trường học hoặc nơi đông người cho tới khi khỏe hẳn, Theo dõi chặt chẽ tình trạng bệnh và chăm sóc y tế kịp thời nếu trẻ sốt cao, li bì, mất tỉnh táo, Che miệng và mũi khi hắt hơi và ho,...
-CONFIDENCE: 0.79
+PREDICT QUESTION: Kỹ thuật miễn dịch huỳnh quang gián tiếp sử dụng kháng thể đơn dòng kháng EV71 cho kết quả nhanh nhất nhưng giá thành cao.
+CONFIDENCE: 0.8219
 --------------------------------
 --------------------------------
 TEST QUESTION: Có thể bị tay chân miệng nhiều lần không
 
 GOLD QUESTION: Có, người có thể mắc bệnh Tay chân miệng nhiều lần do có nhiều tuýp vi rút khác nhau. Người bệnh chỉ miễn dịch đối với một loại vi rút cụ thể, những lần mắc bệnh khác có thể xảy ra do lây nhiễm một loại vi rút týp khác.
 
-PREDICT QUESTION: Ngoài hai chủng vi rút gây bệnh tay – chân – miệng phổ biến ở trẻ em Việt Nam hiện nay là vi rút EV71 và chủng vi rút Coxsackie A16 còn có hơn 10 chủng vi rút thuộc nhóm vi rút đường ruột (Enterovirus) có thể gây bệnh tay chân miệng cho trẻ. Đây chính là lý do trẻ có thể bị mắc bệnh tay – chân – miệng nhiều lần.
-CONFIDENCE: 0.67
+PREDICT QUESTION: Đa số các trường hợp bệnh sẽ tự khỏi, nhưng nếu bệnh do tác nhân enterovirus 71, một số trẻ có biến chứng rất nguy hiểm là viêm não, viêm cơ tim, viêm màng não. Khi trẻ có biến chứng nếu không điều trị đúng và kịp thời trẻ có thể tử vong trong vài giờ.
+CONFIDENCE: 0.8103
 --------------------------------
 --------------------------------
 TEST QUESTION: Cần bao nhiêu ngày để trẻ hồi phục sau bệnh tay chân miệng
 
 GOLD QUESTION: Thường từ 3 đến 5 ngày sau, trẻ hồi phục hoàn toàn nếu không có biến chứng.
 
-PREDICT QUESTION: Bệnh tay chân miệng thường gặp ở trẻ em dưới 3 tuổi. Tuy nhiên, trong trường hợp bệnh có nhiều người mắc thì người lớn cũng có thể bị. Nhưng người lớn bị thì triệu chứngrất nhẹ và thường thoáng qua, tự khỏi.
-CONFIDENCE: 0.6
+PREDICT QUESTION: Đã có 7 đợt dịch.
+CONFIDENCE: 0.8016
 --------------------------------
-score: 20 || total: 25
+score: 22 || total: 25
 ==================================
 ==================================
 file_name: test_than_dalieu_daumatdo_muntrungca.yml
 size: 30/30
 --------------------------------
-TEST QUESTION: Nguyên nhân gây suy thận là gì?
+TEST QUESTION: Biểu hiện của bệnh vảy nến là gì
 
-GOLD QUESTION: Giảm lưu lượng máu đến thận, Vấn đề đào thải nước tiểu, Các nguyên nhân khác
+GOLD QUESTION: Triệu chứng bệnh vảy nến nói chung là xuất hiện những mảng dày, đỏ được bao phủ bởi các vảy trắng hoặc bạc.
 
-PREDICT QUESTION: Nguyên nhân gây ra tình trạng răng sâu là do một số loại vi khuẩn tạo axit gây ra. Cụ thể là loại Lactobacillus, Streptococcus mutans và các loài Actinomyces. Các vi khuẩn này gây tổn thương cho răng trong môi trường chứa carbohydrate lên men được, điển hình là các loại đường sucrose, fructose và glucose.
-CONFIDENCE: 0.87
+PREDICT QUESTION: Ở trạng thái bình thường, các tế bào da cũ sau khi chết đi sẽ bong ra và được thay thế bởi các tế bào da mới. Nhưng đối với bệnh nhân mắc vảy nến, quá trình trên diễn ra nhanh gấp 10 lần do hiện tượng tăng sinh tế bào, khiến các tế bào da cũ và mới không kịp thay đổi, tích tụ lại một chỗ tạo thành những mảng dày, có vảy trắng hoặc bạc.
+CONFIDENCE: 0.8381
 --------------------------------
 --------------------------------
-TEST QUESTION: Sống được bao lâu khi  mắc bệnh lupus ban đỏ?
+TEST QUESTION: Suy thận
 
-GOLD QUESTION: Việc điều trị chỉ giúp giảm nhẹ các triệu chứng, từ đó bạn có thể sống thêm ít nhất 10 năm, thậm chí cũng có người sống lâu bằng người khỏe mạnh.
+GOLD QUESTION: Suy thận là sự suy giảm các chức năng của thận. Lúc này, thận yếu đi, thậm chí ngừng hoạt động khiến máu không được lọc và chất thải độc hại bị tích trữ trong cơ thể
 
-PREDICT QUESTION: Bệnh nhân lupus ban đỏ phần lớn là từ 15 đến 40 tuổi. Người Mỹ gốc Phi, người Châu Á và người có tổ tiên gốc Tây Ban Nha mắc bệnh nhiều hơn người da trắng.
-CONFIDENCE: 0.62
+PREDICT QUESTION: Giảm lượng nước tiểu, Phù mắt cá chân, bàn chân, Khó thở không rõ nguyên nhân, Đau hoặc cảm thấy nặng ngực, Buồn ngủ quá mức, mệt mỏi, uể oải, Kém ăn, buồn nôn dai dẳng, nôn, Sụt cân, Ngứa ngáy, Co rút cơ (đặc biệt là ở chân), Co giật, Hôn mê, Thiếu máu (ít xuất hiện)
+CONFIDENCE: 0.7758
 --------------------------------
-score: 28 || total: 30
+--------------------------------
+TEST QUESTION: Mày đay điều trị như thế nào?
+
+GOLD QUESTION: Nếu như bạn chỉ có các triệu chứng nhẹ thì không cần thiết phải điều trị. Mề đay và phù mạch thường sẽ tự hết. Tuy nhiên, điều trị có thể cần thiết khi bạn cảm thấy khó chịu và ngứa nhiều. Nếu các triệu chứng nặng hay kéo dài, điều trị thuốc có thể giúp bạn thoải mái hơn.
+
+PREDICT QUESTION: Hiện nay, bệnh thủy đậu chưa có thuốc đặc trị mà chỉ có các loại thuốc và phương pháp hỗ trợ điều trị. Trong trường hợp bệnh lành tính, người bệnh có thể điều trị thủy đậu tại nhà theo chỉ định của bác sĩ.
+CONFIDENCE: 0.8716
+--------------------------------
+score: 27 || total: 30
 ==================================
 ==================================
 file_name: test_viem_duong_ho_hap.yml
 size: 24/24
+--------------------------------
+TEST QUESTION: viêm đường hô hấp là gì?
+
+GOLD QUESTION: Bệnh hô hấp là bệnh thường gặp ở trẻ em do sức đề kháng yếu hơn người trưởng thành, đặc biệt là khi thời tiết, nhiệt độ thay đổi.
+
+PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
+CONFIDENCE: 0.9714
+--------------------------------
 --------------------------------
 TEST QUESTION: Nguyên nhân gây ra viêm đường hô hấp?
 
 GOLD QUESTION: Có 2 nguyên do chính khiến trẻ dễ mắc bệnh đường hô hấp khi thời tiết giao mùa. Trẻ có thể bị nhiễm mầm bệnh do thời tiết trở lạnh, nhiệt độ hạ thấp tạo điều kiện thuận lợi để virut, vi khuẩn phát triển, sinh sôi nhanh chóng. Bên cạnh đó, trẻ cũng có thể dễ dàng mắc bệnh do nhiễm lạnh hay dị ứng thời tiết. 
 
 PREDICT QUESTION: Do dị ứng với thời tiết và các loại dị nguyên khác nhau. Do các nhóm vi sinh vật gây bệnh bằng cách cư trú ở chất nhầy niêm mạc mũi họng
-CONFIDENCE: 0.94
+CONFIDENCE: 0.9713
 --------------------------------
 --------------------------------
 TEST QUESTION: Vì sao trẻ thường bị viêm đường hô hấp khi trời trở lạnh?
 
 GOLD QUESTION: Khi thời điểm giao mùa, thời tiết và độ ẩm không khí thay đổi thất thường khiến cơ thể không thích ứng kịp.Đây chính là môi trường thuận lợi cho virus, vi khuẩn gây bệnh đường hô hấp hoạt động mạnh, do đó đây là thời điểm bùng phát rất nhiều bệnh đường hô hấp, đặc biệt là các đối tượng có hệ miễn dịch kém như trẻ nhỏ .
 
-PREDICT QUESTION: Thông thường bệnh viêm đường hô hấp sẽ có thể tự khỏi trong vòng hai tuần trở lại.
-CONFIDENCE: 0.6
---------------------------------
---------------------------------
-TEST QUESTION: Nguyên nhân nhập viện do viêm phổi khi thời tiết lạnh kéo dài.
-
-GOLD QUESTION: Viêm phổi ở trẻ em là nguyên nhân gây tử vong ở trẻ em hàng đầu trên thế giới.  Do trẻ nhỏ hệ miễm dịch chưa hoàn chỉnh, sức đề kháng kém. Do cha mẹ không có kiến thức về phòng bệnh dẫn đến bệnh nhiễm khuẩn hô hấp cấp. Viêm phổi có thể xuất hiện khi bé đang trong các đợt bệnh đường hô hấp kéo dài như ho hoặc cảm cúm. Dịch nhầy tiết ra trong đường hô hấp trở thành nguồn dinh dưỡng cho vi trùng, chúng sinh sôi, nảy nở. Cha mẹ không  đủ kiến thức về cách nhận biết sớm bệnh viêm phổi ở trẻ nhỏ để đi khám bệnh  , và không biết dấu hiệu  nào viêm phổi nặng phải nhập viện, viêm phổi rất nặng phải nhập viên ngay. Khi bệnh Cha mẹ tự ý mua thuốc cho trẻ uống cho trẻ , dẫn đến tính trạng không giải quyết được bệnh, do không đúng thuốc, sử dụng thuốc không đúng liều lượng, thời gian, không đúng bệnh dẫn đến viêm hô hấ kéo dài hay viêm phổi nặng.
-
-PREDICT QUESTION: Do vi khuẩn, vi rút, nấm
-CONFIDENCE: 0.52
+PREDICT QUESTION: Vào mùa lạnh, ngày ngắn đêm dài, số giờ có ánh sáng mặt trời trong ngày cũng giảm đi. Đặc biệt là ở các tỉnh phía Bắc có nhiều ngày không nhìn thấy mặt trời. Ánh mặt trời có tia cực tím là một tác nhân rất quan trọng để tiêu diệt các tác nhân vi sinh vật. Vào mùa đông ánh sáng mặt trời ít đi cũng là một lý do nữa làm cho vi sinh vật dễ sinh sôi nảy nở hơn nữa.
+CONFIDENCE: 0.8486
 --------------------------------
 --------------------------------
 TEST QUESTION: Cha mẹ có nên tự ý mua thuốc cho trẻ không
@@ -205,25 +165,25 @@ TEST QUESTION: Cha mẹ có nên tự ý mua thuốc cho trẻ không
 GOLD QUESTION: Tự ý mua thuốc nên không đúng thuốc , đúng bệnh dẫn đến tình trạng bệnh kéo dài , diễn tiến nặng. Hay việc lạm dụng kháng sinh với một đứa trẻ sẽ làm suy giảm hệ miễn dịch của trẻ, gây rối loạn tiêu hóa, nghiêm trọng hơn gây nên tình trạng kháng thuốc kháng sinh và tác dụng phụ kháng sinh. Gây tổn thương gan thận do sử dụng quá liều. Gây dị ứng, shock phản vệ. Tăng nguy cơ tiêu chảy, táo bón
 
 PREDICT QUESTION: CDC khuyến cáo, tất cả mọi trẻ em từ 2 tuổi trở lên nên đeo khẩu trang khi ở những nơi công cộng hay tiếp xúc với những người lạ, người đang bị cảm cúm, ho,... Những trẻ khỏe mạnh có thể mang khẩu trang vải, không nhất thiết dùng khẩu trang y tế. Người lớn mua khẩu trang vải cho trẻ phải đảm bảo đúng kích thước, phải che đủ cả mũi, miệng, cằm trẻ. Khẩu trang là “rào chắn” đơn giản giúp ngăn cản các giọt bắn từ đường hô hấp người khác đến trẻ. Những trẻ mắc các bệnh như bệnh xơ nang, ung thư hoặc suy giảm miễn dịch nên tham vấn với nhân viên y tế và nên mang khẩu trang y tế. Bởi việc mang khẩu trang còn được khuyến cáo là vô cùng hữu hiệu để bảo vệ cho những người có yếu tố nguy cơ cao nhiễm Covid-19.
-CONFIDENCE: 0.51
+CONFIDENCE: 0.8262
 --------------------------------
 --------------------------------
 TEST QUESTION: Người bệnh nhiễm trùng nặng có biến chứng gì
 
 GOLD QUESTION: Ho liên miên có đờm trong cuống họng. Sốt cao và trong tình trạng mê mang. Nhịp tim đập nhanh hơn bình thường. Khó thở hoặc thở khò khè. Cảm thấy nặng ở đầu và đau tại lòng ngực.
 
-PREDICT QUESTION: Đa số các trường hợp bệnh sẽ tự khỏi, nhưng nếu bệnh do tác nhân enterovirus 71, một số trẻ có biến chứng rất nguy hiểm là viêm não, viêm cơ tim, viêm màng não. Khi trẻ có biến chứng nếu không điều trị đúng và kịp thời trẻ có thể tử vong trong vài giờ.
-CONFIDENCE: 0.59
+PREDICT QUESTION: Nhiễm trùng da đây là biến chứng nhẹ, không gây nguy hiểm, nhưng nếu bị nhiễm trùng, các bọng nước sẽ to, có mủ, lâu khỏi và có thể để lại sẹo. Nhiễm khuẩn huyết vi khuẩn xâm nhập từ mụn nước vào máu gây nhiễm trùng máu. Viêm phổi, viêm não, viêm tiểu não… đây chính là các biến chứng gây nguy hiểm đến tính mạng hoặc có thể để lại di chứng lâu dài cho người bệnh.
+CONFIDENCE: 0.819
 --------------------------------
 --------------------------------
-TEST QUESTION: Viêm đường hô hấp trên là gì?
+TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp dưới thường gặp?
 
-GOLD QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
+GOLD QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
 
-PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
-CONFIDENCE: 1.0
+PREDICT QUESTION: Cúm, viêm xoang, viêm thanh quản…
+CONFIDENCE: 0.9237
 --------------------------------
 score: 18 || total: 24
 ==================================
-total_score: 176 || len: 200 || score: 0.88
-time: 24.30039358139038
+total_score: 181 || len: 200 || score: 0.905
+time: 460.1871769428253
