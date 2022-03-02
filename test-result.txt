@@ -2,14 +2,6 @@
 file_name: test_beo_phi.yml
 size: 25/25
 --------------------------------
-TEST QUESTION: BMI là gì?
-
-GOLD QUESTION: Chỉ số cơ thể (BMI) là một chỉ số đơn giản về cân nặng chiều cao, thường được sử dụng để phân loại thừa cân và béo phì ở người trưởng thành. Nó được định nghĩa là trọng lượng của một người tính bằng kg chia cho bình phương chiều cao của mình tính theo mét (kg/m2).
-
-PREDICT QUESTION: Dạ, mình là Sa, mình có thể tư vấn y tế. Bạn có thắc mắc gì cứ việc hỏi mình.
-CONFIDENCE: 0.76
---------------------------------
---------------------------------
 TEST QUESTION: BMI béo phì là bao nhiêu?
 
 GOLD QUESTION: Một chỉ số BMI lớn hơn hơn hoặc bằng 25 là thừa cân. Một chỉ số BMI lớn hơn hơn hoặc bằng 30 là béo phì.
@@ -49,7 +41,7 @@ GOLD QUESTION: Thừa cân, béo phì là nguyên nhân hàng đầu gây gan nh
 PREDICT QUESTION: Bệnh viêm túi mật và sỏi mật thường xảy ra phổ biến ở những người thừa cân. Tuy nhiên, khi giảm cân, đặc biệt là giảm cân cấp tốc hoặc giảm một lượng đáng kể cân nặng có thể khiến bạn dễ bị sỏi mật hơn. Vì vậy, các chuyên gia dinh dưỡng khuyên rằng bạn nên giảm cân với tốc độ khoảng 450g mỗi tuần để giảm thiểu nguy cơ mắc sỏi mật.
 CONFIDENCE: 0.77
 --------------------------------
-score: 19 || total: 25
+score: 20 || total: 25
 ==================================
 ==================================
 file_name: test_covid.yml
@@ -231,23 +223,7 @@ GOLD QUESTION: Viêm đường hô hấp trên là một chứng bệnh thườn
 PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
 CONFIDENCE: 1.0
 --------------------------------
---------------------------------
-TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp trên thường gặp?
-
-GOLD QUESTION: Cúm, viêm xoang, viêm thanh quản…
-
-PREDICT QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
-CONFIDENCE: 0.92
---------------------------------
---------------------------------
-TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp dưới thường gặp?
-
-GOLD QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
-
-PREDICT QUESTION: Cúm, viêm xoang, viêm thanh quản…
-CONFIDENCE: 0.92
---------------------------------
-score: 16 || total: 24
+score: 18 || total: 24
 ==================================
-total_score: 173 || len: 200 || score: 0.865
-time: 21.69052529335022
+total_score: 176 || len: 200 || score: 0.88
+time: 24.30039358139038

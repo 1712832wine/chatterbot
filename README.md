@@ -39,6 +39,7 @@ bert
 total_score: 181 || len: 200 || score: 0.905
 time: 402.98384308815
 
+
 # Comment
 Quá trình xử lí của Chatterbot
 
