@@ -29,7 +29,12 @@ time: 470.5328996181488
 VIETNAMESE_TOKENIZER, POSTAG
 total_score: 176 || len: 200 || score: 0.88
 time: 409.40888261795044
-
+VIETNAMESE TOKEN
+total_score: 181 || len: 200 || score: 0.905
+time: 2121.3792390823364
+VIETNAMESE_TOKENIZER,STEM_WORD, REMOVE STOPWORD FIRST
+total_score: 181 || len: 200 || score: 0.905
+time: 416.7927784919739
 
 # Comment
 Quá trình xử lí của Chatterbot

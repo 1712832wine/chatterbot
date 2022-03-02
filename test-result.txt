@@ -119,8 +119,8 @@ TEST QUESTION: Mày đay điều trị như thế nào?
 
 GOLD QUESTION: Nếu như bạn chỉ có các triệu chứng nhẹ thì không cần thiết phải điều trị. Mề đay và phù mạch thường sẽ tự hết. Tuy nhiên, điều trị có thể cần thiết khi bạn cảm thấy khó chịu và ngứa nhiều. Nếu các triệu chứng nặng hay kéo dài, điều trị thuốc có thể giúp bạn thoải mái hơn.
 
-PREDICT QUESTION: Hiện nay, bệnh thủy đậu chưa có thuốc đặc trị mà chỉ có các loại thuốc và phương pháp hỗ trợ điều trị. Trong trường hợp bệnh lành tính, người bệnh có thể điều trị thủy đậu tại nhà theo chỉ định của bác sĩ.
-CONFIDENCE: 0.8716
+PREDICT QUESTION: Bác sỹ sẽ chẩn đoán viêm tai ngoài bằng cách soi tai, lấy mẫu thử của mủ trong tai để xét nghiệm tìm loại vi khuẩn hoặc nấm đã gây ra nhiễm trùng (nếu cần thiết). Viêm tai ngoài được chỉ định điều trị nội khoa gồm thuốc uống trong vòng 5 – 10 ngày và thuốc nhỏ tai trong vòng 10 -14 ngày
+CONFIDENCE: 0.8645
 --------------------------------
 score: 27 || total: 30
 ==================================
@@ -132,7 +132,7 @@ TEST QUESTION: viêm đường hô hấp là gì?
 
 GOLD QUESTION: Bệnh hô hấp là bệnh thường gặp ở trẻ em do sức đề kháng yếu hơn người trưởng thành, đặc biệt là khi thời tiết, nhiệt độ thay đổi.
 
-PREDICT QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
+PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
 CONFIDENCE: 0.9714
 --------------------------------
 --------------------------------
@@ -140,7 +140,7 @@ TEST QUESTION: Nguyên nhân gây ra viêm đường hô hấp?
 
 GOLD QUESTION: Có 2 nguyên do chính khiến trẻ dễ mắc bệnh đường hô hấp khi thời tiết giao mùa. Trẻ có thể bị nhiễm mầm bệnh do thời tiết trở lạnh, nhiệt độ hạ thấp tạo điều kiện thuận lợi để virut, vi khuẩn phát triển, sinh sôi nhanh chóng. Bên cạnh đó, trẻ cũng có thể dễ dàng mắc bệnh do nhiễm lạnh hay dị ứng thời tiết. 
 
-PREDICT QUESTION: Do dị ứng với thời tiết và các loại dị nguyên khác nhau. Do các nhóm vi sinh vật gây bệnh bằng cách cư trú ở chất nhầy niêm mạc mũi họng
+PREDICT QUESTION: Vi rút. Vi khuẩn. Nhiễm nấm. Nhiễm Mycoplasma
 CONFIDENCE: 0.9713
 --------------------------------
 --------------------------------
@@ -152,20 +152,12 @@ PREDICT QUESTION: Vào mùa lạnh, ngày ngắn đêm dài, số giờ có ánh
 CONFIDENCE: 0.8486
 --------------------------------
 --------------------------------
-TEST QUESTION: Cha mẹ có nên tự ý mua thuốc cho trẻ không
-
-GOLD QUESTION: Tự ý mua thuốc nên không đúng thuốc , đúng bệnh dẫn đến tình trạng bệnh kéo dài , diễn tiến nặng. Hay việc lạm dụng kháng sinh với một đứa trẻ sẽ làm suy giảm hệ miễn dịch của trẻ, gây rối loạn tiêu hóa, nghiêm trọng hơn gây nên tình trạng kháng thuốc kháng sinh và tác dụng phụ kháng sinh. Gây tổn thương gan thận do sử dụng quá liều. Gây dị ứng, shock phản vệ. Tăng nguy cơ tiêu chảy, táo bón
-
-PREDICT QUESTION: CDC khuyến cáo, tất cả mọi trẻ em từ 2 tuổi trở lên nên đeo khẩu trang khi ở những nơi công cộng hay tiếp xúc với những người lạ, người đang bị cảm cúm, ho,... Những trẻ khỏe mạnh có thể mang khẩu trang vải, không nhất thiết dùng khẩu trang y tế. Người lớn mua khẩu trang vải cho trẻ phải đảm bảo đúng kích thước, phải che đủ cả mũi, miệng, cằm trẻ. Khẩu trang là “rào chắn” đơn giản giúp ngăn cản các giọt bắn từ đường hô hấp người khác đến trẻ. Những trẻ mắc các bệnh như bệnh xơ nang, ung thư hoặc suy giảm miễn dịch nên tham vấn với nhân viên y tế và nên mang khẩu trang y tế. Bởi việc mang khẩu trang còn được khuyến cáo là vô cùng hữu hiệu để bảo vệ cho những người có yếu tố nguy cơ cao nhiễm Covid-19.
-CONFIDENCE: 0.8262
---------------------------------
---------------------------------
 TEST QUESTION: Người bệnh nhiễm trùng nặng có biến chứng gì
 
 GOLD QUESTION: Ho liên miên có đờm trong cuống họng. Sốt cao và trong tình trạng mê mang. Nhịp tim đập nhanh hơn bình thường. Khó thở hoặc thở khò khè. Cảm thấy nặng ở đầu và đau tại lòng ngực.
 
-PREDICT QUESTION: Nhiễm trùng da đây là biến chứng nhẹ, không gây nguy hiểm, nhưng nếu bị nhiễm trùng, các bọng nước sẽ to, có mủ, lâu khỏi và có thể để lại sẹo. Nhiễm khuẩn huyết vi khuẩn xâm nhập từ mụn nước vào máu gây nhiễm trùng máu. Viêm phổi, viêm não, viêm tiểu não… đây chính là các biến chứng gây nguy hiểm đến tính mạng hoặc có thể để lại di chứng lâu dài cho người bệnh.
-CONFIDENCE: 0.819
+PREDICT QUESTION: Ho nặng, có khi xuất hiện đờm. Sốt. Khó thở. Da có màu xanh. Thở nhanh. Đau ngực. Thở khò khè.
+CONFIDENCE: 0.7888
 --------------------------------
 --------------------------------
 TEST QUESTION: Viêm đường hô hấp trên là gì?
@@ -176,6 +168,14 @@ PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường
 CONFIDENCE: 1.0
 --------------------------------
 --------------------------------
+TEST QUESTION: Nguyên nhân gây ra các bệnh viêm đường hô hấp trên?
+
+GOLD QUESTION: Do dị ứng với thời tiết và các loại dị nguyên khác nhau. Do các nhóm vi sinh vật gây bệnh bằng cách cư trú ở chất nhầy niêm mạc mũi họng
+
+PREDICT QUESTION: Vi rút. Vi khuẩn. Nhiễm nấm. Nhiễm Mycoplasma
+CONFIDENCE: 0.9473
+--------------------------------
+--------------------------------
 TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp trên thường gặp?
 
 GOLD QUESTION: Cúm, viêm xoang, viêm thanh quản…
@@ -183,15 +183,7 @@ GOLD QUESTION: Cúm, viêm xoang, viêm thanh quản…
 PREDICT QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
 CONFIDENCE: 0.9153
 --------------------------------
---------------------------------
-TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp dưới thường gặp?
-
-GOLD QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
-
-PREDICT QUESTION: Cúm, viêm xoang, viêm thanh quản…
-CONFIDENCE: 0.9237
---------------------------------
-score: 16 || total: 24
+score: 17 || total: 24
 ==================================
-total_score: 180 || len: 200 || score: 0.9
-time: 425.67525029182434
+total_score: 181 || len: 200 || score: 0.905
+time: 416.7927784919739
