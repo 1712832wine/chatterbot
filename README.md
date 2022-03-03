@@ -23,7 +23,7 @@ run `python test.py` to test
 DEFAULT: WHITESPACE_TOKENIZER, STEM_WORD
 total_score: 181 || len: 200 || score: 0.905
 time: 460.1871769428253
-VIETNAMESE_TOKENIZER, STEM_WORD (CHỌN)
+VIETNAMESE_TOKENIZER, STEM_WORD
 
 bert
 total_score: 181 || len: 200 || score: 0.905
