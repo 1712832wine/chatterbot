@@ -24,8 +24,15 @@ DEFAULT: WHITESPACE_TOKENIZER, STEM_WORD
 total_score: 181 || len: 200 || score: 0.905
 time: 460.1871769428253
 VIETNAMESE_TOKENIZER, STEM_WORD (CHỌN)
+
+bert
 total_score: 181 || len: 200 || score: 0.905
 time: 470.5328996181488
+
+lavenstein
+total_score: 176 || len: 200 || score: 0.88
+time: 26.294777870178223
+
 VIETNAMESE_TOKENIZER, POSTAG
 total_score: 176 || len: 200 || score: 0.88
 time: 409.40888261795044
