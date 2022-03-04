@@ -1,0 +1,6 @@
+pip install chatterbot
+pip install sentence_transformers
+- Lỗi time:
+vào util/compat.py dòng 264 sửa time.clock thành time.time
+- Lỗi Loader:
+pip install pyyaml==5.4.1
