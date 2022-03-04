@@ -67,3 +67,10 @@ Quá trình xử lí của Chatterbot
     + do đặc trưng tiếng Việt: có tồn tại từ ghép, nghĩa của từ phụ thuộc nhiều vào ngữ cảnh. Các thao tác như (tokenizer, pos_tag) đã được hỗ trợ, nhưng chưa chính xác 100%
     + nltk chưa hỗ trợ hypernyms cho tiếng Việt
 - Quy trình sơ tuyển hiện tại của chatterbot phụ phụ thuộc nhiều vào trật tự các từ xuất hiện trong câu
+
+
+# error
+- Lỗi time:
+vào util/compat.py dòng 264 sửa time.clock thành time.time
+- Lỗi Loader:
+pip install pyyaml==5.4.1
