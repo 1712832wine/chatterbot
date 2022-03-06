@@ -29,6 +29,7 @@ Quá trình xử lí của Chatterbot
 - câu trả lời của statement tương đồng nhất là câu trả lời cần tìm
 
 # Kết quả
+Lần lượt chạy bert, lavenstein với các thao tác sơ loại sau:
 - STEMWORD + WHITESPACE
 BERT  
 total_score: 204 || len: 230 || score: 0.8869565217391304  
