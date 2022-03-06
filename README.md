@@ -41,9 +41,12 @@ time: 131.41271448135376
 BERT  
 total_score: 204 || len: 230 || score: 0.8869565217391304  
 time: 741.7674558162689  
+
 LEVENSTEIN  
 total_score: 193 || len: 230 || score: 0.8391304347826087  
 time: 128.64848518371582  
+
+
 - VIETNAMESE TOKENIZER + POSTAG  
 BERT  
 total_score: 200 || len: 230 || score: 0.8695652173913043  

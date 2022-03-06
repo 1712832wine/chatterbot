@@ -11,9 +11,11 @@ chatbot = ChatBot("chatbot",
                   logic_adapters=[
                       {
                           'import_path': 'chatterbot.logic.BestMatch',
+                          'default_response': 'Xin lỗi tôi không hiểu',
+                          'maximum_similarity_threshold': 0.5
                       }
                   ],
-                  statement_comparison_function=levenshtein_distance,
+                  statement_comparison_function=my_bert,
                   response_selection_method=get_random_response,
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   tagger_language=languages.VIE,
