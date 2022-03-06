@@ -47,7 +47,6 @@ time: 128.64848518371582
 BERT  
 total_score: 200 || len: 230 || score: 0.8695652173913043  
 time: 542.0333981513977  
-
 LEVENSTEIN  
 total_score: 188 || len: 230 || score: 0.8173913043478261  
 time: 126.71137499809265  
