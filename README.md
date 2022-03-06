@@ -29,11 +29,29 @@ Quá trình xử lí của Chatterbot
 - câu trả lời của statement tương đồng nhất là câu trả lời cần tìm
 
 # Kết quả
-STEMWORD + WHITESPACE
+- STEMWORD + WHITESPACE
 BERT  
-total_score: 204 || len: 230 || score: 0.8869565217391304
+total_score: 204 || len: 230 || score: 0.8869565217391304  
 time: 1128.2038204669952  
 LEVENSTEIN  
+total_score: 191 || len: 230 || score: 0.8304347826086956  
+time: 131.41271448135376  
+- VIETNAMESE TOKENIZER + STEMWORD  
+BERT  
+total_score: 204 || len: 230 || score: 0.8869565217391304  
+time: 741.7674558162689  
+LEVENSTEIN  
+total_score: 193 || len: 230 || score: 0.8391304347826087  
+time: 128.64848518371582  
+- VIETNAMESE TOKENIZER + POSTAG  
+BERT  
+total_score: 200 || len: 230 || score: 0.8695652173913043  
+time: 542.0333981513977  
+
+LEVENSTEIN  
+total_score: 188 || len: 230 || score: 0.8173913043478261  
+time: 126.71137499809265  
+
 
 ## NOTE: 
 ### Ở bước 1 (sơ tuyển):

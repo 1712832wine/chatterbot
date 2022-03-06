@@ -2,12 +2,20 @@
 file_name: test_beo_phi.yml
 size: 25/25
 --------------------------------
-TEST QUESTION: BMI béo phì là bao nhiêu?
+TEST QUESTION: béo phì là gì?
 
-GOLD QUESTION: Một chỉ số BMI lớn hơn hơn hoặc bằng 25 là thừa cân. Một chỉ số BMI lớn hơn hơn hoặc bằng 30 là béo phì.
+GOLD QUESTION: Thừa cân và béo phì được định nghĩa là tích tụ mỡ bất thường hoặc quá mức gây ra suy giảm sức khỏe.
 
-PREDICT QUESTION: Thừa cân và béo phì được định nghĩa là tích tụ mỡ bất thường hoặc quá mức gây ra suy giảm sức khỏe.
-CONFIDENCE: 0.54
+PREDICT QUESTION: Bệnh viêm túi mật và sỏi mật thường xảy ra phổ biến ở những người thừa cân. Tuy nhiên, khi giảm cân, đặc biệt là giảm cân cấp tốc hoặc giảm một lượng đáng kể cân nặng có thể khiến bạn dễ bị sỏi mật hơn. Vì vậy, các chuyên gia dinh dưỡng khuyên rằng bạn nên giảm cân với tốc độ khoảng 450g mỗi tuần để giảm thiểu nguy cơ mắc sỏi mật.
+CONFIDENCE: 0.49
+--------------------------------
+--------------------------------
+TEST QUESTION: BMI là gì?
+
+GOLD QUESTION: Chỉ số cơ thể (BMI) là một chỉ số đơn giản về cân nặng chiều cao, thường được sử dụng để phân loại thừa cân và béo phì ở người trưởng thành. Nó được định nghĩa là trọng lượng của một người tính bằng kg chia cho bình phương chiều cao của mình tính theo mét (kg/m2).
+
+PREDICT QUESTION: Triệu chứng của bệnh áp xe phổi?
+CONFIDENCE: 0
 --------------------------------
 --------------------------------
 TEST QUESTION: Nguyên nhân gây ra béo phì?
@@ -41,7 +49,7 @@ GOLD QUESTION: Thừa cân, béo phì là nguyên nhân hàng đầu gây gan nh
 PREDICT QUESTION: Bệnh viêm túi mật và sỏi mật thường xảy ra phổ biến ở những người thừa cân. Tuy nhiên, khi giảm cân, đặc biệt là giảm cân cấp tốc hoặc giảm một lượng đáng kể cân nặng có thể khiến bạn dễ bị sỏi mật hơn. Vì vậy, các chuyên gia dinh dưỡng khuyên rằng bạn nên giảm cân với tốc độ khoảng 450g mỗi tuần để giảm thiểu nguy cơ mắc sỏi mật.
 CONFIDENCE: 0.77
 --------------------------------
-score: 20 || total: 25
+score: 19 || total: 25
 ==================================
 ==================================
 file_name: test_covid.yml
@@ -87,6 +95,14 @@ GOLD QUESTION: Cơn đau không nguy hiểm đến tính mạng. Nhưng hạn ch
 
 PREDICT QUESTION: Đau thần kinh tọa có thể gặp ở bất cứ ai. Tuy nhiên, những yếu tố dưới đây khiến bạn nằm trong đối tượng có nguy cơ cao mắc phải bệnh lý này. Tuổi tác Thông thường, những người bị đau thần kinh tọa sẽ ở độ tuổi 30 đến 50. Tuổi tác liên quan đến sự thay đổi của cột sống nên cũng ảnh hưởng trực tiếp đến bệnh lý này; Nghề nghiệp Người làm công việc thường xuyên phải xoay lưng, quay người, mang vác nặng, lái xe; Béo phì Trọng lượng cơ thể quá lớn có thể tạo căng thẳng cho cột sống, gây nên những thay đổi ở cột sống và dễ dẫn đến đau thần kinh tọa; Lối sống Thường xuyên ngồi một chỗ, ít vận động có nguy cơ cao mắc bệnh hơn những người khác; Mắc bệnh đái tháo đường.
 CONFIDENCE: 0.76
+--------------------------------
+--------------------------------
+TEST QUESTION: Có phải đau lưng là đau thần kinh tọa hay không?
+
+GOLD QUESTION: Trong đau thần kinh tọa, đau lưng là một dấu hiệu bên cạnh triệu chứng cơn đau lan tỏa từ thắt lưng xuống chân. Đau lưng do các nguyên nhân khác thì cơn đau chỉ khu trú ở vùng lưng. Điều quan trọng bạn cần đi khám để chẩn đoán đúng bệnh. Xác định đúng nguyên nhân giúp lựa chọn phương pháp điều trị hiệu quả.
+
+PREDICT QUESTION: Bạn có thể cần nghỉ ngơi và thay đổi các hoạt động cũng như mức độ hoạt động của bạn. Tuy nhiên, nghỉ ngơi quá nhiều, nằm trên giường và ít vận động có thể khiến cơn đau của bạn trở nên tồi tệ hơn và làm chậm quá trình chữa bệnh. Điều quan trọng là duy trì hoạt động càng nhiều càng tốt để giữ cho cơ bắp dẻo dai và khỏe mạnh.
+CONFIDENCE: 0.65
 --------------------------------
 --------------------------------
 TEST QUESTION: Có chữa khỏi bệnh đau thần kinh tọa hay không?
@@ -137,14 +153,6 @@ PREDICT QUESTION: Bệnh lao có thể lây lan từ phổi qua dòng máu tới
 CONFIDENCE: 0.68
 --------------------------------
 --------------------------------
-TEST QUESTION: Sau khi chữa khỏi có thể mắc lại bệnh lao  không?
-
-GOLD QUESTION: Bệnh lao khi đã được chữa khỏi thì vẫn có thể mắc trở lại. Người chữa khỏi bệnh lao có thể tái mắc bệnh thông qua việc lây nhiễm bệnh lại từ người khác vì không có miễn dịch chống lao vĩnh viễn hoặc vi khuẩn lao còn xót lại trong người bệnh. Chính vì vậy, bệnh lao sẽ quay trở lại bất cứ lúc nào trong cuộc sống, vòng đời mỗi con người.
-
-PREDICT QUESTION: Chắc chắn chúng ta có thể “cấm cửa” vi khuẩn lao khi chúng “ gõ cửa” cơ thể chúng ta. Hiện nay nước ta có chương trình tiêm chủng lao mở rộng với trẻ em dưới 5 tuổi. Đây là phương thức phòng bệnh lao hiệu quả nhất. Bên cạnh đó nhiệm vụ phòng tránh lao cũng là trách nhiệm của người bệnh , người chăm sóc bệnh nhân và toàn xã hội với những quy tắc ý tế nghiêm ngặt. Bạn có thể thực hiện lối sống vệ sinh, bổ sung dinh dưỡng để có cơ thể khỏe mạnh, tạo sức đề kháng tốt không cho khuẩn lao có cơ hội phát triển.
-CONFIDENCE: 0.62
---------------------------------
---------------------------------
 TEST QUESTION: Bệnh lao được điều trị ở đâu? 
 
 GOLD QUESTION: Điều trị lao được thực hiện ở tất cả các bệnh viện đa khoa, bệnh viện tuyến tỉnh, bệnh viện khu vực và bệnh viện tuyến trung ương.
@@ -157,8 +165,16 @@ TEST QUESTION: Những ưu tiên gì được hưởng khi điều trị?
 
 GOLD QUESTION: Người mắc bệnh lao hiện được chữa bệnh bằng những hỗ trợ của nhà nước như thuốc chữa lao miễn phí, xét nghiệm theo dõi miễn phí và được bảo hiểm y tế chi trả những khoản phí chữa bệnh. Bên cạnh đó, họ cần nhận thức được trách nhiệm của họ là phải chữa khỏi bệnh để không làm lây bệnh sang những người thân trong gia đình và cộng đồng.
 
-PREDICT QUESTION: Cảm nhận được trong tai mình có tiếng kêu như gió thổi, tiếng huýt sáo, tiếng ve kêu
-CONFIDENCE: 0.55
+PREDICT QUESTION: Nhiễm trùng nấm men có thể được điều trị bằng cách đặt thuốc vào âm đạo hoặc uống thuốc.
+CONFIDENCE: 0.52
+--------------------------------
+--------------------------------
+TEST QUESTION: Động mạch vành có chức năng ra sao?
+
+GOLD QUESTION: Động mạch vành là hệ thống mạch máu có chức năng nuôi dưỡng quả tim. Tuần hoàn động mạch vành là tuần hoàn dinh dưỡng tim. Mỗi quả tim của chúng ta có hai động mạch vành động mạch vành phải và động mạch vành trái, các động mạch vành này xuất phát từ gốc động mạch chủ qua các trung gian là các xoang Valsalva và chạy trên bề mặt quả tim
+
+PREDICT QUESTION: Bệnh cầu thận làm tổn thương các cầu thận, ảnh hưởng đến khả năng hoạt động bình thường của chúng. Thay vì giữ cho protein và các tế bào hồng cầu lưu thông trong máu, các cầu thận khi bị tổn thương sẽ gây rò rỉ hồng cầu, protein vào trong nước tiểu.
+CONFIDENCE: 0.41
 --------------------------------
 --------------------------------
 TEST QUESTION: Bệnh tim mạch do những nguyên nhân nào gây ra?
@@ -192,7 +208,7 @@ GOLD QUESTION: Tăng huyết áp không phải là bệnh thần kinh, không ph
 PREDICT QUESTION: Nguyên nhân bị ghẻ là do rệp, loài vật nhỏ có 8 chân và chỉ được thấy trên kính hiển vi. Rệp cái sẽ đào một đường hầm trong da để đẻ trứng. Những con ve, trứng và chất thải của chúng kích hoạt hệ miễn dịch cơ thể, gây ra các triệu chứng như ngứa, nổi ban đỏ.
 CONFIDENCE: 0.69
 --------------------------------
-score: 16 || total: 30
+score: 15 || total: 30
 ==================================
 ==================================
 file_name: test_quaibi_taimuihong_thuydau_viemxoang.yml
@@ -214,14 +230,22 @@ PREDICT QUESTION: Trong gia đình từng có người bị gout thì sẽ di tr
 CONFIDENCE: 0.82
 --------------------------------
 --------------------------------
+TEST QUESTION: Thủy đậu là bệnh gì?
+
+GOLD QUESTION: Thủy đậu là bệnh truyền nhiễm gây ra bởi virus thuộc họ Herpesviridae có tên khoa học là Varicella Zoster (VZV).Bất cứ ai cũng có khả năng nhiễm virus gây bệnh thủy đậu, đặc biệt là trẻ em. Đối với người lớn, tỷ lệ mắc thủy đậu thấp hơn nhưng vẫn có nhiều ca biến chứng nặng, thậm chí gây tử vong do không có kiến thức phòng ngừa và điều trị bệnh.
+
+PREDICT QUESTION: Bệnh đau mắt đỏ hay còn gọi là viêm kết mạc, là tình trạng kết mạc và lớp màng trong suốt trên bề mặt của nhãn cầu bị viêm nhiễm, tấy đỏ.
+CONFIDENCE: 0.71
+--------------------------------
+--------------------------------
 TEST QUESTION: Triệu chứng viêm amydale?
 
 GOLD QUESTION: Đột ngột biểu hiện sốt, đau mình mẩy. Đau rát họng, có thể có ho khan hoặc có đờm.
 
-PREDICT QUESTION: Triệu chứng thường thấy nhất là sốt vừa 38 – 39 độ hoặc sốt cao, ớn lạnh, nhức đầu, đau mình mẩy, mệt mỏi, kém ăn. Phản ứng hạch góc hàm di động, ấn đau. Đau họng nhất là khi nuốt, kể cả khi nuốt chất lỏng.
-CONFIDENCE: 0.78
+PREDICT QUESTION: Tức ngực, khó thở. Gây mệt mỏi, suy nhược. Thân nhiệt luôn tăng cao không giảm. Cơ thể tiết ra nhiều mồ hôi. Trong một số trường hợp người cao tuổi và có hệ miễn dịch yếu thì nhiệt độ cơ thể sẽ giảm thấp hơn so với nhiệt độ thông thường. Có thể xuất hiện các tình trạng như tiêu chảy, nôn mửa không kiểm soát.
+CONFIDENCE: 0.77
 --------------------------------
-score: 28 || total: 31
+score: 27 || total: 31
 ==================================
 ==================================
 file_name: test_tay_chan_mieng.yml
@@ -255,8 +279,8 @@ TEST QUESTION: Có thể bị tay chân miệng nhiều lần không
 
 GOLD QUESTION: Có, người có thể mắc bệnh Tay chân miệng nhiều lần do có nhiều tuýp vi rút khác nhau. Người bệnh chỉ miễn dịch đối với một loại vi rút cụ thể, những lần mắc bệnh khác có thể xảy ra do lây nhiễm một loại vi rút týp khác.
 
-PREDICT QUESTION: Ngoài hai chủng vi rút gây bệnh tay – chân – miệng phổ biến ở trẻ em Việt Nam hiện nay là vi rút EV71 và chủng vi rút Coxsackie A16 còn có hơn 10 chủng vi rút thuộc nhóm vi rút đường ruột (Enterovirus) có thể gây bệnh tay chân miệng cho trẻ. Đây chính là lý do trẻ có thể bị mắc bệnh tay – chân – miệng nhiều lần.
-CONFIDENCE: 0.67
+PREDICT QUESTION: Tránh các loại nước ép trái cây có nhiều axit như nước cam; kiêng những thực phẩm chua, cay, mặn, nóng để ngăn ngừa tình trạng khó kích ứng niêm mạc miệng; không nên cho trẻ đến những nơi nhiều khói bụi, thiếu vệ sinh sạch sẽ.
+CONFIDENCE: 0.65
 --------------------------------
 --------------------------------
 TEST QUESTION: Cần bao nhiêu ngày để trẻ hồi phục sau bệnh tay chân miệng
@@ -293,6 +317,14 @@ score: 28 || total: 30
 file_name: test_viem_duong_ho_hap.yml
 size: 24/24
 --------------------------------
+TEST QUESTION: viêm đường hô hấp là gì?
+
+GOLD QUESTION: Bệnh hô hấp là bệnh thường gặp ở trẻ em do sức đề kháng yếu hơn người trưởng thành, đặc biệt là khi thời tiết, nhiệt độ thay đổi.
+
+PREDICT QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
+CONFIDENCE: 0.91
+--------------------------------
+--------------------------------
 TEST QUESTION: Nguyên nhân gây ra viêm đường hô hấp?
 
 GOLD QUESTION: Có 2 nguyên do chính khiến trẻ dễ mắc bệnh đường hô hấp khi thời tiết giao mùa. Trẻ có thể bị nhiễm mầm bệnh do thời tiết trở lạnh, nhiệt độ hạ thấp tạo điều kiện thuận lợi để virut, vi khuẩn phát triển, sinh sôi nhanh chóng. Bên cạnh đó, trẻ cũng có thể dễ dàng mắc bệnh do nhiễm lạnh hay dị ứng thời tiết. 
@@ -321,8 +353,8 @@ TEST QUESTION: Cha mẹ có nên tự ý mua thuốc cho trẻ không
 
 GOLD QUESTION: Tự ý mua thuốc nên không đúng thuốc , đúng bệnh dẫn đến tình trạng bệnh kéo dài , diễn tiến nặng. Hay việc lạm dụng kháng sinh với một đứa trẻ sẽ làm suy giảm hệ miễn dịch của trẻ, gây rối loạn tiêu hóa, nghiêm trọng hơn gây nên tình trạng kháng thuốc kháng sinh và tác dụng phụ kháng sinh. Gây tổn thương gan thận do sử dụng quá liều. Gây dị ứng, shock phản vệ. Tăng nguy cơ tiêu chảy, táo bón
 
-PREDICT QUESTION: CDC khuyến cáo, tất cả mọi trẻ em từ 2 tuổi trở lên nên đeo khẩu trang khi ở những nơi công cộng hay tiếp xúc với những người lạ, người đang bị cảm cúm, ho,... Những trẻ khỏe mạnh có thể mang khẩu trang vải, không nhất thiết dùng khẩu trang y tế. Người lớn mua khẩu trang vải cho trẻ phải đảm bảo đúng kích thước, phải che đủ cả mũi, miệng, cằm trẻ. Khẩu trang là “rào chắn” đơn giản giúp ngăn cản các giọt bắn từ đường hô hấp người khác đến trẻ. Những trẻ mắc các bệnh như bệnh xơ nang, ung thư hoặc suy giảm miễn dịch nên tham vấn với nhân viên y tế và nên mang khẩu trang y tế. Bởi việc mang khẩu trang còn được khuyến cáo là vô cùng hữu hiệu để bảo vệ cho những người có yếu tố nguy cơ cao nhiễm Covid-19.
-CONFIDENCE: 0.51
+PREDICT QUESTION: Được. Đó là phương pháp trị liệu cột sống kết hợp với các bài tập vật lý trị liệu và các thiết bị máy móc tối tân nhằm tác động trực tiếp nguyên nhân gây bệnh, giúp chữa lành các cơn đau một cách tự nhiên mà không dùng thuốc hay phẫu thuật.
+CONFIDENCE: 0.52
 --------------------------------
 --------------------------------
 TEST QUESTION: Người bệnh nhiễm trùng nặng có biến chứng gì
@@ -333,22 +365,6 @@ PREDICT QUESTION: Đa số các trường hợp bệnh sẽ tự khỏi, nhưng 
 CONFIDENCE: 0.59
 --------------------------------
 --------------------------------
-TEST QUESTION: Viêm đường hô hấp trên là gì?
-
-GOLD QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
-
-PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
-CONFIDENCE: 1.0
---------------------------------
---------------------------------
-TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp trên thường gặp?
-
-GOLD QUESTION: Cúm, viêm xoang, viêm thanh quản…
-
-PREDICT QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
-CONFIDENCE: 0.92
---------------------------------
---------------------------------
 TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp dưới thường gặp?
 
 GOLD QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
@@ -356,7 +372,7 @@ GOLD QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
 PREDICT QUESTION: Cúm, viêm xoang, viêm thanh quản…
 CONFIDENCE: 0.92
 --------------------------------
-score: 16 || total: 24
+score: 17 || total: 24
 ==================================
-total_score: 190 || len: 230 || score: 0.8260869565217391
-time: 128.09070420265198
+total_score: 188 || len: 230 || score: 0.8173913043478261
+time: 126.71137499809265
