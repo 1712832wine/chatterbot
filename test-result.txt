@@ -22,12 +22,81 @@ score: 23 || total: 25
 ==================================
 file_name: test_covid.yml
 size: 40/40
-score: 40 || total: 40
+--------------------------------
+TEST QUESTION: Nếu tôi đang mang thai mang thai, tôi có thể tiêm vaccine ngừa covid không?
+
+GOLD QUESTION: Có. Khuyến cáo tiêm chủng vắc-xin ngừa COVID-19 dành cho những người đang mang thai, nuôi con bằng sữa mẹ, đang muốn có thai hoặc có thể mang thai trong tương lai. Quý vị nên trao đổi với nhà cung cấp dịch vụ chăm sóc sức khỏe về tiêm chủng COVID-19. Dù việc trao đổi như vậy có thể có ích, nhưng việc này không phải là bắt buộc trước khi thực hiện tiêm chủng. Tìm hiểu thêm về các khuyến nghị về tiêm chủng dành cho người đang mang thai hoặc nuôi con bằng sữa mẹ. Nếu quý vị đang mang thai và đã tiêm phòng COVID-19, chúng tôi khuyến khích quý vị đăng ký sử dụng v-safe, một công cụ trên điện thoại thông minh của CDC chuyên cung cấp các cuộc kiểm tra sức khỏe cá nhân hóa sau khi tiêm vắc-xin.  Hệ thống đăng ký thai kỳ v-safe đã được xây dựng để tập hợp thông tin về sức khỏe của những người mang thai và đã được tiêm vắc-xin COVID-19.
+
+PREDICT QUESTION: Có, rất tiếc là vaccine không thể phòng ngừa bệnh 100%. Vaccine BCG có thể phần nào giúp người lớn phòng ngừa bệnh lao. Tuy nhiên, vaccine này chỉ được chứng minh là phòng ngừa hiệu quả một số loại bệnh lao nghiêm trọng ở trẻ em. Từ năm 2009, vaccine BCG chỉ được tiêm ngừa cho trẻ em có nguy cơ đặc biệt bị nhiễm lao.
+CONFIDENCE: 0.8578
+--------------------------------
+--------------------------------
+TEST QUESTION: vaccine covid có an toàn không?
+
+GOLD QUESTION: Dù vắc-xin COVID-19 được phát triển nhanh chóng, tất cả các bước đã được thực hiện nhằm đảm bảo chúng an toàn và có hiệu quả;  Phương thức phát triển - Các nhà khoa học đã nỗ lực làm việc nhiều năm để phát triển vắc-xin chống lại các loại vi-rút như loại gây ra bệnh COVID-19. Kiến thức này đã giúp đẩy nhanh tốc độ phát triển ban đầu của vắc-xin ngừa COVID-19 hiện tại. Thử nghiệm lâm sàng - Toàn bộ vắc-xin tại Hoa Kỳ phải trải qua ba giai đoạn thử nghiệm lâm sàng nhằm đảm bảo các vắc-xin đó an toàn và hiệu quả. Trong khi phát triển vắc-xin ngừa COVID-19, các giai đoạn gối lên nhau để đẩy nhanh tiến trình nhưng tất cả các giai đoạn đều đã hoàn thành. Cấp phép hoặc Phê duyệt - Trước khi vắc-xin phổ biến cho mọi người, Cơ quan quản lý thực phẩm và dược phẩm Mỹ (FDA) đánh giá các kết quả phát hiện được từ các thử nghiệm lâm sàng. FDA đã xác định rằng ba loại vắc-xin ngừa COVID-19 đáp ứng các tiêu chuẩn về an toàn và hiệu quả của FDA và đã cấp Giấy phép sử dụng trong trường hợp khẩn cấp (EUA)external icon cho các loại vắc-xin này. Điều này cho phép nhanh chóng phân bổ vắc-xin nhằm kiểm soát đại dịch. Vắc-xin ngừa COVID-19 của Pfizer-BioNTech (COMIRNATY) hiện đã được FDA phê duyệtexternal icon cho những người từ 16 tuổi trở lên. Đọc thêm về vắc-xin ngừa COVID-19 đầu tiên được FDA phê duyệtexternal icon. Sản xuất và phân phối - Chính phủ Hoa Kỳ đã đầu tư nguồn lực lớn để sản xuất và phân phối vắc-xin ngừa COVID-19. Điều này cho phép việc phân phối vắc-xin bắt đầu ngay khi FDA cho phép với mỗi loại vắc-xin. Hệ thống giám sát theo dõi về an toàn khi sử dụng vắc-xin - hoạt động giám sát an toàn của vắc-xin ngừa COVID-19 đã diễn ra nghiêm ngặt nhất và toàn diện nhất trong lịch sử Hoa Kỳ. Hàng trăm triệu người tại Hoa Kỳ đã được tiêm vắc-xin ngừa COVID-19. Thông qua một số hệ thống giám sát, CDC và FDA tiếp tục cung cấp thông tin cập nhật về độ an toàn của các loại vắc-xin này.  Tìm hiểu thêm về việc phát triển vắc-xin COVID-19.
+
+PREDICT QUESTION: Có, rất tiếc là vaccine không thể phòng ngừa bệnh 100%. Vaccine BCG có thể phần nào giúp người lớn phòng ngừa bệnh lao. Tuy nhiên, vaccine này chỉ được chứng minh là phòng ngừa hiệu quả một số loại bệnh lao nghiêm trọng ở trẻ em. Từ năm 2009, vaccine BCG chỉ được tiêm ngừa cho trẻ em có nguy cơ đặc biệt bị nhiễm lao.
+CONFIDENCE: 0.7347
+--------------------------------
+--------------------------------
+TEST QUESTION: Tôi cần đợi bao lâu sau khi tiêm vaccine khác trước khi tiêm vaccine covid-19?
+
+GOLD QUESTION: Quý vị có thể tiêm vắc-xin COVID-19 và vắc-xin khác, bao gồm vắc-xin cúm trong cùng một lần đi tiêm. Trải nghiệm với các loại vắc-xin khác cho thấy cách mà cơ thể chúng ta phát triển hàng rào bảo vệ, còn gọi là phản ứng miễn dịch, và các tác dụng phụ có thể xảy ra sau khi tiêm chủng thường giống như khi tiêm chỉ một loại hoặc cùng với các vắc-xin khác.
+
+PREDICT QUESTION: Có, rất tiếc là vaccine không thể phòng ngừa bệnh 100%. Vaccine BCG có thể phần nào giúp người lớn phòng ngừa bệnh lao. Tuy nhiên, vaccine này chỉ được chứng minh là phòng ngừa hiệu quả một số loại bệnh lao nghiêm trọng ở trẻ em. Từ năm 2009, vaccine BCG chỉ được tiêm ngừa cho trẻ em có nguy cơ đặc biệt bị nhiễm lao.
+CONFIDENCE: 0.8293
+--------------------------------
+score: 37 || total: 40
 ==================================
 ==================================
 file_name: test_ha_canxi_mau.yml
 size: 25/25
 score: 25 || total: 25
+==================================
+==================================
+file_name: test_lao_phoi.yml
+size: 30/30
+--------------------------------
+TEST QUESTION: Có phải đau lưng là đau thần kinh tọa hay không?
+
+GOLD QUESTION: Trong đau thần kinh tọa, đau lưng là một dấu hiệu bên cạnh triệu chứng cơn đau lan tỏa từ thắt lưng xuống chân. Đau lưng do các nguyên nhân khác thì cơn đau chỉ khu trú ở vùng lưng. Điều quan trọng bạn cần đi khám để chẩn đoán đúng bệnh. Xác định đúng nguyên nhân giúp lựa chọn phương pháp điều trị hiệu quả.
+
+PREDICT QUESTION: Được. đi bộ với cường độ 50 - 60 bước/phút và trong khoảng thời gian 20 - 30 phút mỗi ngày thì vùng thắt lưng và cơ chân sẽ được tác động lực phù hợp, từ đó giải phóng sự chèn ép lên các dây thần kinh, cải thiện bệnh hiệu quả; Lưu ý Khi đi bộ, cần mang giày và mặc quần áo thoải mái, đồng thời, chuẩn bị nước uống để tránh bị khát. Ngoài ra, không nên cố gắng đi bộ khi cảm thấy mệt, mà có thể nghỉ ngơi tầm 5 phút để lấy lại sức rồi mới tiếp tục đi.
+CONFIDENCE: 0.8483
+--------------------------------
+--------------------------------
+TEST QUESTION: Những bộ phận cơ thể có thể mắc bệnh lao là gì?
+
+GOLD QUESTION: Bệnh lao có thể gặp ở tất cả các bộ phận của cơ thể như lao màng phổi, lao hạch bạch huyết, lao màng não, lao xương khớp, lao màng bụng, lao hệ sinh dịch - tiết niệu, lao ruột, trong đó bệnh lao phổi thường gặp nhất (chiếm 80 – 85%) và là nguồn lây chính cho người xung quanh.
+
+PREDICT QUESTION: Người bị suy giảm miễn dịch như ung thư, nhiễm HIV, Người tiếp xúc trực tiếp với nguồn lây bệnh, nhất là trẻ em; Người mắc các bệnh mạn tính đái tháo đường, loét dạ dày tá tràng, suy thận mãn...; Người nghiện ma túy, rượu, thuốc lá; Người sử dụng thuốc ức chế miễn dịch kéo dài như corticosteroid, hóa chất điều trị ung thư...
+CONFIDENCE: 0.7902
+--------------------------------
+--------------------------------
+TEST QUESTION: Bệnh lao có thể phòng không?
+
+GOLD QUESTION: Chắc chắn chúng ta có thể “cấm cửa” vi khuẩn lao khi chúng “ gõ cửa” cơ thể chúng ta. Hiện nay nước ta có chương trình tiêm chủng lao mở rộng với trẻ em dưới 5 tuổi. Đây là phương thức phòng bệnh lao hiệu quả nhất. Bên cạnh đó nhiệm vụ phòng tránh lao cũng là trách nhiệm của người bệnh , người chăm sóc bệnh nhân và toàn xã hội với những quy tắc ý tế nghiêm ngặt. Bạn có thể thực hiện lối sống vệ sinh, bổ sung dinh dưỡng để có cơ thể khỏe mạnh, tạo sức đề kháng tốt không cho khuẩn lao có cơ hội phát triển.
+
+PREDICT QUESTION: Bệnh lao phổi là căn bệnh nguy hiểm và dễ lây nhiễm. Để phòng tránh bệnh, bạn nên tiêm phòng lao đầy đủ ngay từ nhỏ. Bệnh viện Đa khoa Quốc tế hiện đang cung cấp dịch vụ tiêm phòng lao.
+CONFIDENCE: 0.8396
+--------------------------------
+--------------------------------
+TEST QUESTION: Uống rượu ảnh hưởng đến tim mạch như thế nào?
+
+GOLD QUESTION: Có nhiều người cho rằng nếu bị bệnh tim mạch thì không nên uống rượu dù chỉ một chút rượu cũng không được. Điều này là hoàn toàn sai lầm. Nhiều nghiên cứu chứng minh rằng uống một chút rượu, đặc biệt là rượu vang đỏ trong bữa ăn rất có lợi cho sức khỏe tim mạch. Uống rượu vang đỏ với một lượng vừa phải giúp cải thiện sức khỏe tim mạch do rượu vang đỏ có khả năng Tăng HDL (một loại cholesterol có lợi cho tim mạch do làm giảm xơ vữa động mạch); Giảm huyết áp; Ngăn cản hình thành huyết khối; Ngăn ngừa quá trình xơ vữa động mạch gây ra bởi LDL (loại cholesterol xấu).
+
+PREDICT QUESTION: Có nhiều người cho rằng nếu bị bệnh tim mạch thì không nên uống rượu dù chỉ một chút rượu cũng không được. Điều này là hoàn toàn sai lầm. Nhiều nghiên cứu chứng minh rằng uống một chút rượu, đặc biệt là rượu vang đỏ trong bữa ăn rất có lợi cho sức khỏe tim mạch. Uống rượu vang đỏ với một lượng vừa phải giúp cải thiện sức khỏe tim mạch do rượu vang đỏ có khả nănh Tăng HDL (một loại cholesterol có lợi cho tim mạch do làm giảm xơ vữa động mạch); Giảm huyết áp; Ngăn cản hình thành huyết khối; Ngăn ngừa quá trình xơ vữa động mạch gây ra bởi LDL (loại cholesterol xấu).
+CONFIDENCE: 0.8613
+--------------------------------
+--------------------------------
+TEST QUESTION: Tăng huyết áp do những nguyên nhân nào gây ra?
+
+GOLD QUESTION: Tăng huyết áp không phải là bệnh thần kinh, không phải là do căng thẳng thần kinh. Khoảng 90 – 95% các trường hợp tăng huyết áp không tìm thấy nguyên nhân nhưng có một số yếu tố làm tăng khả năng mắc bệnh tăng huyết áp, các yếu tố này được gọi là yếu tố nguy cơ của bệnh tăng huyết áp.
+
+PREDICT QUESTION: Tăng huyết áp không phải là bệnh thần kinh, không phải là do căng thẳng thần kinh. Khoảng 90 đến 95% các trường hợp tăng huyết áp không tìm thấy nguyên nhân nhưng có một số yếu tố làm tăng khả năng mắc bệnh tăng huyết áp, các yếu tố này được gọi là yếu tố nguy cơ của bệnh tăng huyết áp.
+CONFIDENCE: 0.9433
+--------------------------------
+score: 25 || total: 30
 ==================================
 ==================================
 file_name: test_quaibi_taimuihong_thuydau_viemxoang.yml
@@ -103,8 +172,8 @@ TEST QUESTION: Biểu hiện của bệnh vảy nến là gì
 
 GOLD QUESTION: Triệu chứng bệnh vảy nến nói chung là xuất hiện những mảng dày, đỏ được bao phủ bởi các vảy trắng hoặc bạc.
 
-PREDICT QUESTION: Ở trạng thái bình thường, các tế bào da cũ sau khi chết đi sẽ bong ra và được thay thế bởi các tế bào da mới. Nhưng đối với bệnh nhân mắc vảy nến, quá trình trên diễn ra nhanh gấp 10 lần do hiện tượng tăng sinh tế bào, khiến các tế bào da cũ và mới không kịp thay đổi, tích tụ lại một chỗ tạo thành những mảng dày, có vảy trắng hoặc bạc.
-CONFIDENCE: 0.8381
+PREDICT QUESTION: Biểu hiện của bệnh van hai lá có thể diễn biến tiềm tàng trong nhiều năm mà không gây triệu chứng gì. Tuy nhiên trong thời gian đó, chức năng của tim bị sút giảm dần do gánh nặng gia tăng đối với các buồng tim. Hiện tượng xung huyết ở phổi có thể gây khó thở nhất là khi gắng sức hoặc khi nằm đầu bằng trên giường. Tăng áp lực phổi thường dẫn tới triệu chứng ho kéo dài.Hẹp hai lá gây mệt mỏi và có thể phù quanh mắt cá chân. Đôi khi mệt mỏi là dấu hiệu duy nhất của suy tim do tổn thương van hai lá.
+CONFIDENCE: 0.8843
 --------------------------------
 --------------------------------
 TEST QUESTION: Suy thận
@@ -119,8 +188,8 @@ TEST QUESTION: Mày đay điều trị như thế nào?
 
 GOLD QUESTION: Nếu như bạn chỉ có các triệu chứng nhẹ thì không cần thiết phải điều trị. Mề đay và phù mạch thường sẽ tự hết. Tuy nhiên, điều trị có thể cần thiết khi bạn cảm thấy khó chịu và ngứa nhiều. Nếu các triệu chứng nặng hay kéo dài, điều trị thuốc có thể giúp bạn thoải mái hơn.
 
-PREDICT QUESTION: Hiện nay, bệnh thủy đậu chưa có thuốc đặc trị mà chỉ có các loại thuốc và phương pháp hỗ trợ điều trị. Trong trường hợp bệnh lành tính, người bệnh có thể điều trị thủy đậu tại nhà theo chỉ định của bác sĩ.
-CONFIDENCE: 0.8716
+PREDICT QUESTION: Bác sỹ sẽ chẩn đoán viêm tai ngoài bằng cách soi tai, lấy mẫu thử của mủ trong tai để xét nghiệm tìm loại vi khuẩn hoặc nấm đã gây ra nhiễm trùng (nếu cần thiết). Viêm tai ngoài được chỉ định điều trị nội khoa gồm thuốc uống trong vòng 5 – 10 ngày và thuốc nhỏ tai trong vòng 10 -14 ngày
+CONFIDENCE: 0.8645
 --------------------------------
 score: 27 || total: 30
 ==================================
@@ -140,7 +209,7 @@ TEST QUESTION: Nguyên nhân gây ra viêm đường hô hấp?
 
 GOLD QUESTION: Có 2 nguyên do chính khiến trẻ dễ mắc bệnh đường hô hấp khi thời tiết giao mùa. Trẻ có thể bị nhiễm mầm bệnh do thời tiết trở lạnh, nhiệt độ hạ thấp tạo điều kiện thuận lợi để virut, vi khuẩn phát triển, sinh sôi nhanh chóng. Bên cạnh đó, trẻ cũng có thể dễ dàng mắc bệnh do nhiễm lạnh hay dị ứng thời tiết. 
 
-PREDICT QUESTION: Do dị ứng với thời tiết và các loại dị nguyên khác nhau. Do các nhóm vi sinh vật gây bệnh bằng cách cư trú ở chất nhầy niêm mạc mũi họng
+PREDICT QUESTION: Vi rút. Vi khuẩn. Nhiễm nấm. Nhiễm Mycoplasma
 CONFIDENCE: 0.9713
 --------------------------------
 --------------------------------
@@ -152,20 +221,12 @@ PREDICT QUESTION: Vào mùa lạnh, ngày ngắn đêm dài, số giờ có ánh
 CONFIDENCE: 0.8486
 --------------------------------
 --------------------------------
-TEST QUESTION: Cha mẹ có nên tự ý mua thuốc cho trẻ không
-
-GOLD QUESTION: Tự ý mua thuốc nên không đúng thuốc , đúng bệnh dẫn đến tình trạng bệnh kéo dài , diễn tiến nặng. Hay việc lạm dụng kháng sinh với một đứa trẻ sẽ làm suy giảm hệ miễn dịch của trẻ, gây rối loạn tiêu hóa, nghiêm trọng hơn gây nên tình trạng kháng thuốc kháng sinh và tác dụng phụ kháng sinh. Gây tổn thương gan thận do sử dụng quá liều. Gây dị ứng, shock phản vệ. Tăng nguy cơ tiêu chảy, táo bón
-
-PREDICT QUESTION: CDC khuyến cáo, tất cả mọi trẻ em từ 2 tuổi trở lên nên đeo khẩu trang khi ở những nơi công cộng hay tiếp xúc với những người lạ, người đang bị cảm cúm, ho,... Những trẻ khỏe mạnh có thể mang khẩu trang vải, không nhất thiết dùng khẩu trang y tế. Người lớn mua khẩu trang vải cho trẻ phải đảm bảo đúng kích thước, phải che đủ cả mũi, miệng, cằm trẻ. Khẩu trang là “rào chắn” đơn giản giúp ngăn cản các giọt bắn từ đường hô hấp người khác đến trẻ. Những trẻ mắc các bệnh như bệnh xơ nang, ung thư hoặc suy giảm miễn dịch nên tham vấn với nhân viên y tế và nên mang khẩu trang y tế. Bởi việc mang khẩu trang còn được khuyến cáo là vô cùng hữu hiệu để bảo vệ cho những người có yếu tố nguy cơ cao nhiễm Covid-19.
-CONFIDENCE: 0.8262
---------------------------------
---------------------------------
 TEST QUESTION: Người bệnh nhiễm trùng nặng có biến chứng gì
 
 GOLD QUESTION: Ho liên miên có đờm trong cuống họng. Sốt cao và trong tình trạng mê mang. Nhịp tim đập nhanh hơn bình thường. Khó thở hoặc thở khò khè. Cảm thấy nặng ở đầu và đau tại lòng ngực.
 
-PREDICT QUESTION: Nhiễm trùng da đây là biến chứng nhẹ, không gây nguy hiểm, nhưng nếu bị nhiễm trùng, các bọng nước sẽ to, có mủ, lâu khỏi và có thể để lại sẹo. Nhiễm khuẩn huyết vi khuẩn xâm nhập từ mụn nước vào máu gây nhiễm trùng máu. Viêm phổi, viêm não, viêm tiểu não… đây chính là các biến chứng gây nguy hiểm đến tính mạng hoặc có thể để lại di chứng lâu dài cho người bệnh.
-CONFIDENCE: 0.819
+PREDICT QUESTION: Ho nặng, có khi xuất hiện đờm. Sốt. Khó thở. Da có màu xanh. Thở nhanh. Đau ngực. Thở khò khè.
+CONFIDENCE: 0.7888
 --------------------------------
 --------------------------------
 TEST QUESTION: Viêm đường hô hấp trên là gì?
@@ -183,15 +244,10 @@ GOLD QUESTION: Cúm, viêm xoang, viêm thanh quản…
 PREDICT QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
 CONFIDENCE: 0.9153
 --------------------------------
---------------------------------
-TEST QUESTION: Các bệnh nhiễm trùng đường hô hấp dưới thường gặp?
-
-GOLD QUESTION: Viêm phế quản, viêm tiểu phế quản, viêm phổi…
-
-PREDICT QUESTION: Cúm, viêm xoang, viêm thanh quản…
-CONFIDENCE: 0.9237
---------------------------------
-score: 16 || total: 24
+score: 18 || total: 24
 ==================================
-total_score: 180 || len: 200 || score: 0.9
-time: 425.67525029182434
+total_score: 204 || len: 230 || score: 0.8869565217391304
+time: 614.1756165027618
+
+
+

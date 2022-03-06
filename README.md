@@ -19,25 +19,6 @@ run `python app.py` to run web server, connect API.
 # test.py
 run `python test.py` to test
 
-# Result
-DEFAULT: WHITESPACE_TOKENIZER, STEM_WORD
-total_score: 181 || len: 200 || score: 0.905
-time: 460.1871769428253
-VIETNAMESE_TOKENIZER, STEM_WORD
-
-bert
-total_score: 181 || len: 200 || score: 0.905
-time: 470.5328996181488
-
-lavenstein
-total_score: 176 || len: 200 || score: 0.88
-time: 26.294777870178223
-
-VIETNAMESE_TOKENIZER, POSTAG
-total_score: 176 || len: 200 || score: 0.88
-time: 409.40888261795044
-
-
 # Comment
 Quá trình xử lí của Chatterbot
 
@@ -74,3 +55,7 @@ Quá trình xử lí của Chatterbot
 vào util/compat.py dòng 264 sửa time.clock thành time.time
 - Lỗi Loader:
 pip install pyyaml==5.4.1
+
+
+total_score: 204 || len: 230 || score: 0.8869565217391304
+time: 614.1756165027618
