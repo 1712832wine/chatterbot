@@ -30,32 +30,38 @@ Quá trình xử lí của Chatterbot
 - similarity compare (model so sánh tương đồng, tìm ra statement tương đồng nhất) (bước 2)
 - câu trả lời của statement tương đồng nhất là câu trả lời cần tìm
 
+
+# Data:
+Dataset: test gồm 380 cặp câu (câu hỏi, câu trả lời đúng), trong đó:  
+- 50 cặp không thuộc lĩnh vực y tế (Câu trả lời đúng là "Xin lỗi tôi không hiểu")
+- 330 cặp thuộc các lĩnh vực y tế đã có trong data
+
+
 # Kết quả
 Lần lượt chạy bert, lavenstein với các thao tác sơ loại sau:
+ 
 - STEMWORD + WHITESPACE
-BERT  
-total_score: 204 || len: 230 || score: 0.8869565217391304  
-time: 1128.2038204669952  
-LEVENSTEIN  
-total_score: 191 || len: 230 || score: 0.8304347826086956  
-time: 131.41271448135376  
-- VIETNAMESE TOKENIZER + STEMWORD  
-BERT  
-total_score: 204 || len: 230 || score: 0.8869565217391304  
-time: 741.7674558162689  
 
-LEVENSTEIN  
-total_score: 193 || len: 230 || score: 0.8391304347826087  
-time: 128.64848518371582  
+- VIETNAMESE TOKENIZER + STEMWORD  
+total_score: 268 || len: 380 || score: 0.7052631578947368
+time: 73.86290669441223
+- 112 sai
+=> 90 câu xin lỗi tôi không hiểu
+=> unknown 50/50
+=> 22 sai
+
+total_score: 256 || len: 380 || score: 0.6736842105263158 
+using_google: 99 ||time: 142.20902299880981
+
+
+total_score: 217 || len: 330 || score: 0.6575757575757576 
+using_google: 90 ||time: 198.08188724517822
+data:23 
+
 
 
 - VIETNAMESE TOKENIZER + POSTAG  
-BERT  
-total_score: 200 || len: 230 || score: 0.8695652173913043  
-time: 542.0333981513977  
-LEVENSTEIN  
-total_score: 188 || len: 230 || score: 0.8173913043478261  
-time: 126.71137499809265  
+
 
 
 ## NOTE: 

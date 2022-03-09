@@ -1,0 +1,926 @@
+==================================
+file_name: test_beo_phi.yml
+size: 25/25
+GOOGLE---------------------
+TEST QUESTION: BMI là gì?
+
+GOLD QUESTION: Chỉ số cơ thể (BMI) là một chỉ số đơn giản về cân nặng chiều cao, thường được sử dụng để phân loại thừa cân và béo phì ở người trưởng thành. Nó được định nghĩa là trọng lượng của một người tính bằng kg chia cho bình phương chiều cao của mình tính theo mét (kg/m2).
+
+PREDICT QUESTION: Chỉ số BMI (Body Mass Index) hay còn gọi là chỉ số khối cơ thể, chỉ số thể trọng, là một công cụ thường được sử dụng để đo lượng mỡ trong cơ thể. Chỉ số BMI ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: BMI béo phì là bao nhiêu?
+
+GOLD QUESTION: Một chỉ số BMI lớn hơn hơn hoặc bằng 25 là thừa cân. Một chỉ số BMI lớn hơn hơn hoặc bằng 30 là béo phì.
+
+PREDICT QUESTION: Theo đó, BMI lý tưởng của người Việt Nam là từ 18,5 đến 22,9. Dấu hiệu thừa cân xảy ra khi BMI của bạn lớn hơn 23 và nếu con số đó vượt trên 25, bạn đang béo phì.
+10 thg 9, 2019
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: hiện trạng béo phì?
+
+GOLD QUESTION: Nhìn chung, hơn 10% dân số người trưởng thành trên thế giới là béo phì. Trong năm 2011, hơn 40 triệu trẻ em dưới năm tuổi bị thừa cân. Từng được coi là căn bệnh ở những nước có thu nhập cao, nay thừa cân và béo phì đang gia tăng ở các nước có thu nhập thấp và trung bình, đặc biệt là ở đô thị. Hơn 30 triệu trẻ em thừa cân đang sinh sống tại các nước đang phát triển và 10 triệu người ở các nước phát triển. Thừa cân và béo phì có liên quan đến trường hợp tử vong trên toàn thế giới nhiều hơn ở trường hợp thấp cân. Ví dụ, 65% dân số thế giới sống ở các nước đang thừa cân và béo phì gây tử vong nhiều hơn trường hợp thiếu cân.
+
+PREDICT QUESTION: Béo phì: là tình trạng tích lũy mỡ quá mức và không bình thường tại một vùng cơ thể hay toàn thân đến mức ảnh hưởng tới sức khỏe (theo Tổ chức Y tế Thế giới WHO). Vì vậy khi đánh giá béo phì chúng ta không chỉ tính đến cân nặng mà còn phải quan tâm đến tỉ lệ mỡ cơ thể.
+-------------------------
+DATA---------------------
+TEST QUESTION: Nguyên nhân gây ra béo phì?
+
+GOLD QUESTION: Nguyên nhân cơ bản của bệnh béo phì và thừa cân là một sự mất cân bằng giữa lượng calo đưa vào và lượng calo tiêu thụ. Trên toàn thế giới, đã gia tăng nhiều loại thực phẩm giàu năng lượng và chất béo; sự gia tăng hoạt động thể chất do tính chất ngày càng ít vận động của nhiều phương thức làm việc, thay đổi phương thức di chuyển và đô thị hóa ngày càng tăng. Những thay đổi trong mô hình hoạt động thể chất và chế độ ăn uống thường là kết quả của những thay đổi môi trường và xã hội liên quan đến phát triển và thiếu các chính sách hỗ trợ trong các lĩnh vực như y tế, nông nghiệp, giao thông, quy hoạch đô thị, môi trường, chế biến thực phẩm, phân phối, tiếp thị và giáo dục.
+
+PREDICT QUESTION: Thủy đậu do virus varicella-zoster gây ra.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: cà tím có tác dụng giảm béo không?
+
+GOLD QUESTION: Tại Áo, nhóm chuyên gia Trường đại học Graz đã chứng minh tác dụng khử chất béo của loại cà tím, được thể hiện rõ khi sử dụng cà tím với các thức ăn động vật. Cà tím còn tác dụng chống ứ đọng cholesterol và urê huyết nên rất có lợi trong điều trị các bệnh tim mạch, chứng huyết áp cao, béo phì vì cho năng lượng thấp (ví dụ như cà pháo trong 1kg chỉ cho 24,4 kcalo hay cà bát là 441 kcalo, cà dái dê 454 kcalo), đái tháo đường, thống phong (gout).
+
+PREDICT QUESTION: Mặc dù cà tím không phải là loại rau bổ dưỡng nhất nhưng nó cung cấp cho cơ thể một lượng kali và chất xơ dồi dào. Và chỉ với 25 Calo và ít hơn 1 gam chất béo trong mỗi 100 gram, cà tím là một thực phẩm không thể thiếu trong những chế độ ăn giảm béo, miễn là chúng không được xào với nhiều dầu.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Thiếu ngủ có gây tăng cân không?
+
+GOLD QUESTION: Một cách gián tiếp là có. Tuy nhiên không phải là một vài người thức một vài đêm là lập tức họ sẽ tăng cân. Quá trình tăng cân sẽ diễn ra từ từ, ban đầu là những ảnh hưởng của việc không ngủ đối với cơ thể bạn như làm cho bạn mệt mỏi vào buổi sáng hôm sau, cảm thấy ít năng lượng để tập thể dục và không mong muốn tập thể dục. Thứ hai, việc cơ thể mệt mỏi do thiếu ngủ có ảnh hưởng đến hormone kiểm soát sự thèm ăn và lượng đường trong máu. Thứ ba, thức nhiều giờ hơn sẽ tăng khả năng tiêu thụ nhiều thức ăn hơn.
+
+PREDICT QUESTION: Rối loạn giấc ngủ sẽ làm tăng lượng hoóc môn Ghrelin và Leptin có tác dụng kích thích thèm ăn, làm tăng quá trình sản xuất chất béo và làm tăng cân. Vì vậy có bạn chỉ ngủ khoảng năm giờ mỗi đêm và khi bắt đầu ngủ lại được bảy hoặc tám giờ sẽ thấy giảm cân và sức khỏe được cải thiện.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Béo phì gây rối loạn lipid máu?
+
+GOLD QUESTION: Một trong những rủi ro lớn của tình trạng thừa cân là làm tăng mức độ chất béo trung tính và cholesterol xấu (LDL), giảm cholesterol tốt (HDL) trong cơ thể. Nồng độ của các thành phần mỡ trong máu như cholesterol, triglycerin, tổng lượng mỡ trong huyết tương vượt quá tiêu chuẩn bình thường. Điều này cho thấy việc trao đổi mỡ bị rối loạn. Mức LDL cao và HDL thấp là nguyên nhân chính gây xơ vữa động mạch, làm thu hẹp các mạch máu, dễ dẫn đến bệnh tim mạch.
+
+PREDICT QUESTION: Sinh lý bệnh của rối loạn lipid máu điển hình quan sát thấy ở bệnh béo phì là đa yếu tố và bao gồm sản xuất quá mức VLDL (lipoprotein tỉ trọng rất thấp) ở gan, giảm tuần hoàn máu lipid trung tính và khóa axit béo tự do ngoại biên bị suy yếu, tăng axit béo tự do từ tế bào mỡ đến gan và các mô khác và sự hình thành của ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Béo phì có gây tiểu đường không?
+
+GOLD QUESTION: Béo phì là một trong những nguyên nhân chính gây ra tiểu đường type 2. Béo phì khiến hormon insulin do tuyến tụy tiết ra hoạt động không hiệu quả, không thể giúp tế bào của cơ thể hấp thu đường. Lúc này, tuyến tụy sẽ cố gắng sản sinh nhiều insulin hơn. Nếu tình trạng này kéo dài, việc sản sinh insulin của tuyến tụy sẽ giảm và khi đó bệnh nhân dễ mắc bệnh tiểu đường type 2.
+
+PREDICT QUESTION: Béo phì là một trong những nguyên nhân hàng đầu khiến cho bệnh nhân dễ dàng mắc bệnh tiểu đường do kháng insulin. Lượng mỡ trong cơ thể người béo phì quá nhiều làm việc chuyển hóa đường trở nên phức tạp và khó khăn hơn.
+-------------------------
+DATA---------------------
+TEST QUESTION: Béo phì có gây ra gan nhiễm mỡ?
+
+GOLD QUESTION: Thừa cân, béo phì là nguyên nhân hàng đầu gây gan nhiễm mỡ không do rượu. Ước tính, hơn 70% số người béo phì có gan bị nhiễm mỡ. Khi sự vận chuyển chất béo ở gan bị mất cân bằng, chất béo này sẽ tích tụ lại trong tế bào gan và dẫn đến gan bị nhiễm mỡ. Tỷ lệ mắc gan nhiễm mỡ tăng theo chỉ số khối của cơ thể (BMI). Ở những người không béo phì, tỷ lệ gan bị nhiễm mỡ và viêm gan nhiễm mỡ lần lượt là 15% và 3%. Những người béo phì độ I và độ II (tương ứng BMI từ 30 - 39.9 kg/m2) thì tỷ lệ này tương ứng là 5% và 20%. Đặc biệt với những người có BMI ≥40kg/m2 tỷ lệ gan bị nhiễm mỡ tương ứng là 85% và viêm gan nhiễm mỡ là 40%.
+
+PREDICT QUESTION: Bệnh viêm túi mật và sỏi mật thường xảy ra phổ biến ở những người thừa cân. Tuy nhiên, khi giảm cân, đặc biệt là giảm cân cấp tốc hoặc giảm một lượng đáng kể cân nặng có thể khiến bạn dễ bị sỏi mật hơn. Vì vậy, các chuyên gia dinh dưỡng khuyên rằng bạn nên giảm cân với tốc độ khoảng 450g mỗi tuần để giảm thiểu nguy cơ mắc sỏi mật.
+-------------------------
+score: 16 || total: 25
+==================================
+==================================
+file_name: test_covid.yml
+size: 40/40
+GOOGLE---------------------
+TEST QUESTION: Virus corona nguy hiểm với những người nào? 
+
+GOLD QUESTION: Mong mỏi về cuộc sống sẽ sớm trở lại “bình thường”, cả thế giới đang cùng hướng về vaccine Covid-19, vũ khí sắc bén có thể chấm dứt được “đại dịch”. Tuy nhiên, việc sản xuất vắc xin không thể một sớm một chiều, trước đó cần phải chủ động phòng tránh bệnh. Bác sĩ Trương Hữu Khanh cảnh báo  “Virus corona chủng mới 2019-nCoV đặc biệt nguy hiểm với những người có hệ miễn dịch yếu, người lớn tuổi, người mắc các bệnh lý nền mãn tính và trẻ em. Những đối tượng này có khả năng lây nhiễm cao, khó điều trị và bệnh cảnh diễn tiến nhanh, gây nguy hiểm cho tính mạng. Đặc biệt, virus cực kỳ nguy hiểm cho phụ nữ có thai. Khi phụ nữ mang thai mắc bệnh sẽ để lại những hậu quả đặc biệt nghiêm trọng. Mức độ nguy hiểm của bệnh này với phụ nữ có thai tương tự như mức độ của dịch bệnh MERS năm 2014”.
+
+PREDICT QUESTION: Virus này có xu hướng gây nhiều biến chứng nghiêm trọng hơn ở người trung niên và lớn tuổi. Nguy cơ phát triển các triệu chứng nguy hiểm tăng theo tuổi tác, với ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Đeo khẩu trang ở nơi công cộng có đủ để phòng ngừa lây nhiễm corona?
+
+GOLD QUESTION: Covid-19 đã bùng phát trở lại và tăng đột biến vào mùa hè vừa qua khiến khẩu trang trở thành một vật dụng thiết yếu được sử dụng phổ biến ở Mỹ, Pháp, Anh,... - những quốc gia trước giờ không có thói quen “che mặt”. Một chuyên gia về bệnh truyền nhiễm hàng đầu và Bộ y tế Singapore cho biết, khẩu trang y tế có thể làm giảm sự lây lan của SARS-CoV-2 do có thể ngăn các hạt nước nhỏ li ti bắn từ mũi, miệng của người đeo, đồng thời giúp giảm tiếp xúc với nước bọt và dịch tiết của người đeo cho người khác vô cùng hiệu quả. Về thắc mắc nên dùng khẩu trang loại nào? Dùng khi nào? Đeo khẩu trang như thế nào là đúng cách và hợp lý, PGS.TS Trần Đắc Phu - Nguyên Cục trưởng Cục Y tế Dự phòng, Cố vấn cao cấp Trung tâm Đáp ứng khẩn cấp sự kiện y tế công cộng Việt Nam (Bộ Y tế) cho biết  “Khẩu trang y tế thông thường có tác dụng trong phòng bệnh do coronavirus và các bệnh viêm đường hô hấp nói chung, đặc biệt nên đeo khi đến chỗ tiếp xúc đông người, khu công cộng, những chỗ có nguy cơ cao. Việc đeo khẩu trang N95, N96 (khẩu trang hoạt lực cao) dành cho những người tiếp xúc với bệnh nhân, chăm sóc bệnh nhân hoặc đi vào vùng dịch. Nếu không có những khẩu trang này thì người dân có thể đeo khẩu trang vải nhưng phải giặt hàng ngày. Nguyên tắc nếu khẩu trang dùng một lần thì dùng một lần rồi bỏ, nếu khẩu trang vải thì hàng ngày phải giặt và thay. Thực hiện việc đeo khẩu trang làm sao cho đúng cách, đúng thời điểm sẽ ngăn chặn nguy cơ lây truyền bệnh”.
+
+PREDICT QUESTION: Khẩu trang có thể giúp ngăn những người mắc COVID-19 lây lan virus sang người ... Đó là lý do tại sao việc mọi người nên đeo khẩu trang ở nơi công cộng và ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Vì sao người ta gọi "viêm phổi Vũ Hán" là "viêm phổi lạ"?
+
+GOLD QUESTION: SARS-CoV-2 là bệnh lây truyền qua đường hô hấp, gây ra các triệu chứng viêm đường hô hấp, đặc biệt là viêm phổi. Gọi là bệnh “viêm phổi lạ” vì người ta xác định đây là loại virus lần đầu tiên xuất hiện và gây ra các bệnh về đường hô hấp, đặc biệt là viêm phổi. Viêm phổi có rất nhiều nguyên nhân gây ra, do vi khuẩn như phế cầu, liên cầu hoặc do virus như SARS, MERS-CoV, 2019-nCoV. Viêm phổi có những bệnh cảnh giống nhau nhưng cũng có đặc thù riêng của từng loại virus, vi khuẩn. Do đó, bệnh sẽ có những triệu chứng nặng, nhẹ khác nhau, tính chất lây lan và tỷ lệ tử vong ở từng đối tượng cũng khác nhau. Tất nhiên, bệnh viêm đường hô hấp cấp gây ra do virus corona còn mới và lạ; nên còn rất nhiều thứ các nhà khoa học cần phải tìm hiểu để đưa ra các kết quả chính xác cho việc chẩn đoán và điều trị.
+
+PREDICT QUESTION: 5 thg 2, 2020 · Vì sao người ta gọi “viêm phổi Vũ Hán” là “viêm phổi lạ”? Có giống viêm phổi do phế cầu khuẩn không? Virut-corona4.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Các thành phần trong vắc-xin là gì?
+
+GOLD QUESTION: Các thành phần của vắc-xin có thể khác nhau tùy theo nhà sản xuất. Không vắc-xin nào chứa trứng, gelatin, mủ cao su latex hoặc chất bảo quản. Toàn bộ vắc-xin ngừa COVID-19 đều không chứa kim loại​​​​​​​ như sắt, ni-ken, co-ban, li-ti và hợp kim đất hiếm. Vắc-xin đồng thời cũng không chứa các sản phẩm chế tạo như vi điện tử, điện cực, ống na-nô các-bon và chất bán dẫn dây na-nô. Để tìm hiểu thêm về các thành phần có trong vắc-xin ngừa COVID-19 được cấp phép, hãy xem  Tổng quan và độ an toàn của vắc-xin ngừa COVID-19 của Pfizer-BioNtech Tổng quan và độ an toàn của vắc-xin ngừa COVID-19 của Moderna Tổng quan và tính an toàn của vắc-xin  ngừa COVID-19 của Johnson & Johnson's Janssen Thành phần bao gồm trong vắc-xin ngừa COVID-19 
+
+PREDICT QUESTION: Các thành phần của vắc - xin thường bao gồm muối nhôm, formaldehyde, kháng sinh, chất ổn định, chất bảo quản và thành phần tá dược. Những thành phần này có ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: vaccine ngừa covid kéo dài bao lâu?
+
+GOLD QUESTION: Chúng ta vẫn chưa biết được khả năng bảo vệ của vắc-xin ngừa COVID-19 kéo dài trong bao lâu. Các nghiên cứu gần đây cho thấy khả năng bảo vệ chống lại vi-rút có thể giảm dần theo thời gian. Tình trạng giảm khả năng bảo vệ này đã khiến CDC khuyến nghị tất cả mọi người từ 18 tuổi trở lên nên tiêm nhắc lại sau khi hoàn thành loạt tiêm chủng ban đầu. Những người đã tiêm vắc-xin ngừa COVID-19 của Pfizer-BioNTech hoặc Moderna trong loạt vắc-xin ban đầu nên tiêm nhắc sau ít nhất 6 tháng kể từ khi hoàn thành loạt ban đầu. Những người đã tiêm vắc-xin ngừa COVID-19 của Johnson & Johnson's Janssen nên tiêm nhắc sau ít nhất 2 tháng kể từ khi hoàn thành mũi đầu tiên. Tại thời điểm này, CDC mới khuyến nghị chỉ tiêm duy nhất một mũi tiêm nhắc COVID-19. CDC tiếp tục xem xét bằng chứng và sẽ cập nhật hướng dẫn khi có thêm thông tin. Tìm hiểu thêm về mũi tiêm nhắc vắc-xin COVID-19. Trang liên quan   Vắc-xin có hiệu quả 
+
+PREDICT QUESTION: Những người đã tiêm vaccine Pfizer hoặc Moderna có thể tiêm nhắc lại sau 5 tháng khi đã hoàn thành liều thứ hai. Những người tiêm vaccine Johnson &amp; Johnson có thể tiêm nhắc lại sau hai tháng khi đã tiêm vaccine một liều.
+6 thg 1, 2022
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Tôi có thể tiêm vắc-xin covid nếu mắc bệnh nền không?
+
+GOLD QUESTION: Những người có các bệnh nền có thể tiêm phòng COVID-19 miễn là họ không có Phản ứng dị ứng nghiêm trong hoặc ngay lập tức với vắc-xin ngừa COVID-19 hoặc với bất kỳ thành phần nào của vắc-xin. Tìm hiểu thêm những điều cần lưu ý dành cho người có bệnh nền về việc tiêm chủng Chủng ngừa là một khuyến cáo quan trọng dành cho người trưởng thành ở độ tuổi bất kỳ có các bệnh nền nhất định vì họ có nguy cơ cao mắc bệnh nghiêm trọng do COVID-19. Trang liên quan   Các bệnh nền Những Người Có Nguy Cơ Cao Những Người Bị Dị Ứng 
+
+PREDICT QUESTION: 25 thg 2, 2022 · Nếu quý vị có bất kỳ bệnh lý nào sau đây trong danh sách này, quý vị có thể có nhiều khả năng mắc bệnh nặng vì COVID-19.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: vaccine covid có an toàn không?
+
+GOLD QUESTION: Dù vắc-xin COVID-19 được phát triển nhanh chóng, tất cả các bước đã được thực hiện nhằm đảm bảo chúng an toàn và có hiệu quả;  Phương thức phát triển - Các nhà khoa học đã nỗ lực làm việc nhiều năm để phát triển vắc-xin chống lại các loại vi-rút như loại gây ra bệnh COVID-19. Kiến thức này đã giúp đẩy nhanh tốc độ phát triển ban đầu của vắc-xin ngừa COVID-19 hiện tại. Thử nghiệm lâm sàng - Toàn bộ vắc-xin tại Hoa Kỳ phải trải qua ba giai đoạn thử nghiệm lâm sàng nhằm đảm bảo các vắc-xin đó an toàn và hiệu quả. Trong khi phát triển vắc-xin ngừa COVID-19, các giai đoạn gối lên nhau để đẩy nhanh tiến trình nhưng tất cả các giai đoạn đều đã hoàn thành. Cấp phép hoặc Phê duyệt - Trước khi vắc-xin phổ biến cho mọi người, Cơ quan quản lý thực phẩm và dược phẩm Mỹ (FDA) đánh giá các kết quả phát hiện được từ các thử nghiệm lâm sàng. FDA đã xác định rằng ba loại vắc-xin ngừa COVID-19 đáp ứng các tiêu chuẩn về an toàn và hiệu quả của FDA và đã cấp Giấy phép sử dụng trong trường hợp khẩn cấp (EUA)external icon cho các loại vắc-xin này. Điều này cho phép nhanh chóng phân bổ vắc-xin nhằm kiểm soát đại dịch. Vắc-xin ngừa COVID-19 của Pfizer-BioNTech (COMIRNATY) hiện đã được FDA phê duyệtexternal icon cho những người từ 16 tuổi trở lên. Đọc thêm về vắc-xin ngừa COVID-19 đầu tiên được FDA phê duyệtexternal icon. Sản xuất và phân phối - Chính phủ Hoa Kỳ đã đầu tư nguồn lực lớn để sản xuất và phân phối vắc-xin ngừa COVID-19. Điều này cho phép việc phân phối vắc-xin bắt đầu ngay khi FDA cho phép với mỗi loại vắc-xin. Hệ thống giám sát theo dõi về an toàn khi sử dụng vắc-xin - hoạt động giám sát an toàn của vắc-xin ngừa COVID-19 đã diễn ra nghiêm ngặt nhất và toàn diện nhất trong lịch sử Hoa Kỳ. Hàng trăm triệu người tại Hoa Kỳ đã được tiêm vắc-xin ngừa COVID-19. Thông qua một số hệ thống giám sát, CDC và FDA tiếp tục cung cấp thông tin cập nhật về độ an toàn của các loại vắc-xin này.  Tìm hiểu thêm về việc phát triển vắc-xin COVID-19.
+
+PREDICT QUESTION: Các vắc-xin COVID-19 an toàn và hiệu quả. Hàng triệu người tại Hoa Kỳ đã được tiêm vắc-xin ngừa COVID-19 qua quá trình giám sát an toàn nghiêm ngặt nhất trong lịch sử Hoa Kỳ. CDC khuyến nghị quý vị tiêm vắc-xin ngừa COVID-19 ngay khi có thể.
+-------------------------
+score: 33 || total: 40
+==================================
+==================================
+file_name: test_ha_canxi_mau.yml
+size: 25/25
+GOOGLE---------------------
+TEST QUESTION: Sự chuyển hóa canxi trong cơ thể diễn ra như thế nào?
+
+GOLD QUESTION: Lượng dự trữ canxi và sự chuyển hóa canxi trong cơ thể được duy trì ổn định phụ thuộc vào 3 yếu tố chính gồm do thức ăn, nước uống đưa vào; hấp thu canxi từ ruột; đào thải qua thận. Do vậy, nhu cầu hàng ngày với một chế độ ăn đầy đủ phải bảo đảm cung cấp khoảng 1.000mg canxi qua đường ăn uống thì có khoảng 200mg canxi sẽ bị đào thải qua đường mật hoặc các dịch tiêu hóa khác. Gần 99% canxi trong cơ thể tập trung ở trong xương, chủ yếu dưới dạng tinh thể Hydroxyapatite. Chỉ còn lại 1% canxi trong xương là tự do trao đổi với dịch ngoài tế bào, do đó luôn sẵn sàng để điều chỉnh nồng độ canxi trong máu ổn định. Nồng độ canxi toàn phần bình thường trong máu thường được duy trì dao động từ 8,8 đến 10,4 mg/dl (2,20 - 2,60mmol/l).
+
+PREDICT QUESTION: Trong quá trình chuyển hóa canxi trong cơ thể là sự di chuyển và điều hòa của các ion canxi từ lúc đi vào cơ thể (thông qua đường ruột) đến lúc được đào thải ra bên ngoài. Một cách hiểu khác, quá trình chuyển hóa canxi sẽ xảy ra giữa các khoang của cơ thể, huyết tương, dịch nội, ngoại bào và xương.
+2 thg 3, 2021
+-------------------------
+score: 24 || total: 25
+==================================
+==================================
+file_name: test_lao_phoi.yml
+size: 30/30
+DATA---------------------
+TEST QUESTION: Độ nguy hiểm của đau thần kinh tọa?
+
+GOLD QUESTION: Cơn đau không nguy hiểm đến tính mạng. Nhưng hạn chế khả năng hoạt động cũng như chất lượng cuộc sống của người bệnh. Bên cạnh đó, nếu không được điều trị sẽ để lại những biến chứng vĩnh viễn như tổn thương dây thần kinh, mất cảm giác, liệt chi, mất kiểm soát ruột và bàng quang…
+
+PREDICT QUESTION: Đau thần kinh tọa có thể gặp ở bất cứ ai. Tuy nhiên, những yếu tố dưới đây khiến bạn nằm trong đối tượng có nguy cơ cao mắc phải bệnh lý này. Tuổi tác Thông thường, những người bị đau thần kinh tọa sẽ ở độ tuổi 30 đến 50. Tuổi tác liên quan đến sự thay đổi của cột sống nên cũng ảnh hưởng trực tiếp đến bệnh lý này; Nghề nghiệp Người làm công việc thường xuyên phải xoay lưng, quay người, mang vác nặng, lái xe; Béo phì Trọng lượng cơ thể quá lớn có thể tạo căng thẳng cho cột sống, gây nên những thay đổi ở cột sống và dễ dẫn đến đau thần kinh tọa; Lối sống Thường xuyên ngồi một chỗ, ít vận động có nguy cơ cao mắc bệnh hơn những người khác; Mắc bệnh đái tháo đường.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Có phải đau lưng là đau thần kinh tọa hay không?
+
+GOLD QUESTION: Trong đau thần kinh tọa, đau lưng là một dấu hiệu bên cạnh triệu chứng cơn đau lan tỏa từ thắt lưng xuống chân. Đau lưng do các nguyên nhân khác thì cơn đau chỉ khu trú ở vùng lưng. Điều quan trọng bạn cần đi khám để chẩn đoán đúng bệnh. Xác định đúng nguyên nhân giúp lựa chọn phương pháp điều trị hiệu quả.
+
+PREDICT QUESTION: Các dấu hiệu của đau thần kinh tọa bao gồm: Đau thắt lưng, lan dọc xuống chân theo đường đi của dây thần kinh tọa. Cơn đau có thể xuất hiện đột ngột hoặc đau âm ỉ, tăng lên khi người bệnh vận động quá sức, thay đổi tư thế, ho, hắt hơi.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Có chữa khỏi bệnh đau thần kinh tọa hay không?
+
+GOLD QUESTION: Đau thần kinh tọa có thể trị dứt điểm. Tùy vào nguyên nhân gây đau để lựa chọn phương pháp điều trị thích hợp. Với cơn đau thần kinh tọa cấp tính, 90% người bệnh sẽ chữa khỏi sau thời gian điều trị. Trong đau thần kinh tọa mạn tính, thời gian điều trị kéo dài hơn và chỉ 10% số bệnh nhân có thể dứt điểm cơn đau.
+
+PREDICT QUESTION: Bệnh có thể gây ra rất nhiều biến chứng nặng nề cho sức khỏe, nghiêm trọng nhất là bại liệt. Vì vậy, đau thần kinh tọa có chữa được không là câu hỏi được rất nhiều người quan tâm. Giải đáp vấn đề này, các bác sĩ chuyên khoa Xương khớp cho biết, bệnh đau thần kinh tọa có thể chữa được.
+21 thg 1, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Thời gian phục hồi đau thần kinh tọa chịu ảnh hưởng bới yếu tố nào?
+
+GOLD QUESTION: Sức khỏe Những người có sức khỏe tốt, hoặc trẻ tuổi khả năng phục hồi nhanh hơn; Chế độ ăn Dinh dưỡng đầy đủ cân bằng tốt hơn đồ ăn nhanh chế biến sẵn; Giấc ngủ Cơ thể cũng cần được nghỉ ngơi, tái tạo sức khỏe sau quá trình vận động. Thiếu ngủ sẽ khiến cơn đau chậm tiến triển; Căng thẳng Là một trong những yếu tố làm trầm trọng thêm tình trạng đau; Bệnh lý đi kèm Ví dụ tiểu đường sẽ khiến thời gian phục hồi chậm; Vận động Ít vận động, giữ nguyên một tư thế kéo dài khiến cơn đau nặng nề và kéo dài hơn; Tuân thủ điều trị là yếu tố giúp rút ngắn thời gian khắc phục đau thần kinh tọa.
+
+PREDICT QUESTION: - Hệ thống điểm Valleix ấnđau. - Dấu hiệu bấm cạnh cột sống: ấn các điểm đau cạnh sống giữa L4 - L5 – S1 bệnh nhân thấy đau lan theo rễ thần kinh ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khái niệm về dây thần kinh tọa là?
+
+GOLD QUESTION: Dây thần kinh tọa là một dây thần kinh dài nhất cơ thể, trải dài từ phần dưới thắt lưng đến tận ngón chân. Dây thần kinh tọa chi phối các động tác của chân, góp phần làm nên các động tác đi lại, đứng ngồi của hai chân.
+
+PREDICT QUESTION: Dây thần kinh toạ là dây thần kinh kéo dài từ phần dưới thắt lưng đến tận các ngón chân. Chức năng chính của dây thần kinh tọa là chi phối vận động và cảm giác chi dưới. Đau thần kinh tọa là cảm giác đau dọc theo đường đi của dây thần kinh tọa.
+-------------------------
+DATA---------------------
+TEST QUESTION: Nên ăn gì khi đau dây thần kinh tọa?
+
+GOLD QUESTION: Các chất mà người đau dây thần kinh tọa nên bổ sung cho cơ thể là Vitamin B6; Vitamin B9; Vitamin B12; Vitamin C
+
+PREDICT QUESTION: Đa số đau dây thần kinh tọa khởi phát từ từ. Các bệnh nhân hầu hết đã có một hay nhiều đợt đau thắt lưng trước đó. Đau là triệu chứng nổi bật, khởi đầu là đau thắt lưng vài giờ hoặc vài ngày sau đau tiếp tục tăng lên và lan xuống mông, mặt sau đùi, kheo và cẳng bàn chân theo đường đi của dây thần kinh tọa.
+-------------------------
+DATA---------------------
+TEST QUESTION: Uống thuốc gì khi đau dây thần kinh tọa?
+
+GOLD QUESTION: Với những người bệnh mắc đau dây thần kinh tọa thường được bác sĩ chỉ định uống thuốc chống viêm không steroid, các thuốc giảm đau, thuốc giãn cơ hay thuốc tiêm ngoài màng cứng. Tuy nhiên, việc dùng thuốc trị bệnh chỉ là trong thời gian đầu hơn nữa dùng thuốc quá nhiều, thường xuyên và liên tục cũng gây ra những ảnh hưởng xấu tới sức khỏe. Thuốc giảm đau chỉ có tác dụng xóa tan cơn đau tạm thời, khi ngưng sử dụng các cơn đau lại tát phát. Không chỉ vậy, nếu lạm dụng thuốc trong thời gian dài, người bệnh sẽ đối mặt với nhiều vấn đề ở dạ dày, gan và thận. Vì thế, muốn bệnh nhanh khỏi người bệnh nên lựa chọn phương pháp vật lý trị liệu.
+
+PREDICT QUESTION: Không nên tự ý sử dụng thuốc giảm đau. Thuốc giảm đau chỉ giúp giảm triệu chứng của cơn đau chứ không khắc phục nguyên nhân gây đau, trừ khi viêm dây thần kinh là nguyên nhân. Nếu sử dụng thuốc giảm đau thường xuyên sẽ gây ra tình trạng lệ thuộc thuốc, và nhiều tác dụng phụ không mong muốn khác như viêm loét dạ dày, rối loạn tiêu hóa. Nên đi khám để xác định nguyên nhân và được bác sĩ kê đơn thuốc phù hợp.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Không dùng thuốc có thể chữa đau dây thần kinh tọa được không?
+
+GOLD QUESTION: Được. Đó là phương pháp trị liệu cột sống kết hợp với các bài tập vật lý trị liệu và các thiết bị máy móc tối tân nhằm tác động trực tiếp nguyên nhân gây bệnh, giúp chữa lành các cơn đau một cách tự nhiên mà không dùng thuốc hay phẫu thuật.
+
+PREDICT QUESTION: Khi mắc đau dây thần kinh tọa uống thuốc gì? Khi điều trị bệnh, mỗi bệnh nhân sẽ được điều trị theo một phác đồ khác nhau tùy vào mức độ bệnh và nguyên nhân gây bệnh. Nhiều bệnh nhân không cần dùng thuốc mà chỉ cần nghỉ ngơi, thay đổi thói quen lao động, sinh hoạt,…
+31 thg 12, 2020
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khái niệm về bệnh lao là? 
+
+GOLD QUESTION: Bệnh lao là một bệnh truyền nhiễm do vi trùng Mycobacterium tuberculosis gây nên. Bệnh phá hủy phổi và những bộ phận khác của cơ thể, và có thể gây tình trạng trầm trọng. 
+
+PREDICT QUESTION: Bệnh lao là bệnh truyền nhiễm do vi khuẩn Mycobacterium tuberculosis gây ra. Bệnh lây lan do vi khuẩn lao phát tán ra ngoài khi người mắc lao phổi ho, nói, hắt hơi, khạc nhổ mà vô tình người tiếp xúc gần đó có thể bị hít vào và gây bệnh tại phổi.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Những bộ phận cơ thể có thể mắc bệnh lao là gì?
+
+GOLD QUESTION: Bệnh lao có thể gặp ở tất cả các bộ phận của cơ thể như lao màng phổi, lao hạch bạch huyết, lao màng não, lao xương khớp, lao màng bụng, lao hệ sinh dịch - tiết niệu, lao ruột, trong đó bệnh lao phổi thường gặp nhất (chiếm 80 – 85%) và là nguồn lây chính cho người xung quanh.
+
+PREDICT QUESTION: Bệnh lao là bệnh do vi khuẩn gây ra bằng cách lây từ người này sang người khác qua không khí. Bệnh lao thường ảnh hưởng đến phổi, nhưng cũng có thể ảnh hưởng đến các bộ phận khác trong cơ thể như não, thận, hoặc cột sống.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bệnh lao có thể phòng không?
+
+GOLD QUESTION: Chắc chắn chúng ta có thể “cấm cửa” vi khuẩn lao khi chúng “ gõ cửa” cơ thể chúng ta. Hiện nay nước ta có chương trình tiêm chủng lao mở rộng với trẻ em dưới 5 tuổi. Đây là phương thức phòng bệnh lao hiệu quả nhất. Bên cạnh đó nhiệm vụ phòng tránh lao cũng là trách nhiệm của người bệnh , người chăm sóc bệnh nhân và toàn xã hội với những quy tắc ý tế nghiêm ngặt. Bạn có thể thực hiện lối sống vệ sinh, bổ sung dinh dưỡng để có cơ thể khỏe mạnh, tạo sức đề kháng tốt không cho khuẩn lao có cơ hội phát triển.
+
+PREDICT QUESTION: Bệnh lao là một bệnh lây truyền, lây chủ yếu qua đường hô hấp từ người bệnh lao phổi có vi khuẩn lao trong đờm sang người lành khi tiếp xúc, tuy nhiên bệnh lao có thể phòng và điều trị được.
+18 thg 3, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Sau khi chữa khỏi có thể mắc lại bệnh lao  không?
+
+GOLD QUESTION: Bệnh lao khi đã được chữa khỏi thì vẫn có thể mắc trở lại. Người chữa khỏi bệnh lao có thể tái mắc bệnh thông qua việc lây nhiễm bệnh lại từ người khác vì không có miễn dịch chống lao vĩnh viễn hoặc vi khuẩn lao còn xót lại trong người bệnh. Chính vì vậy, bệnh lao sẽ quay trở lại bất cứ lúc nào trong cuộc sống, vòng đời mỗi con người.
+
+PREDICT QUESTION: Lưu ý quan trọng mà bệnh nhân cần chú ý là triệu chứng lao phổi có thể tái phát lại sau điều trị. Do đó, nếu muốn đi làm lại bệnh nhân cần thực hiện các xét nghiệm kiểm tra sức khỏe. Trường hợp cơ thể hồi phục khỏe mạnh, không có chứa khuẩn lao thì mới nên đi làm lại.
+13 thg 10, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bệnh lao được điều trị ở đâu? 
+
+GOLD QUESTION: Điều trị lao được thực hiện ở tất cả các bệnh viện đa khoa, bệnh viện tuyến tỉnh, bệnh viện khu vực và bệnh viện tuyến trung ương.
+
+PREDICT QUESTION: Hầu hết người có bệnh lao ở dạng hoạt động đã được điều trị bằng các loại ... Vi khuẩn lao bắt đầu hoạt động nếu hệ miễn dịch không thể ngăn chúng tăng ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Những ưu tiên gì được hưởng khi điều trị?
+
+GOLD QUESTION: Người mắc bệnh lao hiện được chữa bệnh bằng những hỗ trợ của nhà nước như thuốc chữa lao miễn phí, xét nghiệm theo dõi miễn phí và được bảo hiểm y tế chi trả những khoản phí chữa bệnh. Bên cạnh đó, họ cần nhận thức được trách nhiệm của họ là phải chữa khỏi bệnh để không làm lây bệnh sang những người thân trong gia đình và cộng đồng.
+
+PREDICT QUESTION: 20 thg 2, 2022 · Thời gian được hưởng chế độ ốm đau như sau: Lao động làm việc trong điều kiện bình thường được hưởng theo các mốc: đóng BHXH dưới 15 năm hưởng ...Bị thiếu:  ưu | Phải bao gồm:ưu
+link: https://www.google.com.vn/search?ie=UTF-8&q=Nh%E1%BB%AFng+%22%C6%B0u%22+ti%C3%AAn+g%C3%AC+%C4%91%C6%B0%E1%BB%A3c+h%C6%B0%E1%BB%9Fng+khi+%C4%91i%E1%BB%81u+tr%E1%BB%8B?&sa=X&ved=2ahUKEwiBq4iFr7n2AhXkmeYKHaceC9YQ5t4CegQIAxAG
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Truyền nhiễm bệnh lao phổi khởi nguồn do đâu?
+
+GOLD QUESTION: Không có ổ chứa mầm bệnh trong thiên nhiên hoặc vật trung gian truyền bệnh; Nguồn bệnh là bệnh nhân mắc lao phổi, phế quản, lao thanh quản ho khạc ra vi khuẩn lao; Khi vi khuẩn lao vào phổi, cơ thể sẽ có đáp ứng với kháng nguyên của vi khuẩn lao, vi khuẩn lao có thể tồn tại trong cơ thể một người suốt cuộc đời mà không gây bệnh. Nhưng cũng có thể sau khi tiếp xúc với một số lượng lớn vi khuẩn lao trong một thời gian dài trong vài ngày đến vài tuần, người tiếp xúc có thể phát bệnh; Thời kỳ lây truyền mạnh nhất là giai đoạn toàn phát của lao phổi (sốt về chiều, ho nhiều, khạc đờm). Thời kỳ lây truyền này kéo dài cho đến khi người bệnh được điều trị bằng thuốc 2 tuần đến 1 tháng.
+
+PREDICT QUESTION: Nguyên nhân bệnh Bệnh lao phổi
+Bệnh lao là bệnh truyền nhiễm do vi khuẩn Mycobacterium tuberculosis gây ra. Bệnh lây lan do vi khuẩn lao phát tán ra ngoài khi người mắc lao phổi ho, nói, hắt hơi, khạc nhổ mà vô tình người tiếp xúc gần đó có thể bị hít vào và gây bệnh tại phổi.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khái niệm bệnh tim mạch là? 
+
+GOLD QUESTION: Bệnh tim mạch (CVD) là do các rối loạn của tim và mạch máu. Bệnh tim mạch bao gồm bệnh mạch vành (nhồi máu cơ tim), tai biến mạch máu não (đột quỵ), tăng huyết áp tăng (cao huyết áp), bệnh động mạch ngoại biên, bệnh thấp tim, bệnh tim bẩm sinh và suy tim.
+
+PREDICT QUESTION: Bệnh tim mạch (CVD) là do các rối loạn của tim và mạch máu. Bệnh tim mạch bao gồm bệnh mạch vành (nhồi máu cơ tim), tai biến mạch máu não (đột quỵ), tăng huyết áp tăng (cao huyết áp), bệnh động mạch ngoại biên, bệnh thấp tim, bệnh tim bẩm sinh và suy tim.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bệnh tim mạch có những biểu hiện thường gặp nào?
+
+GOLD QUESTION: Khó thở Khó thở có thể gặp khi gắng sức, nặng hơn có thể gặp cả khi nghỉ ngơi; Đau ngực. Đau ngực do bệnh tim là biểu hiện của tình trạng cơ tim bị thiếu máu; Thường xuyên mệt mỏi; Ho dai dẳng; Buồn nôn, chán ăn; Nhịp tim nhanh, mạch đập không đều; Hay lo lắng; Chóng mặt và ngất xỉu
+
+PREDICT QUESTION: Triệu chứng của bệnh tim mạch là gì?
+Khó thở Khó thở có thể gặp khi gắng sức, nặng hơn có thể gặp cả khi nghỉ ngơi. ... 
+Đau ngực. Đau ngực do bệnh tim là biểu hiện của tình trạng cơ tim bị thiếu máu. ... 
+Thường xuyên mệt mỏi. ... 
+Ho dai dẳng. ... 
+Buồn nôn, chán ăn. ... 
+Nhịp tim nhanh, mạch đập không đều. ... 
+Hay lo lắng. ... 
+Chóng mặt và ngất xỉu.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bệnh tim mạch do những nguyên nhân nào gây ra?
+
+GOLD QUESTION: Có nhiều yếu tố trong cuộc sống được chứng minh làm tăng khả năng xuất hiện và tiến triển bệnh lý tim mạch. Những yếu tố này được gọi là yếu tố nguy cơ của bệnh lý tim mạch. Các yếu tố đó là Hút thuốc; Ít hoạt động thể lực; Thừa cân; Căng thẳng (stress); Tăng cholesterol máu; Tăng huyết áp; Đái tháo đường; Yếu tố gia đình; Tuổi nam giới trên 55 tuổi hoặc nữ giới trên 65 tuổi có nguy cơ mắc bệnh tăng huyết áp; Giới tính nam
+
+PREDICT QUESTION: 5 nguyên nhân bất ngờ gây bệnh tim mạch
+Cholesterol cao. Cholesterol là một chất béo có trong máu. ... 
+Cân nặng và vòng eo tăng cao. Béo phì làm tăng nguy cơ bị tăng huyết áp, đái tháo đường có thể dẫn đến bệnh tim mạch. ... 
+Đái tháo đường típ 2. ... 
+Tăng huyết áp. ... 
+Hút thuốc lá
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Ảnh hưởng của hút thuốc lá đến tim mạch là như thế nào? 
+
+GOLD QUESTION: Hút thuốc lá là yếu tố nguy cơ hàng đầu dẫn đến làm tăng nguy cơ mắc và tử vong do bệnh lý tim mạch, các nguy cơ này tăng lên tỷ lệ thuận với khối lượng bạn hút thuốc và thời gian bạn hút thuốc. Nếu bạn muốn làm cho trái tim mình khỏe mạnh hơn hãy từ bỏ thói quen hút thuốc ngay lập tức. Khói thuốc có rất nhiều chất độc như nicotin, hắc ín, formaldehyt, cyanid… Hút thuốc lá không những làm tăng nguy cơ mắc bệnh lý tim mạch, đột quỵ, ung thư mà còn làm tăng nguy cơ mắc bệnh lý răng miệng, bệnh lý đường ruột, giảm khả năng tình dục…
+
+PREDICT QUESTION: Vì những quá trình tổn thương trên, cơ thể của những người hút thuốc lá sẽ tăng những phản ứng mạch máu, giảm cung lượng máu mang oxy nên dẫn đến thiếu máu cơ tim và co thắt mạch vành. Ngoài ra, hút thuốc lá cũng góp phần làm tăng fibrinogen và tăng sự kết dính tiểu cầu.
+24 thg 5, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Chế độ ăn uống tốt cho bệnh tim mạch là như thế nào?
+
+GOLD QUESTION: Các nhà khoa học chứng minh chế độ ăn hợp lý sẽ giúp làm giảm nguy cơ mắc bệnh lý tim mạch. Một số điểm cần lưu ý trong chế độ ăn phù hợp với sức khỏe tim mạch như sau Giảm muối chế độ ăn giảm muối giúp giảm và kiểm soát tăng huyết áp; Giàu kali; Nhiều rau, trái cây, ngũ cốc..; Tránh thức ăn chế biến sẵn; Dùng dầu ăn thay vì dùng mỡ động vật để tránh chất béo bão hòa; Mua thịt chưa chế biến, bạn chế biến bằng đồ không có chất béo bão hòa và transfat; Tránh thức ăn và đồ uống có nhiều đường; Bạn đừng dùng bơ kèm mayonaise khi chế biến thức ăn, bạn chỉ nên dùng một trong hai thứ này mà thôi; Bạn có thể uống rượu với lượng rượu vừa phải; Nếu có thể, bạn nên đến bác sỹ dinh dưỡng để được tư vấn về chế độ ăn hợp lý; Chế độ ăn vùng Địa Trung Hải giúp làm giảm yếu tố nguy cơ tim mạch. Nguyên lý của chế độ ăn này là nhiều rau, nhiều quả, nhiều cá ăn kèm với bánh mì, ngũ cốc, khoai tây, đậu, củ, sữa chua… ngoài ra chế độ ăn này có rất ít thịt, ít chất béo (bơ, dầu dừa, dầu cọ, thịt) thay vào đó là nhiều chất béo không bão hòa (dầu ôliu); cuối cùng chế độ ăn này kèm theo một chút rượu đỏ.
+
+PREDICT QUESTION: Chế độ ăn uống lành mạnh cho tim: 8 bước để ngăn ngừa bệnh tim
+Kiểm soát khẩu phần ăn. ... 
+Ăn nhiều rau xanh và trái cây. ... 
+Chọn ngũ cốc nguyên hạt. ... 
+Hạn chế sử dụng các chất béo không lành mạnh. ... 
+Giảm lượng muối trong thức ăn. ... 
+Lên kế hoạch: lập thực đơn hàng ngày. ... 
+Đôi khi, hãy cho phép bản thân được ăn thoả thích.
+-------------------------
+DATA---------------------
+TEST QUESTION: Uống rượu ảnh hưởng đến tim mạch như thế nào?
+
+GOLD QUESTION: Có nhiều người cho rằng nếu bị bệnh tim mạch thì không nên uống rượu dù chỉ một chút rượu cũng không được. Điều này là hoàn toàn sai lầm. Nhiều nghiên cứu chứng minh rằng uống một chút rượu, đặc biệt là rượu vang đỏ trong bữa ăn rất có lợi cho sức khỏe tim mạch. Uống rượu vang đỏ với một lượng vừa phải giúp cải thiện sức khỏe tim mạch do rượu vang đỏ có khả năng Tăng HDL (một loại cholesterol có lợi cho tim mạch do làm giảm xơ vữa động mạch); Giảm huyết áp; Ngăn cản hình thành huyết khối; Ngăn ngừa quá trình xơ vữa động mạch gây ra bởi LDL (loại cholesterol xấu).
+
+PREDICT QUESTION: Hút thuốc lá là yếu tố nguy cơ hàng đầu dẫn đến làm tăng nguy cơ mắc và tử vong do bệnh lý tim mạch, các nguy cơ này tăng lên tỷ lệ thuận với khối lượng bạn hút thuốc và thời gian bạn hút thuốc. Nếu bạn muốn làm cho trái tim mình khỏe mạnh hơn hãy từ bỏ thói quen hút thuốc ngay lập tức. Khói thuốc có rất nhiều chất độc như nicotin, hắc ín, formaldehyt, cyanid… Hút thuốc lá không những làm tăng nguy cơ mắc bệnh lý tim mạch, đột quỵ, ung thư mà còn làm tăng nguy cơ mắc bệnh lý răng miệng, bệnh lý đường ruột, giảm khả năng tình dục…
+-------------------------
+DATA---------------------
+TEST QUESTION: Uống café ảnh hưởng đến tim mạch như thế nào?
+
+GOLD QUESTION: Các nhà khoa học chứng minh rằng uống café với một lượng vừa phải (một vài cốc mỗi ngày) là có lợi cho tim mạch do café có thể mang lại một số lợi ích sau Café có thể làm giảm nguy cơ mắc đái tháo đường typ 2; làm giảm nguy cơ bị sỏi mật; giảm khả năng mắc ung thư đại tràng; làm tăng khả năng nhận thức; Café làm giảm nguy cơ tổn thương gan ở những bệnh nhân bị bệnh gan; làm giảm nguy cơ mắc bệnh Parkinson; làm tăng khả năng dẻo dai của vận động viên
+
+PREDICT QUESTION: Hút thuốc lá là yếu tố nguy cơ hàng đầu dẫn đến làm tăng nguy cơ mắc và tử vong do bệnh lý tim mạch, các nguy cơ này tăng lên tỷ lệ thuận với khối lượng bạn hút thuốc và thời gian bạn hút thuốc. Nếu bạn muốn làm cho trái tim mình khỏe mạnh hơn hãy từ bỏ thói quen hút thuốc ngay lập tức. Khói thuốc có rất nhiều chất độc như nicotin, hắc ín, formaldehyt, cyanid… Hút thuốc lá không những làm tăng nguy cơ mắc bệnh lý tim mạch, đột quỵ, ung thư mà còn làm tăng nguy cơ mắc bệnh lý răng miệng, bệnh lý đường ruột, giảm khả năng tình dục…
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Tăng huyết áp do những nguyên nhân nào gây ra?
+
+GOLD QUESTION: Tăng huyết áp không phải là bệnh thần kinh, không phải là do căng thẳng thần kinh. Khoảng 90 – 95% các trường hợp tăng huyết áp không tìm thấy nguyên nhân nhưng có một số yếu tố làm tăng khả năng mắc bệnh tăng huyết áp, các yếu tố này được gọi là yếu tố nguy cơ của bệnh tăng huyết áp.
+
+PREDICT QUESTION: Những yếu tố dưới đây làm tăng nguy cơ mắc bệnh cao huyết áp, bao gồm:
+Thừa cân béo phì;
+Lối sống tĩnh tại, lười vận động;
+Ăn uống không lành mạnh;
+Ăn quá nhiều muối;
+Sử dụng lạm dụng rượu, bia;
+Hút thuốc lá;
+Căng thẳng thường xuyên.
+-------------------------
+score: 7 || total: 30
+==================================
+==================================
+file_name: test_other.yml
+size: 100/100
+GOOGLE---------------------
+TEST QUESTION: Do đâu chúng ta thường đau thần kinh tọa điển hình?
+
+GOLD QUESTION: Đau thần kinh tọa điển hình thường là do thoát vị đĩa đệm, gai xương do thoái hóa, hẹp ống sống sống, hoặc hở eo đốt sống.
+
+PREDICT QUESTION: Đau thần kinh tọa thường xảy ra nhất khi thoát vị đĩa đệm, xương cột sống trên cột sống hoặc hẹp cột sống (hẹp cột sống) chèn ép một phần của dây thần kinh. Điều này gây ra viêm, đau và thường bị tê ở chân bị ảnh hưởng.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khái niệm vể chỉ định MRI là gì?
+
+GOLD QUESTION: Chụp cộng hưởng từ hay MRI (viết tắt của Magnetic Resonance Imaging) là 1 kỹ thuật thường dùng trong chẩn đoán y khoa để tạo ra những hình ảnh giải phẫu cơ thể nhờ từ trường và sóng radio. Phương pháp chụp cộng hưởng từ chẩn đoán hình ảnh hiện đại ngày càng chứng minh hiệu quả và được phổ biến trên toàn thế giới.
+
+PREDICT QUESTION: MRI là một trong những phương pháp có giá trị cao trong chẩn đoán bất thường thai nhi, các dị tật bẩm sinh phức tạp của thai nhi. Các bác sĩ thường cho chỉ định ...
+-------------------------
+DATA---------------------
+TEST QUESTION: Tập yoga trong khi bị đau thần kinh tọa có được hay không?
+
+GOLD QUESTION: Được. Khi bị đau thần kinh tọa, dĩ nhiên bạn không thể thực hiện được những động tác kỹ thuật khó. Tuy nhiên, hoàn toàn có thể áp dụng nhưng tư thế nhẹ nhàng, đơn giản như tư thế đứa trẻ, tư thế tam giác, tư thế rắn hổ mang. Nói chung, các huấn luyện viên sẽ cân nhắc những bài tập phù hợp với thể trạng và sức khỏe của người tập để cải thiện và tăng cường sức khỏe. 
+
+PREDICT QUESTION: Được. đi bộ với cường độ 50 - 60 bước/phút và trong khoảng thời gian 20 - 30 phút mỗi ngày thì vùng thắt lưng và cơ chân sẽ được tác động lực phù hợp, từ đó giải phóng sự chèn ép lên các dây thần kinh, cải thiện bệnh hiệu quả; Lưu ý Khi đi bộ, cần mang giày và mặc quần áo thoải mái, đồng thời, chuẩn bị nước uống để tránh bị khát. Ngoài ra, không nên cố gắng đi bộ khi cảm thấy mệt, mà có thể nghỉ ngơi tầm 5 phút để lấy lại sức rồi mới tiếp tục đi.
+-------------------------
+DATA---------------------
+TEST QUESTION: Bơi lội trong khi bị đau thần kinh tọa có được hay không?
+
+GOLD QUESTION: Được. Có thể nói, bơi lội mang đến nhiều lợi ích bất ngờ cho những người bị đau thần kinh tọa. Trước hết, chúng ta đều biết bơi lội giúp tăng thể tích khoang phổi, nhờ đó mà quá trình trao đổi khí diễn ra thuận lợi hơn, oxy được cung cấp nhiều hơn, từ đó, người bệnh sẽ cảm thấy mạnh khỏe hơn, phấn chấn hơn.
+
+PREDICT QUESTION: Được. đi bộ với cường độ 50 - 60 bước/phút và trong khoảng thời gian 20 - 30 phút mỗi ngày thì vùng thắt lưng và cơ chân sẽ được tác động lực phù hợp, từ đó giải phóng sự chèn ép lên các dây thần kinh, cải thiện bệnh hiệu quả; Lưu ý Khi đi bộ, cần mang giày và mặc quần áo thoải mái, đồng thời, chuẩn bị nước uống để tránh bị khát. Ngoài ra, không nên cố gắng đi bộ khi cảm thấy mệt, mà có thể nghỉ ngơi tầm 5 phút để lấy lại sức rồi mới tiếp tục đi.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Tập thể dục như thế nào khi đau thần kinh tọa?
+
+GOLD QUESTION: Thông thường, với người bị đau thần kinh tọa, nguyên tắc chung đó là duy trì việc tập luyện nhẹ nhàng, khoảng 20 – 30 phút/ngày, duy trì khoảng 4 – 5 ngày/tuần. Nếu người bệnh áp dụng đúng nguyên tắc này thì sẽ rất có lợi đối với công tác điều trị bệnh.
+
+PREDICT QUESTION: Bệnh nhân đau thần kinh tọa hoặc mắc các bệnh xương khớp khác đều có thể tập thể dục vừa sức để giúp xương khớp dẻo dai hơn, nâng cao sức đề kháng cho cơ thể và cải thiện tình trạng bệnh hiệu quả. Hơn nữa, việc thường xuyên tập thể dục với các bộ môn thể thao nhẹ nhàng như đi bộ, đạp xe, bơi lội,...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khi nào cần gặp bác sĩ nếu đau thần kinh tọa?
+
+GOLD QUESTION: Những trường hợp đau thần kinh tọa nhẹ có thể sẽ tự khỏi sau một thời gian. Tuy nhiên, với những trường hợp đau nặng thì bạn cần đi khám để được chữa trị sớm, tránh những biến chứng đáng tiếc có thể xảy ra. Đi khám ngay nếu bạn có những biểu hiện sau Đau dữ dội, đột ngột ở lưng hoặc chân, gặp khó khăn trong việc kiểm soát ruột hoặc bàng quang.
+
+PREDICT QUESTION: Khi nào đi khám bác sĩ? Đau thần kinh tọa nhẹ thường biến mất theo thời gian. Gọi cho bác sĩ nếu các biện pháp tự chăm sóc không làm giảm các triệu chứng của bạn hoặc nếu cơn đau của bạn kéo dài hơn một tuần, nghiêm trọng hoặc trở nên tồi tệ dần dần.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Phương pháp điều trị nội khoa trong phương pháp điều trị đau thần kinh tọa là gì?
+
+GOLD QUESTION: Người bệnh cần áp dụng chế độ nghỉ ngơi phù hợp nên nằm giường cứng, tránh mang vác nặng, lao động quá sức, không ngồi hoặc đứng quá lâu.
+
+PREDICT QUESTION: Đau cấp có thể giảm sau 24 đến 48 giờ nghỉ ngơi ở tư thế nằm nghiêng với đầu giường nâng cao khoảng 30 ° (vị trí bán Fowler). Các biện pháp điều trị đau thắt ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khám chuyên khoa nào khi đau thần kinh tọa?
+
+GOLD QUESTION: 80% nguyên nhân đau thần kinh tọa là các vấn đề về cột sống. Bệnh nhân có thể đăng ký khám bác sĩ chuyên khoa cột sống, cơ xương khớp, hoặc bác sĩ chuyên khoa thần kinh, bác sĩ vật lý trị liệu.
+
+PREDICT QUESTION: Thông thường, bệnh đau dây thần kinh tọa nên được khám chữa với một bác sĩ chuyên khoa Thần kinh tại địa chỉ uy tín.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khi đau thần kinh tọa có nên tự uống thuốc giảm đau không?
+
+GOLD QUESTION: Không nên tự ý sử dụng thuốc giảm đau. Thuốc giảm đau chỉ giúp giảm triệu chứng của cơn đau chứ không khắc phục nguyên nhân gây đau, trừ khi viêm dây thần kinh là nguyên nhân. Nếu sử dụng thuốc giảm đau thường xuyên sẽ gây ra tình trạng lệ thuộc thuốc, và nhiều tác dụng phụ không mong muốn khác như viêm loét dạ dày, rối loạn tiêu hóa. Nên đi khám để xác định nguyên nhân và được bác sĩ kê đơn thuốc phù hợp.
+
+PREDICT QUESTION: - Khi có những triệu chứng bệnh đau thần kinh tọa, bệnh nhân nên được sự thăm khám của bác sĩ và điều trị sớm để phòng các biến chứng có thể xảy ra. Không được tự ý mua thuốc giảm đau, kể cả paracetamol để tự điều trị quá 10 ngày.
+1 thg 12, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Số tiền khi chụp CT là bao nhiêu?
+
+GOLD QUESTION: Tùy vào thế hệ máy, kỹ thuật chụp, bộ phận chụp (đầu, ngực, bụng…), mức phí quy định của từng bệnh viện mà giá chụp CT dao động trong khoảng từ 900.000 đến 5.000.000VNĐ.
+
+PREDICT QUESTION: Hiện nay, chi phí chụp CT não dao động vào khoảng 900.000 đồng đến 4 triệu đồng. Với chụp cơ bản, nếu tiêm thuốc cản quang, chi phí chụp sẽ tăng lên khoảng 400.000 đồng đến 1 triệu đồng. VỚi những đối tượng đặc biệt cần đánh giá chức năng thận hay tác động của thuốc đến sức khỏe sẽ làm tăng chi phí chụp.
+12 thg 1, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Kiểm tra thể chất để chẩn đoán đau thần kinh tọa là như thế nào?
+
+GOLD QUESTION: Mục đích kiểm tra thể chất là để đánh giá sức mạnh và phản xạ của cơ bắp. Hơn nữa, thông qua các bài kiểm tra này, bác sĩ có thể biết được mức độ đau và vị trí đau. Và những cách thức mà bác sĩ dùng trong bước chẩn đoán này bao gồm Ấn nhẹ vào ngón chân hoặc bắp chân; Kéo duỗi thẳng chân; Đi bằng ngón chân hoặc gót chân; Nằm ngửa rồi nhấc hai chân lên một lúc; Cơn đau do đau thần kinh tọa có xu hướng trở nên tồi tệ hơn khi thực hiện các hoạt động này. Vì kiểm tra thể chất chỉ thấy được biểu hiện và nơi phát ra cơn đau, thế nên bác sĩ sẽ tiến hành xét nghiệm hình ảnh để làm rõ nguyên nhân đau thần kinh tọa.
+
+PREDICT QUESTION: 2.
+Chụp X-quang: X-quang cột sống có thể thấy được sự phát triển quá mức của xương (gai xương) có thể đang đè lên dây thần kinh.
+MRI: Phương pháp này thường sử dụng một nam châm và sóng vô tuyến mạnh để tạo ra hình ảnh cắt ngang của lưng.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Sóng radio cao tần điều trị đau thần kinh tọa như thế nào?
+
+GOLD QUESTION: Đưa sóng radio vào phần đĩa đệm bị thoát vị của bệnh nhân chỉ thông qua một mũi kim. Ở nhiệt độ từ 40 - 70°C, sóng radio sẽ làm thay đổi điện tích trong đĩa đệm, giúp cho đĩa đệm tiết dịch trở lại làm tăng áp lực, giúp cho nhân đĩa đệm (phần bị lệch) trở lại được vị trí ban đầu. bằng Sóng radio cao tần
+
+PREDICT QUESTION: 1. Đốt thần kinh bằng sóng RFA là gì? Phương pháp đốt sóng cao tần là phương pháp giảm đau cột sống và đau dây thần kinh rất phổ biến, áp dụng theo nguyên lý xâm lấn tối thiểu, nghĩa là dùng sóng cao tần làm cho các dây thần kinh bị đau tạm ngưng hoạt động để giảm thiểu các cơn đau.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Nhồi máu cơ tim có dấu hiệu nào phải chú ý?
+
+GOLD QUESTION: Dấu hiệu cần phải chú ý bạn có thể bị nhồi máu cơ tim đó là triệu chứng đau thắt ngực. Cơn đau thắt ngực điển hình là đau như bóp nghẹt phía sau xương ức hoặc hơi lệch sang trái, lan lên vai trái và mặt trong tay trái cho đến tận ngón đeo nhẫn và ngón út. Nhiều khi bạn có cảm giác như bị “voi giẫm lên ngực”. Cơn đau thường kéo dài hơn 20 phút và không đỡ khi dùng Nitroglycerin. Một số trường hợp đau có thể lan lên cổ, cằm, vai, sau lưng, tay phải, hoặc vùng thượng vị. Tuy nhiên cũng có một số trường hợp NMCT có thể xảy ra mà bệnh nhân không hoặc ít cảm giác đau (NMCT thầm lặng), hay gặp ở bệnh nhân sau mổ, người già, bệnh nhân có tiểu đường hoặc tăng huyết áp. Kèm theo đau người bệnh có thể rất hoảng sợ, vã mồ hôi, khó thở, hồi hộp đánh trống ngực, nôn hoặc buồn nôn, lú lẫn..
+
+PREDICT QUESTION: Các triệu chứng của nhồi máu cơ tim cấp tính bao gồm đau ngực hoặc khó chịu có hoặc không khó thở, buồn nôn, ra mồ hôi. Chẩn đoán bằng điện tâm đồ và đánh dấu tim. Điều trị ngay lập tức bao gồm oxy, thuốc giảm đau, thuốc chống ngưng tập tiểu cầu, và thuốc chống đông máu.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Có bao nhiêu loại Stent động mạch vành?
+
+GOLD QUESTION: Có hai loại stent mạch vành stent thường và stent phủ thuốc.
+
+PREDICT QUESTION: Có hai loại stent mạch vành: stent thường và stent phủ thuốc. Stent phủ thuốc có tác dụng ngăn ngừa tiến triển của lớp nội mạc, qua đó làm giảm đáng kể tỉ lệ tái hẹp sau can thiệt động mạch vành. Stent được đưa vào cơ thể nhờ một ống thông có bóng ở đầu. Ở trạng thái ban đầu, bóng xẹp và stent phủ bên ngoài bóng.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bệnh đau thắt ngực ổn định nguyên nhân gây ra do dâu?
+
+GOLD QUESTION: Nguyên nhân của đau thắt ngực ổn định là do tổn thương hẹp động mạch vành. Cơ tim của bạn làm việc liên tục, cả ngày lẫn đêm, vì thế nó cần được cung cấp oxy liên tục. Cơ tim lấy oxy từ các động mạch vành cấp máu nuôi tim. Khi cơ tim làm việc nhiều hơn bình thường, nhu cầu oxy cũng cao hơn. Nếu động mạch vành không cấp đủ oxy cho cơ tim (mạch vành bị hẹp hoặc tắc, do xơ vữa mạch máu, hoặc do cục máu đông), sẽ xuất hiện các triệu chứng của cơn đau thắt ngực.
+
+PREDICT QUESTION: Cơn đau thắt ngực ổn định là hậu quả của sự hẹp cố định động mạch vành, do mảng xơ vữa mạch vành ổn định. Khi mạch vành bị hẹp, lưu lượng máu nuôi cơ tim bị giảm đi , dẫn đến triệu chứng đau ngực, nhất là khi người bệnh hoạt động gắng sức hay bị stress tâm lý.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Tiêm phòng thấp tim có tác dụng gì?
+
+GOLD QUESTION: Thấp tim gây ra bởi các vi khuẩn thuộc nhóm liên cầu, đặc biệt sau viêm họng do liên cầu từ vài tuần đến vài tháng, dẫn đến tổn thương các cấu trúc van tim, tiến triển dần gây dày, co kéo, vôi hóa tổ chức van tim. Nhờ sự phát triển nhanh của nhiều loại kháng sinh, tỉ lệ thấp tim ngày nay đang có xu hướng giảm rõ rệt. Tuy nhiên tỉ lệ thấp tim ở Việt Nam còn cao.
+
+PREDICT QUESTION: Trong các biện pháp dự phòng, tiêm phòng thấp là biện pháp tốt nhất để phòng ngừa thấp tim tái phát trở lại và hạn chế tiến triển xấu của bệnh van tim. Thuốc dùng để tiêm phòng bệnh thấp tim là penicillin.
+22 thg 6, 2021
+-------------------------
+DATA---------------------
+TEST QUESTION: Các cách phòng ngừa bệnh thấp tim?
+
+GOLD QUESTION: Bệnh thấp tim có thể phòng ngừa được bằng cách giáo dục tốt chế độ vệ sinh phòng bệnh, khi có viêm họng do liên cầu cần điều trị sớm, đầy đủ, và đặc biệt, khi phát hiện bị thấp tim cần được quản lý theo dõi chặt chẽ tại các cơ sở y tế và tiêm phòng thấp đầy đủ. Tiêm phòng thấp là biện pháp tốt nhất để phòng ngừa thấp tim tái phát, hạn chế tiến triển của bệnh van tim do thấp.
+
+PREDICT QUESTION: Chúng ta cần tiêm phòng thủy đậu trước mùa dịch ít nhất 1 tháng để phòng ngừa.Tại Việt Nam, mùa bệnh thủy đậu thường xuất hiện vào tháng 2-6 hằng năm.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khái niệm van tim là gì?
+
+GOLD QUESTION: Quả tim bình thường có 4 buồng tim là hai tâm nhĩ ở trên và hai tâm thất ở dưới, giữa các buồng tim có các cấu trúc đảm bảo cho tuần hoàn máu chỉ đi theo một chiều người ta gọi là các van tim. Giữa nhĩ trái và thất trái được ngăn với nhau bởi van hai lá cho máu đi một chiều từ nhĩ trái xuống thất trái, dòng máu từ thất trái qua van động mạch chủ vào động mạch chủ đưa máu đi nuôi toàn cơ thể. Giữa nhĩ phải và thất phải ngăn cách với nhau bởi van ba lá cho máu đi một chiều từ nhĩ phải xuống thất phải, dòng máu từ thất phải qua van động mạch phổi vào động mạch phổi đưa máu lên phổi để trao đổi oxy. Như vậy quả tim bình thường có 4 cấu trúc van tim là van động mạch chủ, van động mạch phổi, van hai lá và van ba lá đảm bảo cho dòng máu luân chuyển theo một chu trình sinh lý.
+
+PREDICT QUESTION: Van tim là gì : Quả tim bình thường có 4 buồng tim là hai tâm nhĩ ở trên và hai tâm thất ở dưới, giữa các buồng tim có các cấu trúc đảm bảo cho tuần hoàn máu chỉ đi theo một chiều người ta gọi là các van tim.
+-------------------------
+DATA---------------------
+TEST QUESTION: Khía niệm bệnh van tim là gì?
+
+GOLD QUESTION: Hệ thống van tim là các cấu trúc đảm bảo cho máu lưu chuyển giữa các buồng tim theo một chu trình nhất định. Bình thường các van tim này là các cấu trúc thanh mảnh, mềm mại, cấu tạo bởi các lá van tim, và được cố định bằng các dây chằng, cột cơ. Vì một nguyên nhân nào đó, các lá van này mất đi độ mềm mại, thanh mảnh, bị dầy lên, dính vào nhau, hoặc vôi hóa (như trong bệnh van tim do thấp) hoặc các dây chằng cố định van tim bị sa xuống, đứt (như trong nhồi máu cơ tim) làm cho các van này không hoạt động được bình thường dẫn đến các bệnh lý van tim. Khi các van tim trở nên dày và cứng hoặc dính các mép van làm hạn chế khả năng mở của van tim, gây cản trở dòng máu, hiện tượng này gọi là hẹp van tim. Khi các van tim đóng lại không kín do giãn vòng van, thoái hoá, dính, co rút hoặc các dây chằng van tim quá dài… làm cho dòng máu có thể trào ngược lại trong thời kỳ đóng van gây ra hiện tượng này gọi là hở van tim. Các tổn thương trên có thể gặp ở tất cả các van tim, có thể do nguyên nhân bẩm sinh hoặc mắc phải.Các tổn thương van tim (hẹp hoặc/và hở van) đều có thể gây ra các rối loạn huyết động (tức là rối loạn lưu chuyển máu) và dẫn đến hậu quả bệnh lý từ mức độ nhẹ đến nặng.
+
+PREDICT QUESTION: Bệnh van tim thường biểu hiện dưới hai dạng tổn thương chính là hẹp van tim và hở van tim, đôi khi một van có tổn thương phối hợp cả hai dạng trên vừa hẹp vừa hở. Hẹp van tim là tình trạng khi các van tim trở nên dày và cứng hoặc dính các mép van làm hạn chế khả năng mở của van tim, gây cản trở dòng máu, hiện tượng này gọi là hẹp van tim. Ngược lại, hở van tim xảy ra khi các van này đóng không kín do giãn vòng van, thoái hoá, dính, co rút hoặc các dây chằng van tim quá dài… làm cho dòng máu có thể trào ngược lại trong thời kỳ đóng van. Quả tim bình thường có bốn cấu trúc van tim, các van này đều có thể biểu hiện bệnh lý van tim
+-------------------------
+DATA---------------------
+TEST QUESTION: Khái niệm bệnh van tim là gì?
+
+GOLD QUESTION: Bệnh van tim thường biểu hiện dưới hai dạng tổn thương chính là hẹp van tim và hở van tim, đôi khi một van có tổn thương phối hợp cả hai dạng trên vừa hẹp vừa hở. Hẹp van tim là tình trạng khi các van tim trở nên dày và cứng hoặc dính các mép van làm hạn chế khả năng mở của van tim, gây cản trở dòng máu, hiện tượng này gọi là hẹp van tim. Ngược lại, hở van tim xảy ra khi các van này đóng không kín do giãn vòng van, thoái hoá, dính, co rút hoặc các dây chằng van tim quá dài… làm cho dòng máu có thể trào ngược lại trong thời kỳ đóng van. Quả tim bình thường có bốn cấu trúc van tim, các van này đều có thể biểu hiện bệnh lý van tim
+
+PREDICT QUESTION: Hệ thống van tim là các cấu trúc đảm bảo cho máu lưu chuyển giữa các buồng tim theo một chu trình nhất định. Bình thường các van tim này là các cấu trúc thanh mảnh, mềm mại, cấu tạo bởi các lá van tim, và được cố định bằng các dây chằng, cột cơ. Vì một nguyên nhân nào đó, các lá van này mất đi độ mềm mại, thanh mảnh, bị dầy lên, dính vào nhau, hoặc vôi hóa (như trong bệnh van tim do thấp) hoặc các dây chằng cố định van tim bị sa xuống, đứt (như trong nhồi máu cơ tim) làm cho các van này không hoạt động được bình thường dẫn đến các bệnh lý van tim. Khi các van tim trở nên dày và cứng hoặc dính các mép van làm hạn chế khả năng mở của van tim, gây cản trở dòng máu, hiện tượng này gọi là hẹp van tim. Khi các van tim đóng lại không kín do giãn vòng van, thoái hoá, dính, co rút hoặc các dây chằng van tim quá dài… làm cho dòng máu có thể trào ngược lại trong thời kỳ đóng van gây ra hiện tượng này gọi là hở van tim. Các tổn thương trên có thể gặp ở tất cả các van tim, có thể do nguyên nhân bẩm sinh hoặc mắc phải. Các tổn thương van tim (hẹp hoặc/và hở van) đều có thể gây ra các rối loạn huyết động (tức là rối loạn lưu chuyển máu) và dẫn đến hậu quả bệnh lý từ mức độ nhẹ đến nặng.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khái niệm điện tim đồ là gì?
+
+GOLD QUESTION: Điện tim đồ Đường ghi lại hoạt động điện của tim nhưng nhiều trường hợp có ít giá trị trong chẩn đoán bệnh van tim (đặc biệt giai đoạn sớm)
+
+PREDICT QUESTION: Khái niệm chung:
+
+ Điện tâm đồ (tiếng Anh: Electrocardiogram - viết tắt là ECG) là đồ thị ghi những thay đổi của dòng điện trong tim. Quả tim co bóp theo nhịp được điều khiển của một hệ thống dẫn truyền trong cơ tim.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Chụp X Quang là gì?
+
+GOLD QUESTION: X Quang Là 1 xét nghiệm đơn giản có thể đem lại các thông tin về tổn thương giãn buồng tim, bằng chứng của suy tim ứ huyết và các tổn thương khác phối hợp.
+
+PREDICT QUESTION: X-quang là một loại bức xạ năng lượng cao. Máy chụp X-quang phát ra các chùm tia X có bức xạ cao, các tia X này xuyên qua các mô mềm và thành phần dịch trong ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Siêu âm tim là như thế nào?
+
+GOLD QUESTION: Siêu âm tim Là 1 phương pháp rất có giá trị trong các bệnh van tim. Đây là phương pháp thăm dò không chảy máu có thể cho thấy hình ảnh các van tim, cơ tim thông qua nguyên lý siêu âm. Siêu âm tim có thể cho thấy hình ảnh rõ về các van tim cũng như giúp đánh giá mức độ hẹp, hở van trong nhiều trường hợp với độ chính xác cao.
+
+PREDICT QUESTION: Siêu âm tim là gì? Siêu âm tim là một trong những phương pháp thăm dò, không xâm lấn, không gây đau hay gây hại cho sức khỏe con người. Dùng kĩ thuật này, bác sĩ sẽ theo dõi nhịp tim, cấu trúc, kích thước và chức năng tim thông qua hình ảnh được ghi lại. Từ đó có thể phân tích, đánh giá tình trạng của tim.
+26 thg 6, 2019
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bệnh hẹp van hai lá có nguyên nhân do đâu?
+
+GOLD QUESTION: Nguyên nhân của bệnh hẹp van hai lá hay gặp nhất là thấp tim. Thông thường những bệnh nhân bị hẹp hai lá thường có tiền sử thấp khớp hoặc thấp tim từ nhỏ. Thấp tim gây nên tổn thương van tim và tổ chức dưới van, bệnh tiến triển lâu ngày dẫn đến dày dình các mép van, các cánh van dày, vôi hóa dính lại với nhau gây ra hẹp van hai lá. Rất ít trường hợp hẹp hai lá bẩm sinh, trong trường hợp này, bệnh nhân thường biểu hiện tình trạng chậm phát triển thể chất, bé nhỏ, còi cọc, thường được gọi là “lùn hai lá”
+
+PREDICT QUESTION: Ở các nước đang phát triển, nguyên nhân gây hẹp van hai lá ở người trưởng thành thường do sốt thấp khớp hay viêm nội tâm mạc liên quan đến liên cầu khuẩn tan máu nhóm A (hẹp van 2 lá hậu thấp). Tình trạng này gây dày dính van tim và dẫn tới hệ lụy hẹp van sau khoảng 5-10 năm mắc bệnh.
+-------------------------
+DATA---------------------
+TEST QUESTION: Bệnh van hai lá có biểu hiện là gì?	
+
+GOLD QUESTION: Biểu hiện của bệnh van hai lá có thể diễn biến tiềm tàng trong nhiều năm mà không gây triệu chứng gì. Tuy nhiên trong thời gian đó, chức năng của tim bị sút giảm dần do gánh nặng gia tăng đối với các buồng tim. Hiện tượng xung huyết ở phổi có thể gây khó thở nhất là khi gắng sức hoặc khi nằm đầu bằng trên giường. Tăng áp lực phổi thường dẫn tới triệu chứng ho kéo dài.Hẹp hai lá gây mệt mỏi và có thể phù quanh mắt cá chân. Đôi khi mệt mỏi là dấu hiệu duy nhất của suy tim do tổn thương van hai lá.
+
+PREDICT QUESTION: Van hai lá có chức năng kiểm soát dòng máu mang ôxy chảy một chiều từ tâm nhĩ trái xuống tâm thất trái. Nếu lỗ van bị hẹp, lượng máu từ nhĩ trái chảy xuống thất trái sẽ bị hạn chế. Mặt khác, khi van đóng không kín (gọi là hở van), một lượng máu xuống thất trái sẽ bị trào ngược trở lại nhĩ trái. Trong cả hai trường hợp, tim đều phải làm việc nhiều hơn để đảm bảo đủ lượng máu đi nuôi bộ não, thận và các bộ phận khác của cơ thể. Đáp ứng với tình trạng hở van, thất trái sẽ giãn ra và áp lực trong buồng thất trái tăng lên, hậu quả cuối cùng sẽ dẫn đến suy tim.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Mổ tách van như thế nào?
+
+GOLD QUESTION: Phương pháp mổ tách van tim cho kết quả tương tự như nong van hai lá nhưng phức tạp hơn, bệnh nhân phải chịu một cuộc mổ. Ngày nay nhờ tiến bộ của tim mạch can thiệp với phương pháp nong van hai lá bằng bóng, môt tách van trên tim kín hiện nay ít được áp dụng.
+
+PREDICT QUESTION: Đây là một phương pháp điều trị hiệu quả, thẩm mỹ cao, đặc biệt là với bệnh nhân bị bệnh van hai lá. 1. Bệnh van tim hai lá là bệnh gì? Van tim đóng vai trò ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Mổ thay van HL như thế nào?
+
+GOLD QUESTION: Khi tổn thương van tim không thể nong van hay sửa van được, bệnh nhân bắt đầu có dấu hiệu suy tim do bệnh van tim gây ra, thì mổ thay van hai lá là chỉ định được đặt ra. Van hai lá có thể được thay bằng van tim sinh học hoặc van nhân tạo tùy thuộc từng bệnh nhân.
+
+PREDICT QUESTION: Đây là một phương pháp điều trị hiệu quả, thẩm mỹ cao, đặc biệt là với bệnh nhân bị bệnh van hai lá. 1. Bệnh van tim hai lá là bệnh gì? Van tim đóng vai trò ...Bị thiếu:  HL | Phải bao gồm:HL
+link: https://www.google.com.vn/search?ie=UTF-8&q=M%E1%BB%95+thay+van+%22HL%22+nh%C6%B0+th%E1%BA%BF+n%C3%A0o?&sa=X&ved=2ahUKEwjA2OScr7n2AhXuILcAHUsuBwcQ5t4CegQIAxAF
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Sự khác nhau giữa bệnh hở van hai lá và hẹp van hai lá là gì?
+
+GOLD QUESTION: Hẹp van hai lá là tình trạng giảm diện tích mở lỗ van hai lá do dính dần các mép van, xơ hoá và co rút bộ máy van và dưới van. Hẹp van hai lá gây cản trở dòng máu từ nhĩ trái về thất trái, gây ứ đọng máu ở nhĩ trái và ở phổi. Trái lại, hở van hai lá là tình trạng van hai lá đóng không kín trong thì tâm thu, làm cho dòng máu từ thất trái lẽ ra đi một chiều qua van động mạch chủ đưa máu đi nuôi toàn cơ thể lại bị trào ngược trở lại một phần vào nhĩ trái. Hậu quả của hở van hai lá làm là làm cho buồng tim trái phải làm việc nhiều hơn, lâu ngày dẫn đến giãn thất trái và suy tim.
+
+PREDICT QUESTION: Khác với bệnh hẹp van 2 lá, hở van hai lá là tình trạng khi van hai lá không được đóng chặt làm cho máu chảy ngược lại khi đã đóng van. Hở van 2 lá còn được biết đến với những tên gọi khác như bất thường van hai lá hoặc suy van hai lá.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Hở van hai lá có các bệnh lý dây chằng liên quan nào?
+
+GOLD QUESTION: Thoái hoá nhầy gây đứt dây chằng. Di chứng thấp tim dày, dính, vôi hoá dây chằng.
+
+PREDICT QUESTION: Viêm nội tâm mạc nhiễm khuẩn dẫn đến đứt dây chằng ... Các nguyên nhân ít phổ biến hơn là bệnh lý mô liên kết, hở van hai lá bẩm sinh, và bệnh tim mạch do ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Có phải phẫu thuật khi hở van tim không?
+
+GOLD QUESTION: Hở van hai lá chỉ định phẫu thuật dựa vào - Mức độ hở van định lượng dựa trên siêu âm tim hay chụp buồng tim kết hợp với các triệu chứng cơ năng của suy tim hoặc sự tiến triển của hở van 2 lá và mức độ suy tim; Hở van 2 lá mức độ nặng ( độ 3,4) có kèm theo triệu chứng cơ năng của suy tim thì cần phẫu thuật ngay; Hở van hai lá nặng ( độ 3, 4) nhưng các triệu chứng cơ năng nhẹ (khó thở khi gắng sức) cần theo dõi sát; Nếu đường kính tim trái ngày càng lớn (nhĩ trái, thất trái), hoặc xuất hiện rung nhĩ thì cần phẫu thuật ngoại khoa
+
+PREDICT QUESTION: Hở van tim nhẹ có thể điều trị bằng thuốc kết hợp thay đổi chế độ ăn, lối sống hợp lý mà chưa cần tiến hành phẫu thuật. Tuy nhiên, nếu hở van mức độ nặng kèm theo triệu chứng khó thở, mệt mỏi, đau ngực, đánh trống ngực, phù... thì bạn có thể phải tiến hành mổ thay van tim hoặc sửa van tim.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Những lưu ý khi đang dùng thuốc chống đông máu là gì?
+
+GOLD QUESTION: Nếu tuân thủ những chỉ dẫn của bác sĩ, bạn không cần phải lo lắng khi dùng thuốc chống đông. Các tác dụng không mong muốn của thuốc thường ít gặp và có thể xử trí nếu phát hiện sớm. Cần thông báo cho bác sĩ ngay nếu bạn phát hiện một trong các dấu hiệu sau Nước tiểu đỏ hoặc sậm màu; Có những vết thâm tự nhiên xuất hiện trên da, màu đỏ, nâu sẫm, hoặc đen; Chảy máu kinh nguyệt nhiều hay kéo dài một cách bất thường; Đau đầu dữ dội, hoặc đau đầu kéo dài, hoặc đau bụng; Chảy máu ( ví dụ chảy máu chân răng, chảy máu cam); Sưng nề, đau các khớp như đầu gối, cổ chân; Có khối rắn, đau xuất hiện ở các vùng cơ như bắp chân, đùi, mông..; Những bệnh khác mà bạn đang mắc có thể làm giảm khả năng dung nạp thuốc của bạn. Vì thế, hay di khám lại nếu bạn bị ốm, cảm thấy mệt mỏi.
+
+PREDICT QUESTION: Khi sử dụng thuốc, cần lưu ý 8 điều sau:
+Tuân thủ đúng chỉ định của bác sỹ ... 
+Tự kiểm tra INR. ... 
+Chăm sóc răng miệng. ... 
+Không tự động uống thuốc. ... 
+Đi khám ngay nếu có các dấu hiệu nguy hiểm. ... 
+Bệnh nhân nữ nên dùng biện pháp tránh thai khi đang sử dụng thuốc. ... 
+Tránh thực phẩm giàu vitamin K như trái bơ, sữa đậu nành, nhân sâm,...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Độ nguy hiểm của rung nhĩ không?
+
+GOLD QUESTION: Bản thân rung nhĩ ít khi nguy hiểm chết người nhưng nó có thể dẫn tới một số biến chứng nặng nề.
+
+PREDICT QUESTION: Tuy bản thân rung nhĩ ít khi nguy hiểm gây chết người nhưng nó có thể dẫn tới một số biến chứng nặng nề bao gồm: mệt mỏi, suy tim sung huyết và nguy hiểm nhất là đột quỵ. Vì thế, nếu được chẩn đoán là rung nhĩ nói riêng hoặc bệnh tim mạch nói chung, người bệnh cần phải tới bác sĩ để được khám và điều trị ngay.
+-------------------------
+DATA---------------------
+TEST QUESTION: Sâu răng là như thế nào?
+
+GOLD QUESTION: Sâu răng là tình trạng răng bị tổn thương, mất mô cứng. Đây là kết quả của quá trình hủy khoáng, xảy ra bởi vi khuẩn ở mảng bám răng và hình thành các lỗ nhỏ trên răng. Sâu răng xuất hiện khi có sự kết hợp của các yếu tố bao gồm vi khuẩn trong miệng, ăn vặt thường xuyên, sử dụng đồ uống có đường và vệ sinh răng miệng không tốt.
+
+PREDICT QUESTION: Nhìn thấy lỗ sâu Quan sát sẽ thấy men và ngà răng bị tổn thương. Nếu dùng que nạo ngà và lấy hết vụn bẩn trong thức ăn trong lỗ sâu sẽ thấy đáy lỗ sâu rộng nhiều hơn miệng lỗ; Nướu sưng hoặc chảy máu.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Những dấu hiệu của sâu răng?
+
+GOLD QUESTION: Nhìn thấy lỗ sâu Quan sát sẽ thấy men và ngà răng bị tổn thương. Nếu dùng que nạo ngà và lấy hết vụn bẩn trong thức ăn trong lỗ sâu sẽ thấy đáy lỗ sâu rộng nhiều hơn miệng lỗ; Nướu sưng hoặc chảy máu.
+
+PREDICT QUESTION: Triệu chứng bệnh Sâu răng
+Đau răng, đau tự phát hoặc đau xảy ra mà không có nguyên nhân rõ ràng.
+Răng nhạy cảm.
+Đau nhẹ đến đau khi ăn hoặc uống thứ gì đó ngọt, nóng hoặc lạnh.
+Người bệnh có thể nhìn thấy lỗ hổng trên răng.
+Nhuộm màu nâu, đen hoặc trắng trên bất kỳ bề mặt nào của răng.
+Đau khi cắn.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Khái niệm viêm tủy là gì?
+
+GOLD QUESTION: Sâu răng nặng do vi khuẩn tấn công sâu vào tủy dẫn đến viêm tủy và gây nhiều phiền toán trong quá trình sinh hoạt. Giai đoạn viêm tủy gây ra nhiều các biến chứng nguy hiểm như lỗ sâu to dần, bị nhét thức ăn, đau nhức liên tục với mức độ tăng dần, nhiễm trùng gây ra áp xe răng, răng lung lay, viêm nướu, viêm xương hàm và nguy cơ mất răng cao.
+
+PREDICT QUESTION: Viêm tủy xương hay cốt tủy viêm là một tình trạng nhiễm khuẩn cấp tính hay mãn tính ở xương bao gồm tủy xương hay mô mềm quanh xương. Thường do tụ cầu vàng gây bệnh hay liên cầu trùng tạo máu.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Chết tủy là như thế nào?
+
+GOLD QUESTION: Viêm tủy nặng, vi khuẩn tích tụ nhiều gây tổn thương chân răng, xương ổ răng và các vùng xung quanh chóp. Viêm tủy nặng khiến nhiều vi khuẩn lây lan gây áp xe, chết tủy. Giai đoạn này, bệnh nhân sẽ gặp cơn đau dữ dội, phải dùng đến thuốc giảm đau, sưng mặt, là nguyên nhân gây tiêu xương gây mất răng. Một số trường hợp răng chết tủy, hoại tử nặng, không điều trị kịp thời có thể gây biến chứng nguy hiểm, thậm chí có thể gây tử vong.
+
+PREDICT QUESTION: Tủy răng là nguồn dinh dưỡng giúp nuôi sống mô răng. Một chiếc răng đã lấy tủy (hoặc chết tủy) thì giống như nó đã chết. Nó sẽ mất đi cảm giác khi ăn uống cũng như sức nhai bị giảm sút. Răng đã lấy tủy sau 1 năm sẽ bắt đầu xuất hiện các hiện tượng sừng hóa mô răng, tức là mô răng tự hủy dần đi.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Đô nguy hiểm của bị sâu răng? 
+
+GOLD QUESTION: Sâu răng sẽ ảnh hưởng trực tiếp đến sức khỏe răng miệng. Cấu trúc răng bị phá hoại gây đau nhức, tình trạng ngày càng nghiêm trọng sẽ dẫn tới việc mất răng. Sâu răng ở tình trạng nhẹ sẽ xuất hiện những chấm đen trên bề mặt răng. Đến tình trạng nặng hơn sẽ là những lỗ hổng màu nâu hoặc đen với nhiều kích thước, hình dạng khác nhau. Điều này khiến người bệnh không tự nhiên khi cười, nói chuyện để hở răng. Ngoài ra, sâu răng còn dẫn đến hôi miệng khiến bệnh nhân mất hẳn nụ cười tự tin trong giao tiếp.
+
+PREDICT QUESTION: Sâu răng là khi răng bị vi khuẩn tấn công, hình thành lỗ sâu trên bề mặt của răng làm tổn thương cấu trúc của men răng và ngà răng. Bên cạnh đó sâu răng lâu ngày không được điều trị sẽ gây viêm tủy răng, chết tủy,… gây hôi miệng, mất thẩm mỹ, thẩm chí mất răng và ảnh hưởng nghiêm trọng đến sức khỏe của bạn.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Kem đánh răng có thể chữa được sâu răng hay không?
+
+GOLD QUESTION: Đánh răng thường xuyên là việc làm rất quan trọng để giảm đau răng. Trên thực tế, sử dụng kem đánh răng quá lâu và không phù hợp có thể gây đau răng. Bạn nên chọn kem đánh răng nhẹ dịu, thay đổi loại kem đánh răng thường xuyên. Ngoài ra, bạn cần thay thế bàn chải sau 3 tháng sử dụng để bảo vệ sức khỏe răng miệng.
+
+PREDICT QUESTION: Nếu chỉ sử dụng kem đánh răng sẽ không đạt hiệu quả ngăn ngừa và điều trị bệnh sâu răng cao. Do đó, khi điều trị tình trạng răng sâu, người bệnh cần: Kết hợp sử dụng chỉ nha khoa, nước súc miệng để loại bỏ sạch mảng bám ở kẽ răng hoặc những nơi bàn chải không tiếp xúc được.
+21 thg 5, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Độ nguy hiểm của bệnh quai bị?
+
+GOLD QUESTION: Quai bị có thể nguy hiểm, tuy nhiên hầu hết những người bị quai bị đều phục hồi hoàn toàn trong vòng 2 tuần. 
+
+PREDICT QUESTION: Quai bị là căn bệnh truyền nhiễm cấp tính, lây lan trực tiếp qua đường hô hấp. Bệnh có thể bùng phát thành dịch và gây ra nhiều biến chứng nguy hiểm như: viêm tinh hoàn, viêm buồng trứng, viêm não – màng não, viêm tụy, điếc tai,…
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bệnh quai bị có thể gây vô sinh sai hay đúng?
+
+GOLD QUESTION: Bệnh quai bị có thể gây các biến chứng như viêm màng não, viêm tinh hoàn – thường là một bên và xảy ra ở 20%-30% nam giới trưởng thành; viêm buồng trứng – gặp ở 5% nữ trưởng thành. Biến chứng viêm tinh toàn ở nam giới, viêm buồng trứng ở nữ giới có thể gây vô sinh, tuy nhiên rất hiếm gặp, chỉ chiếm từ 3-4/1.000.
+
+PREDICT QUESTION: Các biến chứng của quai bị có thể gây ra vô sinh, cụ thể như viêm tinh hoàn, viêm buồng trứng. Quai bị gây ra viêm tinh hoàn và mào tinh hoàn, vấn đề này có thể ảnh hưởng trực tiếp đến khả năng sinh sản sau này của người bệnh.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Để ngăn ngừa quai bị lây lan ta có các biện pháp nào?
+
+GOLD QUESTION: Ngoài việc tránh xa người khác khi đang bị quai bị, bệnh nhân có thể giúp ngăn chặn virus lây lan bằng cách Che miệng và mũi bằng khăn giấy khi ho hoặc hắt hơi, và sau đó vứt khăn giấy đã sử dụng vào thùng rác. Nếu không có khăn giấy, nên ho hoặc hắt hơi vào tay áo hoặc khuỷu tay trên thay vì bàn tay; Rửa tay thường xuyên bằng nước và xà phòng diệt khuẩn
+
+PREDICT QUESTION: Để phòng ngừa bệnh quai bị, bạn nên chú ý những điều sau:
+Giữ gìn vệ sinh cho trẻ, thường xuyên rửa tay với xà phòng.
+Nhà ở và trường học nên được đảm bảo vệ sinh sạch sẽ.
+Nhắc nhở trẻ phải đeo khẩu trang để tránh nguy cơ lây nhiễm bệnh.
+Áp dụng một chế độ ăn uống lành mạnh, khoa học.
+-------------------------
+DATA---------------------
+TEST QUESTION: Những nguyên nhân gây ra ù tai?
+
+GOLD QUESTION: Nguyên nhân chủ yếu của hiện tượng kể trên đó là do những yếu tố xung quanh tác động và ảnh hưởng tới tai của bạn. Trong đó, việc thường xuyên tiếp xúc với tiếng ồn lớn là lý do chủ yếu khiến bạn gặp phải tình trạng tai bị ù. Đó có thể là do đặc thù công việc hoặc bạn có thói quen nghe nhạc bằng một số thiết bị nghe nhạc di động không đảm bảo chất lượng âm thanh,… Thậm chí, khi tham gia lễ hội âm nhạc với âm thanh quá lớn, chúng ta cũng có thể đối mặt với tình trạng tai bị ù.
+
+PREDICT QUESTION: Nguyên nhân bị ghẻ là do rệp, loài vật nhỏ có 8 chân và chỉ được thấy trên kính hiển vi. Rệp cái sẽ đào một đường hầm trong da để đẻ trứng. Những con ve, trứng và chất thải của chúng kích hoạt hệ miễn dịch cơ thể, gây ra các triệu chứng như ngứa, nổi ban đỏ.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Để hạn chế tình trạng ù tai thì nên làm thế nào?
+
+GOLD QUESTION: Việc đầu tiên bạn nên làm đó là vệ sinh tai thường xuyên và đúng cách. Ngoài chăm sóc, chúng ta không thể bỏ qua việc bảo vệ đôi tai khỏi tác động của những tiếng ồn lớn. 
+
+PREDICT QUESTION: Những mẹo này bao gồm:
+Giảm tiếp xúc với những âm thanh lớn. Việc giảm tiếp xúc với âm thanh lớn có thể cải thiện chứng ù tai và tránh được những diễn tiến nặng hơn. ... 
+Trị ù tai bằng cách sử dụng tiếng ồn trắng. ... 
+Có chế độ dinh dưỡng phù hợp. ... 
+Tập luyện thường xuyên. ... 
+Sử dụng nhật ký hoạt động. ... 
+Nghiệm pháp “tiếng trống trời”
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Để phòng ngừa trẻ viêm họng khi vào hè thì làm thế nào?
+
+GOLD QUESTION: Không chỉ mùa đông mà mùa hè cũng có rất nhiều trẻ bị viêm họng. Nguyên nhân có thể là do thay đổi thời tiết, sự tấn công bởi virus/vi khuẩn,…Do đó, bạn nên đưa cháu đi khám trực tiếp với bác sĩ chuyên khoa tai mũi họng để biết nguyên nhân thật sự là gì nhé. Từ đó bác sĩ sẽ kê đơn thuốc phù hợp để giúp cải thiện tình trạng của cháu. 
+
+PREDICT QUESTION: Để tránh bị viêm họng cấp vào mùa hè, cha mẹ có thể giúp trẻ phòng ngừa bằng cách: - Mặc quần áo thoáng mát để không bị bí bách mồ hôi làm trẻ nhiễm lạnh. - Không cho trẻ tắm ngay khi mới từ ngoài nắng về hay khi cơ thể có mồ hôi. - Không để trẻ tiếp xúc trực diện với gió quạt.
+13 thg 7, 2020
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Nguyên nhân do đâu tự nhiên đau tai trái?
+
+GOLD QUESTION: Một số nguyên nhân phổ biến sau gây nên đau nhức tai đó là:Ráy tai nhiều, không được làm sạch. Viêm tai ngoài, viêm tai giữa, viêm tai xương chũm,...
+
+PREDICT QUESTION: Nguyên nhân đau tai không do bệnh lý tai:
+
+ Thoái hoá đốt sống cổ, chấn thương mô mềm vùng đầu mặt cổ. Do răng, khớp thái dương hàm, mũi xoang, tuyến nước bọt. Bệnh lý vòm họng, amidan, hạ họng, thanh quản, lưỡi.
+27 thg 4, 2020
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bệnh viêm ống tai ngoài do nguyên nhân nào gây ra?
+
+GOLD QUESTION: Nguyên nhân chủ yếu của viêm tai ngoài là do tai tiếp xúc với nguồn nước bẩn trong hồ bơi hoặc ao hồ. Pseudomonas và các vi khuẩn khác sinh sống trong nước có thể gây nhiễm trùng tai.
+
+PREDICT QUESTION: – Nguyên nhân chủ yếu của viêm tai ngoài là do tai tiếp xúc với nguồn nước bẩn trong hồ bơi hoặc ao hồ. Pseudomonas và các vi khuẩn khác sinh sống trong nước có thể gây nhiễm trùng tai.
+7 thg 9, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Bị viêm ống tai ngoài triệu chứng thường gặp khi là gì?
+
+GOLD QUESTION: Lúc đầu ngứa trong ống tai sau trở nên nóng, rát như bỏng, vài ngày sau đau dữ dội, nghe kém và ù tai; Kéo vành tai, ấn nắp tai gây đau tăng rõ rệt; Da ống tai nề đỏ, sau đó ống tai bị chít hẹp lại do sưng nề và ứ dịch vàng, có thể bong từng đám biểu bì trắng. 
+
+PREDICT QUESTION: Bệnh viêm ống tai ngoài là một nhiễm trùng cấp tính của da ở tai thường do vi khuẩn (Pseudomonas là phổ biến nhất). Các triệu chứng bao gồm đau, chảy mủ tai, và nghe kém nếu ống tai bị sưng lên; ấn hoặc kéo tai gây ra đau.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Những biến chứng của viêm tai ngoài có thể gây ra nếu không điều trị?
+
+GOLD QUESTION: Nếu không được điều trị sẽ thành mủ, da bị hoại tử gây sẹo chít hẹp hay sùi lấp ống tai ngoài. 
+
+PREDICT QUESTION: Nếu không điều trị tiếp, viêm sẽ lan đến nền sọ, gây biến chứng nặng nề như: liệt dây thần kinh, áp xe não, viêm màng não,… Viêm tai ngoài ác tính thường gặp ở người bệnh suy giảm miễn dịch hoặc tiểu đường, khiến vi trùng không bị tiêu diệt và ngày càng gây bệnh nặng hơn.
+10 thg 3, 2021
+-------------------------
+score: 52 || total: 100
+==================================
+==================================
+file_name: test_quaibi_taimuihong_thuydau_viemxoang.yml
+size: 31/31
+DATA---------------------
+TEST QUESTION: Viêm xoang là bệnh gì?
+
+GOLD QUESTION: Xoang là những khoang rỗng chứa khí, nằm trong khối xương sọ, có chức năng làm nhẹ khối xương này và góp phần vào việc phát âm. Niêm mạc xoang có một lớp lông rất mịn, thường xuyên chuyển động để đưa lớp chất nhầy (do niêm mạc tiết ra) về phía lỗ thông ở cửa mũi sau rồi chuyển xuống dạ dày. Hiện tượng này gọi là sự dẫn lưu dịch tiết. Khi sự dẫn lưu bị tắc nghẽn, tình trạng viêm xoang sẽ xảy ra.
+
+PREDICT QUESTION: Viêm họng là tình trạng viêm tại tổ chức niêm mạc và dưới niêm mạc ở họng. Bệnh gặp phải ở cả người lớn và trẻ em, trong đó chủ yếu là trẻ em do sức đề kháng kém hơn, bệnh thường xuất hiện vào mùa thu – đông khi thời tiết thay đổi.
+-------------------------
+DATA---------------------
+TEST QUESTION: Nguyên nhân dẫn đến bệnh viêm xoang?
+
+GOLD QUESTION: Những cấu trúc bên trong mũi chèn ép lỗ thông. Nhiễm virus đường hô hấp trên, gây phù nề niêm mạc, nhất là niêm mạc quanh các lỗ thông. Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.
+
+PREDICT QUESTION: Trong gia đình từng có người bị gout thì sẽ di truyền cho bạn. Do uống quá nhiều bia rượu. Do thừa cân, béo phì. Sử dụng quá nhiều thực phẩm chế biến sẵn và thực phẩm giàu chất đạm, purin. Do ảnh hưởng của các loại thuốc kháng sinh gây rối loạn chuyển hóa Axit Uric. Do bị sỏi thận, suy thận
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Viêm xoang do dị ứng là tình trạng thế nào?
+
+GOLD QUESTION: Đó là tình trạng phản ứng của niêm mạc mũi xoang với các tác nhân gây kích thích từ bên ngoài. Các biểu hiện thường gặp là nghẹt mũi, ngứa mũi, hắt hơi và chảy nước mũi trong; niêm mạc quanh các lỗ thông bị phù nề, làm tình trạng viêm xoang mạn tính thêm trầm trọng. Đối với những trường hợp viêm xoang do dị ứng, thuốc kháng dị ứng có tác dụng điều trị tốt.
+
+PREDICT QUESTION: Viêm xoang là bệnh lý thể hiện tình trạng nhiễm trùng của lớp màng niêm mạc lót trong lòng các xoang gây ra bởi các loại vi khuẩn, virus hay tình trạng dị ứng dẫn tới phù nề, làm hẹp đường kính các lỗ xoang, dẫn tới các triệu chứng chảy mủ, ứ đọng dịch trong khoang mũi.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Thủy đậu là bệnh gì?
+
+GOLD QUESTION: Thủy đậu là bệnh truyền nhiễm gây ra bởi virus thuộc họ Herpesviridae có tên khoa học là Varicella Zoster (VZV).Bất cứ ai cũng có khả năng nhiễm virus gây bệnh thủy đậu, đặc biệt là trẻ em. Đối với người lớn, tỷ lệ mắc thủy đậu thấp hơn nhưng vẫn có nhiều ca biến chứng nặng, thậm chí gây tử vong do không có kiến thức phòng ngừa và điều trị bệnh.
+
+PREDICT QUESTION: 1. Bệnh thủy đậu là gì? ... Bệnh thủy đậu (hay còn gọi là trái rạ) là bệnh truyền nhiễm cấp tính do virus thủy đậu có tên Varicella virus gây ra. Loại virus này ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Ngứa lỗ tai có bệnh gì không?
+
+GOLD QUESTION: Nếu tình trạng này chỉ xuất hiện một vài ngày thì sẽ không có gì đáng phải lo ngại. Tuy nhiên, nếu bạn cảm thấy bị ngứa tai trong nhiều tháng, thậm chí nhiều năm thì đó lại là triệu chứng không thể xem thường. Có thể liên quan đến bệnh nhiễm trùng tai.
+
+PREDICT QUESTION: Ngứa tai có nhiều nguyên nhân: Do ráy tai tích tụ, do dị ứng, do kích thích của máy trợ thính, do nấm tai, viêm tai. Nếu ngứa tai liên tục thì nên nghĩ đến nguyên nhân bệnh lý như viêm tai ngoài hoặc nấm trong tai. Thói quen ngoáy tai thường xuyên có thể gây viêm ống tai ngoài.
+16 thg 4, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Tôi bị ù tai kéo dài sau khi đi máy bay thì có cách nào chữa không?
+
+GOLD QUESTION: Ù tai khi đi máy bay là tình trạng khá phổ biến, xảy ra khi có sự chênh lệch giữa áp suất bên trong và ngoài tai. Thông thường, ù tai khi đi máy bay sẽ tự khỏi sau khoảng vài giờ hoặc vài ngày. Tuy nhiên, bạn đã bị ù tai khi đi máy bay kéo dài Tập luyện đều đặn để tăng cường máu tới ốc tai, giúp thần kinh thính giác khỏe mạnh và cải thiện ù tai.
+
+PREDICT QUESTION: Nuốt nước bọt thường xuyên là một trong những mẹo hay giúp bạn giảm chứng ù tai khi đi máy bay hiệu quả. Khi nuốt nước bọt liên tục sẽ gây kích thích vòi eustache từ đó làm cân bằng lượng áp suất bị chênh lệch giảm chứng ù tai. Bạn có thể vừa kết hợp nuốt nước bọt vừa bịt mũi lại để có hiệu quả nhanh nhất.
+-------------------------
+DATA---------------------
+TEST QUESTION: Triệu chứng viêm amydale?
+
+GOLD QUESTION: Đột ngột biểu hiện sốt, đau mình mẩy. Đau rát họng, có thể có ho khan hoặc có đờm.
+
+PREDICT QUESTION: Triệu chứng thường thấy nhất là sốt vừa 38 – 39 độ hoặc sốt cao, ớn lạnh, nhức đầu, đau mình mẩy, mệt mỏi, kém ăn. Phản ứng hạch góc hàm di động, ấn đau. Đau họng nhất là khi nuốt, kể cả khi nuốt chất lỏng.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Ngoài dùng thuốc để chữa amidan ra thì còn cách nào khác không?
+
+GOLD QUESTION: Bên cạnh các loại thuốc tân dược, những bài thuốc dân gian khắc chế bệnh cũng được nhiều người áp dụng chẳng hạn như dùng quất và mật ong, Đường phèn và chanh,Rau diếp cá và muối biển:.,..
+
+PREDICT QUESTION: Cách chữa amidan không dùng thuốc kháng sinh bằng nghệ tươi sẽ như sau: – Bạn hãy cho trẻ súc miệng bằng nước nghệ ấm hoặc trộn nghệ với nước muối ấm cho trẻ súc miệng vài lần trong ngày. – Bạn cũng có thể cho 1 thìa bột nghệ, 1 ít tiêu vào ly sữa ấm cho bé uống trước khi đi ngủ.
+-------------------------
+score: 23 || total: 31
+==================================
+==================================
+file_name: test_tay_chan_mieng.yml
+size: 25/25
+GOOGLE---------------------
+TEST QUESTION: Tại sao trẻ em dễ bị lây nhiễm tay chân miệng?
+
+GOLD QUESTION: Trẻ em có nhiều khả năng bị lây nhiễm và bị bệnh bởi chúng có ít kháng thể hơn người lớn và ít khả năng miễn dịch khi tiếp xúc. Hầu hết người lớn được miễn dịch, nhưng vẫn có trường hợp mắc bệnh ở thanh thiếu niên và người lớn.
+
+PREDICT QUESTION: Thường trẻ dưới 5 tuổi có thói quen ngậm đồ chơi và chơi chung đồ chơi với nhau. Vì thế bệnh tay chân miệng rất dễ lây lan ở khoảng tuổi này. Môi trường nhà trẻ là môi trường thuận lợi cho virus tay chân miệng phát tán nhanh chóng nhất. Ngoài ra, là những đối tượng chưa hề có kiến thức trong việc phòng ngừa bệnh tật.
+-------------------------
+DATA---------------------
+TEST QUESTION: Cách để phát hiện sớm bệnh tay chân miệng?
+
+GOLD QUESTION: Thời gian ủ bệnh thông thường từ khi nhiễm bệnh tới khi khởi phát triệu chứng là 3 - 7 ngày. Sốt là triệu chứng đầu tiên của bệnh Tay chân miệng, sốt thường kéo dài 24 - 48 giờ.
+
+PREDICT QUESTION: Nguy cơ lây nhiễm bệnh có thể được giảm thiểu bằng việc thực hiện tốt vệ sinh cá nhân và chăm sóc y tế kịp thời cho những trẻ em bị bệnh. Các biện pháp phòng ngừa bao gồm rửa tay thường xuyên với xà phòng, làm sạch môi trường bị ô nhiễm và các vật dụng bẩn, tránh tiếp xúc gần (ôm, hôn, dùng chung đồ dùng…) với trẻ em bị bệnh Tay chân miệng, Không cho trẻ sơ sinh và trẻ em bị bệnh đi mẫu giáo, nhà trẻ, trường học hoặc nơi đông người cho tới khi khỏe hẳn, Theo dõi chặt chẽ tình trạng bệnh và chăm sóc y tế kịp thời nếu trẻ sốt cao, li bì, mất tỉnh táo, Che miệng và mũi khi hắt hơi và ho,...
+-------------------------
+DATA---------------------
+TEST QUESTION: Triệu chứng bệnh tay chân miệng?
+
+GOLD QUESTION: Sốt, chán ăn, mệt mỏi và thường xuyên bị đau họng. Một hoặc 2 ngày sau khi khởi phát sốt, xuất hiện đau trong miệng, có đốm đỏ như phỏng rộp và sau đó trở thành vết loét. Vết loét thường nằm trên lưỡi, nướu răng (lợi) và niêm mạc má. Phát ban trên da, không ngứa trong 1-2 ngày với những đốm màu đỏ khổng nổi hoặc nổi lên, có khi có rộp da. Ban thường nằm trong lòng bàn tay và lòng bàn chân; cũng có thể xuất hiện trên mông và /hoặc ở cơ quan sinh dục. Người bị bệnh Tay chân miệng có thể không biểu hiện triệu chứng, hoặc có thể chỉ có phát ban hoặc chỉ loét miệng. Trong một số ít trường hợp, bệnh có thể diễn biến nhanh với các triệu chứng về thần kinh, hô hấp và nhanh chóng dẫn đến tử vong.
+
+PREDICT QUESTION: Nguy cơ lây nhiễm bệnh có thể được giảm thiểu bằng việc thực hiện tốt vệ sinh cá nhân và chăm sóc y tế kịp thời cho những trẻ em bị bệnh. Các biện pháp phòng ngừa bao gồm rửa tay thường xuyên với xà phòng, làm sạch môi trường bị ô nhiễm và các vật dụng bẩn, tránh tiếp xúc gần (ôm, hôn, dùng chung đồ dùng…) với trẻ em bị bệnh Tay chân miệng, Không cho trẻ sơ sinh và trẻ em bị bệnh đi mẫu giáo, nhà trẻ, trường học hoặc nơi đông người cho tới khi khỏe hẳn, Theo dõi chặt chẽ tình trạng bệnh và chăm sóc y tế kịp thời nếu trẻ sốt cao, li bì, mất tỉnh táo, Che miệng và mũi khi hắt hơi và ho,...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Có thể bị tay chân miệng nhiều lần không
+
+GOLD QUESTION: Có, người có thể mắc bệnh Tay chân miệng nhiều lần do có nhiều tuýp vi rút khác nhau. Người bệnh chỉ miễn dịch đối với một loại vi rút cụ thể, những lần mắc bệnh khác có thể xảy ra do lây nhiễm một loại vi rút týp khác.
+
+PREDICT QUESTION: Có nhiều bậc cha mẹ chủ quan khi cho rằng trẻ đã từng bị bệnh tay chân miệng sẽ không mắc lại lần 2, tuy nhiên trên thực tế căn bệnh này hoàn toàn có thể quay trở lại trên cơ thể trẻ nhiều lần và nguy hiểm đến tính mạng của trẻ.
+8 thg 4, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Cần bao nhiêu ngày để trẻ hồi phục sau bệnh tay chân miệng
+
+GOLD QUESTION: Thường từ 3 đến 5 ngày sau, trẻ hồi phục hoàn toàn nếu không có biến chứng.
+
+PREDICT QUESTION: Trên 90% trẻ sẽ khỏi bệnh sau 7-10 ngày
+
+ Dấu hiệu trẻ bị tay chân miệng thường gặp ở trẻ nhỏ dưới 3 tuổi, thường độ tuổi càng nhỏ thì bệnh càng nặng. Hầu như hơn 90% các trẻ sẽ hồi phục sau 7 - 10 ngày. Phụ huynh khi phát hiện dấu hiệu trẻ bị tay chân miệng, có thể đưa trẻ đi thăm khám với bác sĩ chuyên khoa nhi.
+-------------------------
+score: 20 || total: 25
+==================================
+==================================
+file_name: test_than_dalieu_daumatdo_muntrungca.yml
+size: 30/30
+GOOGLE---------------------
+TEST QUESTION: Suy thận
+
+GOLD QUESTION: Suy thận là sự suy giảm các chức năng của thận. Lúc này, thận yếu đi, thậm chí ngừng hoạt động khiến máu không được lọc và chất thải độc hại bị tích trữ trong cơ thể
+
+PREDICT QUESTION: Triệu chứng của bệnh suy thận · Buồn nôn, nôn · Chán ăn · Mệt mỏi, ớn lạnh · Rối loạn giấc ngủ · Thay đổi khi đi tiểu: ban đêm đi tiểu nhiều hơn, nước tiểu có bọt, ...
+Suy thận có chữa được không? · 
+Nguyên nhân gây suy thận
+link: https://www.google.com.vn/url?q=https://hongngochospital.vn/benh-suy-than/%23ftoc-heading-3&sa=U&ved=2ahUKEwjti5S3r7n2AhXGILcAHRIvBdEQ0gJ6BAgAEAU&usg=AOvVaw3DdRJOHi1Gu7eHx-ulf7rY
+-------------------------
+DATA---------------------
+TEST QUESTION: Nguyên nhân gây suy thận là gì?
+
+GOLD QUESTION: Giảm lưu lượng máu đến thận, Vấn đề đào thải nước tiểu, Các nguyên nhân khác
+
+PREDICT QUESTION: Nguyên nhân gây ra tình trạng răng sâu là do một số loại vi khuẩn tạo axit gây ra. Cụ thể là loại Lactobacillus, Streptococcus mutans và các loài Actinomyces. Các vi khuẩn này gây tổn thương cho răng trong môi trường chứa carbohydrate lên men được, điển hình là các loại đường sucrose, fructose và glucose.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Sống được bao lâu khi  mắc bệnh lupus ban đỏ?
+
+GOLD QUESTION: Việc điều trị chỉ giúp giảm nhẹ các triệu chứng, từ đó bạn có thể sống thêm ít nhất 10 năm, thậm chí cũng có người sống lâu bằng người khỏe mạnh.
+
+PREDICT QUESTION: Lupus ban đỏ từng là căn bệnh rất nguy hiểm. Vào năm 1955, chỉ có 50% người bệnh lupus sống được hơn 4 năm sau khi chẩn đoán. Nhờ những tiến bộ của y khoa trong hơn 2 thập kỷ qua, hơn 95% người mắc bệnh lupus đã sống được tới hơn 10 năm, đạt được tuổi thọ của một người khỏe mạnh bình thường.
+5 thg 8, 2019
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Mày đay điều trị như thế nào?
+
+GOLD QUESTION: Nếu như bạn chỉ có các triệu chứng nhẹ thì không cần thiết phải điều trị. Mề đay và phù mạch thường sẽ tự hết. Tuy nhiên, điều trị có thể cần thiết khi bạn cảm thấy khó chịu và ngứa nhiều. Nếu các triệu chứng nặng hay kéo dài, điều trị thuốc có thể giúp bạn thoải mái hơn.
+
+PREDICT QUESTION: bệnh nhân nên sớm điều trị dị ứng, nổi mề đay để đẩy nhanh quá trình chữa lành bệnh. Để chữa khỏi bệnh mày đay, người bệnh cần loại bỏ các nguyên nhân gây kích ứng, mẩn ngứa. Bên cạnh đó, bệnh nhân cần sử dụng thuốc kháng histamin, corticosteroid hay các loại thuốc điều trị được chỉ định bởi bác sĩ chuyên khoa.
+-------------------------
+score: 26 || total: 30
+==================================
+==================================
+file_name: test_viem_duong_ho_hap.yml
+size: 24/24
+DATA---------------------
+TEST QUESTION: Nguyên nhân gây ra viêm đường hô hấp?
+
+GOLD QUESTION: Có 2 nguyên do chính khiến trẻ dễ mắc bệnh đường hô hấp khi thời tiết giao mùa. Trẻ có thể bị nhiễm mầm bệnh do thời tiết trở lạnh, nhiệt độ hạ thấp tạo điều kiện thuận lợi để virut, vi khuẩn phát triển, sinh sôi nhanh chóng. Bên cạnh đó, trẻ cũng có thể dễ dàng mắc bệnh do nhiễm lạnh hay dị ứng thời tiết. 
+
+PREDICT QUESTION: Do dị ứng với thời tiết và các loại dị nguyên khác nhau. Do các nhóm vi sinh vật gây bệnh bằng cách cư trú ở chất nhầy niêm mạc mũi họng
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Vì sao trẻ thường bị viêm đường hô hấp khi trời trở lạnh?
+
+GOLD QUESTION: Khi thời điểm giao mùa, thời tiết và độ ẩm không khí thay đổi thất thường khiến cơ thể không thích ứng kịp.Đây chính là môi trường thuận lợi cho virus, vi khuẩn gây bệnh đường hô hấp hoạt động mạnh, do đó đây là thời điểm bùng phát rất nhiều bệnh đường hô hấp, đặc biệt là các đối tượng có hệ miễn dịch kém như trẻ nhỏ .
+
+PREDICT QUESTION: Thời tiết thất thường là điều kiện thuận lợi cho vi rút, vi khuẩn phát triển khiến trẻ dễ mắc các bệnh về đường hô hấp, đặc biệt khi trời trở lạnh giá rét những trẻ có sức đề kháng yếu sẽ dễ mắc bệnh viêm đường hô hấp, viêm phổi... gây ảnh hưởng đến sức khỏe của trẻ.
+21 thg 11, 2019
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: yếu tố tác động đến hệ hô hấp của trẻ nhỏ khi chuyển mùa?
+
+GOLD QUESTION: Thay đổi khí hậu vào thời điểm giao mùa khiến nhiệt độ thay đổi thất thường, từ nóng chuyển sang lạnh và từ nắng chuyển sang mưa trong một ngày. Khi sự biến động nhiệt độ diễn ra nhanh sẽ làm hệ miễn dịch của bạn bị suy yếu. Bên cạnh đó các virus gây bệnh cảm lạnh dễ dàng phát triển và lan truyền hơn trong điều kiện khí hậu lạnh, ẩm hơn thời tiết nóng. Đường hô hấp là nơi mà nhiều mầm bệnh dễ dàng xâm nhập khi chúng ta hít thở.Không khí dễ bị tù túng, kém lưu thông do vào mùa lạnh mọi người có khuynh hướng ít di chuyển ra ngoài đường mà ở trong nhà nhiều hơn, đóng các cửa để tránh không khí lạnh xâm nhập. Đây là yếu tố thuận lợi làm các tác nhân vi sinh vật nếu tồn tại trong không khí có khả năng sinh sôi nảy nở nhiều hơn.Vào mùa lạnh, ngày ngắn đêm dài, số giờ có ánh sáng mặt trời trong ngày cũng giảm đi, ánh sáng mặt trời ít đi cũng là một lý do nữa làm cho vi sinh vật dễ sinh sôi nảy nở hơn nữa.
+
+PREDICT QUESTION: Môi trường ô nhiễm, thời tiết giao mùa, cộng với hệ miễn dịch chưa hoàn thiện là những yếu tố chính khiến trẻ em dễ mắc các bệnh về hô hấp như cảm cúm, viêm phế quản, viêm phổi, ho gà, bạch hầu... Theo PGS.TS.BS.
+19 thg 10, 2021
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Nguyên nhân nhập viện do viêm phổi khi thời tiết lạnh kéo dài.
+
+GOLD QUESTION: Viêm phổi ở trẻ em là nguyên nhân gây tử vong ở trẻ em hàng đầu trên thế giới.  Do trẻ nhỏ hệ miễm dịch chưa hoàn chỉnh, sức đề kháng kém. Do cha mẹ không có kiến thức về phòng bệnh dẫn đến bệnh nhiễm khuẩn hô hấp cấp. Viêm phổi có thể xuất hiện khi bé đang trong các đợt bệnh đường hô hấp kéo dài như ho hoặc cảm cúm. Dịch nhầy tiết ra trong đường hô hấp trở thành nguồn dinh dưỡng cho vi trùng, chúng sinh sôi, nảy nở. Cha mẹ không  đủ kiến thức về cách nhận biết sớm bệnh viêm phổi ở trẻ nhỏ để đi khám bệnh  , và không biết dấu hiệu  nào viêm phổi nặng phải nhập viện, viêm phổi rất nặng phải nhập viên ngay. Khi bệnh Cha mẹ tự ý mua thuốc cho trẻ uống cho trẻ , dẫn đến tính trạng không giải quyết được bệnh, do không đúng thuốc, sử dụng thuốc không đúng liều lượng, thời gian, không đúng bệnh dẫn đến viêm hô hấ kéo dài hay viêm phổi nặng.
+
+PREDICT QUESTION: 15 thg 12, 2021 · Viêm phổi diễn tiến nặng và nhanh hơn khi thời tiết lạnh, khiến người lớn, ... Ban đầu, người bệnh sốt nhẹ nhưng sau đó sốt cao kéo dài, ...
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Cha mẹ có nên tự ý mua thuốc cho trẻ không
+
+GOLD QUESTION: Tự ý mua thuốc nên không đúng thuốc , đúng bệnh dẫn đến tình trạng bệnh kéo dài , diễn tiến nặng. Hay việc lạm dụng kháng sinh với một đứa trẻ sẽ làm suy giảm hệ miễn dịch của trẻ, gây rối loạn tiêu hóa, nghiêm trọng hơn gây nên tình trạng kháng thuốc kháng sinh và tác dụng phụ kháng sinh. Gây tổn thương gan thận do sử dụng quá liều. Gây dị ứng, shock phản vệ. Tăng nguy cơ tiêu chảy, táo bón
+
+PREDICT QUESTION: 1 thg 3, 2022 · Hiện nay, số trẻ em mắc COVID -19 đang có xu hướng gia tăng, đa số trẻ không có triệu chứng hoặc có các triệu chứng nhẹ.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Người bệnh nhiễm trùng nặng có biến chứng gì
+
+GOLD QUESTION: Ho liên miên có đờm trong cuống họng. Sốt cao và trong tình trạng mê mang. Nhịp tim đập nhanh hơn bình thường. Khó thở hoặc thở khò khè. Cảm thấy nặng ở đầu và đau tại lòng ngực.
+
+PREDICT QUESTION: Tính nguy hiểm của sốc nhiễm khuẩn
+
+ Sốc nhiễm khuẩn gây ra nhiều biến chứng nguy hiểm, như khó thở, nhịp tim nhanh, rối loạn tâm thần... Tỷ lệ tử vong do bệnh cao, chiếm từ 20 - 50%. Tỷ lệ nhiễm trùng nặng cao đối với người già, trẻ nhỏ và trẻ sơ sinh đặc biệt là nhiễm khuẩn huyết.
+-------------------------
+GOOGLE---------------------
+TEST QUESTION: Các triệu chứng viêm đường hô hấp cấp kéo dài bao lâu?
+
+GOLD QUESTION: Kéo dài trong khoảng 3 đến 14 ngày.
+
+PREDICT QUESTION: Các triệu chứng của nhiễm trùng đường hô hấp trên thường kéo dài từ 3 đến 14 ngày, nếu dài hơn có thể gợi ý đến các bệnh khác như viêm dị ứng, viêm phổi, viêm phế quản. Đối với viêm thanh quản do virus, bệnh nhân sẽ bị khan tiếng hoặc mất tiếng do dây thanh âm bị viêm nhiễm, phù nề.
+-------------------------
+DATA---------------------
+TEST QUESTION: Viêm đường hô hấp trên là gì?
+
+GOLD QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
+
+PREDICT QUESTION: Viêm đường hô hấp dưới hay nhiễm trùng đường hô hấp dưới là từ dùng để diễn tả chung về các tình trạng nhiễm trùng xảy ra ở phần đường hô hấp dưới, tức là từ thanh quản trở xuống (gồm khí quản, phế quản, tiểu phế quản và phế nang). Các bệnh lý thường gặp là viêm phổi, viêm phế quản và bệnh lao.
+-------------------------
+score: 16 || total: 24
+==================================
+total_score: 217 || len: 330 || score: 0.6575757575757576 
+using_google: 90 ||time: 198.08188724517822

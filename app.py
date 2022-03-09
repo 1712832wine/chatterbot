@@ -16,20 +16,16 @@ def index():
 
 @app.route('/api/messages/send', methods=['POST'])
 def sendmessage():
-    global last_message
+
     message = request.json['message']
-
     response = chatbot.get_response(message)
-    response_messages = [{"success": True, "text": response.text}]
-
-    if (response.text == 'Ồ, không phải hả. Sorry nha, Sa ngu ngốc quá.' and last_message):
-        answer = googleSearch(last_message)
-        response_messages.append({"success": True, "text": answer})
-
-    last_message = message
+    if response.text != 'Xin lỗi tôi không hiểu':
+        response_messages = [{"success": True, "text": response.text}]
+    else:
+        answer = googleSearch(message)
+        response_messages = [{"success": True, "text": answer}]
     return jsonify(response_messages)
 
 
 if __name__ == '__main__':
-    last_message = ''
     app.run(debug=True)
