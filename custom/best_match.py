@@ -120,7 +120,4 @@ class BestMatch(LogicAdapter):
         else:
             response = self.get_default_response(input_statement)
 
-        if response.confidence > self.maximum_similarity_threshold:
-            return response
-        else:
-            return self.get_default_response(input_statement)
+        return response

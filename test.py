@@ -7,7 +7,7 @@ from google_search import googleSearch
 
 def get_response(message):
     response = chatbot.get_response(message)
-    if response.text != 'Xin lỗi tôi không hiểu':
+    if response.confidence >= 0.7:
         result = response.text
         type = 'data'
     else:

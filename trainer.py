@@ -14,8 +14,6 @@ chatbot = ChatBot("chatbot",
 
                       }
                   ],
-                  default_response='Xin lỗi tôi không hiểu',
-                  maximum_similarity_threshold=0.75,
                   statement_comparison_function=levenshtein_distance,
                   response_selection_method=get_random_response,
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',

@@ -16,10 +16,10 @@ def index():
 
 @app.route('/api/messages/send', methods=['POST'])
 def sendmessage():
-
+    threshold = 0.75
     message = request.json['message']
     response = chatbot.get_response(message)
-    if response.text != 'Xin lỗi tôi không hiểu':
+    if response.confidence >= threshold:
         response_messages = [{"success": True, "text": response.text}]
     else:
         answer = googleSearch(message)
