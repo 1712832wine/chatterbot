@@ -43,31 +43,21 @@ Lần lượt chạy bert, lavenstein với các thao tác sơ loại sau:
 - STEMWORD + WHITESPACE
 
 - VIETNAMESE TOKENIZER + STEMWORD
-0.8
-total_score: 185 || len: 330 || score: 0.5606060606060606 
-using_google: 136 ||time: 170.20093774795532
-sai 9
+threshold lavenstein 0.75  
+total_score: 270 || len: 380 || score: 0.71  
+không biết: 86 => 0.23  
+sai 24 câu => 0.06  
+time: 154.9934642314911  
 
-0.75
-total_score: 221 || len: 330 || score: 0.6696969696969697 
-using_google: 86 ||time: 119.4660587310791
-sai 23 câu
+threshold bert 0.8
+total_score: 327 || len: 380 || score: 0.8605263157894737 
+unknown: 23||time: 896.9174010753632
+sai 30 câu
 
-0.7
-total_score: 238 || len: 330 || score: 0.7212121212121212 
-using_google: 61 ||time: 98.01828622817993
-sai 31 câu
-
-0.65
-total_score: 253 || len: 330 || score: 0.7666666666666667 
-using_google: 32 ||time: 76.97225880622864
-sai 45 câu
-
-none
-total_score: 269 || len: 330 || score: 0.8151515151515152 
-using_google: 0 ||time: 43.35360789299011
-sai 61 câu
-
+threshold 0.85
+total_score: 300 || len: 380 || score: 0.7894736842105263 
+unknown: 65||time: 896.623348236084
+sai 15 câu
 - VIETNAMESE TOKENIZER + POSTAG  
 
 

@@ -7,13 +7,12 @@ from google_search import googleSearch
 
 def get_response(message):
     response = chatbot.get_response(message)
-    if response.confidence >= 0.7:
+    if response.confidence >= 0.85:
         result = response.text
         type = 'data'
     else:
-        answer = googleSearch(message)
-        result = answer
-        type = 'google'
+        result = 'Xin lỗi, tôi chỉ hỗ trợ các câu hỏi liên quan đến y tế'
+        type = 'unknown'
     return result, type
 
 
@@ -25,6 +24,7 @@ if __name__ == "__main__":
         total_score = 0
         total_len = 0
         using_google = 0
+        using_unknown = 0
         list_test = os.listdir('./data/test')
         for file in list_test:
             with open('./data/test/'+file, encoding="utf-8") as f:
@@ -50,22 +50,14 @@ if __name__ == "__main__":
             for index in range(0, len(test_questions)):
                 print(index + 1, '/', len(test_questions), 'of', file)
                 predict_text, type = get_response(test_questions[index])
-                if type == 'data':
-                    if compare(predict_text, test_answers[index]):
-                        score += 1
-                    else:
-                        # WRONG CASES
-                        fw.write('DATA---------------------\n')
-                        fw.write('TEST QUESTION: {}\n'.format(
-                            test_questions[index]))
-                        fw.write('GOLD QUESTION: {}\n'.format(
-                            test_answers[index]))
-                        fw.write('PREDICT QUESTION: {}\n'.format(
-                            predict_text))
-                        fw.write('-------------------------\n')
+
+                if compare(predict_text, test_answers[index]):
+                    score += 1
                 else:
-                    using_google += 1
-                    fw.write('GOOGLE---------------------\n')
+                    if type == 'unknown':
+                        using_unknown += 1
+                    # WRONG CASES
+                    fw.write('{}---------------------\n'.format(type))
                     fw.write('TEST QUESTION: {}\n'.format(
                         test_questions[index]))
                     fw.write('GOLD QUESTION: {}\n'.format(
@@ -83,5 +75,5 @@ if __name__ == "__main__":
         # finish all
         time_end = time.time()
         total_time = time_end - time_start
-        fw.write('total_score: {} || len: {} || score: {} \nusing_google: {} ||time: {}\n'.format(
-            total_score, total_len, total_score/total_len, using_google, total_time))
+        fw.write('total_score: {} || len: {} || score: {} \nunknown: {}||time: {}\n'.format(
+            total_score, total_len, total_score/total_len, using_unknown, total_time))
