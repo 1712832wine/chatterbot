@@ -45,7 +45,7 @@ Lần lượt chạy bert, lavenstein với các thao tác sơ loại sau:
 - VIETNAMESE TOKENIZER + STEMWORD
 threshold lavenstein 0.75  
 total_score: 270 || len: 380 || score: 0.71  
-không biết: 86 => 0.23  
+không biết: 86 => 0.23 (bỏ đi phần google)
 sai 24 câu => 0.06  
 time: 154.9934642314911  
 
