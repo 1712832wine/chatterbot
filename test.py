@@ -7,13 +7,11 @@ from google_search import googleSearch
 
 def get_response(message):
     response = chatbot.get_response(message)
-    if response.confidence >= 0.85:
+    if response.confidence >= 0.75:
         result = response.text
-        type = 'data'
     else:
-        result = 'Xin lỗi, tôi chỉ hỗ trợ các câu hỏi liên quan đến y tế'
-        type = 'unknown'
-    return result, type
+        result = googleSearch(message)
+    return result
 
 
 if __name__ == "__main__":
@@ -23,8 +21,6 @@ if __name__ == "__main__":
         # start testing
         total_score = 0
         total_len = 0
-        using_google = 0
-        using_unknown = 0
         list_test = os.listdir('./data/test')
         for file in list_test:
             with open('./data/test/'+file, encoding="utf-8") as f:
@@ -49,13 +45,11 @@ if __name__ == "__main__":
 
             for index in range(0, len(test_questions)):
                 print(index + 1, '/', len(test_questions), 'of', file)
-                predict_text, type = get_response(test_questions[index])
+                predict_text = get_response(test_questions[index])
 
                 if compare(predict_text, test_answers[index]):
                     score += 1
                 else:
-                    if type == 'unknown':
-                        using_unknown += 1
                     # WRONG CASES
                     fw.write('{}---------------------\n'.format(type))
                     fw.write('TEST QUESTION: {}\n'.format(
@@ -75,5 +69,5 @@ if __name__ == "__main__":
         # finish all
         time_end = time.time()
         total_time = time_end - time_start
-        fw.write('total_score: {} || len: {} || score: {} \nunknown: {}||time: {}\n'.format(
-            total_score, total_len, total_score/total_len, using_unknown, total_time))
+        fw.write('total_score: {} || len: {} || score: {} \n||time: {}\n'.format(
+            total_score, total_len, total_score/total_len, total_time))

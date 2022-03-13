@@ -16,7 +16,7 @@ def index():
 
 @app.route('/api/messages/send', methods=['POST'])
 def sendmessage():
-    threshold = 0.75
+    threshold = 0.7
     message = request.json['message']
     response = chatbot.get_response(message)
     if response.confidence >= threshold:

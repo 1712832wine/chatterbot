@@ -89,3 +89,13 @@ vào util/compat.py dòng 264 sửa time.clock thành time.time
 - Lỗi Loader:
 đổi load() thành safe_load()
 
+
+
+
+
+threshold 0.85 lavenstein
+whitespace + stemword
+total_score: 143 || len: 380 || score: 0.3763157894736842 
+unknown: 182||time: 278.5661835670471
+
+=> sai 5 câu
