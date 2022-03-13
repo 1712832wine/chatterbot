@@ -14,7 +14,7 @@ chatbot = ChatBot("chatbot",
 
                       }
                   ],
-                  statement_comparison_function=my_bert,
+                  statement_comparison_function=levenshtein_distance,
                   response_selection_method=get_random_response,
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   tagger_language=languages.VIE,
