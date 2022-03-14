@@ -99,3 +99,6 @@ total_score: 143 || len: 380 || score: 0.3763157894736842
 unknown: 182||time: 278.5661835670471
 
 => sai 5 câu
+
+total_score: 295 || len: 330 || score: 0.8939393939393939 
+time: 1719.8829879760742

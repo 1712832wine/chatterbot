@@ -2,143 +2,291 @@
 file_name: test_beo_phi.yml
 size: 25/25
 <class 'type'>---------------------
-TEST QUESTION: hiện trạng béo phì?
-
-GOLD QUESTION: Nhìn chung, hơn 10% dân số người trưởng thành trên thế giới là béo phì. Trong năm 2011, hơn 40 triệu trẻ em dưới năm tuổi bị thừa cân. Từng được coi là căn bệnh ở những nước có thu nhập cao, nay thừa cân và béo phì đang gia tăng ở các nước có thu nhập thấp và trung bình, đặc biệt là ở đô thị. Hơn 30 triệu trẻ em thừa cân đang sinh sống tại các nước đang phát triển và 10 triệu người ở các nước phát triển. Thừa cân và béo phì có liên quan đến trường hợp tử vong trên toàn thế giới nhiều hơn ở trường hợp thấp cân. Ví dụ, 65% dân số thế giới sống ở các nước đang thừa cân và béo phì gây tử vong nhiều hơn trường hợp thiếu cân.
-
-PREDICT QUESTION: nhìn chung hơn 10 dân số người trưởng thành trên thế giới là béo phì trong năm 2011 hơn 40 triệu trẻ dưới năm tuổi bị thừa cân từng được coi là căn bệnh ở những nước có thu nhập cao nay thừa cân và béo phì đang gia tăng ở các nước có thu nhập thấp và trung bình đặc biệt là ở đô thị hơn 30 triệu trẻ thừa cân đang sinh sống tại các nước đang phát triển và 10 triệu người ở các nước phát triển thừa cân và béo phì có liên quan đến trường hợp tử vong trên toàn thế giới nhiều hơn ở trường hợp thấp cân ví dụ 65 dân số thế giới sống ở các nước đang thừa cân và béo phì gây tử vong nhiều hơn trường hợp thiếu cân
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Hậu quả sức khỏe phổ biến của béo phì?
-
-GOLD QUESTION: BMI cao là một yếu tố nguy cơ chính gây bệnh không lây là Bệnh tim mạch (chủ yếu là bệnh tim và đột quỵ) là nguyên nhân tử vong hàng đầu trong năm 2008; Bệnh tiểu đường gây rối loạn cơ xương (đặc biệt là viêm xương khớp - một bệnh thoái hóa vô hiệu hóa của các khớp); Một số loại ung thư (nội mạc tử cung, vú, và đại tràng).Trẻ em béo phì có liên quan nhiều hơn với bệnh béo phì, sớm tử vong và khuyết tật ở tuổi trưởng thành. Ngỏai ra, béo phì còn gia tăng nguy cơ trong tương lại như trẻ em béo phì khó thở, tăng nguy cơ gãy xương, tăng huyết áp, các dấu hiệu sớm của bệnh tim mạch, kháng insulin và ảnh hưởng tâm lý.
-
-PREDICT QUESTION: bmi cao là một yếu tố nguy cơ chính gây bệnh không lây là bệnh tim mạch chủ yếu là bệnh tim và đột quỵ là nguyên nhân tử vong hàng đầu trong năm 2008 bệnh tiểu đường gây rối loạn cơ xương đặc biệt là viêm xương khớp một bệnh thoái hóa vô hiệu hóa của các khớp một số loại ung thư nội mạc tử cung vú và đại tràngtrẻ béo phì có liên quan nhiều hơn với bệnh béo phì sớm tử vong và khuyết tật ở tuổi trưởng thành ngỏai ra béo phì còn gia tăng nguy cơ trong tương lại như trẻ béo phì khó thở tăng nguy cơ gãy xương tăng huyết áp các dấu hiệu sớm của bệnh tim mạch kháng insulin và ảnh hưởng tâm lý
--------------------------
-<class 'type'>---------------------
 TEST QUESTION: Béo phì có gây tiểu đường không?
 
 GOLD QUESTION: Béo phì là một trong những nguyên nhân chính gây ra tiểu đường type 2. Béo phì khiến hormon insulin do tuyến tụy tiết ra hoạt động không hiệu quả, không thể giúp tế bào của cơ thể hấp thu đường. Lúc này, tuyến tụy sẽ cố gắng sản sinh nhiều insulin hơn. Nếu tình trạng này kéo dài, việc sản sinh insulin của tuyến tụy sẽ giảm và khi đó bệnh nhân dễ mắc bệnh tiểu đường type 2.
 
-PREDICT QUESTION: trẻ thừa cân béo phì thường có chỉ số thông minh thấp hơn trẻ có cân nặng bình thường người lớn bị béo phì có nguy cơ bị alzheimer cao hơn so với người bình thường
+PREDICT QUESTION: Trẻ thừa cân béo phì thường có chỉ số thông minh thấp hơn trẻ có cân nặng bình thường. Người lớn bị béo phì có nguy cơ bị Alzheimer cao hơn so với người bình thường.
 -------------------------
 <class 'type'>---------------------
 TEST QUESTION: Béo phì có gây ra gan nhiễm mỡ?
 
 GOLD QUESTION: Thừa cân, béo phì là nguyên nhân hàng đầu gây gan nhiễm mỡ không do rượu. Ước tính, hơn 70% số người béo phì có gan bị nhiễm mỡ. Khi sự vận chuyển chất béo ở gan bị mất cân bằng, chất béo này sẽ tích tụ lại trong tế bào gan và dẫn đến gan bị nhiễm mỡ. Tỷ lệ mắc gan nhiễm mỡ tăng theo chỉ số khối của cơ thể (BMI). Ở những người không béo phì, tỷ lệ gan bị nhiễm mỡ và viêm gan nhiễm mỡ lần lượt là 15% và 3%. Những người béo phì độ I và độ II (tương ứng BMI từ 30 - 39.9 kg/m2) thì tỷ lệ này tương ứng là 5% và 20%. Đặc biệt với những người có BMI ≥40kg/m2 tỷ lệ gan bị nhiễm mỡ tương ứng là 85% và viêm gan nhiễm mỡ là 40%.
 
-PREDICT QUESTION: khi bạn tăng cân quá mức các cơ chế hoạt động trong cơ thể như hệ hô hấp tuần hoàn miễn dịch cũng bị ảnh hưởng theo và giảm hiệu quả hoạt động do đó làm tăng nguy cơ tích tụ các độc tố trong cơ thể và về lâu dài đây cũng là nguyên nhân gây ung thư
+PREDICT QUESTION: Khi bạn tăng cân quá mức, các cơ chế hoạt động trong cơ thể như hệ hô hấp, tuần hoàn, miễn dịch cũng bị ảnh hưởng theo và giảm hiệu quả hoạt động. Do đó, làm tăng nguy cơ tích tụ các độc tố trong cơ thể và về lâu dài đây cũng là nguyên nhân gây ung thư.
 -------------------------
-score: 21 || total: 25
+score: 23 || total: 25
 ==================================
 ==================================
 file_name: test_covid.yml
 size: 40/40
 <class 'type'>---------------------
-TEST QUESTION: Có thể nhiễm cùng lúc cúm và Covid-19 không? 
+TEST QUESTION: Virus corona sống được ở nhiệt độ bao nhiêu? 
 
-GOLD QUESTION: Trong cùng một thời điểm có thể xảy ra trường hợp nhiễm cúm và Covid-19. Bởi vì cúm và Covid-19 đều có một số các triệu chứng tương tự nhau như ho, sốt,... nên khó để phân biệt hai loại bệnh này chỉ dựa trên dấu hiệu nhận biết. Để chẩn đoán, xác định chính xác bệnh, chúng ta vẫn cần xét nghiệm virus học - hiện đang được thực hiện tại viện vệ sinh dịch tễ Pasteur, hoặc ở một số bệnh viện lớn như bệnh viện Nhiệt Đới TP.HCM, bệnh viện Nhiệt Đới Hà Nội,... Thế nhưng, không phải tất cả các trường hợp đều phải xét nghiệm, phải căn cứ vào đặc điểm lâm sàng, đặc điểm dịch tễ… để xác định triệu chứng sốt, ho, khó thở là bệnh lý từ SARS-CoV-2 hay bệnh lý từ vi khuẩn, virus viêm đường hô hấp khác? Hiện tại, để xác định, điều quan trọng đầu tiên là xem dịch tễ học, tức là người này có đi đến vùng dịch hay không? Thứ 2 là có tiếp cận với người đã được chẩn đoán hay xác nhận là nhiễm virus Corona hay không? Thứ 3 là người này có tiếp cận với người đi từ vùng dịch về hay không? Còn nếu chỉ sốt, ho, khó thở thôi thì chưa khẳng định được điều gì. Cách tốt nhất để phòng cúm theo mùa là tiêm vắc xin mỗi năm. Một nghiên cứu mới đây của Đại học Florida (Mỹ) đã chỉ ra rằng, tiêm phòng cúm không chỉ giúp giảm nguy cơ nhập viện do Covid-19 mà còn giảm nguy cơ biến chứng nặng nếu chẳng may mắc Covid-19. Thêm vào đó, nếu không tiêm ngừa  cúm mà chẳng may mắc bệnh, người bệnh có thể bị sốt. Sốt trong thời điểm này sẽ khiến người bệnh và những người xung quanh càng thêm lo lắng. Do đó, nếu tiêm phòng cúm vấn đề này sẽ được giải quyết.
+GOLD QUESTION: Theo bác sĩ Trương Hữu Khanh, Trưởng khoa Nhiễm - Thần kinh, Bệnh viện Nhi Đồng I, TP.HCM, Cố vấn cao cấp Hệ thống trung tâm tiêm chủng VNVC  Ở nhiệt độ cao bên ngoài cơ thể (trên 20 độ C, đặc biệt là trên 25 độ C), ánh nắng, môi trường thông thoáng, virus Corona (2019-nCoV) sẽ yếu đi và giảm khả năng lây bệnh. Nhưng nếu ở nhiệt độ thấp, độ ẩm cao, không thoáng khí, lạnh thì virus sẽ phát tán và lây lan rất nhanh vì đây là điều kiện thuận lợi cho chúng phát triển. Hiện vẫn chưa biết chắc chắn virus SARS-CoV-2 tồn tại được bao lâu trên các bề mặt, mặc dù thông tin sơ bộ cho thấy virus có thể tồn tại trong vài giờ. Các chất khử trùng đơn giản có thể tiêu diệt virus khiến nó không còn khả năng lây nhiễm cho người. Mặt khác, ở nhiệt độ 40 độ C hoặc cao hơn, virus vẫn có thể sống tốt trong cơ thể vật chủ. Virus chỉ chết trong cơ thể khi hệ miễn dịch của chúng ta nhận biết ra chúng, tấn công tiêu diệt vào các tế bào chứa chúng. Bên ngoài môi trường vật chủ, virus sẽ dễ bị chết sớm, thông thường chúng chết chỉ trong vài phút cho đến vài giờ. Tuy nhiên, ở các điều kiện môi trường như nhiệt độ và độ ẩm thấp, virus sẽ sống dai dẳng hơn.
 
-PREDICT QUESTION: hoàn toàn có thể có những người có đột biến gen mã hóa thụ thể dành cho virus làm cho virus không thể xâm nhập được vào bên trong tế bào là người có khả năng đề kháng tự nhiên với virus điều này đã được khẳng định ở trường hợp của những người mắc hiv tuy nhiên còn quá sớm để tìm ra người có đề kháng tự nhiên với covid19 hy vọng công nghệ giải mã bộ gen người hiện nay cho phép giải trình tự toàn bộ bộ gen người trong thời gian ngắn và giá thành thấp sẽ tạo điều kiện sàng lọc trong số những người nhiễm hoặc phơi nhiễm với covid19 nhưng không mắc bệnh bằng cách đó có thể sẽ tìm ra được những người có đột biến gen tạo khả năng kháng tự nhiên với covid19
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Có thể lấy huyết tương của người bị Covid đã khỏi bệnh để chữa cho người đang mắc bệnh hay không? 
-
-GOLD QUESTION: Có. Vì trong huyết tương (thành phần dịch lỏng của máu) người bị bệnh đã khỏi có các kháng thể chống lại tác nhân gây bệnh. Chính các kháng thể này là “vũ khí” giúp cơ thể người bệnh chống lại tác nhân gây bệnh đó, góp phần giúp người đó khỏi bệnh. Truyền huyết tương (hoặc sản phẩm kháng thể tinh chế) của người bị bệnh đã khỏi cho người đang bị bệnh chính là truyền các yếu tố đã giúp người này khỏi bệnh sang cho người khác đang bị bệnh, tương tự như cung cấp “vũ khí” cho người ấy để đánh giặc. Phương pháp này đã được các bác sĩ Hồng Kông áp dụng với bệnh nhân SARS trước đây. Điều này đòi hỏi người khỏi bệnh phải thực sự khỏi bệnh (không còn virus trong người), xét nghiệm máu có kháng thể trung hòa được virus Covid-19 và người đó đủ khỏe để có thể hiến máu tách huyết tương chứa kháng thể kháng Covid-19 để truyền cho bệnh nhân. Ngoài ra còn phải xem xét các yếu tố khác, bao gồm cả hòa hợp nhóm máu ABO và các xét nghiệm an toàn truyền máu khác, để tránh các tai biến trong điều trị bằng huyết thanh. Thực tế hiện nay các bác sĩ Trung Quốc cũng đang bắt đầu nghiên cứu thí điểm biện pháp này cho các bệnh nhân nặng.
-
-PREDICT QUESTION: có vì trong huyết tương thành phần dịch lỏng của máu người bị bệnh đã khỏi có các kháng thể chống lại tác nhân gây bệnh chính các kháng thể này là “vũ khí” giúp cơ thể người bệnh chống lại tác nhân gây bệnh đó góp phần giúp người đó khỏi bệnh truyền huyết tương hoặc sản phẩm kháng thể tinh chế của người bị bệnh đã khỏi cho người đang bị bệnh chính là truyền các yếu tố đã giúp người này khỏi bệnh sang cho người khác đang bị bệnh tương tự như cung cấp “vũ khí” cho người ấy để đánh giặc phương pháp này đã được các bác sĩ hồng kông áp dụng với bệnh nhân sars trước đây điều này đòi hỏi người khỏi bệnh phải thực sự khỏi bệnh không còn virus trong người xét nghiệm máu có kháng thể trung hòa được virus covid19 và người đó đủ khỏe để có thể hiến máu tách huyết tương chứa kháng thể kháng covid19 để truyền cho bệnh nhân ngoài ra còn phải x xét các yếu tố khác bao gồm cả hòa hợp nhóm máu abo và các xét nghiệm an toàn truyền máu khác để tránh các tai biến trong điều trị bằng huyết thanh thực tế hiện nay các bác sĩ trung quốc cũng đang bắt đầu nghiên cứu thí điểm biện pháp này cho các bệnh nhân nặng
+PREDICT QUESTION: Xin lỗi anh/chị, em chưa hiểu yêu cầu này
 -------------------------
 <class 'type'>---------------------
 TEST QUESTION: Virus corona nguy hiểm với những người nào? 
 
 GOLD QUESTION: Mong mỏi về cuộc sống sẽ sớm trở lại “bình thường”, cả thế giới đang cùng hướng về vaccine Covid-19, vũ khí sắc bén có thể chấm dứt được “đại dịch”. Tuy nhiên, việc sản xuất vắc xin không thể một sớm một chiều, trước đó cần phải chủ động phòng tránh bệnh. Bác sĩ Trương Hữu Khanh cảnh báo  “Virus corona chủng mới 2019-nCoV đặc biệt nguy hiểm với những người có hệ miễn dịch yếu, người lớn tuổi, người mắc các bệnh lý nền mãn tính và trẻ em. Những đối tượng này có khả năng lây nhiễm cao, khó điều trị và bệnh cảnh diễn tiến nhanh, gây nguy hiểm cho tính mạng. Đặc biệt, virus cực kỳ nguy hiểm cho phụ nữ có thai. Khi phụ nữ mang thai mắc bệnh sẽ để lại những hậu quả đặc biệt nghiêm trọng. Mức độ nguy hiểm của bệnh này với phụ nữ có thai tương tự như mức độ của dịch bệnh MERS năm 2014”.
 
-PREDICT QUESTION: mong mỏi về cuộc sống sẽ sớm trở lại “bình thường” cả thế giới đang cùng hướng về vaccine covid19 vũ khí sắc bén có thể chấm dứt được “đại dịch” tuy nhiên việc sản xuất vắc xin không thể một sớm một chiều trước đó cần phải chủ động phòng tránh bệnh bác sĩ trương hữu khanh cảnh báo “virus corona chủng mới 2019ncov đặc biệt nguy hiểm với những người có hệ miễn dịch yếu người lớn tuổi người mắc các bệnh lý nền mãn tính và trẻ những đối tượng này có khả năng lây nhiễm cao khó điều trị và bệnh cảnh diễn tiến nhanh gây nguy hiểm cho tính mạng đặc biệt virus cực kỳ nguy hiểm cho phụ nữ có thai khi phụ nữ mang thai mắc bệnh sẽ để lại những hậu quả đặc biệt nghiêm trọng mức độ nguy hiểm của bệnh này với phụ nữ có thai tương tự như mức độ của dịch bệnh mers năm 2014”
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Trẻ em có trong nhóm đối tượng nguy cơ cao không? 
-
-GOLD QUESTION: Nhìn lại quá khứ, đại dịch Covid-19 có nhiều điểm tương đồng với dịch SARS, MERS-CoV. Theo kết quả nghiên cứu, dịch MERS tại Saudi Arabia năm 2012 và Hàn Quốc năm 2015 khiến hơn 800 người thiệt mạng. Tuy nhiên, hầu hết trẻ em nhiễm bệnh đều không có những triệu chứng nghiêm trọng. Tương tự, dịch SARS bùng phát năm 2003 với hơn 800 người chết, tuy nhiên không có trẻ em nào được ghi nhận tử vong, phần lớn người chết vì dịch có độ tuổi trung bình trên 45 và đa số là nam giới. Theo các thống kê của Trung tâm kiểm soát và ngăn ngừa dịch bệnh, trong hơn 8.000 ca nhiễm SARS chỉ có 135 ca nhiễm ở trẻ em chiếm tỷ lệ 1,6%. Bệnh “viêm phổi lạ” do coronavirus chủng mới gây ra đã phác họa nên một bức tranh hoàn toàn mới về nền dịch tễ thế giới, vì thế chưa có một nghiên cứu toàn diện về sự tác động của “đại dịch” đối với trẻ em. Mặt khác, các nhà khoa học đã đưa ra một số nhận định ban đầu, tỷ lệ nam giới mắc bệnh cao hơn nữ giới, trẻ nhỏ ít bị hơn người lớn. Bởi trẻ em ít có khả năng bị phơi nhiễm ngay từ đầu hoặc do đã có hệ thống miễn dịch bẩm sinh, nên trẻ có thể phản ứng chống trả virus dễ dàng hơn và gặp những triệu chứng nhẹ hơn người lớn tuổi. Tuy nhiên, dù tỷ lệ nhiễm bệnh ở trẻ được ghi nhận ở mức thấp nhưng không vì thế mà chúng ta chủ quan, thoải mái để trẻ ra ngoài mà không có biện pháp phòng ngừa. Cần phải dự phòng, tất cả mọi người đều phải được phòng ngừa và thực hiện biện pháp phòng ngừa như nhau.
-
-PREDICT QUESTION: nhìn lại quá khứ đại dịch covid19 có nhiều điểm tương đồng với dịch sars merscov theo kết quả nghiên cứu dịch mers tại saudi arabia năm 2012 và hàn quốc năm 2015 khiến hơn 800 người thiệt mạng tuy nhiên hầu hết trẻ nhiễm bệnh đều không có những triệu chứng nghiêm trọng tương tự dịch sars bùng phát năm 2003 với hơn 800 người chết tuy nhiên không có trẻ nào được ghi nhận tử vong phần lớn người chết vì dịch có độ tuổi trung bình trên 45 và đa số là nam giới theo các thống kê của trung tâm kiểm soát và ngăn ngừa dịch bệnh trong hơn 8000 ca nhiễm sars chỉ có 135 ca nhiễm ở trẻ chiếm tỷ lệ 16 bệnh “viêm phổi lạ” do coronavirus chủng mới gây ra đã phác họa nên một bức tranh hoàn toàn mới về nền dịch tễ thế giới vì thế chưa có một nghiên cứu toàn diện về sự tác động của “đại dịch” đối với trẻ mặt khác các nhà khoa học đã đưa ra một số nhận định ban đầu tỷ lệ nam giới mắc bệnh cao hơn nữ giới trẻ nhỏ ít bị hơn người lớn bởi trẻ ít có khả năng bị phơi nhiễm ngay từ đầu hoặc do đã có hệ thống miễn dịch bẩm sinh nên trẻ có thể phản ứng chống trả virus dễ dàng hơn và gặp những triệu chứng nhẹ hơn người lớn tuổi tuy nhiên dù tỷ lệ nhiễm bệnh ở trẻ được ghi nhận ở mức thấp nhưng không vì thế mà chúng ta chủ quan thoải mái để trẻ ra ngoài mà không có biện pháp phòng ngừa cần phải dự phòng tất cả mọi người đều phải được phòng ngừa và thực hiện biện pháp phòng ngừa như nhau
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Nên cho trẻ mang khẩu trang không? 
-
-GOLD QUESTION: CDC khuyến cáo, tất cả mọi trẻ em từ 2 tuổi trở lên nên đeo khẩu trang khi ở những nơi công cộng hay tiếp xúc với những người lạ, người đang bị cảm cúm, ho,... Những trẻ khỏe mạnh có thể mang khẩu trang vải, không nhất thiết dùng khẩu trang y tế. Người lớn mua khẩu trang vải cho trẻ phải đảm bảo đúng kích thước, phải che đủ cả mũi, miệng, cằm trẻ. Khẩu trang là “rào chắn” đơn giản giúp ngăn cản các giọt bắn từ đường hô hấp người khác đến trẻ. Những trẻ mắc các bệnh như bệnh xơ nang, ung thư hoặc suy giảm miễn dịch nên tham vấn với nhân viên y tế và nên mang khẩu trang y tế. Bởi việc mang khẩu trang còn được khuyến cáo là vô cùng hữu hiệu để bảo vệ cho những người có yếu tố nguy cơ cao nhiễm Covid-19.
-
-PREDICT QUESTION: cdc khuyến cáo tất cả mọi trẻ từ 2 tuổi trở lên nên đeo khẩu trang khi ở những nơi công cộng hay tiếp xúc với những người lạ người đang bị cảm cúm ho những trẻ khỏe mạnh có thể mang khẩu trang vải không nhất thiết dùng khẩu trang y tế người lớn mua khẩu trang vải cho trẻ phải đảm bảo đúng kích thước phải che đủ cả mũi miệng cằm trẻ khẩu trang là “rào chắn” đơn giản giúp ngăn cản các giọt bắn từ đường hô hấp người khác đến trẻ những trẻ mắc các bệnh như bệnh xơ nang ung thư hoặc suy giảm miễn dịch nên tham vấn với nhân viên y tế và nên mang khẩu trang y tế bởi việc mang khẩu trang còn được khuyến cáo là vô cùng hữu hiệu để bảo vệ cho những người có yếu tố nguy cơ cao nhiễm covid19
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Nếu trẻ em có bệnh nền thì cần phải làm gì? 
-
-GOLD QUESTION: Khi dịch SARS-CoV-2 đang bùng phát mạnh mẽ trên toàn thế giới, trẻ em được đánh giá là đối tượng có tần suất mắc bệnh thấp hơn so với các nhóm tuổi khác. Theo một nghiên cứu gần đây, tùy theo lứa tuổi và sức khỏe, trẻ cũng được chia thành những nhóm có mức độ tổn thương khác nhau khi bị tác động bởi Covid-19. Đặc biệt, trẻ mắc bệnh nền với sức đề kháng suy yếu càng dễ tổn thương nghiêm trọng và dễ trở nặng khi bị nhiễm virus.  Do đó, để ngăn chặn sự lây lan của Covid-19, bảo vệ sức khỏe tốt nhất, bố mẹ nên hướng dẫn trẻ những việc sau  + Tránh tiếp xúc gần với người bị bệnh/ có các triệu chứng bệnh. + Luôn đeo khẩu trang đúng cách. + Che miệng khi ho và hắt hơi bằng khăn giấy và bỏ khăn giấy vào thùng rác có nắp đậy. + Luôn rửa tay bằng xà phòng và nước nếu tay bị dính bẩn. Tuy nhiên, nếu không có sẵn xà phòng và nước, hãy sử dụng chất diệt khuẩn như nước rửa tay khô có chứa ít nhất 60% cồn. + Bổ sung thực đơn hằng ngày cho trẻ với đầy đủ dinh dưỡng, đặc biệt là các loại quả nhiều vitamin C để tăng sức đề kháng, phòng ngừa bệnh viêm phổi cấp do Coronavirus gây nên. + Tiêm phòng đầy đủ cho trẻ, đặc biệt là vắc xin cúm. + Khi trẻ có các triệu chứng bất thường về hô hấp như khó thở, ho dai dẳng, phát âm khó khăn,... bố mẹ hãy liên hệ ngay với bác sĩ hoặc cơ quan y tế gần nhất để được tư vấn và khám kịp thời.
-
-PREDICT QUESTION: khi dịch sarscov2 đang bùng phát mạnh mẽ trên toàn thế giới trẻ được đánh giá là đối tượng có tần suất mắc bệnh thấp hơn so với các nhóm tuổi khác theo một nghiên cứu gần đây tùy theo lứa tuổi và sức khỏe trẻ cũng được chia thành những nhóm có mức độ tổn thương khác nhau khi bị tác động bởi covid19 đặc biệt trẻ mắc bệnh nền với sức đề kháng suy yếu càng dễ tổn thương nghiêm trọng và dễ trở nặng khi bị nhiễm virus do đó để ngăn chặn sự lây lan của covid19 bảo vệ sức khỏe tốt nhất bố mẹ nên hướng dẫn trẻ những việc sau tránh tiếp xúc gần với người bị bệnh có các triệu chứng bệnh luôn đeo khẩu trang đúng cách che miệng khi ho và hắt hơi bằng khăn giấy và bỏ khăn giấy vào thùng rác có nắp đậy luôn rửa tay bằng xà phòng và nước nếu tay bị dính bẩn tuy nhiên nếu không có sẵn xà phòng và nước hãy sử dụng chất diệt khuẩn như nước rửa tay khô có chứa ít nhất 60 cồn bổ sung thực đơn hằng ngày cho trẻ với đầy đủ dinh dưỡng đặc biệt là các loại quả nhiều vitamin c để tăng sức đề kháng phòng ngừa bệnh viêm phổi cấp do coronavirus gây nên tiêm phòng đầy đủ cho trẻ đặc biệt là vắc xin cúm khi trẻ có các triệu chứng bất thường về hô hấp như khó thở ho dai dẳng phát âm khó khăn bố mẹ hãy liên hệ ngay với bác sĩ hoặc cơ quan y tế gần nhất để được tư vấn và khám kịp thời
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Nếu tôi đã nhiễm COVID và khỏi bệnh, tôi có cần tiêm vắc-xin COVID nữa không?
-
-GOLD QUESTION: Có, quý vị nên tiêm chủng bất kể quý vị đã bị nhiễm COVID-19 hay chưa bởi vì   Nghiên cứu vẫn chưa cho thấy quý vị sẽ được bảo vệ trong thời gian bao lâu nhằm tránh tái mắc COVID-19 sau khi khỏi bệnh COVID-19. Tiêm chủng giúp bảo vệ quý vị ngay cả khi quý vị đã mắc COVID-19.  Bằng chứng đang cho thấy rằng mọi người được bảo vệ tốt hơn khi được tiêm chủng đầy đủ so với sau khi bị mắc COVID-19. Một nghiên cứu đã chỉ ra rằng những người chưa tiêm chủng và đã mắc COVID-19 có nhiều khả năng tái mắc COVID-19 cao hơn 2 lần so với những người đã tiêm chủng đầy đủ. Nếu quý vị được điều trị COVID-19 bằng các kháng thể đơn dòng hoặc huyết tương dưỡng bệnh, quý nên chờ 90 ngày trước khi tiêm vắc-xin ngừa COVID-19. Trao đổi với bác sĩ của quý vị nếu quý vị không chắc rằng các phương pháp điều trị đang thực hiện cho quý vị là gì hoặc khi có thắc mắc về việc tiêm vắc-xin COVID-19. Nếu quý vị hoặc con cái quý vị có tiền sử mắc hội chứng viêm đa hệ thống ở người lớn hoặc trẻ em (MIS-A or MIS-C), hãy xem xét trì hoãn việc tiêm chủng cho tới khi quý vị cà con cái quý vị đã khỏi bệnh và sau 90 ngày kể từ ngày chẩn đoán bị MIS-A hoặc MIS-C. Tìm hiểu thêm về các khuyến cáo lâm sàng dành cho những người có tiền sử mắc hội chứng đa hệ thống MIS-C hoặc MIS-A. Các chuyên gia vẫn đang tìm hiểu thêm về khoảng thời gian vắc-xin có thể bảo vệ chống lại COVID-19 là bao lâu. CDC sẽ thông báo đến công chúng khi có bằng chứng mới. Trang liên quan   Lợi ích của việc tiêm chủng Chuẩn bị chủng ngừa COVID-19 
-
-PREDICT QUESTION: có quý vị nên tiêm chủng bất kể quý vị đã bị nhiễm covid19 hay chưa bởi vì nghiên cứu vẫn chưa cho thấy quý vị sẽ được bảo vệ trong thời gian bao lâu nhằm tránh tái mắc covid19 sau khi khỏi bệnh covid19 tiêm chủng giúp bảo vệ quý vị ngay cả khi quý vị đã mắc covid19 bằng chứng đang cho thấy rằng mọi người được bảo vệ tốt hơn khi được tiêm chủng đầy đủ so với sau khi bị mắc covid19 một nghiên cứu đã chỉ ra rằng những người chưa tiêm chủng và đã mắc covid19 có nhiều khả năng tái mắc covid19 cao hơn 2 lần so với những người đã tiêm chủng đầy đủ nếu quý vị được điều trị covid19 bằng các kháng thể đơn dòng hoặc huyết tương dưỡng bệnh quý nên chờ 90 ngày trước khi tiêm vắcxin ngừa covid19 trao đổi với bác sĩ của quý vị nếu quý vị không chắc rằng các phương pháp điều trị đang thực hiện cho quý vị là gì hoặc khi có thắc mắc về việc tiêm vắcxin covid19 nếu quý vị hoặc con cái quý vị có tiền sử mắc hội chứng viêm đa hệ thống ở người lớn hoặc trẻ misa or misc hãy x xét trì hoãn việc tiêm chủng cho tới khi quý vị cà con cái quý vị đã khỏi bệnh và sau 90 ngày kể từ ngày chẩn đoán bị misa hoặc misc tìm hiểu thêm về các khuyến cáo lâm sàng dành cho những người có tiền sử mắc hội chứng đa hệ thống misc hoặc misa các chuyên gia vẫn đang tìm hiểu thêm về khoảng thời gian vắcxin có thể bảo vệ chống lại covid19 là bao lâu cdc sẽ thông báo đến công chúng khi có bằng chứng mới trang liên quan lợi ích của việc tiêm chủng chuẩn bị chủng ngừa covid19
+PREDICT QUESTION: Mệt mỏi; Đau khớp và sưng hay xơ cứng khớp, thường ở tay, thắt lưng và đầu gối; Bị phát ban ở phần cơ thể tiếp xúc với ánh nắng mặt trời, thường là ở mặt (gò má và mũi); Hiện tượng Raynaud làm cho đầu ngón tay, ngón chân tím tái và đau đớn khi tiếp xúc với lạnh; Viêm màng phổi, gây ra cơn đau khi thở cùng thở gấp; Thận bị ảnh hưởng có thể dẫn đến cao huyết áp và suy thận.
 -------------------------
 <class 'type'>---------------------
 TEST QUESTION: Các thành phần trong vắc-xin là gì?
 
 GOLD QUESTION: Các thành phần của vắc-xin có thể khác nhau tùy theo nhà sản xuất. Không vắc-xin nào chứa trứng, gelatin, mủ cao su latex hoặc chất bảo quản. Toàn bộ vắc-xin ngừa COVID-19 đều không chứa kim loại​​​​​​​ như sắt, ni-ken, co-ban, li-ti và hợp kim đất hiếm. Vắc-xin đồng thời cũng không chứa các sản phẩm chế tạo như vi điện tử, điện cực, ống na-nô các-bon và chất bán dẫn dây na-nô. Để tìm hiểu thêm về các thành phần có trong vắc-xin ngừa COVID-19 được cấp phép, hãy xem  Tổng quan và độ an toàn của vắc-xin ngừa COVID-19 của Pfizer-BioNtech Tổng quan và độ an toàn của vắc-xin ngừa COVID-19 của Moderna Tổng quan và tính an toàn của vắc-xin  ngừa COVID-19 của Johnson & Johnson's Janssen Thành phần bao gồm trong vắc-xin ngừa COVID-19 
 
-PREDICT QUESTION: các thành phần của vắcxin có thể khác nhau tùy theo nhà sản xuất không vắcxin nào chứa trứng gelatin mủ cao su latex hoặc chất bảo quản toàn bộ vắcxin ngừa covid19 đều không chứa kim loại​​​​​​​ như sắt niken coban liti và hợp kim đất hiếm vắcxin đồng thời cũng không chứa các sản phẩm chế tạo như vi điện tử điện cực ống nanô cácbon và chất bán dẫn dây nanô để tìm hiểu thêm về các thành phần có trong vắcxin ngừa covid19 được cấp phép hãy x tổng quan và độ an toàn của vắcxin ngừa covid19 của pfizerbiontech tổng quan và độ an toàn của vắcxin ngừa covid19 của moderna tổng quan và tính an toàn của vắcxin ngừa covid19 của johnson johnsons janssen thành phần bao gồm trong vắcxin ngừa covid19
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: vaccine ngừa covid kéo dài bao lâu?
-
-GOLD QUESTION: Chúng ta vẫn chưa biết được khả năng bảo vệ của vắc-xin ngừa COVID-19 kéo dài trong bao lâu. Các nghiên cứu gần đây cho thấy khả năng bảo vệ chống lại vi-rút có thể giảm dần theo thời gian. Tình trạng giảm khả năng bảo vệ này đã khiến CDC khuyến nghị tất cả mọi người từ 18 tuổi trở lên nên tiêm nhắc lại sau khi hoàn thành loạt tiêm chủng ban đầu. Những người đã tiêm vắc-xin ngừa COVID-19 của Pfizer-BioNTech hoặc Moderna trong loạt vắc-xin ban đầu nên tiêm nhắc sau ít nhất 6 tháng kể từ khi hoàn thành loạt ban đầu. Những người đã tiêm vắc-xin ngừa COVID-19 của Johnson & Johnson's Janssen nên tiêm nhắc sau ít nhất 2 tháng kể từ khi hoàn thành mũi đầu tiên. Tại thời điểm này, CDC mới khuyến nghị chỉ tiêm duy nhất một mũi tiêm nhắc COVID-19. CDC tiếp tục xem xét bằng chứng và sẽ cập nhật hướng dẫn khi có thêm thông tin. Tìm hiểu thêm về mũi tiêm nhắc vắc-xin COVID-19. Trang liên quan   Vắc-xin có hiệu quả 
-
-PREDICT QUESTION: chúng ta vẫn chưa biết được khả năng bảo vệ của vắcxin ngừa covid19 kéo dài trong bao lâu các nghiên cứu gần đây cho thấy khả năng bảo vệ chống lại virút có thể giảm dần theo thời gian tình trạng giảm khả năng bảo vệ này đã khiến cdc khuyến nghị tất cả mọi người từ 18 tuổi trở lên nên tiêm nhắc lại sau khi hoàn thành loạt tiêm chủng ban đầu những người đã tiêm vắcxin ngừa covid19 của pfizerbiontech hoặc moderna trong loạt vắcxin ban đầu nên tiêm nhắc sau ít nhất 6 tháng kể từ khi hoàn thành loạt ban đầu những người đã tiêm vắcxin ngừa covid19 của johnson johnsons janssen nên tiêm nhắc sau ít nhất 2 tháng kể từ khi hoàn thành mũi đầu tiên tại thời điểm này cdc mới khuyến nghị chỉ tiêm duy nhất một mũi tiêm nhắc covid19 cdc tiếp tục x xét bằng chứng và sẽ cập nhật hướng dẫn khi có thêm thông tin tìm hiểu thêm về mũi tiêm nhắc vắcxin covid19 trang liên quan vắcxin có hiệu quả
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Làm thế nào để nhận được thẻ tiêm chủng COVID mới?
-
-GOLD QUESTION: Nếu quý vị cần thẻ tiêm chủng mới, hãy liên hệ đến cơ sở nhà cung cấp tiêm chủng nơi quý vị tiêm vắc-xin. Nhà cung cấp nên đưa cho quý vị thẻ mới cùng với thông tin cập nhật về tiêm chủng mà quý vị đã được tiêm. Nếu địa điểm nơi quý vị đã tiêm vắc-xin ngừa COVID-19 không hoạt động nữa, hãy liên hệ với hệ thống thông tin chủng ngừa (IIS) tại tiểu bang hoặc sở y tế địa phương của quý vị để được hỗ trợ. CDC không duy trì hồ sơ tiêm chủng hoặc quyết định xem hồ sơ tiêm chủng sẽ được sử dụng như thế nào và CDC không cung cấp thẻ hồ sơ tiêm chủng COVID-19 có nhãn trắng của CDC cho mọi người. Những thẻ này được tiểu bang và các sở y tế địa phương phân phối tới các nhà cung cấp dịch vụ tiêm chủng. Vui lòng liên hệ đến tiểu bang hoặc sở y tế địa phương nếu quý vị có câu hỏi thêm về thẻ tiêm chủng hoặc hồ sơ tiêm chủng.
-
-PREDICT QUESTION: nếu quý vị cần thẻ tiêm chủng mới hãy liên hệ đến cơ sở nhà cung cấp tiêm chủng nơi quý vị tiêm vắcxin nhà cung cấp nên đưa cho quý vị thẻ mới cùng với thông tin cập nhật về tiêm chủng mà quý vị đã được tiêm nếu địa điểm nơi quý vị đã tiêm vắcxin ngừa covid19 không hoạt động nữa hãy liên hệ với hệ thống thông tin chủng ngừa iis tại tiểu bang hoặc sở y tế địa phương của quý vị để được hỗ trợ cdc không duy trì hồ sơ tiêm chủng hoặc quyết định x hồ sơ tiêm chủng sẽ được sử dụng như thế nào và cdc không cung cấp thẻ hồ sơ tiêm chủng covid19 có nhãn trắng của cdc cho mọi người những thẻ này được tiểu bang và các sở y tế địa phương phân phối tới các nhà cung cấp dịch vụ tiêm chủng vui lòng liên hệ đến tiểu bang hoặc sở y tế địa phương nếu quý vị có câu hỏi thêm về thẻ tiêm chủng hoặc hồ sơ tiêm chủng
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Tôi có thể chọn loại vắc-xin COVID không?
-
-GOLD QUESTION: Hiện thời, vắc-xin ngừa COVID-19 của Pfizer-BioNTech là vắc-xin ngừa COVID-19 duy nhất dành cho trẻ em từ 5 đến 17 tuổi. Đối với người lớn từ 18 tuổi trở lên, vắc-xin mRNA COVID-19 (Pfizer-BioNTech hoặc Moderna) được ưu tiên hơn so với vắc-xin ngừa COVID-19 của Johnson & Johnson's Janssen (J&J/Janssen). Mọi vắc-xin ngừa COVID-19 hiện được cho phép và khuyên dùng tại Hoa Kỳ đều an toàn và có hiệu quả. Tuy nhiên, vắc-xin ngừa mRNA COVID-19 được ưu tiên hơn dựa vào phân tích rủi ro-lợi ích đã cập nhật. Mọi người nên biết rằng nguy cơ về các tình trạng hiếm xảy ra gọi là huyết khối kèm hội chứng giảm tiểu cầu (TTS) đã được báo cáo sau khi chủng ngừa bằng vắc-xin COVID-19 của J&J/Janssen. TTS là một tình trạng hiếm gặp nhưng nghiêm trọng liên quan đến việc hình thành máu đông trong các mạch máu lớn và mức tiểu cầu thấp (tế bào máu giúp đông máu). Trong một số tình huống, TTS diễn ra sau khi tiêm chủng đã dẫn tới tử vong. Các ca mắc TTS đã được báo cáo ở cả nam và nữ và ở nhiều độ tuổi từ 18 tuổi trở lên. Mặc dù mọi lứa tuổi và giới tính đều có nguy cơ mắc TTS, nhưng phụ nữ ở độ tuổi 30-49 có nguy cơ cao nhất với khoảng 1 trường hợp xảy ra trên mỗi 100.000 liều đã tiêm. Nguy cơ này không quan sát thấy ở những người đã tiêm vắc-xin COVID-19 của Pfizer-BioNTech hoặc Moderna . Việc tiêm bất kỳ loại vắc-xin ngừa COVID-19 nào sẽ tốt hơn là không tiêm chủng. Tiêm chủng là một công cụ vô cùng quan trọng để giúp ngăn chặn đại dịch. Tìm hiểu thêm về việc tiêm chủng ngừa COVID-19 của bạn, bao gồm cách tìm địa điểm tiêm chủng, điều gì sẽ xảy ra tại cuộc hẹn của quý vị và các vấn đề khác nữa. Trang liên quan   Chủng ngừa của quý vị Độ an toàn của vắc-xin COVID-19 Đảm bảo vắc-xin COVID-19 có hiệu qủa 
-
-PREDICT QUESTION: hiện thời vắcxin ngừa covid19 của pfizerbiontech là vắcxin ngừa covid19 duy nhất dành cho trẻ từ 5 đến 17 tuổi đối với người lớn từ 18 tuổi trở lên vắcxin mrna covid19 pfizerbiontech hoặc moderna được ưu tiên hơn so với vắcxin ngừa covid19 của johnson johnsons janssen jjjanssen mọi vắcxin ngừa covid19 hiện được cho phép và khuyên dùng tại hoa kỳ đều an toàn và có hiệu quả tuy nhiên vắcxin ngừa mrna covid19 được ưu tiên hơn dựa vào phân tích rủi rolợi ích đã cập nhật mọi người nên biết rằng nguy cơ về các tình trạng hiếm xảy ra gọi là huyết khối kèm hội chứng giảm tiểu cầu tts đã được báo cáo sau khi chủng ngừa bằng vắcxin covid19 của jjjanssen tts là một tình trạng hiếm gặp nhưng nghiêm trọng liên quan đến việc hình thành máu đông trong các mạch máu lớn và mức tiểu cầu thấp tế bào máu giúp đông máu trong một số tình huống tts diễn ra sau khi tiêm chủng đã dẫn tới tử vong các ca mắc tts đã được báo cáo ở cả nam và nữ và ở nhiều độ tuổi từ 18 tuổi trở lên mặc dù mọi lứa tuổi và giới tính đều có nguy cơ mắc tts nhưng phụ nữ ở độ tuổi 3049 có nguy cơ cao nhất với khoảng 1 trường hợp xảy ra trên mỗi 100000 liều đã tiêm nguy cơ này không quan sát thấy ở những người đã tiêm vắcxin covid19 của pfizerbiontech hoặc moderna việc tiêm bất kỳ loại vắcxin ngừa covid19 nào sẽ tốt hơn là không tiêm chủng tiêm chủng là một công cụ vô cùng quan trọng để giúp ngăn chặn đại dịch tìm hiểu thêm về việc tiêm chủng ngừa covid19 của bạn bao gồm cách tìm địa điểm tiêm chủng điều gì sẽ xảy ra tại cuộc hẹn của quý vị và các vấn đề khác nữa trang liên quan chủng ngừa của quý vị độ an toàn của vắcxin covid19 đảm bảo vắcxin covid19 có hiệu qủa
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Tôi có cần đeo khẩu trang nếu đã được tiêm chủng đầy đủ không?
-
-GOLD QUESTION: Sau khi quý vị được tiêm chủng COVID-19 đầy đủ, hãy thực hiện các bước sau để bảo vệ bản thân và những người khác   Nhìn chung, quý vị không cần đeo khẩu trang ở ngoài trời. Nếu quý vị đang ở trong khu vực có nhiều ca nhiễm COVID-19, hãy cân nhắc đeo khẩu trang ở những nơi đông người ngoài trời và khi tiếp xúc gần​​​​​​​ với những người chưa được tiêm chủng đầy đủ. Nếu quý vị có bệnh hoặc đang dùng thuốc làm suy giảm hệ miễn dịch, có thể quý vị không được bảo vệ đầy đủ ngay cả khi đã được tiêm chủng đầy đủ. Quý vị nên tiếp tục thực hiện tất cả các biện pháp phòng ngừa được khuyến nghị cho những người chưa được chủng ngừa, bao gồm cả việc đeo khẩu trang vừa khớp mặt, cho đến khi được nhà cung cấp dịch vụ y tế đưa ra lời khuyên khác. Nếu quý vị đã được tiêm chủng đầy đủ, để bảo vệ tối đa khỏi biến thể Delta và ngăn chặn khả năng lây lan biến thể này sang người khác, vui lòng đeo khẩu trang ở trong nhà tại nơi công cộng nếu quý vị đang ở khu vực có mức độ lây truyền đáng kể hoặc cao. 
-
-PREDICT QUESTION: sau khi quý vị được tiêm chủng covid19 đầy đủ hãy thực hiện các bước sau để bảo vệ bản thân và những người khác nhìn chung quý vị không cần đeo khẩu trang ở ngoài trời nếu quý vị đang ở trong khu vực có nhiều ca nhiễm covid19 hãy cân nhắc đeo khẩu trang ở những nơi đông người ngoài trời và khi tiếp xúc gần​​​​​​​ với những người chưa được tiêm chủng đầy đủ nếu quý vị có bệnh hoặc đang dùng thuốc làm suy giảm hệ miễn dịch có thể quý vị không được bảo vệ đầy đủ ngay cả khi đã được tiêm chủng đầy đủ quý vị nên tiếp tục thực hiện tất cả các biện pháp phòng ngừa được khuyến nghị cho những người chưa được chủng ngừa bao gồm cả việc đeo khẩu trang vừa khớp mặt cho đến khi được nhà cung cấp dịch vụ y tế đưa ra lời khuyên khác nếu quý vị đã được tiêm chủng đầy đủ để bảo vệ tối đa khỏi biến thể dea và ngăn chặn khả năng lây lan biến thể này sang người khác vui lòng đeo khẩu trang ở trong nhà tại nơi công cộng nếu quý vị đang ở khu vực có mức độ lây truyền đáng kể hoặc cao
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Nếu tôi đang mang thai mang thai, tôi có thể tiêm vaccine ngừa covid không?
-
-GOLD QUESTION: Có. Khuyến cáo tiêm chủng vắc-xin ngừa COVID-19 dành cho những người đang mang thai, nuôi con bằng sữa mẹ, đang muốn có thai hoặc có thể mang thai trong tương lai. Quý vị nên trao đổi với nhà cung cấp dịch vụ chăm sóc sức khỏe về tiêm chủng COVID-19. Dù việc trao đổi như vậy có thể có ích, nhưng việc này không phải là bắt buộc trước khi thực hiện tiêm chủng. Tìm hiểu thêm về các khuyến nghị về tiêm chủng dành cho người đang mang thai hoặc nuôi con bằng sữa mẹ. Nếu quý vị đang mang thai và đã tiêm phòng COVID-19, chúng tôi khuyến khích quý vị đăng ký sử dụng v-safe, một công cụ trên điện thoại thông minh của CDC chuyên cung cấp các cuộc kiểm tra sức khỏe cá nhân hóa sau khi tiêm vắc-xin.  Hệ thống đăng ký thai kỳ v-safe đã được xây dựng để tập hợp thông tin về sức khỏe của những người mang thai và đã được tiêm vắc-xin COVID-19.
-
-PREDICT QUESTION: có khuyến cáo tiêm chủng vắcxin ngừa covid19 dành cho những người đang mang thai nuôi con bằng sữa mẹ đang muốn có thai hoặc có thể mang thai trong tương lai quý vị nên trao đổi với nhà cung cấp dịch vụ chăm sóc sức khỏe về tiêm chủng covid19 dù việc trao đổi như vậy có thể có ích nhưng việc này không phải là bắt buộc trước khi thực hiện tiêm chủng tìm hiểu thêm về các khuyến nghị về tiêm chủng dành cho người đang mang thai hoặc nuôi con bằng sữa mẹ nếu quý vị đang mang thai và đã tiêm phòng covid19 chúng tôi khuyến khích quý vị đăng ký sử dụng vsafe một công cụ trên điện thoại thông minh của cdc chuyên cung cấp các cuộc kiểm tra sức khỏe cá nhân hóa sau khi tiêm vắcxin hệ thống đăng ký thai kỳ vsafe đã được xây dựng để tập hợp thông tin về sức khỏe của những người mang thai và đã được tiêm vắcxin covid19
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Tôi cần phải tiêm bao nhiêu mũi vắc-xin covid?
-
-GOLD QUESTION: Số liều cần tiêm phụ thuộc vào loại vắc-xin nào mà quý vị sử dụng. Để được bảo vệ tốt nhất   Hai liều chủng ngừa Pfizer-BioNTech nên được thực hiện tiêm cách nhau 3 tuần (21 ngày) Hai liều chủng ngừa Moderna nên được thực hiện tiêm cách nhau 1 tháng (28 ngày) Vắc-xin ngừa COVID-19 của Johnson & Johnsons Jansen (J&J/Janssen) chỉ yêu cầu sử dụng một liều.  Nếu quý vị sử dụng loại vắc-xin cần hai liều, quý vị nên tiêm liều thứ hai trong khoảng thời gian cách giữa hai liều giống như khuyến nghị nhất có thể. Tuy nhiên, liều thứ hai có thể được chích tối đa 6 tuần (42 ngày) sau liều thứ nhất. Quý vị không nên tiêm liều thứ hai sớm hơn khoảng thời gian đã khuyến nghị. Những người có hệ thống miễn dịch bị suy yếu từ trung bình đến nghiêm trọng nên tiêm thêm một liều bổ sung vắc-xin mRNA COVID-19 chính sau 2 liều ban đầu.  Tìm hiểu về mũi nhắc lại vắc-xin ngừa COVID-19.     Trang liên quan   Pfizer-BioNTech Moderna Johnson & Johnson / Janssen Mũi nhắc lại Những Người Bị Suy Giảm Miễn Dịch từ Trung Bình đến Nghiêm Trọng 
-
-PREDICT QUESTION: số liều cần tiêm phụ thuộc vào loại vắcxin nào mà quý vị sử dụng để được bảo vệ tốt nhất hai liều chủng ngừa pfizerbiontech nên được thực hiện tiêm cách nhau 3 tuần 21 ngày hai liều chủng ngừa moderna nên được thực hiện tiêm cách nhau 1 tháng 28 ngày vắcxin ngừa covid19 của johnson johnsons jansen jjjanssen chỉ yêu cầu sử dụng một liều nếu quý vị sử dụng loại vắcxin cần hai liều quý vị nên tiêm liều thứ hai trong khoảng thời gian cách giữa hai liều giống như khuyến nghị nhất có thể tuy nhiên liều thứ hai có thể được chích tối đa 6 tuần 42 ngày sau liều thứ nhất quý vị không nên tiêm liều thứ hai sớm hơn khoảng thời gian đã khuyến nghị những người có hệ thống miễn dịch bị suy yếu từ trung bình đến nghiêm trọng nên tiêm thêm một liều bổ sung vắcxin mrna covid19 chính sau 2 liều ban đầu tìm hiểu về mũi nhắc lại vắcxin ngừa covid19 trang liên quan pfizerbiontech moderna johnson johnson janssen mũi nhắc lại những người bị suy giảm miễn dịch từ trung bình đến nghiêm trọng
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Tại sao con tôi nên tiêm chủng ngừa covid?
-
-GOLD QUESTION: Việc tiêm chủng COVID-19 có thể giúp bảo vệ con/em họ khỏi bị nhiễm COVID-19. Mặc dù có ít trẻ em bị bệnh COVID-19 so với người trưởng thành, trẻ em vẫn có thể bị nhiễm vi-rút gây bệnh COVID-19, có thể bị bệnh vì COVID-19 và có thể lây lan vi-rút gây bệnh COVID-19 cho người khác. Việc tiêm chủng cho con/em quý vị giúp bảo vệ con/em quý vị và gia đình quý vị. Tiêm chủng hiện được khuyến nghị cho mọi người từ 12 tuổi trở lên. Hiện thời, vắc-xin ngừa COVID-19 của Pfizer-BioNTech là loại duy nhất dành cho trẻ em từ 12 tuổi trở lên. Vắc-xin ngừa COVID-19 đã được sử dụng dưới sự giám sát an toàn chuyên sâu nhất trong lịch sử Hoa Kỳ, bao gồm các nghiên cứu đối với trẻ em từ 12 tuổi trở lên. Con/em quý vị không thể bị nhiễm COVID-19 từ bất kỳ loại vắc-xin ngừa COVID-19 nào. Giống như người lớn, trẻ em có thể gặp một vài  tác dụng phụ sau khi chủng ngừa COVID-19. Những tác dụng phụ này có thể ảnh hưởng tới khả năng làm các hoạt động hàng ngày của họ nhưng chúng sẽ biến mất sau vài ngày. Trang liên quan   Vắc-xin ngừa COVID-19 cho trẻ em và thanh thiếu niên Pfizer-BioNTech Tác dụng phụ có thể xảy ra Các gia đình và Trẻ em 
-
-PREDICT QUESTION: việc tiêm chủng covid19 có thể giúp bảo vệ con họ khỏi bị nhiễm covid19 mặc dù có ít trẻ bị bệnh covid19 so với người trưởng thành trẻ vẫn có thể bị nhiễm virút gây bệnh covid19 có thể bị bệnh vì covid19 và có thể lây lan virút gây bệnh covid19 cho người khác việc tiêm chủng cho con quý vị giúp bảo vệ con quý vị và gia đình quý vị tiêm chủng hiện được khuyến nghị cho mọi người từ 12 tuổi trở lên hiện thời vắcxin ngừa covid19 của pfizerbiontech là loại duy nhất dành cho trẻ từ 12 tuổi trở lên vắcxin ngừa covid19 đã được sử dụng dưới sự giám sát an toàn chuyên sâu nhất trong lịch sử hoa kỳ bao gồm các nghiên cứu đối với trẻ từ 12 tuổi trở lên con quý vị không thể bị nhiễm covid19 từ bất kỳ loại vắcxin ngừa covid19 nào giống như người lớn trẻ có thể gặp một vài tác dụng phụ sau khi chủng ngừa covid19 những tác dụng phụ này có thể ảnh hưởng tới khả năng làm các hoạt động hàng ngày của họ nhưng chúng sẽ biến mất sau vài ngày trang liên quan vắcxin ngừa covid19 cho trẻ và thanh thiếu niên pfizerbiontech tác dụng phụ có thể xảy ra các gia đình và trẻ
+PREDICT QUESTION: Xin lỗi anh/chị, em chưa hiểu yêu cầu này
 -------------------------
 <class 'type'>---------------------
 TEST QUESTION: vaccine covid có an toàn không?
 
+GOLD QUESTION: Dù vắc-xin COVID-19 được phát triển nhanh chóng, tất cả các bước đã được thực hiện nhằm đảm bảo chúng an toàn và có hiệu quả;  Phương thức phát triển - Các nhà khoa học đã nỗ lực làm việc nhiều năm để phát triển vắc-xin chống lại các loại vi-rút như loại gây ra bệnh COVID-19. Kiến thức này đã giúp đẩy nhanh tốc độ phát triển ban đầu của vắc-xin ngừa COVID-19 hiện tại. Thử nghiệm lâm sàng - Toàn bộ vắc-xin tại Hoa Kỳ phải trải qua ba giai đoạn thử nghiệm lâm sàng nhằm đảm bảo các vắc-xin đó an toàn và hiệu quả. Trong khi phát triển vắc-xin ngừa COVID-19, các giai đoạn gối lên nhau để đẩy nhanh tiến trình nhưng tất cả các giai đoạn đều đã hoàn thành. Cấp phép hoặc Phê duyệt - Trước khi vắc-xin phổ biến cho mọi người, Cơ quan quản lý thực phẩm và dược phẩm Mỹ (FDA) đánh giá các kết quả phát hiện được từ các thử nghiệm lâm sàng. FDA đã xác định rằng ba loại vắc-xin ngừa COVID-19 đáp ứng các tiêu chuẩn về an toàn và hiệu quả của FDA và đã cấp Giấy phép sử dụng trong trường hợp khẩn cấp (EUA)external icon cho các loại vắc-xin này. Điều này cho phép nhanh chóng phân bổ vắc-xin nhằm kiểm soát đại dịch. Vắc-xin ngừa COVID-19 của Pfizer-BioNTech (COMIRNATY) hiện đã được FDA phê duyệtexternal icon cho những người từ 16 tuổi trở lên. Đọc thêm về vắc-xin ngừa COVID-19 đầu tiên được FDA phê duyệtexternal icon. Sản xuất và phân phối - Chính phủ Hoa Kỳ đã đầu tư nguồn lực lớn để sản xuất và phân phối vắc-xin ngừa COVID-19. Điều này cho phép việc phân phối vắc-xin bắt đầu ngay khi FDA cho phép với mỗi loại vắc-xin. Hệ thống giám sát theo dõi về an toàn khi sử dụng vắc-xin - hoạt động giám sát an toàn của vắc-xin ngừa COVID-19 đã diễn ra nghiêm ngặt nhất và toàn diện nhất trong lịch sử Hoa Kỳ. Hàng trăm triệu người tại Hoa Kỳ đã được tiêm vắc-xin ngừa COVID-19. Thông qua một số hệ thống giám sát, CDC và FDA tiếp tục cung cấp thông tin cập nhật về độ an toàn của các loại vắc-xin này.  Tìm hiểu thêm về việc phát triển vắc-xin COVID-19.
+
+PREDICT QUESTION: Có, quý vị nên tiêm chủng bất kể quý vị đã bị nhiễm COVID-19 hay chưa bởi vì   Nghiên cứu vẫn chưa cho thấy quý vị sẽ được bảo vệ trong thời gian bao lâu nhằm tránh tái mắc COVID-19 sau khi khỏi bệnh COVID-19. Tiêm chủng giúp bảo vệ quý vị ngay cả khi quý vị đã mắc COVID-19.  Bằng chứng đang cho thấy rằng mọi người được bảo vệ tốt hơn khi được tiêm chủng đầy đủ so với sau khi bị mắc COVID-19. Một nghiên cứu đã chỉ ra rằng những người chưa tiêm chủng và đã mắc COVID-19 có nhiều khả năng tái mắc COVID-19 cao hơn 2 lần so với những người đã tiêm chủng đầy đủ. Nếu quý vị được điều trị COVID-19 bằng các kháng thể đơn dòng hoặc huyết tương dưỡng bệnh, quý nên chờ 90 ngày trước khi tiêm vắc-xin ngừa COVID-19. Trao đổi với bác sĩ của quý vị nếu quý vị không chắc rằng các phương pháp điều trị đang thực hiện cho quý vị là gì hoặc khi có thắc mắc về việc tiêm vắc-xin COVID-19. Nếu quý vị hoặc con cái quý vị có tiền sử mắc hội chứng viêm đa hệ thống ở người lớn hoặc trẻ em (MIS-A or MIS-C), hãy xem xét trì hoãn việc tiêm chủng cho tới khi quý vị cà con cái quý vị đã khỏi bệnh và sau 90 ngày kể từ ngày chẩn đoán bị MIS-A hoặc MIS-C. Tìm hiểu thêm về các khuyến cáo lâm sàng dành cho những người có tiền sử mắc hội chứng đa hệ thống MIS-C hoặc MIS-A. Các chuyên gia vẫn đang tìm hiểu thêm về khoảng thời gian vắc-xin có thể bảo vệ chống lại COVID-19 là bao lâu. CDC sẽ thông báo đến công chúng khi có bằng chứng mới. Trang liên quan   Lợi ích của việc tiêm chủng Chuẩn bị chủng ngừa COVID-19
+-------------------------
+score: 36 || total: 40
+==================================
+==================================
+file_name: test_ha_canxi_mau.yml
+size: 25/25
+score: 25 || total: 25
+==================================
+==================================
+file_name: test_lao_phoi.yml
+size: 30/30
+<class 'type'>---------------------
+TEST QUESTION: Khái niệm về bệnh lao là? 
+
+GOLD QUESTION: Bệnh lao là một bệnh truyền nhiễm do vi trùng Mycobacterium tuberculosis gây nên. Bệnh phá hủy phổi và những bộ phận khác của cơ thể, và có thể gây tình trạng trầm trọng. 
+
+PREDICT QUESTION: Bạn nên đi xét nghiệm bệnh lao nếu có bất kỳ yếu tố nguy cơ nào sau đây Bạn đã dành thời gian với một người bị hoặc nghi ngờ mắc bệnh lao; Bạn bị nhiễm HIV hoặc một tình trạng khác khiến bạn có nguy cơ cao mắc bệnh lao đang hoạt động; Bạn nghĩ rằng bạn có thể có bệnh lao hoạt động; Bạn đến từ một nơi mà bệnh lao đang hoạt động rất phổ biến (Châu Mỹ Latinh, Caribe, Châu Phi, Châu Á, Đông Âu và Nga); Bạn sống hoặc dành thời gian trong các trại tạm trú dành cho người vô gia cư, trại của người di cư, nhà tù hoặc nhà tù và một số viện dưỡng lão; Bạn tiêm thuốc bất hợp pháp.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Những bộ phận cơ thể có thể mắc bệnh lao là gì?
+
+GOLD QUESTION: Bệnh lao có thể gặp ở tất cả các bộ phận của cơ thể như lao màng phổi, lao hạch bạch huyết, lao màng não, lao xương khớp, lao màng bụng, lao hệ sinh dịch - tiết niệu, lao ruột, trong đó bệnh lao phổi thường gặp nhất (chiếm 80 – 85%) và là nguồn lây chính cho người xung quanh.
+
+PREDICT QUESTION: Người bị suy giảm miễn dịch như ung thư, nhiễm HIV, Người tiếp xúc trực tiếp với nguồn lây bệnh, nhất là trẻ em; Người mắc các bệnh mạn tính đái tháo đường, loét dạ dày tá tràng, suy thận mãn...; Người nghiện ma túy, rượu, thuốc lá; Người sử dụng thuốc ức chế miễn dịch kéo dài như corticosteroid, hóa chất điều trị ung thư...
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Bệnh lao có thể phòng không?
+
+GOLD QUESTION: Chắc chắn chúng ta có thể “cấm cửa” vi khuẩn lao khi chúng “ gõ cửa” cơ thể chúng ta. Hiện nay nước ta có chương trình tiêm chủng lao mở rộng với trẻ em dưới 5 tuổi. Đây là phương thức phòng bệnh lao hiệu quả nhất. Bên cạnh đó nhiệm vụ phòng tránh lao cũng là trách nhiệm của người bệnh , người chăm sóc bệnh nhân và toàn xã hội với những quy tắc ý tế nghiêm ngặt. Bạn có thể thực hiện lối sống vệ sinh, bổ sung dinh dưỡng để có cơ thể khỏe mạnh, tạo sức đề kháng tốt không cho khuẩn lao có cơ hội phát triển.
+
+PREDICT QUESTION: Bệnh lao phổi là căn bệnh nguy hiểm và dễ lây nhiễm. Để phòng tránh bệnh, bạn nên tiêm phòng lao đầy đủ ngay từ nhỏ. Bệnh viện Đa khoa Quốc tế hiện đang cung cấp dịch vụ tiêm phòng lao.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Những ưu tiên gì được hưởng khi điều trị?
+
+GOLD QUESTION: Người mắc bệnh lao hiện được chữa bệnh bằng những hỗ trợ của nhà nước như thuốc chữa lao miễn phí, xét nghiệm theo dõi miễn phí và được bảo hiểm y tế chi trả những khoản phí chữa bệnh. Bên cạnh đó, họ cần nhận thức được trách nhiệm của họ là phải chữa khỏi bệnh để không làm lây bệnh sang những người thân trong gia đình và cộng đồng.
+
+PREDICT QUESTION: Xin lỗi anh/chị, em chưa hiểu yêu cầu này
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Uống rượu ảnh hưởng đến tim mạch như thế nào?
+
+GOLD QUESTION: Có nhiều người cho rằng nếu bị bệnh tim mạch thì không nên uống rượu dù chỉ một chút rượu cũng không được. Điều này là hoàn toàn sai lầm. Nhiều nghiên cứu chứng minh rằng uống một chút rượu, đặc biệt là rượu vang đỏ trong bữa ăn rất có lợi cho sức khỏe tim mạch. Uống rượu vang đỏ với một lượng vừa phải giúp cải thiện sức khỏe tim mạch do rượu vang đỏ có khả năng Tăng HDL (một loại cholesterol có lợi cho tim mạch do làm giảm xơ vữa động mạch); Giảm huyết áp; Ngăn cản hình thành huyết khối; Ngăn ngừa quá trình xơ vữa động mạch gây ra bởi LDL (loại cholesterol xấu).
+
+PREDICT QUESTION: Hút thuốc lá là yếu tố nguy cơ hàng đầu dẫn đến làm tăng nguy cơ mắc và tử vong do bệnh lý tim mạch, các nguy cơ này tăng lên tỷ lệ thuận với khối lượng bạn hút thuốc và thời gian bạn hút thuốc. Nếu bạn muốn làm cho trái tim mình khỏe mạnh hơn hãy từ bỏ thói quen hút thuốc ngay lập tức. Khói thuốc có rất nhiều chất độc như nicotin, hắc ín, formaldehyt, cyanid… Hút thuốc lá không những làm tăng nguy cơ mắc bệnh lý tim mạch, đột quỵ, ung thư mà còn làm tăng nguy cơ mắc bệnh lý răng miệng, bệnh lý đường ruột, giảm khả năng tình dục…
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Tăng huyết áp do những nguyên nhân nào gây ra?
+
+GOLD QUESTION: Tăng huyết áp không phải là bệnh thần kinh, không phải là do căng thẳng thần kinh. Khoảng 90 – 95% các trường hợp tăng huyết áp không tìm thấy nguyên nhân nhưng có một số yếu tố làm tăng khả năng mắc bệnh tăng huyết áp, các yếu tố này được gọi là yếu tố nguy cơ của bệnh tăng huyết áp.
+
+PREDICT QUESTION: Tăng huyết áp không phải là bệnh thần kinh, không phải là do căng thẳng thần kinh. Khoảng 90 đến 95% các trường hợp tăng huyết áp không tìm thấy nguyên nhân nhưng có một số yếu tố làm tăng khả năng mắc bệnh tăng huyết áp, các yếu tố này được gọi là yếu tố nguy cơ của bệnh tăng huyết áp.
+-------------------------
+score: 24 || total: 30
+==================================
+==================================
+file_name: test_other.yml
+size: 100/100
+<class 'type'>---------------------
+TEST QUESTION: Khái niệm Stent động mạch vành là gì?
+
+GOLD QUESTION: Stent là một khung đỡ bằng kim loại được đặt trong lòng động mạch vành, nhằm mục đích mở rộng lòng mạch vành bị hẹp và giữ nó không bị hẹp lại.
+
+PREDICT QUESTION: Stent phủ thuốc được tráng một lớp thuốc đặc biệt, lớp thuốc này sẽ được giải phóng dần dần vào lòng mạch sau khi đặt stent, ngăn ngừa tiến triển của mô sẹo. Qua đó giúp lòng mạch luôn trơn nhẵn và mạch vành không bị hẹp lại. Tỉ lệ mạch vành bị hẹp trở lại khi  dùng stent phủ thuốc thấp hơn đáng kể so với khi sử dụng stent loại thường. Stent phủ thuốc là một bước tiến lớn của ngành tim mạch can thiệp. Ngày càng có nhiều bệnh nhân được điều trị thành công bằng stent phủ thuốc.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Khía niệm bệnh van tim là gì?
+
+GOLD QUESTION: Hệ thống van tim là các cấu trúc đảm bảo cho máu lưu chuyển giữa các buồng tim theo một chu trình nhất định. Bình thường các van tim này là các cấu trúc thanh mảnh, mềm mại, cấu tạo bởi các lá van tim, và được cố định bằng các dây chằng, cột cơ. Vì một nguyên nhân nào đó, các lá van này mất đi độ mềm mại, thanh mảnh, bị dầy lên, dính vào nhau, hoặc vôi hóa (như trong bệnh van tim do thấp) hoặc các dây chằng cố định van tim bị sa xuống, đứt (như trong nhồi máu cơ tim) làm cho các van này không hoạt động được bình thường dẫn đến các bệnh lý van tim. Khi các van tim trở nên dày và cứng hoặc dính các mép van làm hạn chế khả năng mở của van tim, gây cản trở dòng máu, hiện tượng này gọi là hẹp van tim. Khi các van tim đóng lại không kín do giãn vòng van, thoái hoá, dính, co rút hoặc các dây chằng van tim quá dài… làm cho dòng máu có thể trào ngược lại trong thời kỳ đóng van gây ra hiện tượng này gọi là hở van tim. Các tổn thương trên có thể gặp ở tất cả các van tim, có thể do nguyên nhân bẩm sinh hoặc mắc phải.Các tổn thương van tim (hẹp hoặc/và hở van) đều có thể gây ra các rối loạn huyết động (tức là rối loạn lưu chuyển máu) và dẫn đến hậu quả bệnh lý từ mức độ nhẹ đến nặng.
+
+PREDICT QUESTION: Bệnh van tim thường biểu hiện dưới hai dạng tổn thương chính là hẹp van tim và hở van tim, đôi khi một van có tổn thương phối hợp cả hai dạng trên vừa hẹp vừa hở. Hẹp van tim là tình trạng khi các van tim trở nên dày và cứng hoặc dính các mép van làm hạn chế khả năng mở của van tim, gây cản trở dòng máu, hiện tượng này gọi là hẹp van tim. Ngược lại, hở van tim xảy ra khi các van này đóng không kín do giãn vòng van, thoái hoá, dính, co rút hoặc các dây chằng van tim quá dài… làm cho dòng máu có thể trào ngược lại trong thời kỳ đóng van. Quả tim bình thường có bốn cấu trúc van tim, các van này đều có thể biểu hiện bệnh lý van tim
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Khái niệm bệnh van tim là gì?
+
+GOLD QUESTION: Bệnh van tim thường biểu hiện dưới hai dạng tổn thương chính là hẹp van tim và hở van tim, đôi khi một van có tổn thương phối hợp cả hai dạng trên vừa hẹp vừa hở. Hẹp van tim là tình trạng khi các van tim trở nên dày và cứng hoặc dính các mép van làm hạn chế khả năng mở của van tim, gây cản trở dòng máu, hiện tượng này gọi là hẹp van tim. Ngược lại, hở van tim xảy ra khi các van này đóng không kín do giãn vòng van, thoái hoá, dính, co rút hoặc các dây chằng van tim quá dài… làm cho dòng máu có thể trào ngược lại trong thời kỳ đóng van. Quả tim bình thường có bốn cấu trúc van tim, các van này đều có thể biểu hiện bệnh lý van tim
+
+PREDICT QUESTION: Hệ thống van tim là các cấu trúc đảm bảo cho máu lưu chuyển giữa các buồng tim theo một chu trình nhất định. Bình thường các van tim này là các cấu trúc thanh mảnh, mềm mại, cấu tạo bởi các lá van tim, và được cố định bằng các dây chằng, cột cơ. Vì một nguyên nhân nào đó, các lá van này mất đi độ mềm mại, thanh mảnh, bị dầy lên, dính vào nhau, hoặc vôi hóa (như trong bệnh van tim do thấp) hoặc các dây chằng cố định van tim bị sa xuống, đứt (như trong nhồi máu cơ tim) làm cho các van này không hoạt động được bình thường dẫn đến các bệnh lý van tim. Khi các van tim trở nên dày và cứng hoặc dính các mép van làm hạn chế khả năng mở của van tim, gây cản trở dòng máu, hiện tượng này gọi là hẹp van tim. Khi các van tim đóng lại không kín do giãn vòng van, thoái hoá, dính, co rút hoặc các dây chằng van tim quá dài… làm cho dòng máu có thể trào ngược lại trong thời kỳ đóng van gây ra hiện tượng này gọi là hở van tim. Các tổn thương trên có thể gặp ở tất cả các van tim, có thể do nguyên nhân bẩm sinh hoặc mắc phải. Các tổn thương van tim (hẹp hoặc/và hở van) đều có thể gây ra các rối loạn huyết động (tức là rối loạn lưu chuyển máu) và dẫn đến hậu quả bệnh lý từ mức độ nhẹ đến nặng.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Siêu âm tim là như thế nào?
+
+GOLD QUESTION: Siêu âm tim Là 1 phương pháp rất có giá trị trong các bệnh van tim. Đây là phương pháp thăm dò không chảy máu có thể cho thấy hình ảnh các van tim, cơ tim thông qua nguyên lý siêu âm. Siêu âm tim có thể cho thấy hình ảnh rõ về các van tim cũng như giúp đánh giá mức độ hẹp, hở van trong nhiều trường hợp với độ chính xác cao.
+
+PREDICT QUESTION: Hút thuốc lá là yếu tố nguy cơ hàng đầu dẫn đến làm tăng nguy cơ mắc và tử vong do bệnh lý tim mạch, các nguy cơ này tăng lên tỷ lệ thuận với khối lượng bạn hút thuốc và thời gian bạn hút thuốc. Nếu bạn muốn làm cho trái tim mình khỏe mạnh hơn hãy từ bỏ thói quen hút thuốc ngay lập tức. Khói thuốc có rất nhiều chất độc như nicotin, hắc ín, formaldehyt, cyanid… Hút thuốc lá không những làm tăng nguy cơ mắc bệnh lý tim mạch, đột quỵ, ung thư mà còn làm tăng nguy cơ mắc bệnh lý răng miệng, bệnh lý đường ruột, giảm khả năng tình dục…
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Mổ tách van như thế nào?
+
+GOLD QUESTION: Phương pháp mổ tách van tim cho kết quả tương tự như nong van hai lá nhưng phức tạp hơn, bệnh nhân phải chịu một cuộc mổ. Ngày nay nhờ tiến bộ của tim mạch can thiệp với phương pháp nong van hai lá bằng bóng, môt tách van trên tim kín hiện nay ít được áp dụng.
+
+PREDICT QUESTION: Hẹp van hai lá là tình trạng giảm diện tích mở lỗ van hai lá do dính dần các mép van, xơ hoá và co rút bộ máy van và dưới van. Hẹp van hai lá gây cản trở dòng máu từ nhĩ trái về thất trái, gây ứ đọng máu ở nhĩ trái và ở phổi. Trái lại, hở van hai lá là tình trạng van hai lá đóng không kín trong thì tâm thu, làm cho dòng máu từ thất trái lẽ ra đi một chiều qua van động mạch chủ đưa máu đi nuôi toàn cơ thể lại bị trào ngược trở lại một phần vào nhĩ trái. Hậu quả của hở van hai lá làm là làm cho buồng tim trái phải làm việc nhiều hơn, lâu ngày dẫn đến giãn thất trái và suy tim.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Sâu răng là như thế nào?
+
+GOLD QUESTION: Sâu răng là tình trạng răng bị tổn thương, mất mô cứng. Đây là kết quả của quá trình hủy khoáng, xảy ra bởi vi khuẩn ở mảng bám răng và hình thành các lỗ nhỏ trên răng. Sâu răng xuất hiện khi có sự kết hợp của các yếu tố bao gồm vi khuẩn trong miệng, ăn vặt thường xuyên, sử dụng đồ uống có đường và vệ sinh răng miệng không tốt.
+
+PREDICT QUESTION: Nhìn thấy lỗ sâu Quan sát sẽ thấy men và ngà răng bị tổn thương. Nếu dùng que nạo ngà và lấy hết vụn bẩn trong thức ăn trong lỗ sâu sẽ thấy đáy lỗ sâu rộng nhiều hơn miệng lỗ; Nướu sưng hoặc chảy máu.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Bệnh quai bị có thể gây vô sinh sai hay đúng?
+
+GOLD QUESTION: Bệnh quai bị có thể gây các biến chứng như viêm màng não, viêm tinh hoàn – thường là một bên và xảy ra ở 20%-30% nam giới trưởng thành; viêm buồng trứng – gặp ở 5% nữ trưởng thành. Biến chứng viêm tinh toàn ở nam giới, viêm buồng trứng ở nữ giới có thể gây vô sinh, tuy nhiên rất hiếm gặp, chỉ chiếm từ 3-4/1.000.
+
+PREDICT QUESTION: Quai bị là một bệnh truyền nhiễm cấp tính gây ra bởi virus quai bị (Mumps virus), thuộc họ Paramyxoviridae. Virus có thể tồn tại khá lâu ở bên ngoài cơ thể Khoảng từ 30 – 60 ngày ở nhiệt độ 15 - 200 độ C và bị tiêu diệt nhanh chóng ở nhiệt độ trên 560 độ C hoặc dưới tác động của các hóa chất diệt khuẩn.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Các để điều trị ù tai bằng cộng hưởng âm thanh như thế nào?
+
+GOLD QUESTION: Các thiết bị sóng âm được sử dụng để kích thích các tế bào thần kinh thính giác cảm nhận âm thanh tốt hơn, đồng thời xác định mức độ tổn thương thính giác. 
+
+PREDICT QUESTION: Bạn bị viêm tai lâu chưa? Với trường hợp viêm tai tùy vào mức độ của bệnh mà có biện pháp điều trị đau tai khác nhau.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Những nguyên nhân gây ra ù tai?
+
+GOLD QUESTION: Nguyên nhân chủ yếu của hiện tượng kể trên đó là do những yếu tố xung quanh tác động và ảnh hưởng tới tai của bạn. Trong đó, việc thường xuyên tiếp xúc với tiếng ồn lớn là lý do chủ yếu khiến bạn gặp phải tình trạng tai bị ù. Đó có thể là do đặc thù công việc hoặc bạn có thói quen nghe nhạc bằng một số thiết bị nghe nhạc di động không đảm bảo chất lượng âm thanh,… Thậm chí, khi tham gia lễ hội âm nhạc với âm thanh quá lớn, chúng ta cũng có thể đối mặt với tình trạng tai bị ù.
+
+PREDICT QUESTION: Nguyên nhân chủ yếu của viêm tai ngoài là do tai tiếp xúc với nguồn nước bẩn trong hồ bơi hoặc ao hồ. Pseudomonas và các vi khuẩn khác sinh sống trong nước có thể gây nhiễm trùng tai.
+-------------------------
+score: 91 || total: 100
+==================================
+==================================
+file_name: test_quaibi_taimuihong_thuydau_viemxoang.yml
+size: 31/31
+<class 'type'>---------------------
+TEST QUESTION: Viêm xoang do dị ứng là tình trạng thế nào?
+
+GOLD QUESTION: Đó là tình trạng phản ứng của niêm mạc mũi xoang với các tác nhân gây kích thích từ bên ngoài. Các biểu hiện thường gặp là nghẹt mũi, ngứa mũi, hắt hơi và chảy nước mũi trong; niêm mạc quanh các lỗ thông bị phù nề, làm tình trạng viêm xoang mạn tính thêm trầm trọng. Đối với những trường hợp viêm xoang do dị ứng, thuốc kháng dị ứng có tác dụng điều trị tốt.
+
+PREDICT QUESTION: Hạn chế tiếp xúc với người bị cảm lạnh, rửa tay đúng cách trước mỗi bữa ăn, giữ ấm cơ thể. Tránh xa môi trường khói thuốc và không khí ô nhiễm giúp hạn chế nguy cơ gây kích ứng, viêm phổi và đường hô hấp.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Dấu hiệu nhận biết bệnh thủy đậu là gì?
+
+GOLD QUESTION: Các triệu chứng phổ biến nhất của bệnh thủy đậu là phát ban, sốt, ho, chóng mặt, nhức đầu, và chán ăn. Ban thường xuất hiện trên da đầu và cơ thể, và sau đó lan lên mặt, cánh tay và chân. Ban thường tạo 200-500 mụn nước gây ngứa thành các cụm liên tiếp. Bệnh kéo dài khoảng 5-10 ngày.
+
+PREDICT QUESTION: Thủy đậu là bệnh truyền nhiễm gây ra bởi virus thuộc họ Herpesviridae có tên khoa học là Varicella Zoster (VZV).Bất cứ ai cũng có khả năng nhiễm virus gây bệnh thủy đậu, đặc biệt là trẻ em. Đối với người lớn, tỷ lệ mắc thủy đậu thấp hơn nhưng vẫn có nhiều ca biến chứng nặng, thậm chí gây tử vong do không có kiến thức phòng ngừa và điều trị bệnh.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Ngứa lỗ tai có bệnh gì không?
+
+GOLD QUESTION: Nếu tình trạng này chỉ xuất hiện một vài ngày thì sẽ không có gì đáng phải lo ngại. Tuy nhiên, nếu bạn cảm thấy bị ngứa tai trong nhiều tháng, thậm chí nhiều năm thì đó lại là triệu chứng không thể xem thường. Có thể liên quan đến bệnh nhiễm trùng tai.
+
+PREDICT QUESTION: Khi bị ngứa tai, bạn cần tìm ra nguyên nhân và điều trị hiệu quả những bệnh lý liên quan. Không ngoáy tai quá sâu, không sử dụng các dụng cụ lấy ráy tai khi chưa được vô trùng. Tránh tiếp xúc với khói bụi, tránh sử dụng tai nghe quá nhiều.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Triệu chứng viêm amydale?
+
+GOLD QUESTION: Đột ngột biểu hiện sốt, đau mình mẩy. Đau rát họng, có thể có ho khan hoặc có đờm.
+
+PREDICT QUESTION: Triệu chứng thường thấy nhất là sốt vừa 38 – 39 độ hoặc sốt cao, ớn lạnh, nhức đầu, đau mình mẩy, mệt mỏi, kém ăn. Phản ứng hạch góc hàm di động, ấn đau. Đau họng nhất là khi nuốt, kể cả khi nuốt chất lỏng.
+-------------------------
+score: 27 || total: 31
+==================================
+==================================
+file_name: test_tay_chan_mieng.yml
+size: 25/25
+<class 'type'>---------------------
+TEST QUESTION: Cách để phát hiện sớm bệnh tay chân miệng?
+
+GOLD QUESTION: Thời gian ủ bệnh thông thường từ khi nhiễm bệnh tới khi khởi phát triệu chứng là 3 - 7 ngày. Sốt là triệu chứng đầu tiên của bệnh Tay chân miệng, sốt thường kéo dài 24 - 48 giờ.
+
+PREDICT QUESTION: Kỹ thuật miễn dịch huỳnh quang gián tiếp sử dụng kháng thể đơn dòng kháng EV71 cho kết quả nhanh nhất nhưng giá thành cao.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Có thể bị tay chân miệng nhiều lần không
+
+GOLD QUESTION: Có, người có thể mắc bệnh Tay chân miệng nhiều lần do có nhiều tuýp vi rút khác nhau. Người bệnh chỉ miễn dịch đối với một loại vi rút cụ thể, những lần mắc bệnh khác có thể xảy ra do lây nhiễm một loại vi rút týp khác.
+
+PREDICT QUESTION: Đa số các trường hợp bệnh sẽ tự khỏi, nhưng nếu bệnh do tác nhân enterovirus 71, một số trẻ có biến chứng rất nguy hiểm là viêm não, viêm cơ tim, viêm màng não. Khi trẻ có biến chứng nếu không điều trị đúng và kịp thời trẻ có thể tử vong trong vài giờ.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Cần bao nhiêu ngày để trẻ hồi phục sau bệnh tay chân miệng
+
+GOLD QUESTION: Thường từ 3 đến 5 ngày sau, trẻ hồi phục hoàn toàn nếu không có biến chứng.
+
+PREDICT QUESTION: Đã có 7 đợt dịch.
+-------------------------
+score: 22 || total: 25
+==================================
+==================================
+file_name: test_than_dalieu_daumatdo_muntrungca.yml
+size: 30/30
+<class 'type'>---------------------
+TEST QUESTION: Biểu hiện của bệnh vảy nến là gì
+
+GOLD QUESTION: Triệu chứng bệnh vảy nến nói chung là xuất hiện những mảng dày, đỏ được bao phủ bởi các vảy trắng hoặc bạc.
+
+PREDICT QUESTION: Ở trạng thái bình thường, các tế bào da cũ sau khi chết đi sẽ bong ra và được thay thế bởi các tế bào da mới. Nhưng đối với bệnh nhân mắc vảy nến, quá trình trên diễn ra nhanh gấp 10 lần do hiện tượng tăng sinh tế bào, khiến các tế bào da cũ và mới không kịp thay đổi, tích tụ lại một chỗ tạo thành những mảng dày, có vảy trắng hoặc bạc.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Suy thận
+
+GOLD QUESTION: Suy thận là sự suy giảm các chức năng của thận. Lúc này, thận yếu đi, thậm chí ngừng hoạt động khiến máu không được lọc và chất thải độc hại bị tích trữ trong cơ thể
+
+PREDICT QUESTION: Giảm lượng nước tiểu, Phù mắt cá chân, bàn chân, Khó thở không rõ nguyên nhân, Đau hoặc cảm thấy nặng ngực, Buồn ngủ quá mức, mệt mỏi, uể oải, Kém ăn, buồn nôn dai dẳng, nôn, Sụt cân, Ngứa ngáy, Co rút cơ (đặc biệt là ở chân), Co giật, Hôn mê, Thiếu máu (ít xuất hiện)
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Mày đay điều trị như thế nào?
+
+GOLD QUESTION: Nếu như bạn chỉ có các triệu chứng nhẹ thì không cần thiết phải điều trị. Mề đay và phù mạch thường sẽ tự hết. Tuy nhiên, điều trị có thể cần thiết khi bạn cảm thấy khó chịu và ngứa nhiều. Nếu các triệu chứng nặng hay kéo dài, điều trị thuốc có thể giúp bạn thoải mái hơn.
+
+PREDICT QUESTION: Điều trị sẽ phụ thuộc vào nguyên nhân gây viêm âm đạo. Điều trị có thể bằng thuốc uống, thuốc viên, kem hoặc gel bôi vào âm đạo.
+-------------------------
+score: 27 || total: 30
+==================================
+==================================
+file_name: test_viem_duong_ho_hap.yml
+size: 24/24
+<class 'type'>---------------------
+TEST QUESTION: viêm đường hô hấp là gì?
+
+GOLD QUESTION: Bệnh hô hấp là bệnh thường gặp ở trẻ em do sức đề kháng yếu hơn người trưởng thành, đặc biệt là khi thời tiết, nhiệt độ thay đổi.
+
+PREDICT QUESTION: Viêm đường hô hấp trên là một chứng bệnh thường gặp hàng năm và hay tái phát. Bệnh thường xuất hiện theo mùa, nhất là mùa đông, mùa hanh khô, trùng với mùa của bệnh hen, viêm phế quản mạn, viêm phổi.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Nguyên nhân gây ra viêm đường hô hấp?
+
+GOLD QUESTION: Có 2 nguyên do chính khiến trẻ dễ mắc bệnh đường hô hấp khi thời tiết giao mùa. Trẻ có thể bị nhiễm mầm bệnh do thời tiết trở lạnh, nhiệt độ hạ thấp tạo điều kiện thuận lợi để virut, vi khuẩn phát triển, sinh sôi nhanh chóng. Bên cạnh đó, trẻ cũng có thể dễ dàng mắc bệnh do nhiễm lạnh hay dị ứng thời tiết. 
+
+PREDICT QUESTION: Do dị ứng với thời tiết và các loại dị nguyên khác nhau. Do các nhóm vi sinh vật gây bệnh bằng cách cư trú ở chất nhầy niêm mạc mũi họng
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Vì sao trẻ thường bị viêm đường hô hấp khi trời trở lạnh?
+
+GOLD QUESTION: Khi thời điểm giao mùa, thời tiết và độ ẩm không khí thay đổi thất thường khiến cơ thể không thích ứng kịp.Đây chính là môi trường thuận lợi cho virus, vi khuẩn gây bệnh đường hô hấp hoạt động mạnh, do đó đây là thời điểm bùng phát rất nhiều bệnh đường hô hấp, đặc biệt là các đối tượng có hệ miễn dịch kém như trẻ nhỏ .
+
+PREDICT QUESTION: Vào mùa lạnh, ngày ngắn đêm dài, số giờ có ánh sáng mặt trời trong ngày cũng giảm đi. Đặc biệt là ở các tỉnh phía Bắc có nhiều ngày không nhìn thấy mặt trời. Ánh mặt trời có tia cực tím là một tác nhân rất quan trọng để tiêu diệt các tác nhân vi sinh vật. Vào mùa đông ánh sáng mặt trời ít đi cũng là một lý do nữa làm cho vi sinh vật dễ sinh sôi nảy nở hơn nữa.
+-------------------------
+<class 'type'>---------------------
+TEST QUESTION: Người bệnh nhiễm trùng nặng có biến chứng gì
+
+GOLD QUESTION: Ho liên miên có đờm trong cuống họng. Sốt cao và trong tình trạng mê mang. Nhịp tim đập nhanh hơn bình thường. Khó thở hoặc thở khò khè. Cảm thấy nặng ở đầu và đau tại lòng ngực.
+
+PREDICT QUESTION: Em có thể tư vấn y tế cho anh/chị ạ
+-------------------------
+score: 20 || total: 24
+==================================
+total_score: 295 || len: 330 || score: 0.8939393939393939 
+time: 1719.8829879760742
