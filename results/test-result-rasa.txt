@@ -21,18 +21,11 @@ score: 23 || total: 25
 file_name: test_covid.yml
 size: 40/40
 <class 'type'>---------------------
-TEST QUESTION: Virus corona sống được ở nhiệt độ bao nhiêu? 
+TEST QUESTION: Có nên đi khám bệnh ở bệnh viện trong giai đoạn dịch không? 
 
-GOLD QUESTION: Theo bác sĩ Trương Hữu Khanh, Trưởng khoa Nhiễm - Thần kinh, Bệnh viện Nhi Đồng I, TP.HCM, Cố vấn cao cấp Hệ thống trung tâm tiêm chủng VNVC  Ở nhiệt độ cao bên ngoài cơ thể (trên 20 độ C, đặc biệt là trên 25 độ C), ánh nắng, môi trường thông thoáng, virus Corona (2019-nCoV) sẽ yếu đi và giảm khả năng lây bệnh. Nhưng nếu ở nhiệt độ thấp, độ ẩm cao, không thoáng khí, lạnh thì virus sẽ phát tán và lây lan rất nhanh vì đây là điều kiện thuận lợi cho chúng phát triển. Hiện vẫn chưa biết chắc chắn virus SARS-CoV-2 tồn tại được bao lâu trên các bề mặt, mặc dù thông tin sơ bộ cho thấy virus có thể tồn tại trong vài giờ. Các chất khử trùng đơn giản có thể tiêu diệt virus khiến nó không còn khả năng lây nhiễm cho người. Mặt khác, ở nhiệt độ 40 độ C hoặc cao hơn, virus vẫn có thể sống tốt trong cơ thể vật chủ. Virus chỉ chết trong cơ thể khi hệ miễn dịch của chúng ta nhận biết ra chúng, tấn công tiêu diệt vào các tế bào chứa chúng. Bên ngoài môi trường vật chủ, virus sẽ dễ bị chết sớm, thông thường chúng chết chỉ trong vài phút cho đến vài giờ. Tuy nhiên, ở các điều kiện môi trường như nhiệt độ và độ ẩm thấp, virus sẽ sống dai dẳng hơn.
+GOLD QUESTION: SARS-CoV-2 đã lây lan mạnh mẽ ở nhiều nước trên thế giới và vẫn chưa có dấu hiệu dừng lại. Đây là một trong những nguyên do chính khiến người bệnh lo sợ không dám đi khám tại bệnh viên, nơi có nguy cơ cao dễ xảy ra lây nhiễm chéo. Tuy nhiên, đối với những trường hợp bất khả kháng như ốm nặng, mắc các bệnh mãn tính phải tái khám,... thì người bệnh vẫn nên đi khám/ điều trị để đảm bảo sức khỏe. Để chủ động bảo vệ bản thân và cả cộng đồng, bệnh nhân đi khám chữa bệnh cần lưu ý và thực hiện tốt các chỉ đạo của Bộ Y tế như  liên hệ với nhân viên tiếp đón, đeo khẩu trang đúng cách, khai báo sức khỏe, giữ khoảng cách ít nhất 2 mét, không trao đổi, không bắt tay, ôm hôn, không đến gần khu vực có biển báo “Khu vực cách ly”... Khi khám xong hãy nhanh chóng rời khỏi bệnh viện, hạn chế tối đa thời gian ở lại bệnh viện khi không cần thiết. Về đến nhà, người bệnh cần sát khuẩn tay bằng xà phòng dưới vòi nước sạch, tiếp đến là bỏ khẩu trang vào thùng rác đậy kín và cuối cùng thay hết quần áo bằng quần áo sạch.
 
 PREDICT QUESTION: Xin lỗi anh/chị, em chưa hiểu yêu cầu này
--------------------------
-<class 'type'>---------------------
-TEST QUESTION: Virus corona nguy hiểm với những người nào? 
-
-GOLD QUESTION: Mong mỏi về cuộc sống sẽ sớm trở lại “bình thường”, cả thế giới đang cùng hướng về vaccine Covid-19, vũ khí sắc bén có thể chấm dứt được “đại dịch”. Tuy nhiên, việc sản xuất vắc xin không thể một sớm một chiều, trước đó cần phải chủ động phòng tránh bệnh. Bác sĩ Trương Hữu Khanh cảnh báo  “Virus corona chủng mới 2019-nCoV đặc biệt nguy hiểm với những người có hệ miễn dịch yếu, người lớn tuổi, người mắc các bệnh lý nền mãn tính và trẻ em. Những đối tượng này có khả năng lây nhiễm cao, khó điều trị và bệnh cảnh diễn tiến nhanh, gây nguy hiểm cho tính mạng. Đặc biệt, virus cực kỳ nguy hiểm cho phụ nữ có thai. Khi phụ nữ mang thai mắc bệnh sẽ để lại những hậu quả đặc biệt nghiêm trọng. Mức độ nguy hiểm của bệnh này với phụ nữ có thai tương tự như mức độ của dịch bệnh MERS năm 2014”.
-
-PREDICT QUESTION: Mệt mỏi; Đau khớp và sưng hay xơ cứng khớp, thường ở tay, thắt lưng và đầu gối; Bị phát ban ở phần cơ thể tiếp xúc với ánh nắng mặt trời, thường là ở mặt (gò má và mũi); Hiện tượng Raynaud làm cho đầu ngón tay, ngón chân tím tái và đau đớn khi tiếp xúc với lạnh; Viêm màng phổi, gây ra cơn đau khi thở cùng thở gấp; Thận bị ảnh hưởng có thể dẫn đến cao huyết áp và suy thận.
 -------------------------
 <class 'type'>---------------------
 TEST QUESTION: Các thành phần trong vắc-xin là gì?
@@ -42,11 +35,18 @@ GOLD QUESTION: Các thành phần của vắc-xin có thể khác nhau tùy theo
 PREDICT QUESTION: Xin lỗi anh/chị, em chưa hiểu yêu cầu này
 -------------------------
 <class 'type'>---------------------
+TEST QUESTION: vaccine ngừa covid kéo dài bao lâu?
+
+GOLD QUESTION: Chúng ta vẫn chưa biết được khả năng bảo vệ của vắc-xin ngừa COVID-19 kéo dài trong bao lâu. Các nghiên cứu gần đây cho thấy khả năng bảo vệ chống lại vi-rút có thể giảm dần theo thời gian. Tình trạng giảm khả năng bảo vệ này đã khiến CDC khuyến nghị tất cả mọi người từ 18 tuổi trở lên nên tiêm nhắc lại sau khi hoàn thành loạt tiêm chủng ban đầu. Những người đã tiêm vắc-xin ngừa COVID-19 của Pfizer-BioNTech hoặc Moderna trong loạt vắc-xin ban đầu nên tiêm nhắc sau ít nhất 6 tháng kể từ khi hoàn thành loạt ban đầu. Những người đã tiêm vắc-xin ngừa COVID-19 của Johnson & Johnson's Janssen nên tiêm nhắc sau ít nhất 2 tháng kể từ khi hoàn thành mũi đầu tiên. Tại thời điểm này, CDC mới khuyến nghị chỉ tiêm duy nhất một mũi tiêm nhắc COVID-19. CDC tiếp tục xem xét bằng chứng và sẽ cập nhật hướng dẫn khi có thêm thông tin. Tìm hiểu thêm về mũi tiêm nhắc vắc-xin COVID-19. Trang liên quan   Vắc-xin có hiệu quả 
+
+PREDICT QUESTION: Có, rất tiếc là vaccine không thể phòng ngừa bệnh 100%. Vaccine BCG có thể phần nào giúp người lớn phòng ngừa bệnh lao. Tuy nhiên, vaccine này chỉ được chứng minh là phòng ngừa hiệu quả một số loại bệnh lao nghiêm trọng ở trẻ em. Từ năm 2009, vaccine BCG chỉ được tiêm ngừa cho trẻ em có nguy cơ đặc biệt bị nhiễm lao.
+-------------------------
+<class 'type'>---------------------
 TEST QUESTION: vaccine covid có an toàn không?
 
 GOLD QUESTION: Dù vắc-xin COVID-19 được phát triển nhanh chóng, tất cả các bước đã được thực hiện nhằm đảm bảo chúng an toàn và có hiệu quả;  Phương thức phát triển - Các nhà khoa học đã nỗ lực làm việc nhiều năm để phát triển vắc-xin chống lại các loại vi-rút như loại gây ra bệnh COVID-19. Kiến thức này đã giúp đẩy nhanh tốc độ phát triển ban đầu của vắc-xin ngừa COVID-19 hiện tại. Thử nghiệm lâm sàng - Toàn bộ vắc-xin tại Hoa Kỳ phải trải qua ba giai đoạn thử nghiệm lâm sàng nhằm đảm bảo các vắc-xin đó an toàn và hiệu quả. Trong khi phát triển vắc-xin ngừa COVID-19, các giai đoạn gối lên nhau để đẩy nhanh tiến trình nhưng tất cả các giai đoạn đều đã hoàn thành. Cấp phép hoặc Phê duyệt - Trước khi vắc-xin phổ biến cho mọi người, Cơ quan quản lý thực phẩm và dược phẩm Mỹ (FDA) đánh giá các kết quả phát hiện được từ các thử nghiệm lâm sàng. FDA đã xác định rằng ba loại vắc-xin ngừa COVID-19 đáp ứng các tiêu chuẩn về an toàn và hiệu quả của FDA và đã cấp Giấy phép sử dụng trong trường hợp khẩn cấp (EUA)external icon cho các loại vắc-xin này. Điều này cho phép nhanh chóng phân bổ vắc-xin nhằm kiểm soát đại dịch. Vắc-xin ngừa COVID-19 của Pfizer-BioNTech (COMIRNATY) hiện đã được FDA phê duyệtexternal icon cho những người từ 16 tuổi trở lên. Đọc thêm về vắc-xin ngừa COVID-19 đầu tiên được FDA phê duyệtexternal icon. Sản xuất và phân phối - Chính phủ Hoa Kỳ đã đầu tư nguồn lực lớn để sản xuất và phân phối vắc-xin ngừa COVID-19. Điều này cho phép việc phân phối vắc-xin bắt đầu ngay khi FDA cho phép với mỗi loại vắc-xin. Hệ thống giám sát theo dõi về an toàn khi sử dụng vắc-xin - hoạt động giám sát an toàn của vắc-xin ngừa COVID-19 đã diễn ra nghiêm ngặt nhất và toàn diện nhất trong lịch sử Hoa Kỳ. Hàng trăm triệu người tại Hoa Kỳ đã được tiêm vắc-xin ngừa COVID-19. Thông qua một số hệ thống giám sát, CDC và FDA tiếp tục cung cấp thông tin cập nhật về độ an toàn của các loại vắc-xin này.  Tìm hiểu thêm về việc phát triển vắc-xin COVID-19.
 
-PREDICT QUESTION: Có, quý vị nên tiêm chủng bất kể quý vị đã bị nhiễm COVID-19 hay chưa bởi vì   Nghiên cứu vẫn chưa cho thấy quý vị sẽ được bảo vệ trong thời gian bao lâu nhằm tránh tái mắc COVID-19 sau khi khỏi bệnh COVID-19. Tiêm chủng giúp bảo vệ quý vị ngay cả khi quý vị đã mắc COVID-19.  Bằng chứng đang cho thấy rằng mọi người được bảo vệ tốt hơn khi được tiêm chủng đầy đủ so với sau khi bị mắc COVID-19. Một nghiên cứu đã chỉ ra rằng những người chưa tiêm chủng và đã mắc COVID-19 có nhiều khả năng tái mắc COVID-19 cao hơn 2 lần so với những người đã tiêm chủng đầy đủ. Nếu quý vị được điều trị COVID-19 bằng các kháng thể đơn dòng hoặc huyết tương dưỡng bệnh, quý nên chờ 90 ngày trước khi tiêm vắc-xin ngừa COVID-19. Trao đổi với bác sĩ của quý vị nếu quý vị không chắc rằng các phương pháp điều trị đang thực hiện cho quý vị là gì hoặc khi có thắc mắc về việc tiêm vắc-xin COVID-19. Nếu quý vị hoặc con cái quý vị có tiền sử mắc hội chứng viêm đa hệ thống ở người lớn hoặc trẻ em (MIS-A or MIS-C), hãy xem xét trì hoãn việc tiêm chủng cho tới khi quý vị cà con cái quý vị đã khỏi bệnh và sau 90 ngày kể từ ngày chẩn đoán bị MIS-A hoặc MIS-C. Tìm hiểu thêm về các khuyến cáo lâm sàng dành cho những người có tiền sử mắc hội chứng đa hệ thống MIS-C hoặc MIS-A. Các chuyên gia vẫn đang tìm hiểu thêm về khoảng thời gian vắc-xin có thể bảo vệ chống lại COVID-19 là bao lâu. CDC sẽ thông báo đến công chúng khi có bằng chứng mới. Trang liên quan   Lợi ích của việc tiêm chủng Chuẩn bị chủng ngừa COVID-19
+PREDICT QUESTION: Xin lỗi anh/chị, em chưa hiểu yêu cầu này
 -------------------------
 score: 36 || total: 40
 ==================================
@@ -58,13 +58,6 @@ score: 25 || total: 25
 ==================================
 file_name: test_lao_phoi.yml
 size: 30/30
-<class 'type'>---------------------
-TEST QUESTION: Khái niệm về bệnh lao là? 
-
-GOLD QUESTION: Bệnh lao là một bệnh truyền nhiễm do vi trùng Mycobacterium tuberculosis gây nên. Bệnh phá hủy phổi và những bộ phận khác của cơ thể, và có thể gây tình trạng trầm trọng. 
-
-PREDICT QUESTION: Bạn nên đi xét nghiệm bệnh lao nếu có bất kỳ yếu tố nguy cơ nào sau đây Bạn đã dành thời gian với một người bị hoặc nghi ngờ mắc bệnh lao; Bạn bị nhiễm HIV hoặc một tình trạng khác khiến bạn có nguy cơ cao mắc bệnh lao đang hoạt động; Bạn nghĩ rằng bạn có thể có bệnh lao hoạt động; Bạn đến từ một nơi mà bệnh lao đang hoạt động rất phổ biến (Châu Mỹ Latinh, Caribe, Châu Phi, Châu Á, Đông Âu và Nga); Bạn sống hoặc dành thời gian trong các trại tạm trú dành cho người vô gia cư, trại của người di cư, nhà tù hoặc nhà tù và một số viện dưỡng lão; Bạn tiêm thuốc bất hợp pháp.
--------------------------
 <class 'type'>---------------------
 TEST QUESTION: Những bộ phận cơ thể có thể mắc bệnh lao là gì?
 
@@ -91,7 +84,7 @@ TEST QUESTION: Uống rượu ảnh hưởng đến tim mạch như thế nào?
 
 GOLD QUESTION: Có nhiều người cho rằng nếu bị bệnh tim mạch thì không nên uống rượu dù chỉ một chút rượu cũng không được. Điều này là hoàn toàn sai lầm. Nhiều nghiên cứu chứng minh rằng uống một chút rượu, đặc biệt là rượu vang đỏ trong bữa ăn rất có lợi cho sức khỏe tim mạch. Uống rượu vang đỏ với một lượng vừa phải giúp cải thiện sức khỏe tim mạch do rượu vang đỏ có khả năng Tăng HDL (một loại cholesterol có lợi cho tim mạch do làm giảm xơ vữa động mạch); Giảm huyết áp; Ngăn cản hình thành huyết khối; Ngăn ngừa quá trình xơ vữa động mạch gây ra bởi LDL (loại cholesterol xấu).
 
-PREDICT QUESTION: Hút thuốc lá là yếu tố nguy cơ hàng đầu dẫn đến làm tăng nguy cơ mắc và tử vong do bệnh lý tim mạch, các nguy cơ này tăng lên tỷ lệ thuận với khối lượng bạn hút thuốc và thời gian bạn hút thuốc. Nếu bạn muốn làm cho trái tim mình khỏe mạnh hơn hãy từ bỏ thói quen hút thuốc ngay lập tức. Khói thuốc có rất nhiều chất độc như nicotin, hắc ín, formaldehyt, cyanid… Hút thuốc lá không những làm tăng nguy cơ mắc bệnh lý tim mạch, đột quỵ, ung thư mà còn làm tăng nguy cơ mắc bệnh lý răng miệng, bệnh lý đường ruột, giảm khả năng tình dục…
+PREDICT QUESTION: Có nhiều người cho rằng nếu bị bệnh tim mạch thì không nên uống rượu dù chỉ một chút rượu cũng không được. Điều này là hoàn toàn sai lầm. Nhiều nghiên cứu chứng minh rằng uống một chút rượu, đặc biệt là rượu vang đỏ trong bữa ăn rất có lợi cho sức khỏe tim mạch. Uống rượu vang đỏ với một lượng vừa phải giúp cải thiện sức khỏe tim mạch do rượu vang đỏ có khả nănh Tăng HDL (một loại cholesterol có lợi cho tim mạch do làm giảm xơ vữa động mạch); Giảm huyết áp; Ngăn cản hình thành huyết khối; Ngăn ngừa quá trình xơ vữa động mạch gây ra bởi LDL (loại cholesterol xấu).
 -------------------------
 <class 'type'>---------------------
 TEST QUESTION: Tăng huyết áp do những nguyên nhân nào gây ra?
@@ -100,18 +93,11 @@ GOLD QUESTION: Tăng huyết áp không phải là bệnh thần kinh, không ph
 
 PREDICT QUESTION: Tăng huyết áp không phải là bệnh thần kinh, không phải là do căng thẳng thần kinh. Khoảng 90 đến 95% các trường hợp tăng huyết áp không tìm thấy nguyên nhân nhưng có một số yếu tố làm tăng khả năng mắc bệnh tăng huyết áp, các yếu tố này được gọi là yếu tố nguy cơ của bệnh tăng huyết áp.
 -------------------------
-score: 24 || total: 30
+score: 25 || total: 30
 ==================================
 ==================================
 file_name: test_other.yml
 size: 100/100
-<class 'type'>---------------------
-TEST QUESTION: Khái niệm Stent động mạch vành là gì?
-
-GOLD QUESTION: Stent là một khung đỡ bằng kim loại được đặt trong lòng động mạch vành, nhằm mục đích mở rộng lòng mạch vành bị hẹp và giữ nó không bị hẹp lại.
-
-PREDICT QUESTION: Stent phủ thuốc được tráng một lớp thuốc đặc biệt, lớp thuốc này sẽ được giải phóng dần dần vào lòng mạch sau khi đặt stent, ngăn ngừa tiến triển của mô sẹo. Qua đó giúp lòng mạch luôn trơn nhẵn và mạch vành không bị hẹp lại. Tỉ lệ mạch vành bị hẹp trở lại khi  dùng stent phủ thuốc thấp hơn đáng kể so với khi sử dụng stent loại thường. Stent phủ thuốc là một bước tiến lớn của ngành tim mạch can thiệp. Ngày càng có nhiều bệnh nhân được điều trị thành công bằng stent phủ thuốc.
--------------------------
 <class 'type'>---------------------
 TEST QUESTION: Khía niệm bệnh van tim là gì?
 
@@ -155,30 +141,23 @@ GOLD QUESTION: Bệnh quai bị có thể gây các biến chứng như viêm m�
 PREDICT QUESTION: Quai bị là một bệnh truyền nhiễm cấp tính gây ra bởi virus quai bị (Mumps virus), thuộc họ Paramyxoviridae. Virus có thể tồn tại khá lâu ở bên ngoài cơ thể Khoảng từ 30 – 60 ngày ở nhiệt độ 15 - 200 độ C và bị tiêu diệt nhanh chóng ở nhiệt độ trên 560 độ C hoặc dưới tác động của các hóa chất diệt khuẩn.
 -------------------------
 <class 'type'>---------------------
-TEST QUESTION: Các để điều trị ù tai bằng cộng hưởng âm thanh như thế nào?
-
-GOLD QUESTION: Các thiết bị sóng âm được sử dụng để kích thích các tế bào thần kinh thính giác cảm nhận âm thanh tốt hơn, đồng thời xác định mức độ tổn thương thính giác. 
-
-PREDICT QUESTION: Bạn bị viêm tai lâu chưa? Với trường hợp viêm tai tùy vào mức độ của bệnh mà có biện pháp điều trị đau tai khác nhau.
--------------------------
-<class 'type'>---------------------
 TEST QUESTION: Những nguyên nhân gây ra ù tai?
 
 GOLD QUESTION: Nguyên nhân chủ yếu của hiện tượng kể trên đó là do những yếu tố xung quanh tác động và ảnh hưởng tới tai của bạn. Trong đó, việc thường xuyên tiếp xúc với tiếng ồn lớn là lý do chủ yếu khiến bạn gặp phải tình trạng tai bị ù. Đó có thể là do đặc thù công việc hoặc bạn có thói quen nghe nhạc bằng một số thiết bị nghe nhạc di động không đảm bảo chất lượng âm thanh,… Thậm chí, khi tham gia lễ hội âm nhạc với âm thanh quá lớn, chúng ta cũng có thể đối mặt với tình trạng tai bị ù.
 
 PREDICT QUESTION: Nguyên nhân chủ yếu của viêm tai ngoài là do tai tiếp xúc với nguồn nước bẩn trong hồ bơi hoặc ao hồ. Pseudomonas và các vi khuẩn khác sinh sống trong nước có thể gây nhiễm trùng tai.
 -------------------------
-score: 91 || total: 100
+score: 93 || total: 100
 ==================================
 ==================================
 file_name: test_quaibi_taimuihong_thuydau_viemxoang.yml
 size: 31/31
 <class 'type'>---------------------
-TEST QUESTION: Viêm xoang do dị ứng là tình trạng thế nào?
+TEST QUESTION: Nguyên nhân dẫn đến bệnh viêm xoang?
 
-GOLD QUESTION: Đó là tình trạng phản ứng của niêm mạc mũi xoang với các tác nhân gây kích thích từ bên ngoài. Các biểu hiện thường gặp là nghẹt mũi, ngứa mũi, hắt hơi và chảy nước mũi trong; niêm mạc quanh các lỗ thông bị phù nề, làm tình trạng viêm xoang mạn tính thêm trầm trọng. Đối với những trường hợp viêm xoang do dị ứng, thuốc kháng dị ứng có tác dụng điều trị tốt.
+GOLD QUESTION: Những cấu trúc bên trong mũi chèn ép lỗ thông. Nhiễm virus đường hô hấp trên, gây phù nề niêm mạc, nhất là niêm mạc quanh các lỗ thông. Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.Dịch tiết bị cô đặc, khiến lớp lông không chuyển động được. Chất dịch ứ đọng lại sẽ tạo môi trường thuận lợi cho vi khuẩn phát triển, gây viêm xoang có mủ nếu không được điều trị.
 
-PREDICT QUESTION: Hạn chế tiếp xúc với người bị cảm lạnh, rửa tay đúng cách trước mỗi bữa ăn, giữ ấm cơ thể. Tránh xa môi trường khói thuốc và không khí ô nhiễm giúp hạn chế nguy cơ gây kích ứng, viêm phổi và đường hô hấp.
+PREDICT QUESTION: Xin lỗi anh/chị, em chưa hiểu yêu cầu này
 -------------------------
 <class 'type'>---------------------
 TEST QUESTION: Dấu hiệu nhận biết bệnh thủy đậu là gì?
@@ -240,20 +219,13 @@ GOLD QUESTION: Triệu chứng bệnh vảy nến nói chung là xuất hiện n
 PREDICT QUESTION: Ở trạng thái bình thường, các tế bào da cũ sau khi chết đi sẽ bong ra và được thay thế bởi các tế bào da mới. Nhưng đối với bệnh nhân mắc vảy nến, quá trình trên diễn ra nhanh gấp 10 lần do hiện tượng tăng sinh tế bào, khiến các tế bào da cũ và mới không kịp thay đổi, tích tụ lại một chỗ tạo thành những mảng dày, có vảy trắng hoặc bạc.
 -------------------------
 <class 'type'>---------------------
-TEST QUESTION: Suy thận
-
-GOLD QUESTION: Suy thận là sự suy giảm các chức năng của thận. Lúc này, thận yếu đi, thậm chí ngừng hoạt động khiến máu không được lọc và chất thải độc hại bị tích trữ trong cơ thể
-
-PREDICT QUESTION: Giảm lượng nước tiểu, Phù mắt cá chân, bàn chân, Khó thở không rõ nguyên nhân, Đau hoặc cảm thấy nặng ngực, Buồn ngủ quá mức, mệt mỏi, uể oải, Kém ăn, buồn nôn dai dẳng, nôn, Sụt cân, Ngứa ngáy, Co rút cơ (đặc biệt là ở chân), Co giật, Hôn mê, Thiếu máu (ít xuất hiện)
--------------------------
-<class 'type'>---------------------
 TEST QUESTION: Mày đay điều trị như thế nào?
 
 GOLD QUESTION: Nếu như bạn chỉ có các triệu chứng nhẹ thì không cần thiết phải điều trị. Mề đay và phù mạch thường sẽ tự hết. Tuy nhiên, điều trị có thể cần thiết khi bạn cảm thấy khó chịu và ngứa nhiều. Nếu các triệu chứng nặng hay kéo dài, điều trị thuốc có thể giúp bạn thoải mái hơn.
 
 PREDICT QUESTION: Điều trị sẽ phụ thuộc vào nguyên nhân gây viêm âm đạo. Điều trị có thể bằng thuốc uống, thuốc viên, kem hoặc gel bôi vào âm đạo.
 -------------------------
-score: 27 || total: 30
+score: 28 || total: 30
 ==================================
 ==================================
 file_name: test_viem_duong_ho_hap.yml
@@ -284,9 +256,9 @@ TEST QUESTION: Người bệnh nhiễm trùng nặng có biến chứng gì
 
 GOLD QUESTION: Ho liên miên có đờm trong cuống họng. Sốt cao và trong tình trạng mê mang. Nhịp tim đập nhanh hơn bình thường. Khó thở hoặc thở khò khè. Cảm thấy nặng ở đầu và đau tại lòng ngực.
 
-PREDICT QUESTION: Em có thể tư vấn y tế cho anh/chị ạ
+PREDICT QUESTION: Ho nặng, có khi xuất hiện đờm. Sốt. Khó thở. Da có màu xanh. Thở nhanh. Đau ngực. Thở khò khè.
 -------------------------
 score: 20 || total: 24
 ==================================
-total_score: 295 || len: 330 || score: 0.8939393939393939 
-time: 1719.8829879760742
+total_score: 299 || len: 330 || score: 0.906060606060606 
+time: 2482.210257768631
