@@ -32,9 +32,7 @@ Quá trình xử lí của Chatterbot
 
 
 # Data:
-Dataset: test gồm 380 cặp câu (câu hỏi, câu trả lời đúng), trong đó:  
-- 50 cặp không thuộc lĩnh vực y tế (Câu trả lời đúng là "Xin lỗi tôi không hiểu")
-- 330 cặp thuộc các lĩnh vực y tế đã có trong data
+Dataset: test gồm 330 cặp câu (câu hỏi, câu trả lời đúng) thuộc các lĩnh vực y tế đã có trong data
 
 
 # Kết quả
