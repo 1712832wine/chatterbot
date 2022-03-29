@@ -4,7 +4,7 @@ pip install -r requirements.txt
 Trong thư mục custom:  
 - Copy FILE `comparisons.py` và `search.py` vào thư viện chatterbot ở đường dẫn:  
 `C:\Users\ASUS\AppData\Local\Programs\Python\Python39\Lib\site-packages\chatterbot`
-- Copy NỘI DUNG một trong 3 file `tagging vietnamese token+postag.py` hoặc `tagging vietnamese` hoặc `tagging whitespace+stemword.py` ghi đè vào nội dung file `tagging.py` trong thư viện chatterbot ở đường dẫn:  
+- Copy NỘI DUNG một trong 3 file `tagging vietnamese token+postag.py` hoặc `tagging vietnamese token + stemword.py` hoặc `tagging whitespace+stemword.py` ghi đè vào nội dung file `tagging.py` trong thư viện chatterbot ở đường dẫn:  
 `C:\Users\ASUS\AppData\Local\Programs\Python\Python39\Lib\site-packages\chatterbot`
 - copy FILE `./stopwords/vietnamese` vào thư mục sau:  
 `C:\Users\ASUS\AppData\Roaming\nltk_data\corpora\stopwords`
